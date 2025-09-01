@@ -75,26 +75,37 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
+      - name: Debug script files
+        run: |
+          echo "📂 [Debug] scripts directory:"
+          ls -la scripts/
+          echo "📂 [Debug] current working directory:"
+          pwd
+          echo "📂 [Debug] Node.js version:"
+          node --version
+          echo "📂 [Debug] testing if scripts are executable:"
+          chmod +x scripts/*.js
+
       - name: Setup auto-update branch
-        run: node scripts/setup-auto-update-branch.js
+        run: ./scripts/setup-auto-update-branch.js
 
       - name: Update table data
         if: ${{ github.event.inputs.data_type == 'all' || github.event.inputs.data_type == 'table' || github.event_name == 'schedule' }}
         run: |
-          node scripts/update-and-commit-data.js table
-          node scripts/clean-old-files.js table
+          ./scripts/update-and-commit-data.js table
+          ./scripts/clean-old-files.js table
 
       - name: Update ASN data
         if: ${{ github.event.inputs.data_type == 'all' || github.event.inputs.data_type == 'asns' || (github.event_name == 'schedule' && github.event.schedule == '0 1 * * *') }}
         run: |
-          node scripts/update-and-commit-data.js asns
-          node scripts/clean-old-files.js asns
+          ./scripts/update-and-commit-data.js asns
+          ./scripts/clean-old-files.js asns
 
       - name: Update tags data
         if: ${{ github.event.inputs.data_type == 'all' || github.event.inputs.data_type == 'tags' || (github.event_name == 'schedule' && github.event.schedule == '0 1 * * *') }}
         run: |
-          node scripts/update-and-commit-data.js tags
-          node scripts/clean-old-files.js tags
+          ./scripts/update-and-commit-data.js tags
+          ./scripts/clean-old-files.js tags
 
       - name: Push changes
         run: |
@@ -164,15 +175,15 @@ jobs:
           git config --local user.name "GitHub Action"
 
       - name: Setup auto-update branch
-        run: node scripts/setup-auto-update-branch.js
+        run: ./scripts/setup-auto-update-branch.js
 
       - name: Update ASN and tags data
         run: |
           echo "🔄 [Daily] updating ASN and tag data..."
-          node scripts/update-and-commit-data.js asns daily
-          node scripts/clean-old-files.js asns
-          node scripts/update-and-commit-data.js tags daily
-          node scripts/clean-old-files.js tags
+          ./scripts/update-and-commit-data.js asns daily
+          ./scripts/clean-old-files.js asns
+          ./scripts/update-and-commit-data.js tags daily
+          ./scripts/clean-old-files.js tags
 
       - name: Push changes
         run: |
