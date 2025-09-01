@@ -15,31 +15,78 @@ function hasChangesInDataDirs() {
   return false;
 }
 
+function isAutoUpdateBranchEmpty() {
+  try {
+    // Switch to auto-update branch temporarily to check
+    const originalBranch = runCommand("git branch --show-current");
+    runCommand("git checkout auto-update");
+    
+    // Count data files (excluding README.md)
+    let hasDataFiles = false;
+    const dataDirs = ["table", "asns", "tags"];
+    for (const dir of dataDirs) {
+      try {
+        const files = runCommand(`find ${dir}/ -type f -name "*.json*" -o -name "*.csv*" -o -name "*.mmdb*" 2>/dev/null || echo ""`, { silent: true });
+        if (files.trim()) {
+          hasDataFiles = true;
+          break;
+        }
+      } catch (error) {
+        // Directory might not exist or be empty
+        continue;
+      }
+    }
+    
+    // Switch back
+    runCommand(`git checkout ${originalBranch}`);
+    
+    return !hasDataFiles;
+  } catch (error) {
+    console.warn("[-] Could not check auto-update branch status:", error.message);
+    return false;
+  }
+}
+
 function pushToAutoUpdate() {
   console.log("[+] Checking for data changes to push to auto-update branch...");
-
-  if (!hasChangesInDataDirs()) {
-    console.log("[+] No changes in data directories, nothing to push");
+  
+  const hasChanges = hasChangesInDataDirs();
+  const isEmpty = isAutoUpdateBranchEmpty();
+  
+  if (!hasChanges && !isEmpty) {
+    console.log("[+] No changes in data directories and auto-update branch has data, nothing to push");
     return false;
+  }
+  
+  if (isEmpty) {
+    console.log("[+] Auto-update branch is empty, forcing initial data sync...");
+  } else {
+    console.log("[+] Found changes in data directories, proceeding with sync...");
   }
 
   const originalBranch = runCommand("git branch --show-current");
   console.log(`[+] Current branch: ${originalBranch}`);
 
   try {
-    // Stage all data changes in current branch
-    console.log("[+] Staging data changes...");
-    runCommand("git add table/ asns/ tags/");
+    // If auto-update branch is empty, we need to force sync all data
+    if (isEmpty) {
+      console.log("[+] Forcing sync of all existing data files...");
+      // Don't stage changes in main branch, just copy existing files
+    } else {
+      // Stage all data changes in current branch
+      console.log("[+] Staging data changes...");
+      runCommand("git add table/ asns/ tags/");
 
-    // Commit changes in current branch if there are any staged changes
-    const stagedChanges = runCommand("git diff --cached --name-only", {
-      silent: true,
-    });
-    if (stagedChanges) {
-      const timestamp =
-        new Date().toISOString().replace("T", " ").slice(0, 16) + " UTC";
-      runCommand(`git commit -m "🔄 [Auto-Update] Data updates ${timestamp}"`);
-      console.log("[+] Committed data changes to main branch");
+      // Commit changes in current branch if there are any staged changes
+      const stagedChanges = runCommand("git diff --cached --name-only", {
+        silent: true,
+      });
+      if (stagedChanges) {
+        const timestamp =
+          new Date().toISOString().replace("T", " ").slice(0, 16) + " UTC";
+        runCommand(`git commit -m "🔄 [Auto-Update] Data updates ${timestamp}"`);
+        console.log("[+] Committed data changes to main branch");
+      }
     }
 
     // Switch to auto-update branch
@@ -97,4 +144,4 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   main();
 }
 
-export { pushToAutoUpdate, hasChangesInDataDirs };
+export { pushToAutoUpdate, hasChangesInDataDirs, isAutoUpdateBranchEmpty };
