@@ -122,7 +122,7 @@ async function cleanAllOldFiles() {
     tags: false,
   };
 
-  for (const [dataType, policy] of Object.entries(RETENTION_POLICIES)) {
+  for (const [dataType] of Object.entries(RETENTION_POLICIES)) {
     try {
       results[dataType] = await cleanOldFiles(dataType);
     } catch (error) {
@@ -142,7 +142,6 @@ function commitCleanup(dataType, hasChanges) {
     // Let the main workflow handle commits and pushes
     runCommand(`git add ${dataType}/`);
     
-    const policy = RETENTION_POLICIES[dataType];
     console.log(`✅ staged ${dataType} cleanup changes for commit`);
     return true;
   } catch (error) {

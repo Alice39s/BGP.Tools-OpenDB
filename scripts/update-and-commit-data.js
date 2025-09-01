@@ -7,7 +7,7 @@ function hasChanges(path) {
   return status.length > 0;
 }
 
-function commitChanges(path, message) {
+function commitChanges(path) {
   if (hasChanges(path)) {
     console.log(`📊 detected changes in ${path} data`);
     // @NOTE: Only add to staging, don't commit yet
@@ -24,19 +24,19 @@ function commitChanges(path, message) {
 function updateTableData() {
   console.log("🔄 updating routing table data...");
   runCommand("node src/index.js fetch-table");
-  return commitChanges("table", "🔄 [Auto-Update] routing table data");
+  return commitChanges("table");
 }
 
 function updateAsnsData() {
   console.log("🔄 updating ASN mapping data...");
   runCommand("node src/index.js fetch-asns");
-  return commitChanges("asns", "🔄 [Auto-Update] ASN mapping data");
+  return commitChanges("asns");
 }
 
 function updateTagsData() {
   console.log("🔄 updating tag data...");
   runCommand("node src/index.js fetch-tags");
-  return commitChanges("tags", "🔄 [Auto-Update] tag data");
+  return commitChanges("tags");
 }
 
 function updateAllData() {
@@ -53,12 +53,9 @@ function updateAllData() {
     runCommand("node src/index.js fetch-all");
 
     // then check and commit each data type
-    results.table = commitChanges(
-      "table",
-      "🔄 [Auto-Update] routing table data",
-    );
-    results.asns = commitChanges("asns", "🔄 [Auto-Update] ASN mapping data");
-    results.tags = commitChanges("tags", "🔄 [Auto-Update] tag data");
+    results.table = commitChanges("table");
+    results.asns = commitChanges("asns");
+    results.tags = commitChanges("tags");
   } catch (error) {
     console.error("❌ batch update failed, trying to update individually...");
     results.table = updateTableData();
@@ -133,8 +130,9 @@ function main() {
       console.log("✅ data update completed, no changes");
     }
 
-    // return status code (0 for success, 1 for no changes, 2 for failure)
-    process.exit(hasAnyChanges ? 0 : 1);
+    // Always return success (0) - let the workflow decide what to do
+    // The workflow can check for staged changes to determine next steps
+    process.exit(0);
   } catch (error) {
     console.error("❌ data update failed:", error.message);
     process.exit(2);
