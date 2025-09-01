@@ -84,14 +84,16 @@ jobs:
           echo "🔄 Updating routing table data..."
           node src/index.js fetch-table
 
-          # Check if there are any changes
+          # Check if there are any changes in table directory
           if [ -n "$(git status --porcelain table/)" ]; then
             echo "📊 Detected routing table data changes"
             git add table/
             git commit -m "🔄 [Auto-Update] routing table data $(date -u +"%Y-%m-%d %H:%M UTC")"
-            
-            # Clean old files, keep the latest 24
-            find . -name "table-*.jsonl*" -type f -printf '%T@ %p\n' | sort -rn | tail -n +25 | cut -d' ' -f2- | xargs -r rm -f
+
+            # Clean old files, keep the latest 24 versions
+            find table/ -name "table-*.jsonl*" -type f -printf '%T@ %p\n' | sort -rn | tail -n +25 | cut -d' ' -f2- | xargs -r rm -f
+            git add table/
+            git commit -m "🧹 [Auto-Update] Clean old routing table files $(date -u +"%Y-%m-%d %H:%M UTC")" || true
           else
             echo "📊 Routing table data has no changes"
           fi
@@ -107,9 +109,11 @@ jobs:
             echo "📊 Detected ASN mapping data changes"
             git add asns/
             git commit -m "🔄 [Auto-Update] ASN mapping data $(date -u +"%Y-%m-%d %H:%M UTC")"
-            
-            # Clean old files, keep the latest 3
-            find . -name "asns-*.csv*" -type f -printf '%T@ %p\n' | sort -rn | tail -n +4 | cut -d' ' -f2- | xargs -r rm -f
+
+            # Clean old files, keep the latest 3 versions
+            find asns/ -name "asns-*.csv*" -type f -printf '%T@ %p\n' | sort -rn | tail -n +4 | cut -d' ' -f2- | xargs -r rm -f
+            git add asns/
+            git commit -m "🧹 [Auto-Update] Clean old ASN files $(date -u +"%Y-%m-%d %H:%M UTC")" || true
           else
             echo "📊 ASN mapping data has no changes"
           fi
@@ -125,9 +129,11 @@ jobs:
             echo "📊 Detected tag data changes"
             git add tags/
             git commit -m "🔄 [Auto-Update] tag data $(date -u +"%Y-%m-%d %H:%M UTC")"
-            
-            # Clean old files, keep the latest 3
-            find . -name "tags-*-*.csv*" -type f -printf '%T@ %p\n' | sort -rn | tail -n +4 | cut -d' ' -f2- | xargs -r rm -f
+
+            # Clean old files, keep the latest 3 versions per tag
+            find tags/ -name "tags-*-*.csv*" -type f -printf '%T@ %p\n' | sort -rn | tail -n +4 | cut -d' ' -f2- | xargs -r rm -f
+            git add tags/
+            git commit -m "🧹 [Auto-Update] Clean old tag files $(date -u +"%Y-%m-%d %H:%M UTC")" || true
           else
             echo "📊 Tag data has no changes"
           fi
@@ -175,7 +181,7 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v4
         with:
-          go-version: '1.21'
+          go-version: '1.24.4'
 
       - name: Compile MMDB writer binary
         run: |
@@ -208,15 +214,31 @@ jobs:
           # Update ASN data
           node src/index.js fetch-asns
           if [ -n "$(git status --porcelain asns/)" ]; then
+            echo "📊 Detected ASN mapping data changes"
             git add asns/
             git commit -m "🔄 [Daily] ASN mapping data $(date -u +"%Y-%m-%d")"
+
+            # Clean old files, keep the latest 3 versions
+            find asns/ -name "asns-*.csv*" -type f -printf '%T@ %p\n' | sort -rn | tail -n +4 | cut -d' ' -f2- | xargs -r rm -f
+            git add asns/
+            git commit -m "🧹 [Daily] Clean old ASN files $(date -u +"%Y-%m-%d")" || true
+          else
+            echo "📊 ASN mapping data has no changes"
           fi
 
           # Update tag data
           node src/index.js fetch-tags
           if [ -n "$(git status --porcelain tags/)" ]; then
+            echo "📊 Detected tag data changes"
             git add tags/
             git commit -m "🔄 [Daily] tag data $(date -u +"%Y-%m-%d")"
+
+            # Clean old files, keep the latest 3 versions per tag
+            find tags/ -name "tags-*-*.csv*" -type f -printf '%T@ %p\n' | sort -rn | tail -n +4 | cut -d' ' -f2- | xargs -r rm -f
+            git add tags/
+            git commit -m "🧹 [Daily] Clean old tag files $(date -u +"%Y-%m-%d")" || true
+          else
+            echo "📊 Tag data has no changes"
           fi
 
       - name: Push changes
