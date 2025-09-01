@@ -32,6 +32,7 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
+          ref: main
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -74,9 +75,26 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-      - name: Switch to auto-update branch
+      - name: Setup auto-update branch
         run: |
-          git checkout auto-update 2>/dev/null || git checkout -b auto-update
+          echo "🔄 Setting up auto-update branch..."
+
+          # Fetch all remote branches to ensure we have latest refs
+          git fetch --all --prune
+
+          # Check if auto-update branch exists on remote
+          if git ls-remote --heads origin auto-update | grep -q auto-update; then
+            echo "📍 Auto-update branch exists on remote, checking it out..."
+            git checkout auto-update
+            git pull origin auto-update || true
+          else
+            echo "📍 Auto-update branch doesn't exist, creating it..."
+            git checkout -b auto-update
+            # Push the new branch immediately to establish it on remote
+            git push -u origin auto-update
+          fi
+
+          echo "✅ Successfully set up auto-update branch"
 
       - name: Update table data
         if: ${{ github.event.inputs.data_type == 'all' || github.event.inputs.data_type == 'table' || github.event_name == 'schedule' }}
@@ -143,6 +161,7 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             echo "📤 Pushing changes to auto-update branch"
             git push origin auto-update
+            echo "✅ Changes pushed successfully"
           else
             echo "📤 No changes to push"
           fi
@@ -160,6 +179,7 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
+          ref: main
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -203,9 +223,26 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-      - name: Switch to auto-update branch
+      - name: Setup auto-update branch
         run: |
-          git checkout auto-update 2>/dev/null || git checkout -b auto-update
+          echo "🔄 Setting up auto-update branch..."
+
+          # Fetch all remote branches to ensure we have latest refs
+          git fetch --all --prune
+
+          # Check if auto-update branch exists on remote
+          if git ls-remote --heads origin auto-update | grep -q auto-update; then
+            echo "📍 Auto-update branch exists on remote, checking it out..."
+            git checkout auto-update
+            git pull origin auto-update || true
+          else
+            echo "📍 Auto-update branch doesn't exist, creating it..."
+            git checkout -b auto-update
+            # Push the new branch immediately to establish it on remote
+            git push -u origin auto-update
+          fi
+
+          echo "✅ Successfully set up auto-update branch"
 
       - name: Update ASN and tags data
         run: |
@@ -246,4 +283,7 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             echo "📤 Pushing [Daily] update to auto-update branch"
             git push origin auto-update
+            echo "✅ Daily changes pushed successfully"
+          else
+            echo "📤 No changes to push"
           fi
