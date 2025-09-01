@@ -25,30 +25,27 @@ export async function fetchTags() {
 
   console.log(`📡 Fetching detailed data for ${tagsList.length} tags...`);
 
-  // Fetch detailed data for all tags in parallel
-  const tagsWithData = await Promise.allSettled(
-    tagsList.map(async (tag) => {
-      try {
-        const data = await fetchWithLogging(
-          `${TAGS_DETAIL_URL_PREFIX}${tag.name}.csv`,
-          `tag ${tag.name}`,
-          { maxRetries: 2, retryDelay: 1000 },
-        );
-        return { ...tag, data };
-      } catch (error) {
-        console.warn(
-          `⚠️ Failed to fetch detailed data for tag ${tag.name}: ${error.message}`,
-        );
-        return { ...tag, data: null, error: error.message };
-      }
-    }),
-  );
+  // Fetch detailed data for all tags sequentially (single-threaded)
+  const tagsWithData = [];
+  for (const tag of tagsList) {
+    try {
+      console.log(`📄 Fetching tag: ${tag.name}`);
+      const data = await fetchWithLogging(
+        `${TAGS_DETAIL_URL_PREFIX}${tag.name}.csv`,
+        `tag ${tag.name}`,
+        { maxRetries: 2, retryDelay: 1000 },
+      );
+      tagsWithData.push({ ...tag, data });
+    } catch (error) {
+      console.warn(
+        `⚠️ Failed to fetch detailed data for tag ${tag.name}: ${error.message}`,
+      );
+      tagsWithData.push({ ...tag, data: null, error: error.message });
+    }
+  }
 
   // Filter successful results
-  const successfulTags = tagsWithData
-    .filter((result) => result.status === "fulfilled")
-    .map((result) => result.value)
-    .filter((tag) => tag.data !== null);
+  const successfulTags = tagsWithData.filter((tag) => tag.data !== null);
 
   console.log(
     `✅ Successfully fetched data for ${successfulTags.length}/${tagsList.length} tags`,
