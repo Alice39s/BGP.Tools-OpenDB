@@ -108,14 +108,7 @@ jobs:
           ./scripts/clean-old-files.js tags
 
       - name: Push changes
-        run: |
-          if [ -n "$(git status --porcelain)" ]; then
-            echo "📤 Pushing changes to auto-update branch"
-            git push origin auto-update
-            echo "✅ Changes pushed successfully"
-          else
-            echo "📤 No changes to push"
-          fi
+        run: ./scripts/push-to-auto-update.js
 
   # Daily job: update ASN and tag data (Archive Data)
   daily-update:
@@ -186,11 +179,4 @@ jobs:
           ./scripts/clean-old-files.js tags
 
       - name: Push changes
-        run: |
-          if [ -n "$(git status --porcelain)" ]; then
-            echo "📤 pushing [Daily] updates to auto-update branch"
-            git push origin auto-update
-            echo "✅ daily changes pushed successfully"
-          else
-            echo "📤 no changes to push"
-          fi
+        run: ./scripts/push-to-auto-update.js

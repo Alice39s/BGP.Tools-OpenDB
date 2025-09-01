@@ -28,28 +28,15 @@ function ensureDataDirectories() {
 function setupAutoUpdateBranch() {
   console.log("[+] Setting up auto-update branch...");
 
-  const currentBranch = runCommand("git branch --show-current");
-  console.log(`[+] Current branch: ${currentBranch}`);
+  const originalBranch = runCommand("git branch --show-current");
+  console.log(`[+] Current branch: ${originalBranch}`);
 
   // pull latest code
   runCommand("git fetch --all --prune");
 
   const branchExists = checkBranchExists("auto-update");
 
-  if (branchExists) {
-    console.log("[+] auto-update branch exists, switching and updating...");
-
-    try {
-      // switch to auto-update branch
-      runCommand("git checkout auto-update");
-      runCommand("git pull origin auto-update");
-    } catch (error) {
-      console.log(
-        "[-] Unable to switch directly, attempting to track from remote...",
-      );
-      runCommand("git checkout -b auto-update origin/auto-update");
-    }
-  } else {
+  if (!branchExists) {
     console.log(
       "[+] auto-update branch does not exist, creating orphan branch...",
     );
@@ -69,10 +56,10 @@ function setupAutoUpdateBranch() {
       "README.md",
       `# BGP.Tools Auto-Update Branch
 
-      This branch only contains automatically updated data files.
+This branch only contains automatically updated data files.
 
-      Update time: \`${new Date().toISOString()}\`
-      `,
+Update time: \`${new Date().toISOString()}\`
+`,
     );
 
     // create initial commit
@@ -83,20 +70,25 @@ function setupAutoUpdateBranch() {
 
     // push to remote to establish tracking
     runCommand("git push -u origin auto-update");
+
+    console.log("[+] auto-update branch created and pushed");
+  } else {
+    console.log("[+] auto-update branch already exists");
   }
 
-  // ensure data directories exist (in case branch is empty)
-  ensureDataDirectories();
+  // @IMPORTANT: switch back to original branch for data processing
+  if (originalBranch !== "auto-update") {
+    console.log(
+      `[+] Switching back to ${originalBranch} branch for data processing...`,
+    );
+    runCommand(`git checkout ${originalBranch}`);
+  }
 
   console.log("[+] auto-update branch setup completed");
 
-  // show branch status
-  const status = runCommand("git status --porcelain");
-  if (status) {
-    console.log("[+] Current changes:", status);
-  } else {
-    console.log("[+] Working directory clean");
-  }
+  // show current branch status
+  const currentBranch = runCommand("git branch --show-current");
+  console.log(`[+] Current branch: ${currentBranch}`);
 }
 
 function main() {

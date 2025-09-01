@@ -138,19 +138,15 @@ function commitCleanup(dataType, hasChanges) {
   if (!hasChanges) return false;
 
   try {
-    const timestamp =
-      new Date().toISOString().replace("T", " ").slice(0, 16) + " UTC";
+    // @NOTE: Only add to staging, don't commit yet
+    // Let the main workflow handle commits and pushes
     runCommand(`git add ${dataType}/`);
-
+    
     const policy = RETENTION_POLICIES[dataType];
-    runCommand(
-      `git commit -m "🧹 [Auto-Update] Clean old ${policy.description} ${timestamp}"`,
-    );
-
-    console.log(`✅ committed ${dataType} cleanup changes`);
+    console.log(`✅ staged ${dataType} cleanup changes for commit`);
     return true;
   } catch (error) {
-    console.error(`❌ commit ${dataType} cleanup failed:`, error.message);
+    console.error(`❌ stage ${dataType} cleanup failed:`, error.message);
     return false;
   }
 }

@@ -10,10 +10,10 @@ function hasChanges(path) {
 function commitChanges(path, message) {
   if (hasChanges(path)) {
     console.log(`📊 detected changes in ${path} data`);
+    // @NOTE: Only add to staging, don't commit yet
+    // Let the main workflow handle commits and pushes
     runCommand(`git add ${path}/`);
-    const timestamp =
-      new Date().toISOString().replace("T", " ").slice(0, 16) + " UTC";
-    runCommand(`git commit -m "${message} ${timestamp}"`);
+    console.log(`✅ staged ${path} changes for commit`);
     return true;
   } else {
     console.log(`📊 ${path} data has no changes`);
