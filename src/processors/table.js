@@ -60,8 +60,8 @@ export async function processTableData(rawData) {
   // Generate MMDB database
   logFileOperation("Generating", "MMDB database");
   await generateMMDB(rawData, "table/table.mmdb");
-  hashList["table.mmdb.json"] = await calculateMultipleHashes([
-    "table/table.mmdb.json",
+  hashList["table.mmdb"] = await calculateMultipleHashes([
+    "table/table.mmdb",
   ]).then((hashes) => Object.values(hashes)[0]);
 
   // Generate metadata
