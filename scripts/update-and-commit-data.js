@@ -2,23 +2,10 @@
 
 import { runCommand } from "./utils.js";
 
-function hasChanges(path) {
-  const status = runCommand(`git status --porcelain ${path}`, { silent: true });
-  return status.length > 0;
-}
 
 function commitChanges(path) {
-  if (hasChanges(path)) {
-    console.log(`📊 detected changes in ${path} data`);
-    // @NOTE: Only add to staging, don't commit yet
-    // Let the main workflow handle commits and pushes
-    runCommand(`git add ${path}/`);
-    console.log(`✅ staged ${path} changes for commit`);
-    return true;
-  } else {
-    console.log(`📊 ${path} data has no changes`);
-    return false;
-  }
+  console.log(`📊 ${path} data updated, ready for sync to auto-update branch`);
+  return true;
 }
 
 function updateTableData() {
@@ -64,18 +51,6 @@ function updateAllData() {
   }
 
   return results;
-}
-
-function pushChanges() {
-  if (hasChanges("")) {
-    console.log("📤 pushing changes to auto-update branch");
-    runCommand("git push origin auto-update");
-    console.log("✅ changes pushed successfully");
-    return true;
-  } else {
-    console.log("📤 no changes to push");
-    return false;
-  }
 }
 
 function main() {
@@ -148,7 +123,5 @@ export {
   updateAsnsData,
   updateTagsData,
   updateAllData,
-  pushChanges,
-  hasChanges,
   commitChanges,
 };

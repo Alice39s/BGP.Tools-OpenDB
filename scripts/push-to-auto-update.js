@@ -1,108 +1,107 @@
 #!/usr/bin/env node
 
+import { readFileSync } from 'fs';
 import { runCommand } from "./utils.js";
 
-function hasChangesInDataDirs() {
-  const dataDirs = ["table", "asns", "tags"];
-  for (const dir of dataDirs) {
-    const status = runCommand(`git status --porcelain ${dir}/`, {
+function getLocalTimestamp(path) {
+  try {
+    // Read from local file system (newly generated files)
+    const metaContent = readFileSync(`${path}/index-meta.json`, "utf8");
+    const meta = JSON.parse(metaContent);
+    return meta.timestamp;
+  } catch (error) {
+    return null;
+  }
+}
+
+function getBranchTimestamp(path, branch) {
+  try {
+    // Read from specific branch
+    const metaContent = runCommand(`git show ${branch}:${path}/index-meta.json`, {
       silent: true,
     });
-    if (status.length > 0) {
-      return true;
-    }
+    const meta = JSON.parse(metaContent);
+    return meta.timestamp;
+  } catch (error) {
+    return null;
   }
+}
+
+function needsUpdate(path) {
+  const newTimestamp = getLocalTimestamp(path); // 本地生成的新文件
+  const autoUpdateTimestamp = getBranchTimestamp(path, "auto-update"); // auto-update 分支现有文件
+
+  if (newTimestamp === null) {
+    console.log(`📊 ${path} has no new data file, skipping`);
+    return false;
+  }
+
+  if (autoUpdateTimestamp === null) {
+    console.log(`📊 ${path} not found in auto-update branch, needs sync`);
+    return true;
+  }
+
+  if (newTimestamp !== autoUpdateTimestamp) {
+    console.log(
+      `📊 ${path} timestamp mismatch: new(${newTimestamp}) vs current(${autoUpdateTimestamp})`
+    );
+    return true;
+  }
+
+  console.log(`📊 ${path} timestamps match (${newTimestamp}), no update needed`);
   return false;
 }
 
-function isAutoUpdateBranchEmpty() {
-  try {
-    // Use git ls-tree to check files in auto-update branch without switching
-    const dataDirs = ["table", "asns", "tags"];
-    let hasDataFiles = false;
-    
-    for (const dir of dataDirs) {
-      try {
-        // List files in the directory on auto-update branch
-        const files = runCommand(`git ls-tree -r --name-only origin/auto-update ${dir}/ 2>/dev/null || echo ""`, { silent: true });
-        const dataFiles = files.split('\n').filter(f => 
-          f.trim() && (
-            f.includes('.json') || 
-            f.includes('.csv') || 
-            f.includes('.mmdb')
-          )
-        );
-        
-        if (dataFiles.length > 0) {
-          hasDataFiles = true;
-          break;
-        }
-      } catch (error) {
-        // Directory might not exist or be empty
-        continue;
-      }
-    }
-    
-    return !hasDataFiles;
-  } catch (error) {
-    console.warn("[-] Could not check auto-update branch status:", error.message);
-    // Default to assuming it's empty so we force sync
-    return true;
-  }
+function hasDataToSync() {
+  const dataDirs = ["table", "asns", "tags"];
+  return dataDirs.some(dir => needsUpdate(dir));
 }
 
 function pushToAutoUpdate() {
-  console.log("[+] Checking for data changes to push to auto-update branch...");
+  console.log("[+] Checking for new data to sync to auto-update branch...");
   
-  const hasChanges = hasChangesInDataDirs();
-  const isEmpty = isAutoUpdateBranchEmpty();
-  
-  if (!hasChanges && !isEmpty) {
-    console.log("[+] No changes in data directories and auto-update branch has data, nothing to push");
+  if (!hasDataToSync()) {
+    console.log("[+] No new data to sync, all timestamps match");
     return false;
   }
   
-  if (isEmpty) {
-    console.log("[+] Auto-update branch is empty, forcing initial data sync...");
-  } else {
-    console.log("[+] Found changes in data directories, proceeding with sync...");
-  }
+  console.log("[+] Found new data to sync, proceeding...");
 
   const originalBranch = runCommand("git branch --show-current");
   console.log(`[+] Current branch: ${originalBranch}`);
+  let stashCreated = false;
 
   try {
-    // If auto-update branch is empty, we need to force sync all data
-    if (isEmpty) {
-      console.log("[+] Forcing sync of all existing data files...");
-      // Don't stage changes in main branch, just copy existing files
-    } else {
-      // Stage all data changes in current branch
-      console.log("[+] Staging data changes...");
-      runCommand("git add table/ asns/ tags/");
-
-      // Commit changes in current branch if there are any staged changes
-      const stagedChanges = runCommand("git diff --cached --name-only", {
-        silent: true,
-      });
-      if (stagedChanges) {
-        const timestamp =
-          new Date().toISOString().replace("T", " ").slice(0, 16) + " UTC";
-        runCommand(`git commit -m "🔄 [Auto-Update] Data updates ${timestamp}"`);
-        console.log("[+] Committed data changes to main branch");
-      }
-    }
 
     // Switch to auto-update branch
     console.log("[+] Switching to auto-update branch...");
+    
+    // Stash any uncommitted changes to avoid conflicts
+    const uncommittedChanges = runCommand("git status --porcelain", { silent: true });
+    if (uncommittedChanges) {
+      console.log("[+] Found uncommitted changes, stashing them...");
+      runCommand("git stash push -m 'Auto-stash before branch switch'");
+      stashCreated = true;
+    }
+    
     runCommand("git checkout auto-update");
 
     // Pull latest from auto-update to avoid conflicts
     runCommand("git pull origin auto-update", { ignoreError: true });
 
-    // Copy data directories from main branch
-    console.log("[+] Copying data from main branch...");
-    runCommand(`git checkout ${originalBranch} -- table/ asns/ tags/`);
+    // Move new data files from main branch working directory
+    console.log("[+] Moving new data files to auto-update branch...");
+    const dataDirs = ["table", "asns", "tags"];
+    
+    for (const dir of dataDirs) {
+      if (needsUpdate(dir)) {
+        console.log(`[+] Syncing ${dir}/ directory...`);
+        // Remove old directory first
+        runCommand(`rm -rf ${dir}/`, { ignoreError: true });
+        // Copy new data from main branch working directory  
+        runCommand(`git checkout ${originalBranch} -- ${dir}/`);
+      }
+    }
 
     // Check if there are changes in auto-update branch
     const autoUpdateStatus = runCommand("git status --porcelain", {
@@ -115,7 +114,7 @@ function pushToAutoUpdate() {
       const timestamp =
         new Date().toISOString().replace("T", " ").slice(0, 16) + " UTC";
       runCommand(
-        `git commit -m "🔄 [Auto-Update] Sync data from main ${timestamp}"`,
+        `git commit -m "🔄 [Auto-Update] Data sync ${timestamp}"`,
       );
 
       // Push to remote
@@ -130,6 +129,16 @@ function pushToAutoUpdate() {
     // Always switch back to original branch
     console.log(`[+] Switching back to ${originalBranch} branch...`);
     runCommand(`git checkout ${originalBranch}`);
+    
+    // Restore stashed changes if we created a stash
+    if (stashCreated && originalBranch === "main") {
+      try {
+        console.log("[+] Restoring stashed changes...");
+        runCommand("git stash pop");
+      } catch (error) {
+        console.warn("[-] Warning: Could not restore stashed changes:", error.message);
+      }
+    }
   }
 
   return true;
@@ -148,4 +157,4 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   main();
 }
 
-export { pushToAutoUpdate, hasChangesInDataDirs, isAutoUpdateBranchEmpty };
+export { pushToAutoUpdate };
