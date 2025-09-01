@@ -52,27 +52,26 @@ function needsUpdate(path) {
   return false;
 }
 
-function hasDataToSync() {
-  const dataDirs = ["table", "asns", "tags"];
-  return dataDirs.some(dir => needsUpdate(dir));
-}
 
 function pushToAutoUpdate() {
   console.log("[+] Checking for new data to sync to auto-update branch...");
   
-  if (!hasDataToSync()) {
+  // Determine which directories need syncing BEFORE switching branches
+  const dataDirs = ["table", "asns", "tags"];
+  const dirsToSync = dataDirs.filter(dir => needsUpdate(dir));
+  
+  if (dirsToSync.length === 0) {
     console.log("[+] No new data to sync, all timestamps match");
     return false;
   }
   
-  console.log("[+] Found new data to sync, proceeding...");
+  console.log(`[+] Found ${dirsToSync.length} directories to sync: ${dirsToSync.join(", ")}`);
 
   const originalBranch = runCommand("git branch --show-current");
   console.log(`[+] Current branch: ${originalBranch}`);
   let stashCreated = false;
 
   try {
-
     // Switch to auto-update branch
     console.log("[+] Switching to auto-update branch...");
     
@@ -89,18 +88,12 @@ function pushToAutoUpdate() {
     // Pull latest from auto-update to avoid conflicts
     runCommand("git pull origin auto-update", { ignoreError: true });
 
-    // Move new data files from main branch working directory
-    console.log("[+] Moving new data files to auto-update branch...");
-    const dataDirs = ["table", "asns", "tags"];
-    
-    for (const dir of dataDirs) {
-      if (needsUpdate(dir)) {
-        console.log(`[+] Syncing ${dir}/ directory...`);
-        // Remove old directory first
-        runCommand(`rm -rf ${dir}/`, { ignoreError: true });
-        // Copy new data from main branch working directory  
-        runCommand(`git checkout ${originalBranch} -- ${dir}/`);
-      }
+    // Add the new data files to git
+    console.log("[+] Adding new data files to auto-update branch...");
+    for (const dir of dirsToSync) {
+      console.log(`[+] Adding ${dir}/ directory...`);
+      // The data files should still be in working directory from when we were on main branch
+      runCommand(`git add ${dir}/`);
     }
 
     // Check if there are changes in auto-update branch
