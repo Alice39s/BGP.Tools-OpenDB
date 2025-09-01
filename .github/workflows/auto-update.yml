@@ -53,7 +53,7 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v4
         with:
-          go-version: '1.24.4'
+          go-version: "1.24.4"
 
       - name: Compile MMDB writer binary
         run: |
@@ -76,85 +76,25 @@ jobs:
           git config --local user.name "GitHub Action"
 
       - name: Setup auto-update branch
-        run: |
-          echo "🔄 Setting up auto-update branch..."
-
-          # Fetch all remote branches to ensure we have latest refs
-          git fetch --all --prune
-
-          # Check if auto-update branch exists on remote
-          if git ls-remote --heads origin auto-update | grep -q auto-update; then
-            echo "📍 Auto-update branch exists on remote, checking it out..."
-            git checkout auto-update
-            git pull origin auto-update || true
-          else
-            echo "📍 Auto-update branch doesn't exist, creating it..."
-            git checkout -b auto-update
-            # Push the new branch immediately to establish it on remote
-            git push -u origin auto-update
-          fi
-
-          echo "✅ Successfully set up auto-update branch"
+        run: node scripts/setup-auto-update-branch.js
 
       - name: Update table data
         if: ${{ github.event.inputs.data_type == 'all' || github.event.inputs.data_type == 'table' || github.event_name == 'schedule' }}
         run: |
-          echo "🔄 Updating routing table data..."
-          node src/index.js fetch-table
-
-          # Check if there are any changes in table directory
-          if [ -n "$(git status --porcelain table/)" ]; then
-            echo "📊 Detected routing table data changes"
-            git add table/
-            git commit -m "🔄 [Auto-Update] routing table data $(date -u +"%Y-%m-%d %H:%M UTC")"
-
-            # Clean old files, keep the latest 24 versions
-            find table/ -name "table-*.jsonl*" -type f -printf '%T@ %p\n' | sort -rn | tail -n +25 | cut -d' ' -f2- | xargs -r rm -f
-            git add table/
-            git commit -m "🧹 [Auto-Update] Clean old routing table files $(date -u +"%Y-%m-%d %H:%M UTC")" || true
-          else
-            echo "📊 Routing table data has no changes"
-          fi
+          node scripts/update-and-commit-data.js table
+          node scripts/clean-old-files.js table
 
       - name: Update ASN data
         if: ${{ github.event.inputs.data_type == 'all' || github.event.inputs.data_type == 'asns' || (github.event_name == 'schedule' && github.event.schedule == '0 1 * * *') }}
         run: |
-          echo "🔄 Updating ASN mapping data..."
-          node src/index.js fetch-asns
-
-          # Check if there are any changes
-          if [ -n "$(git status --porcelain asns/)" ]; then
-            echo "📊 Detected ASN mapping data changes"
-            git add asns/
-            git commit -m "🔄 [Auto-Update] ASN mapping data $(date -u +"%Y-%m-%d %H:%M UTC")"
-
-            # Clean old files, keep the latest 3 versions
-            find asns/ -name "asns-*.csv*" -type f -printf '%T@ %p\n' | sort -rn | tail -n +4 | cut -d' ' -f2- | xargs -r rm -f
-            git add asns/
-            git commit -m "🧹 [Auto-Update] Clean old ASN files $(date -u +"%Y-%m-%d %H:%M UTC")" || true
-          else
-            echo "📊 ASN mapping data has no changes"
-          fi
+          node scripts/update-and-commit-data.js asns
+          node scripts/clean-old-files.js asns
 
       - name: Update tags data
         if: ${{ github.event.inputs.data_type == 'all' || github.event.inputs.data_type == 'tags' || (github.event_name == 'schedule' && github.event.schedule == '0 1 * * *') }}
         run: |
-          echo "🔄 Updating tag data..."
-          node src/index.js fetch-tags
-
-          # Check if there are any changes
-          if [ -n "$(git status --porcelain tags/)" ]; then
-            echo "📊 Detected tag data changes"
-            git add tags/
-            git commit -m "🔄 [Auto-Update] tag data $(date -u +"%Y-%m-%d %H:%M UTC")"
-
-            # Clean old files, keep the latest 3 versions per tag
-            find tags/ -name "tags-*-*.csv*" -type f -printf '%T@ %p\n' | sort -rn | tail -n +4 | cut -d' ' -f2- | xargs -r rm -f
-            git add tags/
-            git commit -m "🧹 [Auto-Update] Clean old tag files $(date -u +"%Y-%m-%d %H:%M UTC")" || true
-          else
-            echo "📊 Tag data has no changes"
-          fi
+          node scripts/update-and-commit-data.js tags
+          node scripts/clean-old-files.js tags
 
       - name: Push changes
         run: |
@@ -201,7 +141,7 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v4
         with:
-          go-version: '1.24.4'
+          go-version: "1.24.4"
 
       - name: Compile MMDB writer binary
         run: |
@@ -224,66 +164,22 @@ jobs:
           git config --local user.name "GitHub Action"
 
       - name: Setup auto-update branch
-        run: |
-          echo "🔄 Setting up auto-update branch..."
-
-          # Fetch all remote branches to ensure we have latest refs
-          git fetch --all --prune
-
-          # Check if auto-update branch exists on remote
-          if git ls-remote --heads origin auto-update | grep -q auto-update; then
-            echo "📍 Auto-update branch exists on remote, checking it out..."
-            git checkout auto-update
-            git pull origin auto-update || true
-          else
-            echo "📍 Auto-update branch doesn't exist, creating it..."
-            git checkout -b auto-update
-            # Push the new branch immediately to establish it on remote
-            git push -u origin auto-update
-          fi
-
-          echo "✅ Successfully set up auto-update branch"
+        run: node scripts/setup-auto-update-branch.js
 
       - name: Update ASN and tags data
         run: |
-          echo "🔄 [Daily] update ASN and tag data..."
-
-          # Update ASN data
-          node src/index.js fetch-asns
-          if [ -n "$(git status --porcelain asns/)" ]; then
-            echo "📊 Detected ASN mapping data changes"
-            git add asns/
-            git commit -m "🔄 [Daily] ASN mapping data $(date -u +"%Y-%m-%d")"
-
-            # Clean old files, keep the latest 3 versions
-            find asns/ -name "asns-*.csv*" -type f -printf '%T@ %p\n' | sort -rn | tail -n +4 | cut -d' ' -f2- | xargs -r rm -f
-            git add asns/
-            git commit -m "🧹 [Daily] Clean old ASN files $(date -u +"%Y-%m-%d")" || true
-          else
-            echo "📊 ASN mapping data has no changes"
-          fi
-
-          # Update tag data
-          node src/index.js fetch-tags
-          if [ -n "$(git status --porcelain tags/)" ]; then
-            echo "📊 Detected tag data changes"
-            git add tags/
-            git commit -m "🔄 [Daily] tag data $(date -u +"%Y-%m-%d")"
-
-            # Clean old files, keep the latest 3 versions per tag
-            find tags/ -name "tags-*-*.csv*" -type f -printf '%T@ %p\n' | sort -rn | tail -n +4 | cut -d' ' -f2- | xargs -r rm -f
-            git add tags/
-            git commit -m "🧹 [Daily] Clean old tag files $(date -u +"%Y-%m-%d")" || true
-          else
-            echo "📊 Tag data has no changes"
-          fi
+          echo "🔄 [Daily] updating ASN and tag data..."
+          node scripts/update-and-commit-data.js asns daily
+          node scripts/clean-old-files.js asns
+          node scripts/update-and-commit-data.js tags daily
+          node scripts/clean-old-files.js tags
 
       - name: Push changes
         run: |
           if [ -n "$(git status --porcelain)" ]; then
-            echo "📤 Pushing [Daily] update to auto-update branch"
+            echo "📤 pushing [Daily] updates to auto-update branch"
             git push origin auto-update
-            echo "✅ Daily changes pushed successfully"
+            echo "✅ daily changes pushed successfully"
           else
-            echo "📤 No changes to push"
+            echo "📤 no changes to push"
           fi
