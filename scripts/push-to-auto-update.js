@@ -17,17 +17,23 @@ function hasChangesInDataDirs() {
 
 function isAutoUpdateBranchEmpty() {
   try {
-    // Switch to auto-update branch temporarily to check
-    const originalBranch = runCommand("git branch --show-current");
-    runCommand("git checkout auto-update");
-    
-    // Count data files (excluding README.md)
-    let hasDataFiles = false;
+    // Use git ls-tree to check files in auto-update branch without switching
     const dataDirs = ["table", "asns", "tags"];
+    let hasDataFiles = false;
+    
     for (const dir of dataDirs) {
       try {
-        const files = runCommand(`find ${dir}/ -type f -name "*.json*" -o -name "*.csv*" -o -name "*.mmdb*" 2>/dev/null || echo ""`, { silent: true });
-        if (files.trim()) {
+        // List files in the directory on auto-update branch
+        const files = runCommand(`git ls-tree -r --name-only origin/auto-update ${dir}/ 2>/dev/null || echo ""`, { silent: true });
+        const dataFiles = files.split('\n').filter(f => 
+          f.trim() && (
+            f.includes('.json') || 
+            f.includes('.csv') || 
+            f.includes('.mmdb')
+          )
+        );
+        
+        if (dataFiles.length > 0) {
           hasDataFiles = true;
           break;
         }
@@ -37,13 +43,11 @@ function isAutoUpdateBranchEmpty() {
       }
     }
     
-    // Switch back
-    runCommand(`git checkout ${originalBranch}`);
-    
     return !hasDataFiles;
   } catch (error) {
     console.warn("[-] Could not check auto-update branch status:", error.message);
-    return false;
+    // Default to assuming it's empty so we force sync
+    return true;
   }
 }
 
