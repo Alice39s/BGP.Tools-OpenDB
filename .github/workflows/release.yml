@@ -1,0 +1,172 @@
+name: Daily Release
+
+on:
+  schedule:
+    # Daily UTC 00:30 release
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+    inputs:
+      release_date:
+        description: "Specify release date (YYYY-MM-DD)"
+        required: false
+        type: string
+
+env:
+  NODE_VERSION: "20"
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: latest
+          run_install: false
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Install xz-utils
+        run: sudo apt-get update && sudo apt-get install -y xz-utils
+
+      - name: Configure git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: Set release date
+        id: date
+        run: |
+          if [ -n "${{ github.event.inputs.release_date }}" ]; then
+            echo "RELEASE_DATE=${{ github.event.inputs.release_date }}" >> $GITHUB_ENV
+            echo "date=${{ github.event.inputs.release_date }}" >> $GITHUB_OUTPUT
+          else
+            RELEASE_DATE=$(date -u +"%Y-%m-%d")
+            echo "RELEASE_DATE=${RELEASE_DATE}" >> $GITHUB_ENV
+            echo "date=${RELEASE_DATE}" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Switch to auto-update branch
+        run: |
+          git checkout auto-update
+
+      - name: Generate release data
+        env:
+          NODE_ENV: production
+        run: |
+          echo "🚀 Generating ${RELEASE_DATE} release data..."
+
+          # Get latest data and generate release version
+          node src/index.js fetch-all
+
+          echo "📊 Generated release files:"
+          ls -la *-${RELEASE_DATE}.*
+
+      - name: Create release assets
+        run: |
+          echo "📦 Preparing release assets..."
+
+          # Create release directory
+          mkdir -p release-assets
+
+          # Copy release files
+          cp table-${RELEASE_DATE}.jsonl.gz release-assets/ 2>/dev/null || echo "⚠️ No routing table .gz file found"
+          cp table-${RELEASE_DATE}.jsonl.xz release-assets/ 2>/dev/null || echo "⚠️ No routing table .xz file found"
+          cp asns-${RELEASE_DATE}.csv.gz release-assets/ 2>/dev/null || echo "⚠️ No ASN mapping .gz file found"
+          cp asns-${RELEASE_DATE}.csv.xz release-assets/ 2>/dev/null || echo "⚠️ No ASN mapping .xz file found"
+          cp tags-*-${RELEASE_DATE}.csv.gz release-assets/ 2>/dev/null || echo "⚠️ No tag .gz file found"
+          cp tags-*-${RELEASE_DATE}.csv.xz release-assets/ 2>/dev/null || echo "⚠️ No tag .xz file found"
+
+          # Check if there are any files
+          if [ -z "$(ls -A release-assets/)" ]; then
+            echo "❌ No release files found"
+            exit 1
+          fi
+
+          echo "📋 Release assets list:"
+          ls -la release-assets/
+
+      - name: Calculate checksums
+        run: |
+          cd release-assets
+          sha256sum * > checksums.sha256
+          echo "🔐 Generating checksums file:"
+          cat checksums.sha256
+
+      - name: Create release notes
+        run: |
+          cat > release-notes.md << EOF
+          # BGP.Tools OpenDB - ${RELEASE_DATE}
+
+          📅 **Release date**: ${RELEASE_DATE}
+
+          ## 📦 Data included
+
+          ### Full-Table Archive
+          - \`table-${RELEASE_DATE}.jsonl.gz\` - Global routing table data (gzip compressed)
+          - \`table-${RELEASE_DATE}.jsonl.xz\` - Global routing table data (xz compressed, smaller file)
+
+          ### ASN-Mapping Table
+          - \`asns-${RELEASE_DATE}.csv.gz\` - ASN to name mapping (gzip compressed)
+          - \`asns-${RELEASE_DATE}.csv.xz\` - ASN to name mapping (xz compressed, smaller file)
+
+          ### ASN-Tags Data
+          - \`tags-*-${RELEASE_DATE}.csv.gz\` - Various category tag data (gzip compressed)
+          - \`tags-*-${RELEASE_DATE}.csv.xz\` - Various category tag data (xz compressed, smaller file)
+
+          ### Checksums
+          - \`checksums.sha256\` - SHA256 checksums for all files
+
+          ## 📊 Data sources
+
+          All data comes from [bgp.tools](https://bgp.tools) HTTP API, obtained at: $(date -u +"%Y-%m-%d %H:%M UTC")
+
+          ## 🔗 Related links
+
+          - [Project homepage](https://github.com/${{ github.repository }})
+          - [BGP.Tools](https://bgp.tools)
+          - [Auto-update branch](https://github.com/${{ github.repository }}/tree/auto-update)
+
+          ---
+
+          *This release is automatically generated by GitHub Actions*
+          EOF
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ steps.date.outputs.date }}
+          name: BGP.Tools OpenDB - ${{ steps.date.outputs.date }}
+          body_path: release-notes.md
+          files: |
+            release-assets/*
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Clean up release files
+        run: |
+          echo "🧹 Cleaning local release files..."
+          rm -f table-${RELEASE_DATE}.*
+          rm -f asns-${RELEASE_DATE}.*
+          rm -f tags-*-${RELEASE_DATE}.*
+          rm -rf release-assets/
+          rm -f release-notes.md
+
+          echo "✅ Release completed: v${RELEASE_DATE}"

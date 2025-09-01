@@ -1,0 +1,62 @@
+{
+  "name": "bgp.tools-opendb",
+  "version": "1.0.0",
+  "description": "BGP.Tools OpenDB - Daily updated BGP data package version",
+  "main": "src/index.js",
+  "bin": {
+    "bgp-opendb": "./src/index.js"
+  },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "fetch:all": "node src/index.js fetch-all",
+    "fetch:table": "node src/index.js fetch-table",
+    "fetch:asns": "node src/index.js fetch-asns",
+    "fetch:tags": "node src/index.js fetch-tags",
+    "dev": "node --watch src/index.js",
+    "test": "node src/utils/test.js",
+    "test:watch": "node --watch src/utils/test.js",
+    "lint": "eslint",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "bgp",
+    "routing",
+    "asn",
+    "network",
+    "internet",
+    "data",
+    "opendb"
+  ],
+  "author": "Alice39s",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alice39s/BGP.Tools-OpenDB.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Alice39s/BGP.Tools-OpenDB/issues"
+  },
+  "homepage": "https://github.com/Alice39s/BGP.Tools-OpenDB#readme",
+  "packageManager": "pnpm@10.11.0",
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=10"
+  },
+  "dependencies": {
+    "@napi-rs/lzma": "^1.4.5",
+    "commander": "^12.1.0"
+  },
+  "files": [
+    "src/",
+    "README.zh.md",
+    "CLAUDE.md"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^9.34.0",
+    "eslint": "^9.34.0",
+    "globals": "^16.3.0",
+    "prettier": "3.6.2"
+  }
+}

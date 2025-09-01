@@ -1,0 +1,228 @@
+name: Auto Update BGP Data
+
+on:
+  schedule:
+    # Routing table data: updated every 2 hours
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+    inputs:
+      data_type:
+        description: "Select the data type to update"
+        required: true
+        default: "all"
+        type: choice
+        options:
+          - all
+          - table
+          - asns
+          - tags
+
+env:
+  NODE_VERSION: "20"
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: latest
+          run_install: false
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Install xz-utils
+        run: sudo apt-get update && sudo apt-get install -y xz-utils
+
+      - name: Setup Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.24.4'
+
+      - name: Compile MMDB writer binary
+        run: |
+          echo "🔧 Compiling Go MMDB writer binary..."
+          chmod +x scripts/init-mmdbwriter.sh
+          ./scripts/init-mmdbwriter.sh
+
+          # Verify binary was created
+          if [ -f "./mmdbwriter.bin" ]; then
+            echo "✅ MMDB writer binary compiled successfully"
+            ls -la ./mmdbwriter.bin
+          else
+            echo "❌ Failed to compile MMDB writer binary"
+            exit 1
+          fi
+
+      - name: Configure git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: Switch to auto-update branch
+        run: |
+          git checkout auto-update 2>/dev/null || git checkout -b auto-update
+
+      - name: Update table data
+        if: ${{ github.event.inputs.data_type == 'all' || github.event.inputs.data_type == 'table' || github.event_name == 'schedule' }}
+        run: |
+          echo "🔄 Updating routing table data..."
+          node src/index.js fetch-table
+
+          # Check if there are any changes
+          if [ -n "$(git status --porcelain table/)" ]; then
+            echo "📊 Detected routing table data changes"
+            git add table/
+            git commit -m "🔄 [Auto-Update] routing table data $(date -u +"%Y-%m-%d %H:%M UTC")"
+            
+            # Clean old files, keep the latest 24
+            find . -name "table-*.jsonl*" -type f -printf '%T@ %p\n' | sort -rn | tail -n +25 | cut -d' ' -f2- | xargs -r rm -f
+          else
+            echo "📊 Routing table data has no changes"
+          fi
+
+      - name: Update ASN data
+        if: ${{ github.event.inputs.data_type == 'all' || github.event.inputs.data_type == 'asns' || (github.event_name == 'schedule' && github.event.schedule == '0 1 * * *') }}
+        run: |
+          echo "🔄 Updating ASN mapping data..."
+          node src/index.js fetch-asns
+
+          # Check if there are any changes
+          if [ -n "$(git status --porcelain asns/)" ]; then
+            echo "📊 Detected ASN mapping data changes"
+            git add asns/
+            git commit -m "🔄 [Auto-Update] ASN mapping data $(date -u +"%Y-%m-%d %H:%M UTC")"
+            
+            # Clean old files, keep the latest 3
+            find . -name "asns-*.csv*" -type f -printf '%T@ %p\n' | sort -rn | tail -n +4 | cut -d' ' -f2- | xargs -r rm -f
+          else
+            echo "📊 ASN mapping data has no changes"
+          fi
+
+      - name: Update tags data
+        if: ${{ github.event.inputs.data_type == 'all' || github.event.inputs.data_type == 'tags' || (github.event_name == 'schedule' && github.event.schedule == '0 1 * * *') }}
+        run: |
+          echo "🔄 Updating tag data..."
+          node src/index.js fetch-tags
+
+          # Check if there are any changes
+          if [ -n "$(git status --porcelain tags/)" ]; then
+            echo "📊 Detected tag data changes"
+            git add tags/
+            git commit -m "🔄 [Auto-Update] tag data $(date -u +"%Y-%m-%d %H:%M UTC")"
+            
+            # Clean old files, keep the latest 3
+            find . -name "tags-*-*.csv*" -type f -printf '%T@ %p\n' | sort -rn | tail -n +4 | cut -d' ' -f2- | xargs -r rm -f
+          else
+            echo "📊 Tag data has no changes"
+          fi
+
+      - name: Push changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "📤 Pushing changes to auto-update branch"
+            git push origin auto-update
+          else
+            echo "📤 No changes to push"
+          fi
+
+  # Daily job: update ASN and tag data (Archive Data)
+  daily-update:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' && github.event.schedule == '0 1 * * *'
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: latest
+          run_install: false
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Install xz-utils
+        run: sudo apt-get update && sudo apt-get install -y xz-utils
+
+      - name: Setup Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.21'
+
+      - name: Compile MMDB writer binary
+        run: |
+          echo "🔧 Compiling Go MMDB writer binary..."
+          chmod +x scripts/init-mmdbwriter.sh
+          ./scripts/init-mmdbwriter.sh
+
+          # Verify binary was created
+          if [ -f "./mmdbwriter.bin" ]; then
+            echo "✅ MMDB writer binary compiled successfully"
+            ls -la ./mmdbwriter.bin
+          else
+            echo "❌ Failed to compile MMDB writer binary"
+            exit 1
+          fi
+
+      - name: Configure git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: Switch to auto-update branch
+        run: |
+          git checkout auto-update 2>/dev/null || git checkout -b auto-update
+
+      - name: Update ASN and tags data
+        run: |
+          echo "🔄 [Daily] update ASN and tag data..."
+
+          # Update ASN data
+          node src/index.js fetch-asns
+          if [ -n "$(git status --porcelain asns/)" ]; then
+            git add asns/
+            git commit -m "🔄 [Daily] ASN mapping data $(date -u +"%Y-%m-%d")"
+          fi
+
+          # Update tag data
+          node src/index.js fetch-tags
+          if [ -n "$(git status --porcelain tags/)" ]; then
+            git add tags/
+            git commit -m "🔄 [Daily] tag data $(date -u +"%Y-%m-%d")"
+          fi
+
+      - name: Push changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "📤 Pushing [Daily] update to auto-update branch"
+            git push origin auto-update
+          fi

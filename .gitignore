@@ -1,0 +1,90 @@
+# Dependencies
+node_modules/
+*.pnp.*
+.pnp/
+
+# Build and dist
+dist/
+build/
+*.tsbuildinfo
+*.bin
+
+# Environment and config
+.env
+.env.local
+.env.production
+.env.staging
+.env.test
+.env.*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime and temp files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+.cache/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Generated data files (exclude from main branch)
+/table/
+/asns/
+/tags/
+*.jsonl
+*.jsonl.gz
+*.jsonl.xz
+*.csv.gz
+*.csv.xz
+*.mmdb
+*.mmdb.json
+
+# Release files
+table-*.jsonl*
+asns-*.csv*
+tags-*-*.csv*
+release-assets/
+release-notes.md
+checksums.sha256
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Coverage directory used by tools like istanbul
+coverage/
+.coverage/
+*.lcov
+
+# Test files and coverage
+test-results/
+.nyc_output/
+
+# Documentation (allow specific ones)
+*.md
+!README.md
+!README.zh.md
+!LICENSE
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
