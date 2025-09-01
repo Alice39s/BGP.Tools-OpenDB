@@ -167,3 +167,8 @@ export async function fetchMultipleWithErrorHandling(requests, options = {}) {
 
   return results.map((result) => result.value || result.reason);
 }
+
+export function sleep(ms) {
+  console.log(`💤 Sleeping for ${ms}ms...`);
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}

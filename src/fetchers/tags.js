@@ -10,6 +10,7 @@ import {
   logParsingStart,
   logParsingComplete,
   parseValidInteger,
+  sleep,
 } from "./utils.js";
 
 const TAGS_INDEX_URL = "https://bgp.tools/tags.txt";
@@ -36,6 +37,7 @@ export async function fetchTags() {
         { maxRetries: 2, retryDelay: 1000 },
       );
       tagsWithData.push({ ...tag, data });
+      await sleep(1500);
     } catch (error) {
       console.warn(
         `⚠️ Failed to fetch detailed data for tag ${tag.name}: ${error.message}`,
