@@ -1,0 +1,14 @@
+{
+  "timestamp": 1756772868,
+  "version": "1.0",
+  "tag_name": "feeder",
+  "tag_count": 0,
+  "actual_entries": 63,
+  "stats": {
+    "generated_at": "2025-09-02T00:27:48.765Z"
+  },
+  "hash_list": {
+    "index-meta.json": "bf96a34e8a453e08ef07210111cdac3d946bba52e615b59bccf2c83725e43aef",
+    "tags-feeder.csv": "b3a417c4fb8a43b85f2c290c67601a91418be1a3358a8ee0236ae2a9e7ade8d0"
+  }
+}
