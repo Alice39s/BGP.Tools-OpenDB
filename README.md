@@ -6,6 +6,10 @@ Data is sourced from [bgp.tools](https://bgp.tools) HTTP API, processed and pack
 
 ---
 
+[简体中文](./README.zh.md) | English version
+
+---
+
 ## 📦 Data Formats
 
 ### Compression Format Specifications
