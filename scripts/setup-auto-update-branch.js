@@ -62,8 +62,16 @@ Update time: \`${new Date().toISOString()}\`
 `,
     );
 
+    // create .gitignore file
+    writeFileSync(
+      ".gitignore",
+      `node_modules/
+*.bin
+`,
+    );
+
     // create initial commit
-    runCommand("git add README.md table/ asns/ tags/");
+    runCommand("git add README.md .gitignore table/ asns/ tags/");
     runCommand(
       `git commit -m "🚀 Initialize auto-update data branch at ${new Date().toISOString()}"`,
     );

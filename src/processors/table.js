@@ -68,7 +68,6 @@ export async function processTableData(rawData) {
   const metadata = generateBaseMetadata({
     timestamp,
     additionalFields: {
-      hash_list: hashList,
       stats: {
         total_entries: tableData.length,
         ipv4_entries: ipv4.length,
@@ -77,6 +76,9 @@ export async function processTableData(rawData) {
       },
     },
   });
+
+  // Add all file hashes to metadata hash_list
+  Object.assign(metadata.hash_list, hashList);
 
   // Write metadata file with auto-calculated hash
   await writeMetadataWithHash("table/index-meta.json", metadata);

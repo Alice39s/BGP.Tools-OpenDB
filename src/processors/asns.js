@@ -35,22 +35,20 @@ export async function processASNData(csvData) {
   const { gz: gzPath } = await compressMultipleFormats("asns/asns.csv", ["gz"]);
   const gzHash = await calculateSHA256(gzPath);
 
-  const hashList = {
-    "asns.csv": csvHash,
-    "asns.csv.gz": gzHash,
-  };
-
   // Generate metadata
   const metadata = generateBaseMetadata({
     timestamp,
     additionalFields: {
-      hash_list: hashList,
       stats: {
         total_entries: asnData.length,
         generated_at: new Date().toISOString(),
       },
     },
   });
+
+  // Add file hashes to metadata hash_list
+  metadata.hash_list["asns.csv"] = csvHash;
+  metadata.hash_list["asns.csv.gz"] = gzHash;
 
   // Write metadata file with auto-calculated hash
   await writeMetadataWithHash("asns/index-meta.json", metadata);

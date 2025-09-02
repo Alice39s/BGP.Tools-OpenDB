@@ -1,4 +1,4 @@
-import { parseTagsIndex, parseTagDetailData } from "../fetchers/tags.js";
+import { parseTagDetailData } from "../fetchers/tags.js";
 import {
   ensureDirectoryExists,
   generateBaseMetadata,
@@ -45,11 +45,6 @@ export async function processTagsData(tagsList) {
       tag.data,
     );
 
-    // Calculate hash values
-    const hashList = {
-      [csvFilename]: csvHash,
-    };
-
     // Generate metadata
     const metadata = generateBaseMetadata({
       timestamp,
@@ -57,12 +52,14 @@ export async function processTagsData(tagsList) {
         tag_name: tag.name,
         tag_count: tag.count,
         actual_entries: tagDetailData.length,
-        hash_list: hashList,
         stats: {
           generated_at: new Date().toISOString(),
         },
       },
     });
+
+    // Add CSV file hash to metadata hash_list
+    metadata.hash_list[csvFilename] = csvHash;
 
     // Write metadata file with auto-calculated hash
     await writeMetadataWithHash(`${tagDir}/index-meta.json`, metadata);
