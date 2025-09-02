@@ -26,6 +26,7 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
+          ref: main
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -68,7 +69,7 @@ jobs:
             echo "date=${RELEASE_DATE}" >> $GITHUB_OUTPUT
           fi
 
-      - name: Fetch auto-update branch
+      - name: Switch to auto-update branch
         run: |
           echo "📂 Current branch: $(git branch --show-current)"
           echo "🔄 Fetching all remote branches..."
@@ -77,52 +78,31 @@ jobs:
           git fetch --all --prune
           
           # List available branches to verify auto-update exists
-          echo "📋 Available local branches:"
-          git branch -a
+          echo "📋 Available remote branches:"
+          git branch -r
           
           # Check if auto-update branch exists remotely
           if git ls-remote --exit-code --heads origin auto-update > /dev/null; then
             echo "✅ auto-update branch found on remote"
-            # Create local tracking branch if it doesn't exist
-            if ! git show-ref --verify --quiet refs/heads/auto-update; then
-              echo "🔧 Creating local auto-update branch"
-              git checkout -b auto-update origin/auto-update
-              git checkout main
-            fi
+            echo "🔄 Switching to auto-update branch..."
+            git checkout auto-update
+            echo "📂 Now on branch: $(git branch --show-current)"
+            
+            echo "📊 Contents of auto-update branch:"
+            ls -la
+            
+            echo "📊 Data directories:"
+            ls -la table/ asns/ tags/ 2>/dev/null || echo "⚠️ Some directories not found"
           else
             echo "❌ auto-update branch not found on remote"
             exit 1
           fi
 
-      - name: Copy data from auto-update branch
-        run: |
-          echo "🔄 Checking auto-update branch contents..."
-          
-          # Check what's in auto-update branch
-          git ls-tree -r auto-update
-          
-          echo "🔄 Copying latest data from auto-update branch..."
-          
-          # Copy data directories from auto-update branch (force overwrite)
-          git checkout auto-update -- table/ || echo "⚠️ No table data found"
-          git checkout auto-update -- asns/ || echo "⚠️ No asns data found" 
-          git checkout auto-update -- tags/ || echo "⚠️ No tags data found"
-          
-          echo "📊 Data files copied - checking directories:"
-          ls -la table/ 2>/dev/null || echo "⚠️ table/ directory not found"
-          ls -la asns/ 2>/dev/null || echo "⚠️ asns/ directory not found"  
-          ls -la tags/ 2>/dev/null || echo "⚠️ tags/ directory not found"
-          
-          echo "📊 Checking specific data files:"
-          ls -la table/table-original.jsonl 2>/dev/null || echo "⚠️ table-original.jsonl not found"
-          ls -la asns/asns.csv 2>/dev/null || echo "⚠️ asns.csv not found"
-          find tags/ -name "*.csv" 2>/dev/null || echo "⚠️ No tag CSV files found"
-
       - name: Generate release files
-        env:
-          NODE_ENV: production
         run: |
           echo "🚀 Generating ${RELEASE_DATE} release files from existing data..."
+          echo "📂 Working directory: $(pwd)"
+          echo "📂 Current branch: $(git branch --show-current)"
           
           # Convert existing data to release format with date
           if [ -f "table/table-original.jsonl" ]; then
@@ -130,7 +110,8 @@ jobs:
             cp "table/table-original.jsonl" "table-${RELEASE_DATE}.jsonl"
             gzip -c "table-${RELEASE_DATE}.jsonl" > "table-${RELEASE_DATE}.jsonl.gz"
             xz -c "table-${RELEASE_DATE}.jsonl" > "table-${RELEASE_DATE}.jsonl.xz"
-            echo "📊 Table files: $(ls -la table-${RELEASE_DATE}.*)"
+            echo "📊 Table files created:"
+            ls -la table-${RELEASE_DATE}.*
           else
             echo "❌ No table/table-original.jsonl found"
           fi
@@ -140,28 +121,36 @@ jobs:
             cp "asns/asns.csv" "asns-${RELEASE_DATE}.csv"
             gzip -c "asns-${RELEASE_DATE}.csv" > "asns-${RELEASE_DATE}.csv.gz"
             xz -c "asns-${RELEASE_DATE}.csv" > "asns-${RELEASE_DATE}.csv.xz"
-            echo "📊 ASN files: $(ls -la asns-${RELEASE_DATE}.*)"
+            echo "📊 ASN files created:"
+            ls -la asns-${RELEASE_DATE}.*
           else
             echo "❌ No asns/asns.csv found"
           fi
           
           # Process tags data
           tag_count=0
-          for tag_dir in tags/*/; do
-            if [ -d "$tag_dir" ]; then
-              tag_name=$(basename "$tag_dir")
-              echo "🔍 Checking tag directory: $tag_dir for file: ${tag_dir}tags-${tag_name}.csv"
-              if [ -f "${tag_dir}tags-${tag_name}.csv" ]; then
-                echo "✅ Found tag data for: $tag_name"
-                cp "${tag_dir}tags-${tag_name}.csv" "tags-${tag_name}-${RELEASE_DATE}.csv"
-                gzip -c "tags-${tag_name}-${RELEASE_DATE}.csv" > "tags-${tag_name}-${RELEASE_DATE}.csv.gz"
-                xz -c "tags-${tag_name}-${RELEASE_DATE}.csv" > "tags-${tag_name}-${RELEASE_DATE}.csv.xz"
-                tag_count=$((tag_count + 1))
-              else
-                echo "❌ No CSV file found in $tag_dir"
+          if [ -d "tags" ]; then
+            for tag_dir in tags/*/; do
+              if [ -d "$tag_dir" ]; then
+                tag_name=$(basename "$tag_dir")
+                csv_file="${tag_dir}tags-${tag_name}.csv"
+                echo "🔍 Checking for: $csv_file"
+                if [ -f "$csv_file" ]; then
+                  echo "✅ Found tag data for: $tag_name"
+                  cp "$csv_file" "tags-${tag_name}-${RELEASE_DATE}.csv"
+                  gzip -c "tags-${tag_name}-${RELEASE_DATE}.csv" > "tags-${tag_name}-${RELEASE_DATE}.csv.gz"
+                  xz -c "tags-${tag_name}-${RELEASE_DATE}.csv" > "tags-${tag_name}-${RELEASE_DATE}.csv.xz"
+                  tag_count=$((tag_count + 1))
+                  echo "📊 Created files for $tag_name:"
+                  ls -la tags-${tag_name}-${RELEASE_DATE}.*
+                else
+                  echo "❌ CSV file not found: $csv_file"
+                fi
               fi
-            fi
-          done
+            done
+          else
+            echo "❌ tags/ directory not found"
+          fi
           
           echo "📊 Processed $tag_count tag categories"
           echo "📊 All generated release files:"
