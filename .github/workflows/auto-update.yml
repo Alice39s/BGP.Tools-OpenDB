@@ -42,10 +42,18 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v4
         with:
+          # version: latest # for packageJson.packageManager
           run_install: false
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+
+      - name: Verify dependencies installation
+        run: |
+          echo "📦 Verifying Node.js can find installed packages..."
+          node -e "console.log('✅ commander found:', require.resolve('commander'))" || echo "❌ commander not found"
+          echo "📂 node_modules contents:"
+          ls -la node_modules/ | head -10
 
       - name: Install xz-utils
         run: sudo apt-get update && sudo apt-get install -y xz-utils
@@ -133,11 +141,18 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v4
         with:
-          version: latest
+          # version: latest # for packageJson.packageManager
           run_install: false
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+
+      - name: Verify dependencies installation
+        run: |
+          echo "📦 Verifying Node.js can find installed packages..."
+          node -e "console.log('✅ commander found:', require.resolve('commander'))" || echo "❌ commander not found"
+          echo "📂 node_modules contents:"
+          ls -la node_modules/ | head -10
 
       - name: Install xz-utils
         run: sudo apt-get update && sudo apt-get install -y xz-utils

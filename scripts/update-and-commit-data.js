@@ -10,19 +10,19 @@ function commitChanges(path) {
 
 function updateTableData() {
   console.log("🔄 updating routing table data...");
-  runCommand("node src/index.js fetch-table");
+  runCommand("pnpm run fetch:table");
   return commitChanges("table");
 }
 
 function updateAsnsData() {
   console.log("🔄 updating ASN mapping data...");
-  runCommand("node src/index.js fetch-asns");
+  runCommand("pnpm run fetch:asns");
   return commitChanges("asns");
 }
 
 function updateTagsData() {
   console.log("🔄 updating tag data...");
-  runCommand("node src/index.js fetch-tags");
+  runCommand("pnpm run fetch:tags");
   return commitChanges("tags");
 }
 
@@ -37,7 +37,7 @@ function updateAllData() {
   // use parallel way to update data (but serial commit to avoid conflicts)
   try {
     // first execute all data fetching
-    runCommand("node src/index.js fetch-all");
+    runCommand("pnpm run fetch:all");
 
     // then check and commit each data type
     results.table = commitChanges("table");
