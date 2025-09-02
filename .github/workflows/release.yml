@@ -71,15 +71,27 @@ jobs:
       - name: Copy data from auto-update branch
         run: |
           echo "📂 Current branch: $(git branch --show-current)"
+          echo "🔄 Checking auto-update branch contents..."
+          
+          # Check what's in auto-update branch
+          git ls-tree -r auto-update
+          
           echo "🔄 Copying latest data from auto-update branch..."
           
-          # Copy data directories from auto-update branch
-          git show auto-update:table/ > /dev/null 2>&1 && git checkout auto-update -- table/ || echo "⚠️ No table data found"
-          git show auto-update:asns/ > /dev/null 2>&1 && git checkout auto-update -- asns/ || echo "⚠️ No asns data found" 
-          git show auto-update:tags/ > /dev/null 2>&1 && git checkout auto-update -- tags/ || echo "⚠️ No tags data found"
+          # Copy data directories from auto-update branch (force overwrite)
+          git checkout auto-update -- table/ || echo "⚠️ No table data found"
+          git checkout auto-update -- asns/ || echo "⚠️ No asns data found" 
+          git checkout auto-update -- tags/ || echo "⚠️ No tags data found"
           
-          echo "📊 Data files copied:"
-          ls -la table/ asns/ tags/ 2>/dev/null || echo "⚠️ No data directories found"
+          echo "📊 Data files copied - checking directories:"
+          ls -la table/ 2>/dev/null || echo "⚠️ table/ directory not found"
+          ls -la asns/ 2>/dev/null || echo "⚠️ asns/ directory not found"  
+          ls -la tags/ 2>/dev/null || echo "⚠️ tags/ directory not found"
+          
+          echo "📊 Checking specific data files:"
+          ls -la table/table-original.jsonl 2>/dev/null || echo "⚠️ table-original.jsonl not found"
+          ls -la asns/asns.csv 2>/dev/null || echo "⚠️ asns.csv not found"
+          find tags/ -name "*.csv" 2>/dev/null || echo "⚠️ No tag CSV files found"
 
       - name: Generate release files
         env:
@@ -89,30 +101,45 @@ jobs:
           
           # Convert existing data to release format with date
           if [ -f "table/table-original.jsonl" ]; then
+            echo "✅ Found table data, creating release files..."
             cp "table/table-original.jsonl" "table-${RELEASE_DATE}.jsonl"
             gzip -c "table-${RELEASE_DATE}.jsonl" > "table-${RELEASE_DATE}.jsonl.gz"
             xz -c "table-${RELEASE_DATE}.jsonl" > "table-${RELEASE_DATE}.jsonl.xz"
+            echo "📊 Table files: $(ls -la table-${RELEASE_DATE}.*)"
+          else
+            echo "❌ No table/table-original.jsonl found"
           fi
           
           if [ -f "asns/asns.csv" ]; then
+            echo "✅ Found ASN data, creating release files..."
             cp "asns/asns.csv" "asns-${RELEASE_DATE}.csv"
             gzip -c "asns-${RELEASE_DATE}.csv" > "asns-${RELEASE_DATE}.csv.gz"
             xz -c "asns-${RELEASE_DATE}.csv" > "asns-${RELEASE_DATE}.csv.xz"
+            echo "📊 ASN files: $(ls -la asns-${RELEASE_DATE}.*)"
+          else
+            echo "❌ No asns/asns.csv found"
           fi
           
           # Process tags data
+          tag_count=0
           for tag_dir in tags/*/; do
             if [ -d "$tag_dir" ]; then
               tag_name=$(basename "$tag_dir")
+              echo "🔍 Checking tag directory: $tag_dir for file: ${tag_dir}tags-${tag_name}.csv"
               if [ -f "${tag_dir}tags-${tag_name}.csv" ]; then
+                echo "✅ Found tag data for: $tag_name"
                 cp "${tag_dir}tags-${tag_name}.csv" "tags-${tag_name}-${RELEASE_DATE}.csv"
                 gzip -c "tags-${tag_name}-${RELEASE_DATE}.csv" > "tags-${tag_name}-${RELEASE_DATE}.csv.gz"
                 xz -c "tags-${tag_name}-${RELEASE_DATE}.csv" > "tags-${tag_name}-${RELEASE_DATE}.csv.xz"
+                tag_count=$((tag_count + 1))
+              else
+                echo "❌ No CSV file found in $tag_dir"
               fi
             fi
           done
           
-          echo "📊 Generated release files:"
+          echo "📊 Processed $tag_count tag categories"
+          echo "📊 All generated release files:"
           ls -la *-${RELEASE_DATE}.* 2>/dev/null || echo "⚠️ No release files generated"
 
       - name: Create release assets
