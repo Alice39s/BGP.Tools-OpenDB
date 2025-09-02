@@ -41,6 +41,13 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Verify dependencies installation
+        run: |
+          echo "📦 Verifying Node.js can find installed packages..."
+          node -e "console.log('✅ commander found:', require.resolve('commander'))" || echo "❌ commander not found"
+          echo "📂 node_modules contents:"
+          ls -la node_modules/ | head -10
+
       - name: Install xz-utils
         run: sudo apt-get update && sudo apt-get install -y xz-utils
 
@@ -72,7 +79,7 @@ jobs:
           echo "🚀 Generating ${RELEASE_DATE} release data..."
 
           # Get latest data and generate release version
-          node src/index.js fetch-all
+          pnpm run fetch:all
 
           echo "📊 Generated release files:"
           ls -la *-${RELEASE_DATE}.*
