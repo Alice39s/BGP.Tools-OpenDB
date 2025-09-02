@@ -68,21 +68,52 @@ jobs:
             echo "date=${RELEASE_DATE}" >> $GITHUB_OUTPUT
           fi
 
-      - name: Switch to auto-update branch
+      - name: Copy data from auto-update branch
         run: |
-          git checkout auto-update
+          echo "📂 Current branch: $(git branch --show-current)"
+          echo "🔄 Copying latest data from auto-update branch..."
+          
+          # Copy data directories from auto-update branch
+          git show auto-update:table/ > /dev/null 2>&1 && git checkout auto-update -- table/ || echo "⚠️ No table data found"
+          git show auto-update:asns/ > /dev/null 2>&1 && git checkout auto-update -- asns/ || echo "⚠️ No asns data found" 
+          git show auto-update:tags/ > /dev/null 2>&1 && git checkout auto-update -- tags/ || echo "⚠️ No tags data found"
+          
+          echo "📊 Data files copied:"
+          ls -la table/ asns/ tags/ 2>/dev/null || echo "⚠️ No data directories found"
 
-      - name: Generate release data
+      - name: Generate release files
         env:
           NODE_ENV: production
         run: |
-          echo "🚀 Generating ${RELEASE_DATE} release data..."
-
-          # Get latest data and generate release version
-          pnpm run fetch:all
-
+          echo "🚀 Generating ${RELEASE_DATE} release files from existing data..."
+          
+          # Convert existing data to release format with date
+          if [ -f "table/table-original.jsonl" ]; then
+            cp "table/table-original.jsonl" "table-${RELEASE_DATE}.jsonl"
+            gzip -c "table-${RELEASE_DATE}.jsonl" > "table-${RELEASE_DATE}.jsonl.gz"
+            xz -c "table-${RELEASE_DATE}.jsonl" > "table-${RELEASE_DATE}.jsonl.xz"
+          fi
+          
+          if [ -f "asns/asns.csv" ]; then
+            cp "asns/asns.csv" "asns-${RELEASE_DATE}.csv"
+            gzip -c "asns-${RELEASE_DATE}.csv" > "asns-${RELEASE_DATE}.csv.gz"
+            xz -c "asns-${RELEASE_DATE}.csv" > "asns-${RELEASE_DATE}.csv.xz"
+          fi
+          
+          # Process tags data
+          for tag_dir in tags/*/; do
+            if [ -d "$tag_dir" ]; then
+              tag_name=$(basename "$tag_dir")
+              if [ -f "${tag_dir}tags-${tag_name}.csv" ]; then
+                cp "${tag_dir}tags-${tag_name}.csv" "tags-${tag_name}-${RELEASE_DATE}.csv"
+                gzip -c "tags-${tag_name}-${RELEASE_DATE}.csv" > "tags-${tag_name}-${RELEASE_DATE}.csv.gz"
+                xz -c "tags-${tag_name}-${RELEASE_DATE}.csv" > "tags-${tag_name}-${RELEASE_DATE}.csv.xz"
+              fi
+            fi
+          done
+          
           echo "📊 Generated release files:"
-          ls -la *-${RELEASE_DATE}.*
+          ls -la *-${RELEASE_DATE}.* 2>/dev/null || echo "⚠️ No release files generated"
 
       - name: Create release assets
         run: |
