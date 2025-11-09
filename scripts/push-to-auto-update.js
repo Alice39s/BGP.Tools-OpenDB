@@ -1,16 +1,8 @@
 #!/usr/bin/env node
 
-import {
-  readFileSync,
-  existsSync,
-  mkdtempSync,
-  rmSync,
-  cpSync,
-  readdirSync,
-} from "fs";
-import { tmpdir } from "os";
+import { readFileSync, existsSync, rmSync, cpSync, readdirSync } from "fs";
 import { join, resolve } from "path";
-import { runCommand } from "./utils.js";
+import { runCommand, withWorktree } from "./utils.js";
 
 const ALLOWED_ROOT_ENTRIES = new Set([
   "README.md",
@@ -22,35 +14,31 @@ const ALLOWED_ROOT_ENTRIES = new Set([
 
 function getLocalTimestamp(path) {
   try {
-    // Read from local file system (newly generated files)
     const metaContent = readFileSync(`${path}/index-meta.json`, "utf8");
     const meta = JSON.parse(metaContent);
     return meta.timestamp;
-  } catch (error) {
+  } catch {
     return null;
   }
 }
 
 function getBranchTimestamp(path, branch) {
   try {
-    // Read from specific branch
-    const metaContent = runCommand(
-      `git show ${branch}:${path}/index-meta.json`,
-      {
-        silent: true,
-        ignoreError: true,
-      },
-    );
+    const metaContent = runCommand(`git show ${branch}:${path}/index-meta.json`, {
+      quiet: true,
+      allowFailure: true,
+    });
+    if (!metaContent) return null;
     const meta = JSON.parse(metaContent);
     return meta.timestamp;
-  } catch (error) {
+  } catch {
     return null;
   }
 }
 
 function needsUpdate(path) {
-  const newTimestamp = getLocalTimestamp(path); // 本地生成的新文件
-  const autoUpdateTimestamp = getBranchTimestamp(path, "auto-update"); // auto-update 分支现有文件
+  const newTimestamp = getLocalTimestamp(path);
+  const autoUpdateTimestamp = getBranchTimestamp(path, "auto-update");
 
   if (newTimestamp === null) {
     console.log(`📊 ${path} has no new data file, skipping`);
@@ -64,7 +52,7 @@ function needsUpdate(path) {
 
   if (newTimestamp !== autoUpdateTimestamp) {
     console.log(
-      `📊 ${path} timestamp mismatch: new(${newTimestamp}) vs current(${autoUpdateTimestamp})`
+      `📊 ${path} timestamp mismatch: new(${newTimestamp}) vs current(${autoUpdateTimestamp})`,
     );
     return true;
   }
@@ -73,14 +61,10 @@ function needsUpdate(path) {
   return false;
 }
 
-
 function pushToAutoUpdate() {
   console.log("[+] Checking for new data to sync to auto-update branch...");
-  
-  // Determine which directories need syncing BEFORE switching branches
-  const dataDirs = ["table", "asns", "tags"];
-  const dirsToSync = dataDirs.filter(dir => needsUpdate(dir));
-  
+
+  const dirsToSync = ["table", "asns", "tags"].filter((dir) => needsUpdate(dir));
   const needsCleanup = branchNeedsCleanup();
 
   if (dirsToSync.length === 0 && !needsCleanup) {
@@ -97,72 +81,53 @@ function pushToAutoUpdate() {
     console.log("[+] auto-update branch contains unexpected files, scheduling cleanup");
   }
 
-  const worktreePath = mkdtempSync(join(tmpdir(), "auto-update-"));
-  console.log(`[+] Using temporary worktree: ${worktreePath}`);
+  runCommand("git fetch origin auto-update:auto-update", {
+    inherit: true,
+    allowFailure: true,
+  });
 
-  try {
-    runCommand(`git worktree add --force ${worktreePath} auto-update`, {
-      silent: true,
-    });
+  return withWorktree(
+    "auto-update",
+    (worktreePath) => {
+      cleanupWorktree(worktreePath);
 
-    cleanupWorktree(worktreePath);
+      dirsToSync.forEach((dir) => syncDirectory(dir, worktreePath));
 
-    for (const dir of dirsToSync) {
-      const sourceDir = resolve(process.cwd(), dir);
-      const targetDir = join(worktreePath, dir);
+      const status = runCommand("git status --porcelain", {
+        cwd: worktreePath,
+        quiet: true,
+      });
 
-      if (!existsSync(sourceDir)) {
-        console.warn(`[-] Source directory not found: ${sourceDir}`);
-        continue;
+      if (!status) {
+        console.log("[+] No changes to push to auto-update branch");
+        return false;
       }
 
-      console.log(`[+] Copying ${dir}/ into worktree...`);
-      rmSync(targetDir, { recursive: true, force: true });
-      cpSync(sourceDir, targetDir, { recursive: true });
-      runCommand(`git add ${dir}/`, {
-        cwd: worktreePath,
-        silent: true,
-      });
-    }
-
-    const autoUpdateStatus = runCommand("git status --porcelain", {
-      cwd: worktreePath,
-      silent: true,
-    });
-
-    if (autoUpdateStatus) {
       const timestamp =
         new Date().toISOString().replace("T", " ").slice(0, 16) + " UTC";
 
-      runCommand(
-        `git commit -m "🔄 [Auto-Update] Data sync ${timestamp}"`,
-        {
-          cwd: worktreePath,
-        },
-      );
+      runCommand(`git commit -m "🔄 [Auto-Update] Data sync ${timestamp}"`, {
+        cwd: worktreePath,
+        inherit: true,
+      });
 
-      runCommand("git push origin auto-update", { cwd: worktreePath });
+      runCommand("git push origin auto-update", {
+        cwd: worktreePath,
+        inherit: true,
+      });
+
       console.log("✅ Successfully pushed data to auto-update branch");
       return true;
-    }
-
-    console.log("[+] No changes to push to auto-update branch");
-    return false;
-  } finally {
-    runCommand(`git worktree remove ${worktreePath} --force`, {
-      silent: true,
-      ignoreError: true,
-    });
-
-    rmSync(worktreePath, { recursive: true, force: true });
-  }
+    },
+    { label: "auto-update-sync", force: true },
+  );
 }
 
 function branchNeedsCleanup() {
   try {
     const treeOutput = runCommand("git ls-tree --name-only auto-update", {
-      silent: true,
-      ignoreError: true,
+      quiet: true,
+      allowFailure: true,
     });
 
     if (!treeOutput) return false;
@@ -190,8 +155,8 @@ function cleanupWorktree(worktreePath) {
     rmSync(targetPath, { recursive: true, force: true });
     runCommand(`git rm -rf --ignore-unmatch ${entry.name}`, {
       cwd: worktreePath,
-      silent: true,
-      ignoreError: true,
+      quiet: true,
+      allowFailure: true,
     });
     cleaned = true;
   }
@@ -201,11 +166,33 @@ function cleanupWorktree(worktreePath) {
   }
 }
 
+function syncDirectory(dir, worktreePath) {
+  const sourceDir = resolve(process.cwd(), dir);
+  const targetDir = join(worktreePath, dir);
+
+  if (!existsSync(sourceDir)) {
+    console.warn(`[-] Source directory not found: ${sourceDir}`);
+    return;
+  }
+
+  console.log(`[+] Copying ${dir}/ into worktree...`);
+  rmSync(targetDir, { recursive: true, force: true });
+  cpSync(sourceDir, targetDir, { recursive: true });
+  runCommand(`git add ${dir}/`, {
+    cwd: worktreePath,
+    inherit: true,
+  });
+}
+
 function main() {
   try {
     pushToAutoUpdate();
   } catch (error) {
     console.error("[-] Failed to push to auto-update branch:", error.message);
+    console.error("💡 Tips: Ensure Git credentials have write permissions, or manually run `git fetch --all --prune` and try again.");
+    if (process.env.DEBUG) {
+      console.error(error.stack);
+    }
     process.exit(1);
   }
 }
