@@ -1,7 +1,24 @@
 #!/usr/bin/env node
 
-import { readFileSync } from 'fs';
+import {
+  readFileSync,
+  existsSync,
+  mkdtempSync,
+  rmSync,
+  cpSync,
+  readdirSync,
+} from "fs";
+import { tmpdir } from "os";
+import { join, resolve } from "path";
 import { runCommand } from "./utils.js";
+
+const ALLOWED_ROOT_ENTRIES = new Set([
+  "README.md",
+  ".gitignore",
+  "table",
+  "asns",
+  "tags",
+]);
 
 function getLocalTimestamp(path) {
   try {
@@ -17,9 +34,13 @@ function getLocalTimestamp(path) {
 function getBranchTimestamp(path, branch) {
   try {
     // Read from specific branch
-    const metaContent = runCommand(`git show ${branch}:${path}/index-meta.json`, {
-      silent: true,
-    });
+    const metaContent = runCommand(
+      `git show ${branch}:${path}/index-meta.json`,
+      {
+        silent: true,
+        ignoreError: true,
+      },
+    );
     const meta = JSON.parse(metaContent);
     return meta.timestamp;
   } catch (error) {
@@ -60,81 +81,124 @@ function pushToAutoUpdate() {
   const dataDirs = ["table", "asns", "tags"];
   const dirsToSync = dataDirs.filter(dir => needsUpdate(dir));
   
-  if (dirsToSync.length === 0) {
-    console.log("[+] No new data to sync, all timestamps match");
+  const needsCleanup = branchNeedsCleanup();
+
+  if (dirsToSync.length === 0 && !needsCleanup) {
+    console.log("[+] No new data or cleanup tasks detected");
     return false;
   }
-  
-  console.log(`[+] Found ${dirsToSync.length} directories to sync: ${dirsToSync.join(", ")}`);
 
-  const originalBranch = runCommand("git branch --show-current");
-  console.log(`[+] Current branch: ${originalBranch}`);
-  let stashCreated = false;
-
-  try {
-    // Switch to auto-update branch
-    console.log("[+] Switching to auto-update branch...");
-    
-    // Stash any uncommitted changes to avoid conflicts
-    const uncommittedChanges = runCommand("git status --porcelain", { silent: true });
-    if (uncommittedChanges) {
-      console.log("[+] Found uncommitted changes, stashing them...");
-      runCommand("git stash push -m 'Auto-stash before branch switch'");
-      stashCreated = true;
-    }
-    
-    runCommand("git checkout auto-update");
-
-    // Pull latest from auto-update to avoid conflicts
-    runCommand("git pull origin auto-update", { ignoreError: true });
-
-    // Add the new data files to git
-    console.log("[+] Adding new data files to auto-update branch...");
-    for (const dir of dirsToSync) {
-      console.log(`[+] Adding ${dir}/ directory...`);
-      // The data files should still be in working directory from when we were on main branch
-      runCommand(`git add ${dir}/`);
-    }
-
-    // Check if there are changes in auto-update branch
-    const autoUpdateStatus = runCommand("git status --porcelain", {
-      silent: true,
-    });
-    if (autoUpdateStatus) {
-      console.log("[+] Found changes in auto-update branch, committing...");
-      runCommand("git add .");
-
-      const timestamp =
-        new Date().toISOString().replace("T", " ").slice(0, 16) + " UTC";
-      runCommand(
-        `git commit -m "🔄 [Auto-Update] Data sync ${timestamp}"`,
-      );
-
-      // Push to remote
-      console.log("[+] Pushing to auto-update branch...");
-      runCommand("git push origin auto-update");
-
-      console.log("✅ Successfully pushed data to auto-update branch");
-    } else {
-      console.log("[+] No changes to push to auto-update branch");
-    }
-  } finally {
-    // Always switch back to original branch
-    console.log(`[+] Switching back to ${originalBranch} branch...`);
-    runCommand(`git checkout ${originalBranch}`);
-    
-    // Restore stashed changes if we created a stash
-    if (stashCreated && originalBranch === "main") {
-      try {
-        console.log("[+] Restoring stashed changes...");
-        runCommand("git stash pop");
-      } catch (error) {
-        console.warn("[-] Warning: Could not restore stashed changes:", error.message);
-      }
-    }
+  if (dirsToSync.length > 0) {
+    console.log(
+      `[+] Found ${dirsToSync.length} directories to sync: ${dirsToSync.join(", ")}`,
+    );
+  }
+  if (needsCleanup) {
+    console.log("[+] auto-update branch contains unexpected files, scheduling cleanup");
   }
 
-  return true;
+  const worktreePath = mkdtempSync(join(tmpdir(), "auto-update-"));
+  console.log(`[+] Using temporary worktree: ${worktreePath}`);
+
+  try {
+    runCommand(`git worktree add --force ${worktreePath} auto-update`, {
+      silent: true,
+    });
+
+    cleanupWorktree(worktreePath);
+
+    for (const dir of dirsToSync) {
+      const sourceDir = resolve(process.cwd(), dir);
+      const targetDir = join(worktreePath, dir);
+
+      if (!existsSync(sourceDir)) {
+        console.warn(`[-] Source directory not found: ${sourceDir}`);
+        continue;
+      }
+
+      console.log(`[+] Copying ${dir}/ into worktree...`);
+      rmSync(targetDir, { recursive: true, force: true });
+      cpSync(sourceDir, targetDir, { recursive: true });
+      runCommand(`git add ${dir}/`, {
+        cwd: worktreePath,
+        silent: true,
+      });
+    }
+
+    const autoUpdateStatus = runCommand("git status --porcelain", {
+      cwd: worktreePath,
+      silent: true,
+    });
+
+    if (autoUpdateStatus) {
+      const timestamp =
+        new Date().toISOString().replace("T", " ").slice(0, 16) + " UTC";
+
+      runCommand(
+        `git commit -m "🔄 [Auto-Update] Data sync ${timestamp}"`,
+        {
+          cwd: worktreePath,
+        },
+      );
+
+      runCommand("git push origin auto-update", { cwd: worktreePath });
+      console.log("✅ Successfully pushed data to auto-update branch");
+      return true;
+    }
+
+    console.log("[+] No changes to push to auto-update branch");
+    return false;
+  } finally {
+    runCommand(`git worktree remove ${worktreePath} --force`, {
+      silent: true,
+      ignoreError: true,
+    });
+
+    rmSync(worktreePath, { recursive: true, force: true });
+  }
+}
+
+function branchNeedsCleanup() {
+  try {
+    const treeOutput = runCommand("git ls-tree --name-only auto-update", {
+      silent: true,
+      ignoreError: true,
+    });
+
+    if (!treeOutput) return false;
+
+    return treeOutput
+      .split("\n")
+      .filter(Boolean)
+      .some((entry) => !ALLOWED_ROOT_ENTRIES.has(entry.split("/")[0]));
+  } catch (error) {
+    console.warn("[!] Failed to inspect auto-update branch:", error.message);
+    return false;
+  }
+}
+
+function cleanupWorktree(worktreePath) {
+  let cleaned = false;
+  const entries = readdirSync(worktreePath, { withFileTypes: true });
+
+  for (const entry of entries) {
+    if (entry.name === ".git") continue;
+    if (ALLOWED_ROOT_ENTRIES.has(entry.name)) continue;
+
+    const targetPath = join(worktreePath, entry.name);
+    console.log(`[-] Removing unexpected entry from auto-update branch: ${entry.name}`);
+    rmSync(targetPath, { recursive: true, force: true });
+    runCommand(`git rm -rf --ignore-unmatch ${entry.name}`, {
+      cwd: worktreePath,
+      silent: true,
+      ignoreError: true,
+    });
+    cleaned = true;
+  }
+
+  if (cleaned) {
+    console.log("[+] auto-update worktree cleaned up");
+  }
 }
 
 function main() {
