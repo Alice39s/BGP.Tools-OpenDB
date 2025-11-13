@@ -42,22 +42,22 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.source_branch != '' && github.event.inputs.source_branch || 'auto-update' }}
 
-      - name: Refresh data (manual trigger only)
-        if: ${{ github.event_name == 'workflow_dispatch' && (github.event.inputs.refresh_data == 'true' || github.event.inputs.refresh_data == true) }}
-        run: |
-          echo "🔄 Running data update before release..."
-          pnpm install --frozen-lockfile
-          pnpm fetch:all
-          echo "✅ Data refresh complete."
-
       - name: Setup tooling
         uses: ./.github/actions/setup-runtime
         with:
           node-version: ${{ env.NODE_VERSION }}
           pnpm-version: ${{ env.PNPM_VERSION }}
-          install-deps: "false"
+          install-deps: ${{ github.event_name == 'workflow_dispatch' && (github.event.inputs.refresh_data == 'true' || github.event.inputs.refresh_data == true) && 'true' || 'false' }}
           setup-go: "false"
           build-mmdbwriter: "false"
+
+      # 仅 workflow_dispatch 且 refresh_data==true 时，运行数据更新脚本
+      - name: Refresh data (manual trigger only)
+        if: ${{ github.event_name == 'workflow_dispatch' && (github.event.inputs.refresh_data == 'true' || github.event.inputs.refresh_data == true) }}
+        run: |
+          echo "🔄 Running data update before release..."
+          pnpm fetch:all
+          echo "✅ Data refresh complete."
 
       - name: Configure git
         run: |
