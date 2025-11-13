@@ -47,10 +47,6 @@ runs:
       run: pnpm install --frozen-lockfile
       shell: bash
 
-    - name: Install xz-utils
-      run: sudo apt-get update && sudo apt-get install -y xz-utils
-      shell: bash
-
     - name: Setup Go
       if: inputs.setup-go == 'true'
       uses: actions/setup-go@v4

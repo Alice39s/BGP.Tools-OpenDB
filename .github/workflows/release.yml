@@ -83,7 +83,7 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
           pnpm-version: ${{ env.PNPM_VERSION }}
-          install-deps: ${{ github.event_name == 'workflow_dispatch' && (github.event.inputs.refresh_data == 'true' || github.event.inputs.refresh_data == true) && 'true' || 'false' }}
+          install-deps: "true"
           setup-go: "false"
           build-mmdbwriter: "false"
 
@@ -113,49 +113,11 @@ jobs:
 
       - name: Generate release files
         run: |
-          set -euo pipefail
-
-          echo "🚀 Generating ${RELEASE_DATE} release files from existing data..."
+          echo "🚀 Generating release files using Node.js compression..."
           ls -la table/ asns/ tags/ 2>/dev/null || true
 
-          mkdir -p release-assets
-
-          if [ -f "table/table-original.jsonl" ]; then
-            cp "table/table-original.jsonl" "table-${RELEASE_DATE}.jsonl"
-            gzip -c "table-${RELEASE_DATE}.jsonl" > "table-${RELEASE_DATE}.jsonl.gz"
-            xz -c "table-${RELEASE_DATE}.jsonl" > "table-${RELEASE_DATE}.jsonl.xz"
-            cp table-${RELEASE_DATE}.jsonl.* release-assets/ || true
-          else
-            echo "❌ table/table-original.jsonl not found"
-          fi
-
-          if [ -f "asns/asns.csv" ]; then
-            cp "asns/asns.csv" "asns-${RELEASE_DATE}.csv"
-            gzip -c "asns-${RELEASE_DATE}.csv" > "asns-${RELEASE_DATE}.csv.gz"
-            xz -c "asns-${RELEASE_DATE}.csv" > "asns-${RELEASE_DATE}.csv.xz"
-            cp asns-${RELEASE_DATE}.csv.* release-assets/ || true
-          else
-            echo "❌ asns/asns.csv not found"
-          fi
-
-          if [ -d "tags" ]; then
-            for tag_dir in tags/*/; do
-              [ -d "$tag_dir" ] || continue
-              tag_name=$(basename "$tag_dir")
-              csv_file="${tag_dir}tags-${tag_name}.csv"
-              if [ -f "$csv_file" ]; then
-                cp "$csv_file" "tags-${tag_name}-${RELEASE_DATE}.csv"
-                gzip -c "tags-${tag_name}-${RELEASE_DATE}.csv" > "tags-${tag_name}-${RELEASE_DATE}.csv.gz"
-                xz -c "tags-${tag_name}-${RELEASE_DATE}.csv" > "tags-${tag_name}-${RELEASE_DATE}.csv.xz"
-                cp tags-${tag_name}-${RELEASE_DATE}.csv.* release-assets/ || true
-              fi
-            done
-          fi
-
-          if [ -z "$(ls -A release-assets)" ]; then
-            echo "❌ release-assets is empty"
-            exit 1
-          fi
+          # Use Node.js script with NAPI xz compression
+          ./scripts/compress-release-files.js
 
       - name: Calculate checksums
         run: |

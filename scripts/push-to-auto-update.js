@@ -24,10 +24,13 @@ function getLocalTimestamp(path) {
 
 function getBranchTimestamp(path, branch) {
   try {
-    const metaContent = runCommand(`git show ${branch}:${path}/index-meta.json`, {
-      quiet: true,
-      allowFailure: true,
-    });
+    const metaContent = runCommand(
+      `git show ${branch}:${path}/index-meta.json`,
+      {
+        quiet: true,
+        allowFailure: true,
+      },
+    );
     if (!metaContent) return null;
     const meta = JSON.parse(metaContent);
     return meta.timestamp;
@@ -57,14 +60,18 @@ function needsUpdate(path) {
     return true;
   }
 
-  console.log(`📊 ${path} timestamps match (${newTimestamp}), no update needed`);
+  console.log(
+    `📊 ${path} timestamps match (${newTimestamp}), no update needed`,
+  );
   return false;
 }
 
 function pushToAutoUpdate() {
   console.log("[+] Checking for new data to sync to auto-update branch...");
 
-  const dirsToSync = ["table", "asns", "tags"].filter((dir) => needsUpdate(dir));
+  const dirsToSync = ["table", "asns", "tags"].filter((dir) =>
+    needsUpdate(dir),
+  );
   const needsCleanup = branchNeedsCleanup();
 
   if (dirsToSync.length === 0 && !needsCleanup) {
@@ -78,7 +85,9 @@ function pushToAutoUpdate() {
     );
   }
   if (needsCleanup) {
-    console.log("[+] auto-update branch contains unexpected files, scheduling cleanup");
+    console.log(
+      "[+] auto-update branch contains unexpected files, scheduling cleanup",
+    );
   }
 
   runCommand("git fetch origin auto-update:auto-update", {
@@ -151,7 +160,9 @@ function cleanupWorktree(worktreePath) {
     if (ALLOWED_ROOT_ENTRIES.has(entry.name)) continue;
 
     const targetPath = join(worktreePath, entry.name);
-    console.log(`[-] Removing unexpected entry from auto-update branch: ${entry.name}`);
+    console.log(
+      `[-] Removing unexpected entry from auto-update branch: ${entry.name}`,
+    );
     rmSync(targetPath, { recursive: true, force: true });
     runCommand(`git rm -rf --ignore-unmatch ${entry.name}`, {
       cwd: worktreePath,
@@ -189,7 +200,9 @@ function main() {
     pushToAutoUpdate();
   } catch (error) {
     console.error("[-] Failed to push to auto-update branch:", error.message);
-    console.error("💡 Tips: Ensure Git credentials have write permissions, or manually run `git fetch --all --prune` and try again.");
+    console.error(
+      "💡 Tips: Ensure Git credentials have write permissions, or manually run `git fetch --all --prune` and try again.",
+    );
     if (process.env.DEBUG) {
       console.error(error.stack);
     }

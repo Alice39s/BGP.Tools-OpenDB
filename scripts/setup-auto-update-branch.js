@@ -104,7 +104,9 @@ function main() {
     setupAutoUpdateBranch();
   } catch (error) {
     console.error("[-] Failed to setup auto-update branch:", error.message);
-    console.error("💡 Tips: If the auto-update branch already exists remotely, please manually delete it or pull the latest commits and try again.");
+    console.error(
+      "💡 Tips: If the auto-update branch already exists remotely, please manually delete it or pull the latest commits and try again.",
+    );
     if (process.env.DEBUG) {
       console.error(error.stack);
     }

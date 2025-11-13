@@ -2,7 +2,6 @@
 
 import { runCommand } from "./utils.js";
 
-
 function commitChanges(path) {
   console.log(`📊 ${path} data updated, ready for sync to auto-update branch`);
   return true;

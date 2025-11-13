@@ -34,7 +34,7 @@ export function parseTableData(rawData) {
     try {
       // Parse JSONL format: each line is a JSON object
       const entry = JSON.parse(line);
-      
+
       if (entry.CIDR && entry.ASN) {
         results.push({
           CIDR: entry.CIDR,

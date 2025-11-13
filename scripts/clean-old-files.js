@@ -141,7 +141,7 @@ function commitCleanup(dataType, hasChanges) {
     // @NOTE: Only add to staging, don't commit yet
     // Let the main workflow handle commits and pushes
     runCommand(`git add ${dataType}/`);
-    
+
     console.log(`✅ staged ${dataType} cleanup changes for commit`);
     return true;
   } catch (error) {

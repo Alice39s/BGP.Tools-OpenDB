@@ -137,7 +137,6 @@ Data is sourced from [bgp.tools](https://bgp.tools) HTTP API, processed and pack
 
 - Node.js >= 20.0.0
 - pnpm >= 8.0.0
-- xz-utils (system dependency)
 
 ### Basic Commands
 

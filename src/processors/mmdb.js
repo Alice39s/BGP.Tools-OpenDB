@@ -25,7 +25,9 @@ export async function generateMMDB(
     const tableData = parseTableData(rawTableData);
     const { ipv4, ipv6 } = separateByIPVersion(tableData);
 
-    console.log(`📊 IPv4 entries: ${ipv4.length}, IPv6 entries: ${ipv6.length}`);
+    console.log(
+      `📊 IPv4 entries: ${ipv4.length}, IPv6 entries: ${ipv6.length}`,
+    );
     console.log(`🔄 Total entries to process: ${ipv4.length + ipv6.length}`);
 
     // Create temporary CSV file for Go binary input
@@ -58,7 +60,10 @@ export async function generateMMDB(
       await execAsync(`rm -f "${tempCsvPath}"`);
       console.log("🧹 Cleaned up temporary CSV file");
     } catch (cleanupError) {
-      console.warn("⚠️  Warning: Failed to clean up temporary file:", cleanupError.message);
+      console.warn(
+        "⚠️  Warning: Failed to clean up temporary file:",
+        cleanupError.message,
+      );
     }
 
     console.log(`✅ MMDB database generation completed: ${outputPath}`);
@@ -72,7 +77,6 @@ export async function generateMMDB(
       totalCount: ipv4.length + ipv6.length,
       generatedAt: new Date().toISOString(),
     };
-
   } catch (error) {
     console.error("❌ MMDB generation failed:", error.message);
     throw new Error(`MMDB generation failed: ${error.message}`);
@@ -86,9 +90,9 @@ export async function generateMMDB(
  */
 function convertToCSV(tableData) {
   const header = "network,asn,hits\n";
-  const rows = tableData.map(entry =>
-    `"${entry.CIDR}",${entry.ASN},${entry.Hits || 0}`
-  ).join("\n");
+  const rows = tableData
+    .map((entry) => `"${entry.CIDR}",${entry.ASN},${entry.Hits || 0}`)
+    .join("\n");
 
   return header + rows;
 }
@@ -191,7 +195,9 @@ export function lookupASN(mmdbPath, ip) {
   console.log(`🔍 MMDB lookup requested for IP: ${ip}`);
   console.log(`📁 MMDB file: ${mmdbPath}`);
   console.log("⚠️  Note: MMDB lookup requires specialized MMDB reader library");
-  console.log("💡 Consider using libraries like 'maxmind-db-reader' for Node.js");
+  console.log(
+    "💡 Consider using libraries like 'maxmind-db-reader' for Node.js",
+  );
 
   // Placeholder - in production, you would use a proper MMDB reader
   return {
