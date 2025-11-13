@@ -13,6 +13,11 @@ import {
   calculateMultipleHashes,
 } from "./utils.js";
 
+const NATURAL_STRING_COMPARE = new Intl.Collator("en", {
+  numeric: true,
+  sensitivity: "base",
+}).compare;
+
 /**
  * Process routing table data
  * @param {string} rawData Raw routing table data
@@ -25,7 +30,7 @@ export async function processTableData(rawData) {
   await ensureDirectoryExists("table");
 
   console.log("🔄 Parsing routing table data...");
-  const tableData = parseTableData(rawData);
+  const tableData = sortTableEntries(parseTableData(rawData));
   const { ipv4, ipv6 } = separateByIPVersion(tableData);
 
   // Generate JSONL format data
@@ -92,4 +97,29 @@ export async function processTableData(rawData) {
   });
 
   logProcessingComplete("Routing table data", tableData.length);
+}
+
+function sortTableEntries(entries) {
+  return [...entries].sort(compareTableEntries);
+}
+
+function compareTableEntries(a, b) {
+  const cidrComparison = NATURAL_STRING_COMPARE(a.CIDR, b.CIDR);
+  if (cidrComparison !== 0) {
+    return cidrComparison;
+  }
+
+  const asnComparison = compareASN(a.ASN, b.ASN);
+  return asnComparison;
+}
+
+function compareASN(a, b) {
+  const numA = Number(a);
+  const numB = Number(b);
+
+  if (Number.isFinite(numA) && Number.isFinite(numB) && numA !== numB) {
+    return numA - numB;
+  }
+
+  return NATURAL_STRING_COMPARE(String(a), String(b));
 }
