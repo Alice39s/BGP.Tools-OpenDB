@@ -2,7 +2,6 @@ name: Daily Release
 
 on:
   schedule:
-    # Daily UTC 00:30 release
     - cron: "30 0 * * *"
   workflow_dispatch:
     inputs:
@@ -13,6 +12,11 @@ on:
 
 env:
   NODE_VERSION: "20"
+  PNPM_VERSION: "10.11.0"
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   create-release:
@@ -21,36 +25,21 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout auto-update branch
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
-          ref: main
+          ref: auto-update
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Setup tooling
+        uses: ./.github/actions/setup-runtime
         with:
           node-version: ${{ env.NODE_VERSION }}
-
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          # version: latest # for packageJson.packageManager
-          run_install: false
-
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
-
-      - name: Verify dependencies installation
-        run: |
-          echo "📦 Verifying Node.js can find installed packages..."
-          node -e "console.log('✅ commander found:', require.resolve('commander'))" || echo "❌ commander not found"
-          echo "📂 node_modules contents:"
-          ls -la node_modules/ | head -10
-
-      - name: Install xz-utils
-        run: sudo apt-get update && sudo apt-get install -y xz-utils
+          pnpm-version: ${{ env.PNPM_VERSION }}
+          install-deps: "false"
+          setup-go: "false"
+          build-mmdbwriter: "false"
 
       - name: Configure git
         run: |
@@ -61,133 +50,72 @@ jobs:
         id: date
         run: |
           if [ -n "${{ github.event.inputs.release_date }}" ]; then
-            echo "RELEASE_DATE=${{ github.event.inputs.release_date }}" >> $GITHUB_ENV
-            echo "date=${{ github.event.inputs.release_date }}" >> $GITHUB_OUTPUT
+            RELEASE_DATE="${{ github.event.inputs.release_date }}"
           else
             RELEASE_DATE=$(date -u +"%Y-%m-%d")
-            echo "RELEASE_DATE=${RELEASE_DATE}" >> $GITHUB_ENV
-            echo "date=${RELEASE_DATE}" >> $GITHUB_OUTPUT
           fi
-
-      - name: Switch to auto-update branch
-        run: |
-          echo "📂 Current branch: $(git branch --show-current)"
-          echo "🔄 Fetching all remote branches..."
-          
-          # Fetch all remote branches and tags
-          git fetch --all --prune
-          
-          # List available branches to verify auto-update exists
-          echo "📋 Available remote branches:"
-          git branch -r
-          
-          # Check if auto-update branch exists remotely
-          if git ls-remote --exit-code --heads origin auto-update > /dev/null; then
-            echo "✅ auto-update branch found on remote"
-            echo "🔄 Switching to auto-update branch..."
-            git checkout auto-update
-            echo "📂 Now on branch: $(git branch --show-current)"
-            
-            echo "📊 Contents of auto-update branch:"
-            ls -la
-            
-            echo "📊 Data directories:"
-            ls -la table/ asns/ tags/ 2>/dev/null || echo "⚠️ Some directories not found"
-          else
-            echo "❌ auto-update branch not found on remote"
-            exit 1
-          fi
+          echo "RELEASE_DATE=${RELEASE_DATE}" >> $GITHUB_ENV
+          echo "date=${RELEASE_DATE}" >> $GITHUB_OUTPUT
 
       - name: Generate release files
         run: |
+          set -euo pipefail
+
           echo "🚀 Generating ${RELEASE_DATE} release files from existing data..."
-          echo "📂 Working directory: $(pwd)"
-          echo "📂 Current branch: $(git branch --show-current)"
-          
-          # Convert existing data to release format with date
+          ls -la table/ asns/ tags/ 2>/dev/null || true
+
+          mkdir -p release-assets
+
           if [ -f "table/table-original.jsonl" ]; then
-            echo "✅ Found table data, creating release files..."
             cp "table/table-original.jsonl" "table-${RELEASE_DATE}.jsonl"
             gzip -c "table-${RELEASE_DATE}.jsonl" > "table-${RELEASE_DATE}.jsonl.gz"
             xz -c "table-${RELEASE_DATE}.jsonl" > "table-${RELEASE_DATE}.jsonl.xz"
-            echo "📊 Table files created:"
-            ls -la table-${RELEASE_DATE}.*
+            cp table-${RELEASE_DATE}.jsonl.* release-assets/ || true
           else
-            echo "❌ No table/table-original.jsonl found"
+            echo "❌ table/table-original.jsonl not found"
           fi
-          
+
           if [ -f "asns/asns.csv" ]; then
-            echo "✅ Found ASN data, creating release files..."
             cp "asns/asns.csv" "asns-${RELEASE_DATE}.csv"
             gzip -c "asns-${RELEASE_DATE}.csv" > "asns-${RELEASE_DATE}.csv.gz"
             xz -c "asns-${RELEASE_DATE}.csv" > "asns-${RELEASE_DATE}.csv.xz"
-            echo "📊 ASN files created:"
-            ls -la asns-${RELEASE_DATE}.*
+            cp asns-${RELEASE_DATE}.csv.* release-assets/ || true
           else
-            echo "❌ No asns/asns.csv found"
+            echo "❌ asns/asns.csv not found"
           fi
-          
-          # Process tags data
-          tag_count=0
+
           if [ -d "tags" ]; then
             for tag_dir in tags/*/; do
-              if [ -d "$tag_dir" ]; then
-                tag_name=$(basename "$tag_dir")
-                csv_file="${tag_dir}tags-${tag_name}.csv"
-                echo "🔍 Checking for: $csv_file"
-                if [ -f "$csv_file" ]; then
-                  echo "✅ Found tag data for: $tag_name"
-                  cp "$csv_file" "tags-${tag_name}-${RELEASE_DATE}.csv"
-                  gzip -c "tags-${tag_name}-${RELEASE_DATE}.csv" > "tags-${tag_name}-${RELEASE_DATE}.csv.gz"
-                  xz -c "tags-${tag_name}-${RELEASE_DATE}.csv" > "tags-${tag_name}-${RELEASE_DATE}.csv.xz"
-                  tag_count=$((tag_count + 1))
-                  echo "📊 Created files for $tag_name:"
-                  ls -la tags-${tag_name}-${RELEASE_DATE}.*
-                else
-                  echo "❌ CSV file not found: $csv_file"
-                fi
+              [ -d "$tag_dir" ] || continue
+              tag_name=$(basename "$tag_dir")
+              csv_file="${tag_dir}tags-${tag_name}.csv"
+              if [ -f "$csv_file" ]; then
+                cp "$csv_file" "tags-${tag_name}-${RELEASE_DATE}.csv"
+                gzip -c "tags-${tag_name}-${RELEASE_DATE}.csv" > "tags-${tag_name}-${RELEASE_DATE}.csv.gz"
+                xz -c "tags-${tag_name}-${RELEASE_DATE}.csv" > "tags-${tag_name}-${RELEASE_DATE}.csv.xz"
+                cp tags-${tag_name}-${RELEASE_DATE}.csv.* release-assets/ || true
               fi
             done
-          else
-            echo "❌ tags/ directory not found"
           fi
-          
-          echo "📊 Processed $tag_count tag categories"
-          echo "📊 All generated release files:"
-          ls -la *-${RELEASE_DATE}.* 2>/dev/null || echo "⚠️ No release files generated"
 
-      - name: Create release assets
-        run: |
-          echo "📦 Preparing release assets..."
-
-          # Create release directory
-          mkdir -p release-assets
-
-          # Copy release files
-          cp table-${RELEASE_DATE}.jsonl.gz release-assets/ 2>/dev/null || echo "⚠️ No routing table .gz file found"
-          cp table-${RELEASE_DATE}.jsonl.xz release-assets/ 2>/dev/null || echo "⚠️ No routing table .xz file found"
-          cp asns-${RELEASE_DATE}.csv.gz release-assets/ 2>/dev/null || echo "⚠️ No ASN mapping .gz file found"
-          cp asns-${RELEASE_DATE}.csv.xz release-assets/ 2>/dev/null || echo "⚠️ No ASN mapping .xz file found"
-          cp tags-*-${RELEASE_DATE}.csv.gz release-assets/ 2>/dev/null || echo "⚠️ No tag .gz file found"
-          cp tags-*-${RELEASE_DATE}.csv.xz release-assets/ 2>/dev/null || echo "⚠️ No tag .xz file found"
-
-          # Check if there are any files
-          if [ -z "$(ls -A release-assets/)" ]; then
-            echo "❌ No release files found"
+          if [ -z "$(ls -A release-assets)" ]; then
+            echo "❌ release-assets is empty"
             exit 1
           fi
-
-          echo "📋 Release assets list:"
-          ls -la release-assets/
 
       - name: Calculate checksums
         run: |
           cd release-assets
           sha256sum * > checksums.sha256
-          echo "🔐 Generating checksums file:"
-          cat checksums.sha256
+          cd -
 
-      - name: Create release notes
+      - name: Upload release assets artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-files-${{ steps.date.outputs.date }}
+          path: release-assets
+
+      - name: Generate release notes
         run: |
           cat > release-notes.md << EOF
           # BGP.Tools OpenDB - ${RELEASE_DATE}
@@ -232,20 +160,10 @@ jobs:
           tag_name: v${{ steps.date.outputs.date }}
           name: BGP.Tools OpenDB - ${{ steps.date.outputs.date }}
           body_path: release-notes.md
-          files: |
-            release-assets/*
-          draft: false
-          prerelease: false
+          files: release-assets/*
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Clean up release files
+      - name: Clean up
         run: |
-          echo "🧹 Cleaning local release files..."
-          rm -f table-${RELEASE_DATE}.*
-          rm -f asns-${RELEASE_DATE}.*
-          rm -f tags-*-${RELEASE_DATE}.*
-          rm -rf release-assets/
-          rm -f release-notes.md
-
-          echo "✅ Release completed: v${RELEASE_DATE}"
+          rm -rf release-assets release-notes.md table-${RELEASE_DATE}.jsonl* asns-${RELEASE_DATE}.csv* tags-*-${RELEASE_DATE}.csv*
