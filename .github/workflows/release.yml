@@ -35,12 +35,48 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout source branch
+      - name: Checkout main branch for workflows
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
-          ref: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.source_branch != '' && github.event.inputs.source_branch || 'auto-update' }}
+          ref: main
+
+      - name: Checkout source branch for data
+        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.source_branch != '' && github.event.inputs.source_branch != 'main' }}
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.event.inputs.source_branch }}
+          path: source-data
+
+      - name: Copy data from source branch
+        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.source_branch != '' && github.event.inputs.source_branch != 'main' }}
+        run: |
+          # Copy data directories from source branch if different from main
+          if [ -d "source-data/table" ]; then cp -r source-data/table/ ./; fi
+          if [ -d "source-data/asns" ]; then cp -r source-data/asns/ ./; fi
+          if [ -d "source-data/tags" ]; then cp -r source-data/tags/ ./; fi
+          rm -rf source-data
+
+      - name: Checkout auto-update branch for data (scheduled)
+        if: ${{ github.event_name == 'schedule' }}
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: auto-update
+          path: source-data
+
+      - name: Copy data from auto-update branch (scheduled)
+        if: ${{ github.event_name == 'schedule' }}
+        run: |
+          # Copy data directories from auto-update branch
+          if [ -d "source-data/table" ]; then cp -r source-data/table/ ./; fi
+          if [ -d "source-data/asns" ]; then cp -r source-data/asns/ ./; fi
+          if [ -d "source-data/tags" ]; then cp -r source-data/tags/ ./; fi
+          rm -rf source-data
 
       - name: Setup tooling
         uses: ./.github/actions/setup-runtime
