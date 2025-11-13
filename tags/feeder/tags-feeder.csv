@@ -59,8 +59,8 @@
                     <p>bgp.tools would not be possible without the following people/groups</p>
                     <hr>
                     
-                    <p>Version Number: 1782a26f</p>
-                    <p>Compiled on: 2025-10-31-2040 UTC</p>
+                    <p>Version Number: 658b9d9b</p>
+                    <p>Compiled on: 2025-11-11-2053 UTC</p>
                     <p>Branch: master</p>
                     <h2>Code:</h2>
                     <p>bgp.tools is primarily developed by <a href="/kb/contact">Port 179 LTD</a>, however it includes the work of others who have helped out.</p>
@@ -410,6 +410,14 @@
                             
                             <tr>
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/CA.png" alt="CA"></td>
+                                <td><a href="/as/398697">AS398697</a></td>
+                                <td class="smallonmobile nowrap">Connect The Dots Fibre Communications Inc</td>
+                                <td class="nowrap">&#10004;</td>
+                                <td class="nowrap">&#10004;</td>
+                            </tr>
+                            
+                            <tr>
+                                <td class="nowrap"><img class="flag-img" src="/assets/flags/CA.png" alt="CA"></td>
                                 <td><a href="/as/398290">AS398290</a></td>
                                 <td class="smallonmobile nowrap">House of Commons</td>
                                 <td class="nowrap">&#10004;</td>
@@ -465,6 +473,14 @@
                             </tr>
                             
                             <tr>
+                                <td class="nowrap"><img class="flag-img" src="/assets/flags/CA.png" alt="CA"></td>
+                                <td><a href="/as/396993">AS396993</a></td>
+                                <td class="smallonmobile nowrap">Soraxus Networks Inc.</td>
+                                <td class="nowrap">&#10004;</td>
+                                <td class="nowrap">&#10004;</td>
+                            </tr>
+                            
+                            <tr>
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/US.png" alt="US"></td>
                                 <td><a href="/as/395915">AS395915</a></td>
                                 <td class="smallonmobile nowrap">Edge Network Services LLC</td>
@@ -484,6 +500,14 @@
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/CA.png" alt="CA"></td>
                                 <td><a href="/as/395089">AS395089</a></td>
                                 <td class="smallonmobile nowrap">Hextet Systems</td>
+                                <td class="nowrap">&#10004;</td>
+                                <td class="nowrap">&#10004;</td>
+                            </tr>
+                            
+                            <tr>
+                                <td class="nowrap"><img class="flag-img" src="/assets/flags/US.png" alt="US"></td>
+                                <td><a href="/as/395081">AS395081</a></td>
+                                <td class="smallonmobile nowrap">Megaport (USA) Inc.</td>
                                 <td class="nowrap">&#10004;</td>
                                 <td class="nowrap">&#10004;</td>
                             </tr>
@@ -668,14 +692,6 @@
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/BR.png" alt="BR"></td>
                                 <td><a href="/as/262462">AS262462</a></td>
                                 <td class="smallonmobile nowrap">Aranet Play</td>
-                                <td class="nowrap">&#10004;</td>
-                                <td class="nowrap">&#10004;</td>
-                            </tr>
-                            
-                            <tr>
-                                <td class="nowrap"><img class="flag-img" src="/assets/flags/BR.png" alt="BR"></td>
-                                <td><a href="/as/262338">AS262338</a></td>
-                                <td class="smallonmobile nowrap">IKNET INTERNET KARIRI LTDA</td>
                                 <td class="nowrap">&#10004;</td>
                                 <td class="nowrap">&#10004;</td>
                             </tr>
@@ -1292,6 +1308,14 @@
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/LT.png" alt="LT"></td>
                                 <td><a href="/as/210000">AS210000</a></td>
                                 <td class="smallonmobile nowrap">TwentyWAN MB</td>
+                                <td class="nowrap">&#10004;</td>
+                                <td class="nowrap">&#10004;</td>
+                            </tr>
+                            
+                            <tr>
+                                <td class="nowrap"><img class="flag-img" src="/assets/flags/DE.png" alt="DE"></td>
+                                <td><a href="/as/209894">AS209894</a></td>
+                                <td class="smallonmobile nowrap">Foerderverein Freie Infrastruktur e.V.</td>
                                 <td class="nowrap">&#10004;</td>
                                 <td class="nowrap">&#10004;</td>
                             </tr>
@@ -2113,6 +2137,14 @@
                             </tr>
                             
                             <tr>
+                                <td class="nowrap"><img class="flag-img" src="/assets/flags/ID.png" alt="ID"></td>
+                                <td><a href="/as/149915">AS149915</a></td>
+                                <td class="smallonmobile nowrap">PT Lintas Daya Nusantara</td>
+                                <td class="nowrap">&#10004;</td>
+                                <td class="nowrap">&#10004;</td>
+                            </tr>
+                            
+                            <tr>
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/PH.png" alt="PH"></td>
                                 <td><a href="/as/149833">AS149833</a></td>
                                 <td class="smallonmobile nowrap">Wrkpod Inc.</td>
@@ -2297,6 +2329,14 @@
                             </tr>
                             
                             <tr>
+                                <td class="nowrap"><img class="flag-img" src="/assets/flags/AU.png" alt="AU"></td>
+                                <td><a href="/as/132847">AS132847</a></td>
+                                <td class="smallonmobile nowrap">Network Solutions Group Pty Ltd</td>
+                                <td class="nowrap">&#10004;</td>
+                                <td class="nowrap">&#10004;</td>
+                            </tr>
+                            
+                            <tr>
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/JP.png" alt="JP"></td>
                                 <td><a href="/as/131971">AS131971</a></td>
                                 <td class="smallonmobile nowrap">Japan Network Information Center</td>
@@ -2330,6 +2370,14 @@
                             
                             <tr>
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/US.png" alt="US"></td>
+                                <td><a href="/as/64222">AS64222</a></td>
+                                <td class="smallonmobile nowrap">Megaport (USA) Inc.</td>
+                                <td class="nowrap">&#10004;</td>
+                                <td class="nowrap">&#10004;</td>
+                            </tr>
+                            
+                            <tr>
+                                <td class="nowrap"><img class="flag-img" src="/assets/flags/US.png" alt="US"></td>
                                 <td><a href="/as/64221">AS64221</a></td>
                                 <td class="smallonmobile nowrap">Megaport (USA) Inc.</td>
                                 <td class="nowrap">&#10004;</td>
@@ -2347,6 +2395,14 @@
                             <tr>
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/US.png" alt="US"></td>
                                 <td><a href="/as/64219">AS64219</a></td>
+                                <td class="smallonmobile nowrap">Megaport (USA) Inc.</td>
+                                <td class="nowrap">&#10004;</td>
+                                <td class="nowrap">&#10004;</td>
+                            </tr>
+                            
+                            <tr>
+                                <td class="nowrap"><img class="flag-img" src="/assets/flags/US.png" alt="US"></td>
+                                <td><a href="/as/64216">AS64216</a></td>
                                 <td class="smallonmobile nowrap">Megaport (USA) Inc.</td>
                                 <td class="nowrap">&#10004;</td>
                                 <td class="nowrap">&#10004;</td>
@@ -2636,6 +2692,14 @@
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/BG.png" alt="BG"></td>
                                 <td><a href="/as/60092">AS60092</a></td>
                                 <td class="smallonmobile nowrap">FIXITY LLC</td>
+                                <td class="nowrap">&#10004;</td>
+                                <td class="nowrap">&#10004;</td>
+                            </tr>
+                            
+                            <tr>
+                                <td class="nowrap"><img class="flag-img" src="/assets/flags/BG.png" alt="BG"></td>
+                                <td><a href="/as/59899">AS59899</a></td>
+                                <td class="smallonmobile nowrap">Megaport Sofia Route Servers</td>
                                 <td class="nowrap">&#10004;</td>
                                 <td class="nowrap">&#10004;</td>
                             </tr>
@@ -2993,6 +3057,14 @@
                             </tr>
                             
                             <tr>
+                                <td class="nowrap"><img class="flag-img" src="/assets/flags/BR.png" alt="BR"></td>
+                                <td><a href="/as/52863">AS52863</a></td>
+                                <td class="smallonmobile nowrap">UPX TECNOLOGIA LTDA</td>
+                                <td class="nowrap">&#10004;</td>
+                                <td class="nowrap">&#10004;</td>
+                            </tr>
+                            
+                            <tr>
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/CO.png" alt="CO"></td>
                                 <td><a href="/as/52320">AS52320</a></td>
                                 <td class="smallonmobile nowrap">V.tal (GlobeNet)</td>
@@ -3228,6 +3300,14 @@
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/DE.png" alt="DE"></td>
                                 <td><a href="/as/48793">AS48793</a></td>
                                 <td class="smallonmobile nowrap">DE-CIX Madrid Route Servers</td>
+                                <td class="nowrap">&#10004;</td>
+                                <td class="nowrap">&#10004;</td>
+                            </tr>
+                            
+                            <tr>
+                                <td class="nowrap"><img class="flag-img" src="/assets/flags/TR.png" alt="TR"></td>
+                                <td><a href="/as/48678">AS48678</a></td>
+                                <td class="smallonmobile nowrap">PENTECH BILISIM TEKNOLOJILERI SANAYI VE TICARET LIMIT...</td>
                                 <td class="nowrap">&#10004;</td>
                                 <td class="nowrap">&#10004;</td>
                             </tr>
@@ -3586,14 +3666,6 @@
                             
                             <tr>
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/US.png" alt="US"></td>
-                                <td><a href="/as/40776">AS40776</a></td>
-                                <td class="smallonmobile nowrap">TaoNet</td>
-                                <td class="nowrap">&#10004;</td>
-                                <td class="nowrap">&#10004;</td>
-                            </tr>
-                            
-                            <tr>
-                                <td class="nowrap"><img class="flag-img" src="/assets/flags/US.png" alt="US"></td>
                                 <td><a href="/as/40217">AS40217</a></td>
                                 <td class="smallonmobile nowrap">DACS-NX</td>
                                 <td class="nowrap">&#10004;</td>
@@ -3612,6 +3684,14 @@
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/US.png" alt="US"></td>
                                 <td><a href="/as/39937">AS39937</a></td>
                                 <td class="smallonmobile nowrap">LTech Solutions, Ltd.</td>
+                                <td class="nowrap">&#10004;</td>
+                                <td class="nowrap">&#10004;</td>
+                            </tr>
+                            
+                            <tr>
+                                <td class="nowrap"><img class="flag-img" src="/assets/flags/FR.png" alt="FR"></td>
+                                <td><a href="/as/39421">AS39421</a></td>
+                                <td class="smallonmobile nowrap">Sapinet SAS</td>
                                 <td class="nowrap">&#10004;</td>
                                 <td class="nowrap">&#10004;</td>
                             </tr>
@@ -3700,14 +3780,6 @@
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/ZA.png" alt="ZA"></td>
                                 <td><a href="/as/37699">AS37699</a></td>
                                 <td class="smallonmobile nowrap">DINX Route Servers</td>
-                                <td class="nowrap">&#10004;</td>
-                                <td class="nowrap">&#10004;</td>
-                            </tr>
-                            
-                            <tr>
-                                <td class="nowrap"><img class="flag-img" src="/assets/flags/AO.png" alt="AO"></td>
-                                <td><a href="/as/37468">AS37468</a></td>
-                                <td class="smallonmobile nowrap">Angola Cables</td>
                                 <td class="nowrap">&#10004;</td>
                                 <td class="nowrap">&#10004;</td>
                             </tr>
@@ -4593,6 +4665,14 @@
                             </tr>
                             
                             <tr>
+                                <td class="nowrap"><img class="flag-img" src="/assets/flags/DE.png" alt="DE"></td>
+                                <td><a href="/as/9033">AS9033</a></td>
+                                <td class="smallonmobile nowrap">ECIX Route Servers</td>
+                                <td class="nowrap">&#10004;</td>
+                                <td class="nowrap">&#10004;</td>
+                            </tr>
+                            
+                            <tr>
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/LU.png" alt="LU"></td>
                                 <td><a href="/as/9008">AS9008</a></td>
                                 <td class="smallonmobile nowrap">Visual Online S.A.</td>
@@ -5178,14 +5258,6 @@
                             
                             <tr>
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/US.png" alt="US"></td>
-                                <td><a href="/as/401012">AS401012</a></td>
-                                <td class="smallonmobile nowrap">Laurens Technologies Internet Services</td>
-                                <td class="nowrap">&#10004;</td>
-                                <td class="nowrap">&#10008;</td>
-                            </tr>
-                            
-                            <tr>
-                                <td class="nowrap"><img class="flag-img" src="/assets/flags/US.png" alt="US"></td>
                                 <td><a href="/as/400940">AS400940</a></td>
                                 <td class="smallonmobile nowrap">Railway</td>
                                 <td class="nowrap">&#10004;</td>
@@ -5241,14 +5313,6 @@
                             </tr>
                             
                             <tr>
-                                <td class="nowrap"><img class="flag-img" src="/assets/flags/CA.png" alt="CA"></td>
-                                <td><a href="/as/398697">AS398697</a></td>
-                                <td class="smallonmobile nowrap">Connect The Dots Fibre Communications Inc</td>
-                                <td class="nowrap">&#10008;</td>
-                                <td class="nowrap">&#10004;</td>
-                            </tr>
-                            
-                            <tr>
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/US.png" alt="US"></td>
                                 <td><a href="/as/398465">AS398465</a></td>
                                 <td class="smallonmobile nowrap">Rackdog LLC</td>
@@ -5281,35 +5345,11 @@
                             </tr>
                             
                             <tr>
-                                <td class="nowrap"><img class="flag-img" src="/assets/flags/CA.png" alt="CA"></td>
-                                <td><a href="/as/396993">AS396993</a></td>
-                                <td class="smallonmobile nowrap">Soraxus Networks Inc.</td>
-                                <td class="nowrap">&#10008;</td>
-                                <td class="nowrap">&#10004;</td>
-                            </tr>
-                            
-                            <tr>
-                                <td class="nowrap"><img class="flag-img" src="/assets/flags/US.png" alt="US"></td>
-                                <td><a href="/as/396908">AS396908</a></td>
-                                <td class="smallonmobile nowrap">Laurens Technologies Internet Services</td>
-                                <td class="nowrap">&#10004;</td>
-                                <td class="nowrap">&#10008;</td>
-                            </tr>
-                            
-                            <tr>
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/US.png" alt="US"></td>
                                 <td><a href="/as/396440">AS396440</a></td>
                                 <td class="smallonmobile nowrap">Auburn University at Montgomery</td>
                                 <td class="nowrap">&#10004;</td>
                                 <td class="nowrap">&#10008;</td>
-                            </tr>
-                            
-                            <tr>
-                                <td class="nowrap"><img class="flag-img" src="/assets/flags/US.png" alt="US"></td>
-                                <td><a href="/as/395081">AS395081</a></td>
-                                <td class="smallonmobile nowrap">Megaport (USA) Inc.</td>
-                                <td class="nowrap">&#10008;</td>
-                                <td class="nowrap">&#10004;</td>
                             </tr>
                             
                             <tr>
@@ -5441,6 +5481,14 @@
                             </tr>
                             
                             <tr>
+                                <td class="nowrap"><img class="flag-img" src="/assets/flags/BR.png" alt="BR"></td>
+                                <td><a href="/as/262338">AS262338</a></td>
+                                <td class="smallonmobile nowrap">IKNET INTERNET KARIRI LTDA</td>
+                                <td class="nowrap">&#10008;</td>
+                                <td class="nowrap">&#10004;</td>
+                            </tr>
+                            
+                            <tr>
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/NL.png" alt="NL"></td>
                                 <td><a href="/as/216455">AS216455</a></td>
                                 <td class="smallonmobile nowrap">Sting Alleman</td>
@@ -5505,6 +5553,14 @@
                             </tr>
                             
                             <tr>
+                                <td class="nowrap"><img class="flag-img" src="/assets/flags/FI.png" alt="FI"></td>
+                                <td><a href="/as/215605">AS215605</a></td>
+                                <td class="smallonmobile nowrap">Shams Hanna trading as InformatiQ</td>
+                                <td class="nowrap">&#10004;</td>
+                                <td class="nowrap">&#10008;</td>
+                            </tr>
+                            
+                            <tr>
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/FR.png" alt="FR"></td>
                                 <td><a href="/as/215596">AS215596</a></td>
                                 <td class="smallonmobile nowrap">KISSGROUP SAS</td>
@@ -5540,14 +5596,6 @@
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/DE.png" alt="DE"></td>
                                 <td><a href="/as/215236">AS215236</a></td>
                                 <td class="smallonmobile nowrap">Julian Huhn</td>
-                                <td class="nowrap">&#10008;</td>
-                                <td class="nowrap">&#10004;</td>
-                            </tr>
-                            
-                            <tr>
-                                <td class="nowrap"><img class="flag-img" src="/assets/flags/TW.png" alt="TW"></td>
-                                <td><a href="/as/215191">AS215191</a></td>
-                                <td class="smallonmobile nowrap">Dong-Han Yang</td>
                                 <td class="nowrap">&#10008;</td>
                                 <td class="nowrap">&#10004;</td>
                             </tr>
@@ -5633,14 +5681,6 @@
                             </tr>
                             
                             <tr>
-                                <td class="nowrap"><img class="flag-img" src="/assets/flags/CN.png" alt="CN"></td>
-                                <td><a href="/as/213782">AS213782</a></td>
-                                <td class="smallonmobile nowrap">Chang Xin</td>
-                                <td class="nowrap">&#10008;</td>
-                                <td class="nowrap">&#10004;</td>
-                            </tr>
-                            
-                            <tr>
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/TW.png" alt="TW"></td>
                                 <td><a href="/as/213428">AS213428</a></td>
                                 <td class="smallonmobile nowrap">CHIEH SHENG LIN</td>
@@ -5668,6 +5708,14 @@
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/TR.png" alt="TR"></td>
                                 <td><a href="/as/213234">AS213234</a></td>
                                 <td class="smallonmobile nowrap">Hasan Berkay Cagir</td>
+                                <td class="nowrap">&#10008;</td>
+                                <td class="nowrap">&#10004;</td>
+                            </tr>
+                            
+                            <tr>
+                                <td class="nowrap"><img class="flag-img" src="/assets/flags/AU.png" alt="AU"></td>
+                                <td><a href="/as/213136">AS213136</a></td>
+                                <td class="smallonmobile nowrap">Ryan So</td>
                                 <td class="nowrap">&#10008;</td>
                                 <td class="nowrap">&#10004;</td>
                             </tr>
@@ -5772,14 +5820,6 @@
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/ES.png" alt="ES"></td>
                                 <td><a href="/as/211695">AS211695</a></td>
                                 <td class="smallonmobile nowrap">Echedelle Lopez Romero</td>
-                                <td class="nowrap">&#10008;</td>
-                                <td class="nowrap">&#10004;</td>
-                            </tr>
-                            
-                            <tr>
-                                <td class="nowrap"><img class="flag-img" src="/assets/flags/US.png" alt="US"></td>
-                                <td><a href="/as/211585">AS211585</a></td>
-                                <td class="smallonmobile nowrap">Maiyun Zhang</td>
                                 <td class="nowrap">&#10008;</td>
                                 <td class="nowrap">&#10004;</td>
                             </tr>
@@ -6329,6 +6369,14 @@
                             </tr>
                             
                             <tr>
+                                <td class="nowrap"><img class="flag-img" src="/assets/flags/FR.png" alt="FR"></td>
+                                <td><a href="/as/199327">AS199327</a></td>
+                                <td class="smallonmobile nowrap">Gregoire Compagnon</td>
+                                <td class="nowrap">&#10008;</td>
+                                <td class="nowrap">&#10004;</td>
+                            </tr>
+                            
+                            <tr>
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/TW.png" alt="TW"></td>
                                 <td><a href="/as/198954">AS198954</a></td>
                                 <td class="smallonmobile nowrap">JIAN HUI EN</td>
@@ -6474,14 +6522,6 @@
                             
                             <tr>
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/ID.png" alt="ID"></td>
-                                <td><a href="/as/149915">AS149915</a></td>
-                                <td class="smallonmobile nowrap">PT Lintas Daya Nusantara</td>
-                                <td class="nowrap">&#10004;</td>
-                                <td class="nowrap">&#10008;</td>
-                            </tr>
-                            
-                            <tr>
-                                <td class="nowrap"><img class="flag-img" src="/assets/flags/ID.png" alt="ID"></td>
                                 <td><a href="/as/149749">AS149749</a></td>
                                 <td class="smallonmobile nowrap">PT Pratama Komunika Sejahtera</td>
                                 <td class="nowrap">&#10004;</td>
@@ -6618,22 +6658,6 @@
                             
                             <tr>
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/US.png" alt="US"></td>
-                                <td><a href="/as/64222">AS64222</a></td>
-                                <td class="smallonmobile nowrap">Megaport (USA) Inc.</td>
-                                <td class="nowrap">&#10008;</td>
-                                <td class="nowrap">&#10004;</td>
-                            </tr>
-                            
-                            <tr>
-                                <td class="nowrap"><img class="flag-img" src="/assets/flags/US.png" alt="US"></td>
-                                <td><a href="/as/64216">AS64216</a></td>
-                                <td class="smallonmobile nowrap">Megaport (USA) Inc.</td>
-                                <td class="nowrap">&#10008;</td>
-                                <td class="nowrap">&#10004;</td>
-                            </tr>
-                            
-                            <tr>
-                                <td class="nowrap"><img class="flag-img" src="/assets/flags/US.png" alt="US"></td>
                                 <td><a href="/as/62760">AS62760</a></td>
                                 <td class="smallonmobile nowrap">DE-CIX Chicago Route Servers</td>
                                 <td class="nowrap">&#10004;</td>
@@ -6694,14 +6718,6 @@
                                 <td class="smallonmobile nowrap">B-IX Route Servers</td>
                                 <td class="nowrap">&#10004;</td>
                                 <td class="nowrap">&#10008;</td>
-                            </tr>
-                            
-                            <tr>
-                                <td class="nowrap"><img class="flag-img" src="/assets/flags/BG.png" alt="BG"></td>
-                                <td><a href="/as/59899">AS59899</a></td>
-                                <td class="smallonmobile nowrap">Megaport Sofia Route Servers</td>
-                                <td class="nowrap">&#10008;</td>
-                                <td class="nowrap">&#10004;</td>
                             </tr>
                             
                             <tr>
@@ -6865,9 +6881,17 @@
                             </tr>
                             
                             <tr>
+                                <td class="nowrap"><img class="flag-img" src="/assets/flags/GB.png" alt="GB"></td>
+                                <td><a href="/as/51392">AS51392</a></td>
+                                <td class="smallonmobile nowrap">Fusioned Ltd</td>
+                                <td class="nowrap">&#10008;</td>
+                                <td class="nowrap">&#10004;</td>
+                            </tr>
+                            
+                            <tr>
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/US.png" alt="US"></td>
                                 <td><a href="/as/51087">AS51087</a></td>
-                                <td class="smallonmobile nowrap">Bling Network LLC</td>
+                                <td class="smallonmobile nowrap">Bling Network Ltd</td>
                                 <td class="nowrap">&#10008;</td>
                                 <td class="nowrap">&#10004;</td>
                             </tr>
@@ -6926,14 +6950,6 @@
                                 <td class="smallonmobile nowrap">Volodymyr Chystiakov</td>
                                 <td class="nowrap">&#10008;</td>
                                 <td class="nowrap">&#10004;</td>
-                            </tr>
-                            
-                            <tr>
-                                <td class="nowrap"><img class="flag-img" src="/assets/flags/TR.png" alt="TR"></td>
-                                <td><a href="/as/48678">AS48678</a></td>
-                                <td class="smallonmobile nowrap">PENTECH BILISIM TEKNOLOJILERI SANAYI VE TICARET LIMIT...</td>
-                                <td class="nowrap">&#10004;</td>
-                                <td class="nowrap">&#10008;</td>
                             </tr>
                             
                             <tr>
@@ -7010,6 +7026,14 @@
                             
                             <tr>
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/US.png" alt="US"></td>
+                                <td><a href="/as/40776">AS40776</a></td>
+                                <td class="smallonmobile nowrap">TaoNet</td>
+                                <td class="nowrap">&#10008;</td>
+                                <td class="nowrap">&#10004;</td>
+                            </tr>
+                            
+                            <tr>
+                                <td class="nowrap"><img class="flag-img" src="/assets/flags/US.png" alt="US"></td>
                                 <td><a href="/as/40350">AS40350</a></td>
                                 <td class="smallonmobile nowrap">Key Cooperative</td>
                                 <td class="nowrap">&#10004;</td>
@@ -7022,14 +7046,6 @@
                                 <td class="smallonmobile nowrap">Alter-NET SRL</td>
                                 <td class="nowrap">&#10004;</td>
                                 <td class="nowrap">&#10008;</td>
-                            </tr>
-                            
-                            <tr>
-                                <td class="nowrap"><img class="flag-img" src="/assets/flags/FR.png" alt="FR"></td>
-                                <td><a href="/as/39421">AS39421</a></td>
-                                <td class="smallonmobile nowrap">Sapinet SAS</td>
-                                <td class="nowrap">&#10008;</td>
-                                <td class="nowrap">&#10004;</td>
                             </tr>
                             
                             <tr>
@@ -7078,14 +7094,6 @@
                                 <td class="smallonmobile nowrap">39D Services LTD</td>
                                 <td class="nowrap">&#10004;</td>
                                 <td class="nowrap">&#10008;</td>
-                            </tr>
-                            
-                            <tr>
-                                <td class="nowrap"><img class="flag-img" src="/assets/flags/CH.png" alt="CH"></td>
-                                <td><a href="/as/34800">AS34800</a></td>
-                                <td class="smallonmobile nowrap">Securebit AG</td>
-                                <td class="nowrap">&#10008;</td>
-                                <td class="nowrap">&#10004;</td>
                             </tr>
                             
                             <tr>
@@ -7217,6 +7225,14 @@
                             </tr>
                             
                             <tr>
+                                <td class="nowrap"><img class="flag-img" src="/assets/flags/DE.png" alt="DE"></td>
+                                <td><a href="/as/25083">AS25083</a></td>
+                                <td class="smallonmobile nowrap">DE-CIX Palermo Route Servers</td>
+                                <td class="nowrap">&#10008;</td>
+                                <td class="nowrap">&#10004;</td>
+                            </tr>
+                            
+                            <tr>
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/PL.png" alt="PL"></td>
                                 <td><a href="/as/24748">AS24748</a></td>
                                 <td class="smallonmobile nowrap">THINX WAW Route Servers</td>
@@ -7337,14 +7353,6 @@
                             </tr>
                             
                             <tr>
-                                <td class="nowrap"><img class="flag-img" src="/assets/flags/DE.png" alt="DE"></td>
-                                <td><a href="/as/9033">AS9033</a></td>
-                                <td class="smallonmobile nowrap">ECIX Route Servers</td>
-                                <td class="nowrap">&#10008;</td>
-                                <td class="nowrap">&#10004;</td>
-                            </tr>
-                            
-                            <tr>
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/RO.png" alt="RO"></td>
                                 <td><a href="/as/9009">AS9009</a></td>
                                 <td class="smallonmobile nowrap">M247 Europe SRL</td>
@@ -7396,6 +7404,14 @@
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/NL.png" alt="NL"></td>
                                 <td><a href="/as/6777">AS6777</a></td>
                                 <td class="smallonmobile nowrap">AMS-IX Route Servers</td>
+                                <td class="nowrap">&#10008;</td>
+                                <td class="nowrap">&#10004;</td>
+                            </tr>
+                            
+                            <tr>
+                                <td class="nowrap"><img class="flag-img" src="/assets/flags/IT.png" alt="IT"></td>
+                                <td><a href="/as/6762">AS6762</a></td>
+                                <td class="smallonmobile nowrap">Telecom Italia Sparkle (Seabone)</td>
                                 <td class="nowrap">&#10008;</td>
                                 <td class="nowrap">&#10004;</td>
                             </tr>

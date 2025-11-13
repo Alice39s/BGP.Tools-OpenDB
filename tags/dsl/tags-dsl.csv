@@ -524,7 +524,6 @@ AS29069,PJSC Rostelecom
 AS262186,TV AZTECA SUCURSAL COLOMBIA
 AS25374,ESCOM Ltd. - Haskovo
 AS21230,M SAT Cable EAD
-AS196949,Natalia Sergeevna Filicheva
 AS18809,Cable Onda
 AS18001,Dialog Axiata PLC.
 AS17816,China Unicom IP network China169 Guangdong province
@@ -567,6 +566,7 @@ AS10013,"FreeBit Co.,Ltd."
 AS9158,Telenor A/S
 AS9070,Cooolbox AD
 AS6713,Maroc Telecom
+AS5563,"JSC ""ER-Telecom Holding"""
 AS52260,Télécommunications de Haití (Teleco)
 AS51896,Hringdu ehf
 AS51819,"JSC ""ER-Telecom Holding"""
@@ -801,7 +801,6 @@ AS34550,LLC Intercon
 AS33765,TANZANIA TELECOMMUNICATIONS CO. LTD
 AS327931,Optimum Telecom Algeria
 AS3226,"OOO ""NI"""
-AS31725,ISP Shtorm LTD
 AS31286,MTS PJSC
 AS31122,Digiweb ltd
 AS29170,Kujtesa Net Sh.p.k.
@@ -818,6 +817,7 @@ AS22923,Netminders Server Hosting
 AS22363,"Powerhouse Management, Inc."
 AS21351,Canal + Telecom SAS
 AS20911,Net-Surf.net Ltd.
+AS20875,JP HT d.d. Mostar
 AS203953,Hiper A/S
 AS199634,Yedinaya Setevaya Kompaniya Ltd
 AS198820,Limited Liability Company Radio Network
@@ -955,6 +955,7 @@ AS59497,Buknet LLC
 AS58678,Intech Online Private Limited
 AS58079,Skynet Ltd
 AS57888,Telesat d.o.o.
+AS57422,Pautina.Net LLC
 AS57093,Yalta-TV KOM Ltd.
 AS57026,"JSC ""ER-Telecom Holding"""
 AS56981,"JSC ""ER-Telecom Holding"""
@@ -1010,7 +1011,7 @@ AS29329,Resource-M LLC
 AS29244,CETIN Bulgaria EAD
 AS29194,MTS PJSC
 AS29190,MTS PJSC
-AS28665,Predlink Rede de Telecomunicções Ltda
+AS28665,PREDIALNET FIBRA
 AS28624,PROVEDORA CMA INTERNET LTDA
 AS28548,izzi (Cablevision Mexico)
 AS28343,Unifique Telecomunicações SA
@@ -1280,7 +1281,7 @@ AS47759,POIG Ltd.
 AS47694,Level-MSK Ltd.
 AS47402,Multimedia BG EOOD
 AS47232,ISP Alliance a.s.
-AS47169,MVM NET Zrt.
+AS47169,Pro-M Zrt.
 AS47119,"JSC ""Ufanet"""
 AS47118,MAN net Ltd.
 AS46687,"BCI Mississippi Broadband,LLC"
@@ -1495,7 +1496,6 @@ AS24203,PT XL Axiata Tbk
 AS29465,MTN NIGERIA Communication limited
 AS36935,Vodafone Egypt
 AS4775,Globe Telecoms
-AS327712,Telecom Algeria
 AS9038,Batelco Jordan
 AS33779,Wataniya Telecom Algerie
 AS16135,TURKCELL ILETISIM HIZMETLERI A.S.
@@ -2444,6 +2444,7 @@ AS270158,Wantelco SAS de CV
 AS34471,Free Technologies Excom S.L.
 AS51263,County Broadband Ltd
 AS200773,INFORMATICA FUENTEALBILLA S.L.
+AS151585,PT Wifa Lintas Data
 AS212109,Squirrel Internet Ltd
 AS35205,RFT kabel Brandenburg GmbH
 AS199775,Connexin Limited
@@ -2814,7 +2815,16 @@ AS262832,Link Cariri
 AS262426,BRAVA INTERNET
 AS270964,PLUGAR INTERNET
 AS265986,Linkup Telecomunicações
-AS151585,PT Wifa Lintas Data
-AS20875,JP HT d.d. Mostar
-AS5563,"JSC ""ER-Telecom Holding"""
-AS57422,Pautina.Net LLC
+AS133996,Vaishnavaibhavi Internet Solutions Private Limited
+AS273782,Nacional Fibra
+AS264556,GARCIA NET TELECOM
+AS263466,FRENTE TELECOM
+AS264046,GM SOLUÇÕES
+AS265008,T.I. CONNECT
+AS268762,TBK DA SILVA INTERNET - ME
+AS19504,"WTC Communications, Inc."
+AS55555,Delion Pty Ltd
+AS196949,Natalia Sergeevna Filicheva
+AS262457,HELLO BRAZIL TELECOM
+AS31725,ISP Shtorm LTD
+AS327712,Telecom Algeria

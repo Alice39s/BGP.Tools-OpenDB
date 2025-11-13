@@ -652,7 +652,6 @@ AS37443,Usmanu Danfodiyo University
 AS37496,Aga Khan University
 AS37501,University of the Free State
 AS37513,Namibia University of Science and Technology
-AS37520,Rhodes University
 AS37568,National University of Science and Technology
 AS37686,Ahmadu Bello University Zaria Nigeria
 AS3778,Temple University
@@ -1479,6 +1478,7 @@ AS2852,CESNET z.s.p.o.
 AS9199,RENAM Public Association
 AS3208,Algerian Academic Research Network
 AS1930,"Fundacao para a Ciencia e a Tecnologia, I.P."
+AS6802,Bulgarian Research and Education Network Association (BREN)
 AS2607,Zdruzenie pouzivatelov Slovenskej akademickej datovej...
 AS12687,User Association of Ukrainian Research and Academic N...
 AS20965,GEANT Vereniging
@@ -1707,7 +1707,6 @@ AS52467,Universidad de Ibague
 AS52488,Universidad Pontificia Bolivariana
 AS52853,UFLA - UNIVERSIDADE FEDERAL DE LAVRAS
 AS52992,UNIVERSIDADE FEDERAL DE SAO PAULO
-AS53046,UNIVERSIDADE ESTADUAL DE PONTA GROSSA
 AS53164,UNIVERSIDADE FEDERAL DA BAHIA
 AS53166,UNIVERSIDADE ESTADUAL PAULISTA
 AS53187,UNIVERSIDADE ESTADUAL DE CAMPINAS
@@ -2095,4 +2094,6 @@ AS7650,The Education University of Hong Kong
 AS7651,Lingnan University
 AS197982,Polsko-Japonska Wyzsza Szkola Technik Komputerowych
 AS211532,Moscow Technical University of Telecommunications and...
-AS6802,Bulgarian Research and Education Network Association (BREN)
+AS30405,Capital Area Intermediate Unit
+AS37520,Rhodes University
+AS53046,UNIVERSIDADE ESTADUAL DE PONTA GROSSA
