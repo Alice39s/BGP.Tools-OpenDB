@@ -1,14 +1,24 @@
 name: Daily Release
 
 on:
-  schedule:
-    - cron: "30 0 * * *"
   workflow_dispatch:
     inputs:
       release_date:
         description: "Specify release date (YYYY-MM-DD)"
         required: false
         type: string
+      source_branch:
+        description: "Branch to release from"
+        required: false
+        type: string
+        default: "auto-update"
+      refresh_data:
+        description: "Refresh data before release (recommended)"
+        required: false
+        type: boolean
+        default: true
+  schedule:
+    - cron: "30 0 * * *"
 
 env:
   NODE_VERSION: "20"
@@ -25,12 +35,20 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout auto-update branch
+      - name: Checkout source branch
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
-          ref: auto-update
+          ref: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.source_branch != '' && github.event.inputs.source_branch || 'auto-update' }}
+
+      - name: Refresh data (manual trigger only)
+        if: ${{ github.event_name == 'workflow_dispatch' && (github.event.inputs.refresh_data == 'true' || github.event.inputs.refresh_data == true) }}
+        run: |
+          echo "🔄 Running data update before release..."
+          pnpm install --frozen-lockfile
+          pnpm fetch:all
+          echo "✅ Data refresh complete."
 
       - name: Setup tooling
         uses: ./.github/actions/setup-runtime
