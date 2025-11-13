@@ -57,6 +57,7 @@ AS393313,"THE INSTITUTE FOR INTERGOVERNMENTAL RESEARCH, INC."
 AS393819,Lackawanna County Government
 AS394020,Lexington-Fayette Urban County Government
 AS394216,Pueblo County Government
+AS394465,Sussex County Government
 AS395634,Douglas County Government
 AS396072,Southern California Association of Governments
 AS396090,Seminole County Government
@@ -261,7 +262,6 @@ AS19725,City Of Houston - Public Works
 AS19827,City of Carson City
 AS19904,City of Longview
 AS20009,The City of Wadsworth
-AS20047,"City of Virginia Beach, Virginia"
 AS20091,"City of Martinsville, VA"
 AS20097,City of Tulsa
 AS209511,"STATE UNITARY ENTERPRISE OF THE CITY OF MOSCOW ""MOSGO..."
@@ -498,6 +498,7 @@ AS40749,CLARKSVILLE DEPARTMENT OF ELECTRICITY
 AS40839,KOHLS DEPARTMENT STORES
 AS41888,"State Institution ""Service Center for the Departments..."
 AS45442,"Department of Parliamentary Services,"
+AS45533,Comptroller General's Department
 AS46520,California Department of Justice
 AS46846,U.S. Department of Energy
 AS4820,Department of Communities and Justice
@@ -524,6 +525,7 @@ AS9509,Department of Employment and Workplace Relations
 AS36223,Spanish Fork City
 AS131341,"Department of Information Technology, Government of Nepal"
 AS43381,Israel Ministry Of Defence
+AS62548,City of Norwich Department of Public Utilities
 AS203665,UK Ministry of Defence
 AS3219,Ministry of Local Government and Regional Development
 AS25554,Ministry of Finance of Bulgarian Government
@@ -725,7 +727,6 @@ AS198730,Ministerie van Financien
 AS25377,Ministerie van Buitenlandse Zaken
 AS203396,Ministerie van Economische Zaken
 AS42894,Ministerie van Verkeer en Waterstaat/Rijkswaterstaat
-AS35709,Ministerie van Justitie en Veiligheid
 AS202407,Pohjois-Pohjanmaan Sairaanhoitopiirin kuntayhtyma
 AS201139,Alavuden Kaupunki
 AS202553,Dienst Uitvoering Onderwijs
@@ -1170,6 +1171,5 @@ AS50270,Nasjonal kommunikasjonsmyndighet
 AS400202,Municipality of the County of Pictou
 AS52958,Empr.Tec.Inform.Comun. Mun.SP-PRODAM-SP S/A
 AS265020,FUNDACAO INST BRAS DE GEOGRAFIA E ESTATISTICA IBGE
-AS394465,Sussex County Government
-AS45533,Comptroller General's Department
-AS62548,City of Norwich Department of Public Utilities
+AS20047,"City of Virginia Beach, Virginia"
+AS35709,Ministerie van Justitie en Veiligheid

@@ -319,6 +319,7 @@ AS1759,Telia Finland Oyj
 AS14868,Ligga Telecomunicações S.A.
 AS8374,Polkomtel Sp. z o.o.
 AS719,Elisa Oyj
+AS56044,China Mobile Group Liaoning Company
 AS12668,"LLC ""KomTehCentr"""
 AS4847,China Telecom Beijing Province Network
 AS3741,Dimension Data
@@ -452,7 +453,6 @@ AS42560,Telemach BH d.o.o. Sarajevo
 AS3737,PenTeleData Inc.
 AS31012,A1 Hrvatska d.o.o.
 AS23674,Nayatel (Pvt) Ltd
-AS21299,Kar-Tel LLC
 AS19429,ETB - Colombia
 AS8331,"JSC ""ER-Telecom Holding"""
 AS56478,Hyperoptic Ltd
@@ -2217,6 +2217,7 @@ AS14695,City of El Reno
 AS263483,DIRECT LAN TELECOMUNICAÇÕES SOROCABA LTDA
 AS136289,Bbrg Communiction And Internet Pvt Ltd
 AS132669,PT Globalnet Multi Data
+AS7600,EscapeNet Pty Ltd
 AS267088,Rede Spirit Telecom
 AS151533,PT Sarana Optima Berdikari
 AS328585,MegaMore Wireless Broadband Limited
@@ -2818,7 +2819,6 @@ AS270964,PLUGAR INTERNET
 AS265986,Linkup Telecomunicações
 AS133996,Vaishnavaibhavi Internet Solutions Private Limited
 AS273782,Nacional Fibra
-AS264556,GARCIA NET TELECOM
 AS262457,HELLO BRAZIL TELECOM
 AS263466,FRENTE TELECOM
 AS264046,GM SOLUÇÕES
@@ -2826,5 +2826,5 @@ AS265008,T.I. CONNECT
 AS268762,TBK DA SILVA INTERNET - ME
 AS19504,"WTC Communications, Inc."
 AS55555,Delion Pty Ltd
-AS56044,China Mobile Group Liaoning Company
-AS7600,EscapeNet Pty Ltd
+AS21299,Kar-Tel LLC
+AS264556,GARCIA NET TELECOM

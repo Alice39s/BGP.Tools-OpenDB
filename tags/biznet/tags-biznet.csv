@@ -291,7 +291,6 @@ AS206260,Svorka AS
 AS14749,Russellville Electric Plant Board
 AS40749,CLARKSVILLE DEPARTMENT OF ELECTRICITY
 AS213281,Greenfiber Internet & Dienste GmbH
-AS48085,DNIPRO-Techcenter Ltd
 AS50304,Blix Solutions AS
 AS64024,PT Yesi Media Utama
 AS329174,Swift Broadband Limited
@@ -725,7 +724,6 @@ AS136879,PT Media Jaringan Indonesia
 AS7049,Silica Networks Argentina S.A.
 AS149401,PT Sintesa Sinergi Nusantara
 AS141145,PT Giga Digital Nusantara
-AS142319,PT Telemedia Komunikasi Pratama
 AS150193,PT Olean Permata Telematika
 AS140007,PT Dankom Mitra Abadi
 AS139831,DITO TELECOMMUNITY CORP.
@@ -886,6 +884,7 @@ AS29611,Elite Limited
 AS199752,Go-Trex Holding BV
 AS152429,PT Era Network Indonesia
 AS140016,PT Trik Media Data
+AS38785,PT Borneo Broadband Technology
 AS152749,PT Win Artha Mandiri
 AS137491,Peerex Networks Ltd
 AS147132,PT Mafianet Akses Media
@@ -976,7 +975,6 @@ AS31631,Telcom Networks Limited
 AS16082,Spitfire Network Services Limited
 AS207044,Enet Telecommunications Networks Limited
 AS139977,PT Prisma Media Nusantara
-AS152805,PT Sumber Kreasi Usaha
 AS41720,Revolution Provider S.r.l.
 AS212263,Rocket Fibre Ltd
 AS42611,Full Fibre Limited
@@ -1323,4 +1321,6 @@ AS262457,HELLO BRAZIL TELECOM
 AS263009,FORTE TELECOM LTDA.
 AS19504,"WTC Communications, Inc."
 AS55555,Delion Pty Ltd
-AS38785,PT Borneo Broadband Technology
+AS142319,PT Telemedia Komunikasi Pratama
+AS152805,PT Sumber Kreasi Usaha
+AS48085,DNIPRO-Techcenter Ltd

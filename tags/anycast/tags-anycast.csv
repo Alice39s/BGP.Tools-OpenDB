@@ -83,6 +83,7 @@ AS53292,ManagedWay
 AS12567,GAIJIN NETWORK LTD
 AS211575,Rui Feng
 AS187,DNScast
+AS36780,ALSCO
 AS54406,Convermax Corp
 AS206653,Biocad JSC
 AS329394,OneCloud LDA
@@ -227,6 +228,7 @@ AS394564,Spectrotel Inc
 AS48851,Radware Ltd
 AS197640,"Overplay, Inc"
 AS14877,"FirstLight Fiber, Inc."
+AS1149,SURF B.V.
 AS10326,Worcester Polytechnic Institute
 AS1002,Bytefilter LLC
 AS53055,DIMENOC SERVICOS DE INFORMATICA LTDA
@@ -382,7 +384,6 @@ AS3223,Voxility LLP
 AS1647,Interop Technologies
 AS21787,CERIDIAN
 AS395363,"Infoblox, Inc."
-AS135990,Everest Global Joint Stock Company
 AS207419,Richard Marino
 AS34939,NextDNS
 AS269607,SERGIPE MINISTERIO PUBLICO
@@ -788,5 +789,4 @@ AS214040,RUNNAN WEN
 AS212788,Edge Network Technologies Ltd
 AS203391,Cloud DNS Ltd
 AS207104,"""BiZone"" LLC"
-AS1149,SURF B.V.
-AS36780,ALSCO
+AS135990,Everest Global Joint Stock Company

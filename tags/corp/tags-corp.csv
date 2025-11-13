@@ -98,6 +98,7 @@ AS137263,NETEASE HONG KONG LIMITED
 AS45062,NetEase
 AS197759,Enapter AG
 AS41983,Kaspersky Lab Switzerland GmbH
+AS15810,"Banco Bilbao Vizcaya Argentaria, S.A."
 AS399728,P Foundation
 AS71,Hewlett Packard Enterprise
 AS136964,NZ Safety Blackwoods
@@ -105,7 +106,6 @@ AS35600,Vedege SAS
 AS51939,Terra Management Consulting Ltd
 AS48070,DSM (GB) Limited
 AS204355,Telicity Communications SAS
-AS25244,deCode genetics Ltd.
 AS393658,"Atypon Systems, Inc."
 AS41960,Nextpertise B.V.
 AS39083,David Froehlich
@@ -304,6 +304,7 @@ AS22360,"Red Hat, Inc."
 AS17314,"Red Hat, Inc."
 AS40955,"Red Hat, Inc."
 AS31976,"Red Hat, Inc."
+AS399265,"Red Hat, Inc."
 AS201286,Red Hat Ltd
 AS7726,FedEx Internet Technologies Corporation
 AS47941,Red Hat Ltd
@@ -482,7 +483,6 @@ AS28979,dm-drogerie markt GmbH + Co. KG
 AS206141,Duisburger Versorgungs- und Verkehrsgesellschaft mbH
 AS34409,Polska Press Sp. z o.o.
 AS205111,ZOHO Corporation B.V
-AS49670,Insta DefSec Oy
 AS12678,Badoo Trading Limited
 AS23820,"Rakuten Group, Inc."
 AS16080,Payplug Enterprise SAS
@@ -565,6 +565,7 @@ AS56953,N.V. Nederlandse Gasunie
 AS329418,International Centre for Research in Agroforestry
 AS396940,HTH
 AS141666,PT Industri Kereta Api
+AS28646,Confederação Int. das Coop. Ligadas ao SICREDI
 AS11703,MaRS Discovery District
 AS58484,PT Pratesis
 AS207804,DSS AB
@@ -604,6 +605,5 @@ AS208177,Center-invest Bank
 AS263358,Centro B. de P. em A. e S. e de P de Eventos
 AS24823,VTB Bank (Public Joint-Stock Company)
 AS58921,Capricorn Society Limited
-AS15810,"Banco Bilbao Vizcaya Argentaria, S.A."
-AS28646,Confederação Int. das Coop. Ligadas ao SICREDI
-AS399265,"Red Hat, Inc."
+AS25244,deCode genetics Ltd.
+AS49670,Insta DefSec Oy

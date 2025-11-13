@@ -81,7 +81,6 @@ AS55219,"Cisco Systems, Inc."
 AS6799,Ote SA (Hellenic Telecommunications Organisation)
 AS32934,"Facebook, Inc."
 AS19551,Incapsula Inc
-AS42848,European Commission
 AS18403,FPT Telecom Company
 AS16462,University of Victoria
 AS25106,Mobile TeleSystems JLLC
@@ -158,6 +157,7 @@ AS42371,MAGEX Solutions Kft.
 AS207027,LLC Eximius
 AS53831,"Squarespace, Inc."
 AS55990,Huawei Cloud Service data center
+AS401645,Softoria LLC
 AS1853,ACONET
 AS64258,GROUPE TECHNOLOGIES DESJARDINS INC.
 AS1742,Harvard University
@@ -206,6 +206,7 @@ AS680,Deutsches Forschungsnetz (DFN)
 AS45669,PMCL /LDI IP TRANSIT
 AS61293,1C LLC
 AS131930,"Tokyo Broadcasting System Television, Inc."
+AS138727,Center For E-governance
 AS53736,Nutanix
 AS3352,TELEFONICA DE ESPANA S.A.U.
 AS8856,UkrNet Ltd.
@@ -350,7 +351,6 @@ AS47846,SEDO GmbH
 AS8308,NAUKOWA I AKADEMICKA SIEC KOMPUTEROWA - PANSTWOWY INS...
 AS5617,Orange Polska Spolka Akcyjna
 AS10929,eStruxture Data Centers Inc.
-AS17881,"Inet Hosting, Inc."
 AS49063,Data Storage Center JSC
 AS199178,Micro Systems Marc Balmer
 AS31200,Novotelecom Ltd
@@ -486,7 +486,6 @@ AS9123,"JSC ""TIMEWEB"""
 AS36351,IBM Cloud
 AS209030,Kaspersky Lab AO
 AS8484,Novye oblachnye technologii LLC
-AS41628,Alter Way SAS
 AS9198,JSC Kazakhtelecom
 AS202108,united-domains GmbH
 AS63826,"Ministry of Planning, Planning Commission Chatter"
@@ -579,6 +578,7 @@ AS137702,"Nanjing, Jiangsu Province, P.R.China."
 AS207697,Immobiliare.it S.p.A.
 AS52890,Centro Integrado de Telemática do Exército
 AS11855,Unitas Global
+AS60976,Parsan Lin Co. PJS
 AS22611,"InMotion Hosting, Inc."
 AS33070,Rackspace Hosting
 AS24961,WIIT AG (fka. myLoc Managed IT AG)
@@ -819,7 +819,6 @@ AS1835,Forskningsnettet - Danish NREN
 AS15201,Universo Online S.A.
 AS11492,"CABLE ONE, INC."
 AS205544,Leaseweb UK Limited
-AS31483,"JSC ""ER-Telecom Holding"""
 AS25292,"Federal State Unitary Enterprise ""The Russian Televis..."
 AS31621,Allegro sp. z o.o.
 AS59441,NOAVARAN SHABAKEH SABZ MEHREGAN (Ltd.)
@@ -852,7 +851,6 @@ AS45102,"Alibaba (US) Technology Co., Ltd."
 AS4155,USDA
 AS207592,Gesellschaft fuer wissenschaftliche Datenverarbeitung...
 AS16138,Interia.pl Sp z.o.o.
-AS33091,University of Calgary
 AS24586,Intermax Group B.V.
 AS139341,WeChat/QQ CDN
 AS135629,Ningxia West Cloud Data Technology Co.Ltd.
@@ -934,6 +932,7 @@ AS39029,Redpill Linpro AS
 AS50340,Selectel - Moscow
 AS33522,"cPanel, LLC."
 AS38700,SMILESERV
+AS209274,Kraken Network ISP LTD
 AS8883,UBS AG
 AS26762,"Conversant, LLC"
 AS12348,ODN OnlineDienst Nordbayern GmbH & Co. KG
@@ -1168,7 +1167,6 @@ AS31174,AO RAIFFEISENBANK
 AS5495,Saint Petersburg State University
 AS9952,Hostway IDC
 AS399566,Bigcommerce Inc.
-AS14745,Unitas Global
 AS46887,Crown Castle Fiber LLC
 AS31163,PJSC MegaFon
 AS60068,Datacamp Limited (CDN77 / DataPacket)
@@ -1261,6 +1259,7 @@ AS55293,"A2 Hosting, Inc."
 AS8881,1&1 Versatel GmbH
 AS20705,HSBC Bank plc
 AS12353,Vodafone Portugal - Communicacoes Pessoais S.A.
+AS30193,Los Angeles Unified School District
 AS20764,CJSC RASCOM
 AS52016,JSC ADFACT
 AS15549,National Information Technologies Joint-Stock Company
@@ -1321,8 +1320,9 @@ AS204995,RTB Marketing and Tech Services Ltd
 AS44112,SpaceWeb Ltd
 AS198605,AVAST Software s.r.o.
 AS35676,La Poste S.A.
-AS138727,Center For E-governance
-AS209274,Kraken Network ISP LTD
-AS30193,Los Angeles Unified School District
-AS401645,Softoria LLC
-AS60976,Parsan Lin Co. PJS
+AS14745,Unitas Global
+AS17881,"Inet Hosting, Inc."
+AS31483,"JSC ""ER-Telecom Holding"""
+AS33091,University of Calgary
+AS41628,Alter Way SAS
+AS42848,European Commission

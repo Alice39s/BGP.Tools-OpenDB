@@ -17,4 +17,4 @@ satnet,43
 feeder,0
 corp,609
 anycast,792
-rpkirov,1208
+rpkirov,1221
