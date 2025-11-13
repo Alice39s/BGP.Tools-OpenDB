@@ -28,6 +28,7 @@ Data is sourced from [bgp.tools](https://bgp.tools) HTTP API, processed and pack
   - `Hits`: Number of occurrences in BGP routing table
 - **Data Source**: [https://bgp.tools/table.jsonl](https://bgp.tools/table.jsonl)
 - **Sample Data**:
+
   ```jsonl
   {"CIDR":"2a0c:2f07:d::/48","ASN":206924,"Hits":509}
   {"CIDR":"2a0c:2f07:f::/48","ASN":206924,"Hits":508}
@@ -52,6 +53,7 @@ Data is sourced from [bgp.tools](https://bgp.tools) HTTP API, processed and pack
   - `cc`: Country code (IATA 3166-1 alpha-2)
 - **Typical Applications**: ASN information display, network attribution analysis
 - **Sample Data**:
+
   ```csv
   asn,name,class,cc
   AS1,"Level 3 Parent, LLC",Unknown,US
@@ -70,6 +72,7 @@ Data is sourced from [bgp.tools](https://bgp.tools) HTTP API, processed and pack
   - Service Types: `cdn`, `vpn`, `anycast`
   - Organizations: `gov`, `uni`, `corp`
 - **Sample Data**:
+
   ```txt
   perso,1337
   dsl,2735
@@ -83,6 +86,7 @@ Data is sourced from [bgp.tools](https://bgp.tools) HTTP API, processed and pack
 - **Data Format**: One ASN record per line, format: `ASN,AS_name`
 - **Typical Applications**: Filtering and analysis of specific ASN types
 - **Sample Data (CDN tags)**:
+
   ```csv
   AS13335,"Cloudflare, Inc."
   AS395403,NSONE Inc
@@ -106,6 +110,7 @@ Data is sourced from [bgp.tools](https://bgp.tools) HTTP API, processed and pack
 - **Update Frequency**: Every 2 hours
 - **Version Retention**: Maximum 24 versions
 - **Metadata Fields**:
+
   ```json
   {
     "timestamp": 1735689600,
