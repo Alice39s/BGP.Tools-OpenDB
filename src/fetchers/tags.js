@@ -102,7 +102,7 @@ export function parseTagDetailData(csvData) {
     if (parts.length >= 2) {
       const asn = normalizeASN(parts[0]);
       const name = cleanQuotedField(parts[1]);
-      const extra = parts.length > 2 ? parts[2] : "";
+      const extra = parts.length > 2 ? parts.slice(2).join(",") : "";
 
       results.push({
         asn,

@@ -9,6 +9,11 @@ import {
   logFileOperation,
 } from "./utils.js";
 
+const NATURAL_STRING_COMPARE = new Intl.Collator("en", {
+  numeric: true,
+  sensitivity: "base",
+}).compare;
+
 /**
  * Process tag data
  * @param {Array<Object>} tagsList Tag list with their data
@@ -37,12 +42,14 @@ export async function processTagsData(tagsList) {
 
     // Parse tag detail data
     const tagDetailData = parseTagDetailData(tag.data);
+    const sortedTagEntries = sortTagEntries(tagDetailData);
+    const sortedCsvContent = formatTagEntries(sortedTagEntries);
 
     // Write CSV file
     const csvFilename = `tags-${tag.name}.csv`;
     const csvHash = await writeFileWithHash(
       `${tagDir}/${csvFilename}`,
-      tag.data,
+      sortedCsvContent,
     );
 
     // Generate metadata
@@ -51,7 +58,7 @@ export async function processTagsData(tagsList) {
       additionalFields: {
         tag_name: tag.name,
         tag_count: tag.count,
-        actual_entries: tagDetailData.length,
+        actual_entries: sortedTagEntries.length,
         stats: {
           generated_at: new Date().toISOString(),
         },
@@ -66,14 +73,14 @@ export async function processTagsData(tagsList) {
 
     // If in production environment, generate release files
     await generateReleaseFiles({
-      content: tag.data,
+      content: sortedCsvContent,
       baseName: `tags-${tag.name}`,
       dateStr,
       formats: ["gz", "xz"],
     });
 
     console.log(
-      `✅ Tag ${tag.name} processing completed, ${tagDetailData.length} actual entries`,
+      `✅ Tag ${tag.name} processing completed, ${sortedTagEntries.length} actual entries`,
     );
   }
 
@@ -117,4 +124,37 @@ async function generateTagsIndex(tagsList, timestamp) {
   await writeMetadataWithHash("tags/index-meta.json", indexMetadata);
 
   console.log(`✅ Tags master index generation completed`);
+}
+
+function sortTagEntries(entries) {
+  return [...entries].sort((a, b) => {
+    if (a.asn !== b.asn) {
+      return a.asn - b.asn;
+    }
+
+    return NATURAL_STRING_COMPARE(a.name, b.name);
+  });
+}
+
+function formatTagEntries(entries) {
+  return entries.map(formatTagEntry).join("\n");
+}
+
+function formatTagEntry(entry) {
+  const asnField = `AS${entry.asn}`;
+  const nameField = quoteIfNeeded(entry.name);
+  if (entry.extra && entry.extra.length > 0) {
+    return `${asnField},${nameField},${entry.extra}`;
+  }
+
+  return `${asnField},${nameField}`;
+}
+
+function quoteIfNeeded(value) {
+  if (value.includes(",") || value.includes("\"")) {
+    const escaped = value.replace(/"/g, '""');
+    return `"${escaped}"`;
+  }
+
+  return value;
 }
