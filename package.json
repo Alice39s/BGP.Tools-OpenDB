@@ -1,6 +1,6 @@
 {
   "name": "bgp.tools-opendb",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "BGP.Tools OpenDB - Daily updated BGP data package version",
   "main": "src/index.js",
   "bin": {
