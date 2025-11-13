@@ -2,6 +2,8 @@ AS31399,Mercedes-Benz Group AG
 AS29816,Southwest Airlines Co.
 AS8373,Deutsche Bank AG
 AS202032,GOLINE SA
+AS400172,"RackOrbit, LLC"
+AS50807,Inspiretec LTD
 AS14340,"Salesforce.com, Inc."
 AS58182,Wix.com Ltd.
 AS328964,Insight Actuarial Solutions (Pty) Ltd
@@ -9,6 +11,7 @@ AS49552,OpenSource Security GmbH
 AS43397,items GmbH & Co. KG
 AS48352,LIS Logistische Informationssysteme GmbH
 AS8454,FMO Flughafen Muenster/Osnabrueck GmbH
+AS210035,Stiftung Mathias-Spital Rheine
 AS196731,egeplast international GmbH
 AS46644,Social Blade LLC
 AS394230,"Civilized Discourse Construction Kit, Inc."
@@ -17,6 +20,7 @@ AS149546,B G CHITALE
 AS38846,"Wolf Feather Culture Information Co., Ltd."
 AS13009,Redcentric Solutions Ltd
 AS61232,redIT Services AG
+AS51335,CELESTE SAS
 AS149753,PT Global Sarana Mediakom
 AS47545,Verkís hf
 AS27277,Space Exploration Technologies Corporation
@@ -72,9 +76,11 @@ AS395044,APT Labs
 AS60345,icixs networks GmbH
 AS141253,Hyosec Solutions Private Limited
 AS9423,"ServerKing.io, LLC"
+AS56901,"ServerKing.io, LLC"
 AS43973,QIWI JSC
 AS212828,Tom Hatzer trading as twopeaks digital e.U.
 AS48927,ESEVEN DevOps GmbH
+AS201110,Andritz AG
 AS400422,Modern Treasury Corp.
 AS1011,Accutar Biotechnology (Canada) Inc.
 AS270532,IB TURBO
@@ -92,7 +98,6 @@ AS137263,NETEASE HONG KONG LIMITED
 AS45062,NetEase
 AS197759,Enapter AG
 AS41983,Kaspersky Lab Switzerland GmbH
-AS15810,"Banco Bilbao Vizcaya Argentaria, S.A."
 AS399728,P Foundation
 AS71,Hewlett Packard Enterprise
 AS136964,NZ Safety Blackwoods
@@ -109,20 +114,24 @@ AS16203,NCG Banco SA
 AS209915,trivago N.V.
 AS205614,Medialine EuroTrade AG
 AS6507,"Riot Games, Inc"
+AS62830,RiotGames
 AS49419,Iver Sverige AB
 AS328238,INFOSET SARL
 AS150480,PT Swara Logika Laboratory
+AS212065,WDES SAS
 AS58308,Cusae SAS
 AS147039,Cyprea Private Limited
 AS15937,ADIF
 AS8315,Accenture B. V.
 AS61977,Path Global UK Limited
+AS209994,LV Informatique SASU
 AS135847,Ioeaccess Communications Private Limited
 AS60254,GLS IT Services GmbH
 AS201321,ITQS IKE
 AS200180,PT. Premium Fast Network
 AS201991,Metsäliitto Osuuskunta
 AS211135,Mirka Oy
+AS200696,Ålands Penningautomatförening
 AS197115,KEVA
 AS201271,Nordea Bank Abp
 AS197930,Haahtela-kehitys Oy
@@ -140,6 +149,7 @@ AS271541,HAVAN SA
 AS63179,Twitter Inc.
 AS35995,Twitter Inc.
 AS136766,"ROBLOX (SHENZHEN) DIGITAL SCIENCE AND TECHNOLOGY CO., LTD"
+AS11281,Roblox (Office)
 AS134489,S. B Link Network
 AS200609,CHDE Polska Spolka Akcyjna
 AS136888,PT Petro One Indonesia
@@ -147,8 +157,10 @@ AS9341,PT Indonesia Comnets Plus
 AS11820,"Wikimedia Foundation, Inc."
 AS31154,Toyota Motor Europe SA
 AS5413,Wavenet Limited
+AS134544,Cenbong Int'l Holdings Limited
 AS44644,Árvakur hf
 AS14203,"Juniper Networks, Inc."
+AS17331,Dash Cloud
 AS207595,Hestronic BV
 AS397045,D. Brown Management
 AS394337,Simeon Networks LLC
@@ -186,6 +198,7 @@ AS38529,Reliance Industries Limited WAN Backbone Interface wi...
 AS15451,DATEV eG
 AS202049,Encrypted Email Finland Ltd
 AS207047,Raiffeisen Bank Kosovo JSC
+AS213202,Cloudnet Computing Ltd
 AS10248,"Blue Ridge Bankshares, Inc."
 AS43897,TECE GmbH
 AS209195,CAJA DE SEGUROS REUNIDOS COMPANIA DE SEGUROS Y REASEG...
@@ -193,8 +206,10 @@ AS13781,Hopkinsville Electric System
 AS45131,REANNZ Head Office
 AS394637,LightChange Technologies
 AS47679,GROUPE NEOTECH SAS
+AS6852,UB Securities Ltd.
 AS203898,Cloudflare London Office 
 AS1738,OP Osuuskunta
+AS213002,DH Bulut Bilisim Anonim Sirketi
 AS32201,Husky Technologies
 AS151544,PDWNet
 AS31262,EDICOM CAPITAL S.L.
@@ -229,6 +244,7 @@ AS51625,Turkish Airlines Inc.
 AS208880,YAPI VE KREDI BANKASI A.S.
 AS33830,Bankalararasi Kart Merkezi AS
 AS202494,Turkiye Petrol Rafinerileri Anonim Sirketi TUPRAS
+AS12729,HSBC BANK ANONIM SIRKETI
 AS6707,D-Market Elektronik Hizmetler Tic. A.S.
 AS133116,Kalgoorlie Consolidated Gold Mines
 AS15248,Metaswitch Networks Corp.
@@ -247,7 +263,9 @@ AS17904,Sri Lankan Airlines
 AS37497,Network Platforms (PTY) LTD
 AS39472,Arion Banki hf
 AS395677,GTAA
+AS398726,Cabbit Technology LLC
 AS17450,PT Bank Central Asia Tbk
+AS147112,PT Meetaza Prawira Media
 AS39829,Iristel Romania SRL
 AS215823,Spaugur ehf.
 AS37725,Xyberdata
@@ -272,6 +290,7 @@ AS25182,Nederlandse Publieke Omroep
 AS45566,Google APAC Corporate Network
 AS151573,PT Kereta Cepat Indonesia China
 AS134632,PT Lippo Malls Indonesia
+AS394649,"LotusFlare, Inc."
 AS329265,Commercial Bank of Ethiopia
 AS51894,SIA Mikrotīkls / MikroTik
 AS56248,PT Indah Kiat Pulp & Paper Tbk
@@ -285,7 +304,6 @@ AS22360,"Red Hat, Inc."
 AS17314,"Red Hat, Inc."
 AS40955,"Red Hat, Inc."
 AS31976,"Red Hat, Inc."
-AS399265,"Red Hat, Inc."
 AS201286,Red Hat Ltd
 AS7726,FedEx Internet Technologies Corporation
 AS47941,Red Hat Ltd
@@ -313,6 +331,7 @@ AS132164,PT Darta Media Indonesia
 AS60284,Axpo Systems AG
 AS150006,Aloi Pte. Ltd.
 AS46024,PT Bank Negara Indonesia (Persero) Tbk
+AS202172,Migadu-Mail Gmbh
 AS215449,Avionero AB
 AS215044,OBT AG
 AS199031,SIA Amberbit
@@ -320,13 +339,17 @@ AS29067,Hostmaster LLC
 AS41726,"SIA ""B2 Impact"""
 AS51268,Magnetiq Bank
 AS202589,TestDevLab-SIA
+AS12965,SEB Latvia
+AS9091,Swedbank Latvia
 AS24972,Lursoft IT
 AS33867,airBaltic Corporation
 AS25107,Industra Bank
 AS34417,BluOr Bank
 AS13244,Rietumu Bank
+AS16279,Citadele Group
 AS215712,Printful Latvia AS
 AS210886,Magnetiq Bank
+AS35734,"SIA ""PNB Print"""
 AS47284,Motor Insurers Bureau of Latvia
 AS205821,SIA Arena Riga
 AS61277,ScienceSoft SIA
@@ -334,6 +357,7 @@ AS42078,XOTEL SIA
 AS197446,SIA Vitol Terminal Latvia
 AS2877,Latvian Shipping Company
 AS50485,Belam - Riga SIA
+AS206541,Kreiss
 AS49036,"SIA ""Euro Live Technologies"""
 AS197466,SIA 3ENITH
 AS202555,SIA Tamro
@@ -352,6 +376,7 @@ AS35809,"SIA ""DIVI Grupa"""
 AS201574,LATVIJAS LOTO VAS
 AS213022,"SIA ""DPD Latvija"""
 AS56323,Eco Baltia AS
+AS208938,Food Union
 AS35333,SIA NETVISION
 AS207377,Evolution Latvia SIA
 AS202863,OPTIBET LTD
@@ -374,6 +399,7 @@ AS64421,SERTEX (ELEKOP)
 AS205625,Winfinity
 AS199034,"SIA ""Baltic project group"""
 AS34535,"Standart AG, LLC"
+AS51347,ESTERIA (SMS solutions SIA)
 AS60608,Olympic Entertainment Group AS
 AS212676,SIA Decta
 AS43956,Latvijas Finieris A/S
@@ -450,6 +476,7 @@ AS153129,PT Cashlez Worldwide Indonesia Tbk
 AS48972,BetterBe B.V.
 AS397700,LXXIX Project Lab LLC
 AS38494,PT Bakrie & Brothers Tbk
+AS11652,"Kaiser Aluminum Fabricated Products, L.L.C."
 AS205627,Daimler Truck AG
 AS28979,dm-drogerie markt GmbH + Co. KG
 AS206141,Duisburger Versorgungs- und Verkehrsgesellschaft mbH
@@ -459,6 +486,7 @@ AS49670,Insta DefSec Oy
 AS12678,Badoo Trading Limited
 AS23820,"Rakuten Group, Inc."
 AS16080,Payplug Enterprise SAS
+AS56938,MAGNUM MEDICAL SIA
 AS201673,"""Verifone Baltic"" SIA"
 AS20681,Saxo Bank A/S
 AS204130,"DLV, sia"
@@ -500,7 +528,9 @@ AS29266,Danmarks Radio
 AS137288,PT Ungaran Sari Garments
 AS201012,KEH eCommerce LLC
 AS3743,Cleveland Cliffs Steel LLC
+AS213427,Bjarn Bronsveld trading as Lettermint V.O.F.
 AS216421,Adven Group Oy
+AS394270,Cabi LLC
 AS400979,CPAC
 AS25518,ZUCCHETTI SPA
 AS56496,TV 2 Danmark A/S
@@ -520,6 +550,7 @@ AS209379,Pengutronix e.K.
 AS212664,Pori Energia Oy
 AS202756,Radio Free Europe/Radio Liberty
 AS399358,"Anthropic, PBC"
+AS208987,Suomen Videoviestinta SVV Oy
 AS4783,SYSTEX Corporation
 AS206520,HUB logistics Finland Oy
 AS38567,PT Rekayasa Industri
@@ -534,7 +565,6 @@ AS56953,N.V. Nederlandse Gasunie
 AS329418,International Centre for Research in Agroforestry
 AS396940,HTH
 AS141666,PT Industri Kereta Api
-AS28646,Confederação Int. das Coop. Ligadas ao SICREDI
 AS11703,MaRS Discovery District
 AS58484,PT Pratesis
 AS207804,DSS AB
@@ -566,6 +596,7 @@ AS212223,Buy Way Personal Finance SA trading as BUY WAY SERVIC...
 AS22071,TS Imagine INC
 AS152626,Cloudbase Network
 AS204411,Bigbank AS
+AS209818,OMEGA LTD
 AS50845,Verifone Systems France SAS
 AS139656,ANZ BANK NEW ZEALAND LIMITED
 AS274524,Eucatur Transporte e Turismo Ltda
@@ -573,37 +604,6 @@ AS208177,Center-invest Bank
 AS263358,Centro B. de P. em A. e S. e de P de Eventos
 AS24823,VTB Bank (Public Joint-Stock Company)
 AS58921,Capricorn Society Limited
-AS11281,Roblox (Office)
-AS11652,"Kaiser Aluminum Fabricated Products, L.L.C."
-AS12729,HSBC BANK ANONIM SIRKETI
-AS12965,SEB Latvia
-AS134544,Cenbong Int'l Holdings Limited
-AS147112,PT Meetaza Prawira Media
-AS16279,Citadele Group
-AS17331,Dash Cloud
-AS200696,Ålands Penningautomatförening
-AS201110,Andritz AG
-AS202172,Migadu-Mail Gmbh
-AS206541,Kreiss
-AS208938,Food Union
-AS208987,Suomen Videoviestinta SVV Oy
-AS209818,OMEGA LTD
-AS209994,LV Informatique SASU
-AS210035,Stiftung Mathias-Spital Rheine
-AS212065,WDES SAS
-AS213002,DH Bulut Bilisim Anonim Sirketi
-AS213202,Cloudnet Computing Ltd
-AS213427,Bjarn Bronsveld trading as Lettermint V.O.F.
-AS35734,"SIA ""PNB Print"""
-AS394270,Cabi LLC
-AS394649,"LotusFlare, Inc."
-AS398726,Cabbit Technology LLC
-AS400172,"RackOrbit, LLC"
-AS50807,Inspiretec LTD
-AS51335,CELESTE SAS
-AS51347,ESTERIA (SMS solutions SIA)
-AS56901,"ServerKing.io, LLC"
-AS56938,MAGNUM MEDICAL SIA
-AS62830,RiotGames
-AS6852,UB Securities Ltd.
-AS9091,Swedbank Latvia
+AS15810,"Banco Bilbao Vizcaya Argentaria, S.A."
+AS28646,Confederação Int. das Coop. Ligadas ao SICREDI
+AS399265,"Red Hat, Inc."

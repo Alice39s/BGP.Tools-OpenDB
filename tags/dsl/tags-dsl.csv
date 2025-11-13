@@ -319,7 +319,6 @@ AS1759,Telia Finland Oyj
 AS14868,Ligga Telecomunicações S.A.
 AS8374,Polkomtel Sp. z o.o.
 AS719,Elisa Oyj
-AS56044,China Mobile Group Liaoning Company
 AS12668,"LLC ""KomTehCentr"""
 AS4847,China Telecom Beijing Province Network
 AS3741,Dimension Data
@@ -524,6 +523,7 @@ AS29069,PJSC Rostelecom
 AS262186,TV AZTECA SUCURSAL COLOMBIA
 AS25374,ESCOM Ltd. - Haskovo
 AS21230,M SAT Cable EAD
+AS196949,Natalia Sergeevna Filicheva
 AS18809,Cable Onda
 AS18001,Dialog Axiata PLC.
 AS17816,China Unicom IP network China169 Guangdong province
@@ -801,6 +801,7 @@ AS34550,LLC Intercon
 AS33765,TANZANIA TELECOMMUNICATIONS CO. LTD
 AS327931,Optimum Telecom Algeria
 AS3226,"OOO ""NI"""
+AS31725,ISP Shtorm LTD
 AS31286,MTS PJSC
 AS31122,Digiweb ltd
 AS29170,Kujtesa Net Sh.p.k.
@@ -1496,6 +1497,7 @@ AS24203,PT XL Axiata Tbk
 AS29465,MTN NIGERIA Communication limited
 AS36935,Vodafone Egypt
 AS4775,Globe Telecoms
+AS327712,Telecom Algeria
 AS9038,Batelco Jordan
 AS33779,Wataniya Telecom Algerie
 AS16135,TURKCELL ILETISIM HIZMETLERI A.S.
@@ -2215,7 +2217,6 @@ AS14695,City of El Reno
 AS263483,DIRECT LAN TELECOMUNICAÇÕES SOROCABA LTDA
 AS136289,Bbrg Communiction And Internet Pvt Ltd
 AS132669,PT Globalnet Multi Data
-AS7600,EscapeNet Pty Ltd
 AS267088,Rede Spirit Telecom
 AS151533,PT Sarana Optima Berdikari
 AS328585,MegaMore Wireless Broadband Limited
@@ -2818,13 +2819,12 @@ AS265986,Linkup Telecomunicações
 AS133996,Vaishnavaibhavi Internet Solutions Private Limited
 AS273782,Nacional Fibra
 AS264556,GARCIA NET TELECOM
+AS262457,HELLO BRAZIL TELECOM
 AS263466,FRENTE TELECOM
 AS264046,GM SOLUÇÕES
 AS265008,T.I. CONNECT
 AS268762,TBK DA SILVA INTERNET - ME
 AS19504,"WTC Communications, Inc."
 AS55555,Delion Pty Ltd
-AS196949,Natalia Sergeevna Filicheva
-AS262457,HELLO BRAZIL TELECOM
-AS31725,ISP Shtorm LTD
-AS327712,Telecom Algeria
+AS56044,China Mobile Group Liaoning Company
+AS7600,EscapeNet Pty Ltd

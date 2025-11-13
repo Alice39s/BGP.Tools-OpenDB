@@ -3177,14 +3177,6 @@
                             </tr>
                             
                             <tr>
-                                <td class="nowrap"><img class="flag-img" src="/assets/flags/DE.png" alt="DE"></td>
-                                <td><a href="/as/50629">AS50629</a></td>
-                                <td class="smallonmobile nowrap">LWLcom GmbH</td>
-                                <td class="nowrap">&#10004;</td>
-                                <td class="nowrap">&#10004;</td>
-                            </tr>
-                            
-                            <tr>
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/FR.png" alt="FR"></td>
                                 <td><a href="/as/50446">AS50446</a></td>
                                 <td class="smallonmobile nowrap">Datacampus SAS</td>
@@ -6908,6 +6900,14 @@
                                 <td class="nowrap"><img class="flag-img" src="/assets/flags/LV.png" alt="LV"></td>
                                 <td><a href="/as/50755">AS50755</a></td>
                                 <td class="smallonmobile nowrap">Svens Jansons</td>
+                                <td class="nowrap">&#10008;</td>
+                                <td class="nowrap">&#10004;</td>
+                            </tr>
+                            
+                            <tr>
+                                <td class="nowrap"><img class="flag-img" src="/assets/flags/DE.png" alt="DE"></td>
+                                <td><a href="/as/50629">AS50629</a></td>
+                                <td class="smallonmobile nowrap">LWLcom GmbH</td>
                                 <td class="nowrap">&#10008;</td>
                                 <td class="nowrap">&#10004;</td>
                             </tr>

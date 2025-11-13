@@ -8,6 +8,7 @@ AS9115,Internet Names for Business Inc
 AS9002,RETN Limited
 AS8972,Host Europe GmbH
 AS8928,GTT Communications Inc.
+AS8912,Aptum Technologies (UK) Limited
 AS8839,SdV-Plurimedia
 AS8741,Ratiokontakt GmbH
 AS8732,JSC Comcor
@@ -36,6 +37,7 @@ AS63410,PrivateSystems Networks
 AS63199,"CDS Global Cloud Co., Ltd"
 AS63068,CrocWeb
 AS63018,Dedicated.com
+AS62567,"DigitalOcean, LLC"
 AS62240,Clouvider Limited
 AS62217,Vinters IT Ltd
 AS62082,Hostland LTD
@@ -51,6 +53,7 @@ AS61046,HZ Hosting Ltd
 AS60819,Safenames Ltd.
 AS60781,LeaseWeb Netherlands B.V.
 AS60713,EXEA Sp. z o.o.
+AS60626,LeaseWeb Network B.V.
 AS60362,ALWAYSDATA SARL
 AS60357,Megagroup.ru LLC
 AS60311,1.FM AG
@@ -61,10 +64,13 @@ AS59729,GREEN FLOID LLC
 AS59627,Docker LTD
 AS59413,VPG SAS
 AS59253,Leaseweb Singapore Pte. Ltd.
+AS58192,Atis Omran Sevin PSJ
 AS58073,YISP B.V.
 AS58072,Zenon-Region Ltd.
 AS58065,Orion Network Limited
+AS58018,Mustafa Enes Akdeniz trading as OYUN CEVHERI
 AS57858,Angelnet Limited
+AS57739,dogado GmbH
 AS57724,DDOS-GUARD LTD
 AS57694,Hardis Groupe SAS
 AS57367,Atman Sp. z o.o.
@@ -113,12 +119,15 @@ AS50979,GREEN FLOID LLC
 AS50891,Moviement srl
 AS50873,David Doepelheuer
 AS50858,SAS SOLUTIONS INFORMATIQUES SERVICES
+AS50841,Artnet Sp. z o.o.
 AS50840,Marek Bajerski trading as HITME.PL
 AS50802,Bogorodskoe Information Systems Ltd
+AS50702,UNYC SAS
 AS50673,Serverius Holding B.V.
 AS50613,Advania Ísland ehf (ThorDC)
 AS50599,DATASPACE P.S.A.
 AS50520,HOSTMEIN IKE
+AS50499,INETCLOUD Inc.
 AS50474,O2SWITCH SAS
 AS50340,Selectel - Moscow
 AS50304,Blix Solutions AS
@@ -170,12 +179,14 @@ AS46475,"Limestone Networks, Inc."
 AS46095,REP Solution Interactive Inc.
 AS45102,"Alibaba (US) Technology Co., Ltd."
 AS45090,Tencent Cloud
+AS45031,dogado GmbH
 AS44709,O.M.C. COMPUTERS & COMMUNICATIONS LTD
 AS44128,Internet-Pro LLC
 AS44112,SpaceWeb Ltd
 AS44066,firstcolo GmbH
 AS43962,INTEN Sp. z o. o.
 AS43758,Cyber_Folks S.A.
+AS43573,MEDIACTIVE SAS
 AS43513,Sia Nano IT
 AS43424,SQUARK SARL
 AS43362,Hosting Ltd
@@ -193,6 +204,7 @@ AS42632,MnogoByte LLC
 AS42503,Oktawave S.A.
 AS42473,ANEXIA Internetdienstleistungs GmbH
 AS42399,"JSC ""RU-CENTER"""
+AS42363,NUXIT SAS
 AS42331,PE Freehost
 AS42244,eServer s.r.o.
 AS42237,w1n ltd
@@ -218,6 +230,7 @@ AS39962,FullHost
 AS39845,2 Cloud Ltd.
 AS39825,Sparkinit S.r.l.
 AS39798,MivoCloud SRL
+AS39757,Equinix (EMEA) Acquisition Enterprises B.V.
 AS39729,REGISTER S.P.A.
 AS39572,DataWeb Global Group B.V.
 AS39566,Smarthost sp. z o.o.
@@ -225,6 +238,7 @@ AS39556,PIN Hosting Europe GmbH
 AS39519,WIIT AG
 AS39494,"JSC ""RU-CENTER"""
 AS394695,PDR
+AS39451,IOMART MANAGED SERVICES LIMITED
 AS394380,"Leaseweb USA, Inc."
 AS394143,C.O.P.S. Monitoring
 AS393578,Mesa Water District
@@ -232,14 +246,17 @@ AS39134,EDINAYA SET LIMITED LIABILITY COMPANY
 AS39122,Blacknight Internet Solutions Limited
 AS39111,Amazon Data Services Ireland Ltd
 AS39020,Comvive Servidores S.L.
+AS3900,"SWITCH, LTD"
 AS38930,LeaseWeb (fiberring)
 AS38895,Amazon.com Tech Telecom
 AS38365,"Beijing Baidu Netcom Science and Technology Co., Ltd."
 AS37963,"Hangzhou Alibaba Advertising Co.,Ltd."
+AS37692,NetStack Ltd
 AS37684,Angani Limited
 AS37560,Cyberdyne S.A.
 AS36666,GloboTech Communications
 AS36483,Gossamer Threads Inc.
+AS36430,"DataPipe, Inc."
 AS36352,HostPapa
 AS36351,IBM Cloud
 AS36114,"VegasNAP, LLC"
@@ -249,6 +266,7 @@ AS36030,"Equinix, Inc."
 AS3595,zColo
 AS35916,MULTACOM CORPORATION
 AS35787,Internet Cafe uslugi informatyczne Miroslaw Backiel
+AS35662,IOMART MANAGED SERVICES LIMITED
 AS35569,"JSC ""RU-CENTER"""
 AS35470,Signet B.V.
 AS35425,IOMART MANAGED SERVICES LIMITED
@@ -268,8 +286,10 @@ AS34432,dogado GmbH
 AS34422,LPG HC
 AS34360,Cyber_Folks S.A.
 AS34309,Link11 GmbH
+AS34289,Host Europe GmbH
 AS34282,Team Blue Carrier Limited
 AS34235,ITINSELL CLOUD SAS
+AS34173,SafeBrands S.A.S.
 AS34119,Wildcard UK Limited
 AS34081,INCUBATEC GmbH - Srl
 AS34011,Host Europe GmbH
@@ -288,6 +308,7 @@ AS3223,Voxility LLP
 AS32181,GigeNET
 AS32077,ULTIMATE SOFTWARE GROUP
 AS31863,"Centrilogic, Inc."
+AS31815,"GoDaddy.com, LLC"
 AS31743,Interpublic GIS (UK) Ltd
 AS31708,Coreix Ltd
 AS3163,DiemIT GmbH
@@ -296,15 +317,18 @@ AS31424,Netrics AG
 AS31400,firstcolo GmbH
 AS31347,Porta One-Chernihiv Ltd
 AS31272,WildPark Co
+AS31240,Citytelecom LLC
 AS31229,Beyond.pl sp. z o.o.
 AS31178,Celeonet SAS
 AS31103,Keyweb AG
+AS31100,Host Europe GmbH
 AS31034,Aruba S.p.A.
 AS30968,"LLC ""ASTRA CLOUD"""
 AS30943,ZAO Web Hosting
 AS30900,Sternforth Ltd. trading as WebWorld
 AS30860,Virtual Systems LLC
 AS30633,LeaseWeb USA / WDC-01
+AS30496,"TierPoint, LLC"
 AS30277,DFW Datacenter
 AS30176,Priority Colo Inc
 AS29873,"Newfold Digital, Inc."
@@ -324,6 +348,8 @@ AS29131,IOMART CLOUD SERVICES LIMITED
 AS29076,Citytelecom LLC
 AS29066,velia.net Internetdienste GmbH
 AS28753,Leaseweb Deutschland GmbH
+AS28744,Equinix (EMEA) Acquisition Enterprises B.V.
+AS28347,UNOTEL PARTICIPAÇÕES S/A
 AS27458,Fast Lane Internet
 AS27411,"Leaseweb USA, Inc."
 AS27357,Rackspace Hosting
@@ -334,6 +360,7 @@ AS26753,In2net Network Inc.
 AS26496,"GoDaddy.com, LLC"
 AS263702,GRUPO ZGH SPA
 AS26347,"New Dream Network, LLC"
+AS26094,"TierPoint, LLC"
 AS25973,"PacketExchange, Inc"
 AS2578,"Demos, Moscow, Russia"
 AS25593,Accenture SAS
@@ -353,6 +380,7 @@ AS24973,dogado GmbH
 AS24971,MasterDC s.r.o.
 AS24961,WIIT AG (fka. myLoc Managed IT AG)
 AS24940,Hetzner Online GmbH
+AS24938,Equinix (EMEA) Acquisition Enterprises B.V.
 AS24851,Netcetera Ltd.
 AS24843,France Televisions SA
 AS24806,"INTERNET CZ, a.s."
@@ -396,6 +424,7 @@ AS205631,Your Hosting B.V.
 AS20559,Fundaments B.V.
 AS205119,TELEKS DOOEL Skopje
 AS204939,TAC COMMUNICATIONS LTD
+AS20493,VIPARIS LE PALAIS DES CONGRES DE PARIS SAS
 AS20473,"The Constant Company, LLC"
 AS20454,SECURED SERVERS LLC
 AS204343,Compubyte Limited
@@ -406,8 +435,10 @@ AS203461,REGISTER S.P.A.
 AS203417,LH.pl Sp. z o.o.
 AS203380,DA International Group Ltd.
 AS203226,Dirk Walde trading as Walde IT-Systeme
+AS202861,Your Hosting B.V.
 AS202759,RJ Network OU
 AS202675,Keliweb S.R.L
+AS202242,Aruba S.p.A.
 AS202108,united-domains GmbH
 AS202053,UpCloud Ltd
 AS201924,ENAHOST s.r.o.
@@ -415,6 +446,7 @@ AS201848,Trader soft LLC
 AS201743,Oktawave S.A.
 AS20161,TeraGo Networks Inc.
 AS201011,Core-Backbone GmbH
+AS200837,Your Hosting B.V.
 AS200698,Globalhost d.o.o.
 AS200484,Brevo (formerly Sendinblue)
 AS200185,Aruba S.p.A.
@@ -441,6 +473,7 @@ AS198414,Cyber_Folks S.A.
 AS198371,NINET Company Nis d.o.o.
 AS198310,OOO Molniya
 AS198156,Lukman Multimedia Sp. z o.o
+AS198047,Host Europe GmbH
 AS197914,Ecritel SASU
 AS197902,Hostnet B.V.
 AS197706,Keminet SHPK
@@ -466,6 +499,7 @@ AS16154,Telecoms-Net Ltd.
 AS16125,UAB Cherry Servers
 AS16097,HL komm Telekommunikations GmbH
 AS15967,Nazwa.pl Sp.z.o.o.
+AS15891,Host Europe GmbH
 AS15830,"Equinix, Inc."
 AS15817,Mittwald GmbH
 AS15756,JSC Avantel
@@ -493,9 +527,11 @@ AS136557,Host Universal Pty Ltd
 AS135777,Shreenortheast Connect And Services Pvt Ltd
 AS134520,GigsGigs Network Services
 AS134451,NewMedia Express Pte Ltd
+AS133882,Godaddy.com
 AS133752,LEASEWEB HONG KONG LIMITED
 AS13354,zColo
 AS133480,5G NETWORK OPERATIONS PTY LTD
+AS132597,Hong Kong Serverworks Limited
 AS13237,euNetworks GmbH
 AS132203,Tencent
 AS13213,UK-2 Limited
@@ -503,6 +539,7 @@ AS131477,Prime Security Corp.
 AS13100,Equinix (EMEA) Acquisition Enterprises B.V.
 AS13009,Redcentric Solutions Ltd
 AS12989,Black HOST Ltd
+AS12878,COLT Technology Services Group Limited
 AS12876,Scaleway
 AS12859,BIT BV
 AS12850,Retelit Digital Services S.p.A.
@@ -511,8 +548,10 @@ AS12824,home.pl S.A.
 AS12779,IT.Gate S.p.A.
 AS12731,IPHH Internet Port Hamburg GmbH
 AS12645,COAXIS HOSTING SASAU
+AS12600,Equinix (EMEA) Acquisition Enterprises B.V.
 AS12586,GHOSTnet GmbH
 AS12574,Hosting.de GmbH
+AS12530,"""Kyivstar"" PJSC"
 AS12363,REGISTER S.P.A.
 AS12306,Plus.line AG
 AS12212,Ravand Cybertech Inc.
@@ -616,6 +655,7 @@ AS54203,"Strong Technology, LLC."
 AS40021,"Contabo (Nubes, LLC)"
 AS43357,Owl Limited
 AS207137,PacketHub S.A.
+AS210691,ASTROVPN LLC
 AS396356,Latitude.sh
 AS141039,PacketHub S.A.
 AS18978,Enzu Inc
@@ -638,6 +678,7 @@ AS6364,"Atlantic.net, Inc."
 AS400304,Redoubt Networks (Crunchbits)
 AS8829,ElmoNet Oy
 AS203020,HostRoyale Technologies Pvt Ltd
+AS50525,Privado Networks AG
 AS205467,Base IP B.V.
 AS34343,Eweka Internet Services B.V.
 AS207713,GLOBAL INTERNET SOLUTIONS LLC
@@ -731,45 +772,3 @@ AS205544,Leaseweb UK Limited
 AS39486,HostRoyale Technologies Pvt Ltd
 AS209847,WorkTitans B.V.
 AS40663,IncogNet LLC
-AS12530,"""Kyivstar"" PJSC"
-AS12600,Equinix (EMEA) Acquisition Enterprises B.V.
-AS12878,COLT Technology Services Group Limited
-AS132597,Hong Kong Serverworks Limited
-AS133882,Godaddy.com
-AS15891,Host Europe GmbH
-AS198047,Host Europe GmbH
-AS200837,Your Hosting B.V.
-AS202242,Aruba S.p.A.
-AS202861,Your Hosting B.V.
-AS20493,VIPARIS LE PALAIS DES CONGRES DE PARIS SAS
-AS210691,ASTROVPN LLC
-AS24938,Equinix (EMEA) Acquisition Enterprises B.V.
-AS26094,"TierPoint, LLC"
-AS28347,UNOTEL PARTICIPAÇÕES S/A
-AS28744,Equinix (EMEA) Acquisition Enterprises B.V.
-AS30496,"TierPoint, LLC"
-AS31100,Host Europe GmbH
-AS31240,Citytelecom LLC
-AS31815,"GoDaddy.com, LLC"
-AS34173,SafeBrands S.A.S.
-AS34289,Host Europe GmbH
-AS35662,IOMART MANAGED SERVICES LIMITED
-AS36430,"DataPipe, Inc."
-AS37692,NetStack Ltd
-AS3900,"SWITCH, LTD"
-AS39451,IOMART MANAGED SERVICES LIMITED
-AS39757,Equinix (EMEA) Acquisition Enterprises B.V.
-AS42363,NUXIT SAS
-AS43573,MEDIACTIVE SAS
-AS45031,dogado GmbH
-AS50499,INETCLOUD Inc.
-AS50525,Privado Networks AG
-AS50702,UNYC SAS
-AS50841,Artnet Sp. z o.o.
-AS57739,dogado GmbH
-AS58018,Mustafa Enes Akdeniz trading as OYUN CEVHERI
-AS58192,Atis Omran Sevin PSJ
-AS60626,LeaseWeb Network B.V.
-AS62567,"DigitalOcean, LLC"
-AS8912,Aptum Technologies (UK) Limited
-AS48024,AS48024

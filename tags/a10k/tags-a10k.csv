@@ -158,7 +158,6 @@ AS42371,MAGEX Solutions Kft.
 AS207027,LLC Eximius
 AS53831,"Squarespace, Inc."
 AS55990,Huawei Cloud Service data center
-AS401645,Softoria LLC
 AS1853,ACONET
 AS64258,GROUPE TECHNOLOGIES DESJARDINS INC.
 AS1742,Harvard University
@@ -207,7 +206,6 @@ AS680,Deutsches Forschungsnetz (DFN)
 AS45669,PMCL /LDI IP TRANSIT
 AS61293,1C LLC
 AS131930,"Tokyo Broadcasting System Television, Inc."
-AS138727,Center For E-governance
 AS53736,Nutanix
 AS3352,TELEFONICA DE ESPANA S.A.U.
 AS8856,UkrNet Ltd.
@@ -581,7 +579,6 @@ AS137702,"Nanjing, Jiangsu Province, P.R.China."
 AS207697,Immobiliare.it S.p.A.
 AS52890,Centro Integrado de Telemática do Exército
 AS11855,Unitas Global
-AS60976,Parsan Lin Co. PJS
 AS22611,"InMotion Hosting, Inc."
 AS33070,Rackspace Hosting
 AS24961,WIIT AG (fka. myLoc Managed IT AG)
@@ -843,6 +840,7 @@ AS12229,"SAS Institute, Inc."
 AS39787,TV 2 AS
 AS43614,Economia a.s.
 AS54775,Ally Financial Inc.
+AS20675,BOURSORAMA S.A.
 AS3329,Vodafone Greece
 AS48715,Sefroyek Pardaz Engineering PJSC
 AS27589,MOJOHOST
@@ -936,7 +934,6 @@ AS39029,Redpill Linpro AS
 AS50340,Selectel - Moscow
 AS33522,"cPanel, LLC."
 AS38700,SMILESERV
-AS209274,Kraken Network ISP LTD
 AS8883,UBS AG
 AS26762,"Conversant, LLC"
 AS12348,ODN OnlineDienst Nordbayern GmbH & Co. KG
@@ -1016,6 +1013,7 @@ AS133865,"Beijing IQIYI Science & Technology Co., Ltd."
 AS4657,StarHub Ltd
 AS30633,LeaseWeb USA / WDC-01
 AS56364,Garant-Park-Internet LLC
+AS133231,Goods And Services Tax Network
 AS57910,"Soluciones Corporativas IP, SL"
 AS20857,TransIP B.V. (team.blue NL)
 AS6698,Virtual Systems LLC
@@ -1027,6 +1025,7 @@ AS4611,CNNIC member
 AS202865,Dicastero per la Comunicazione
 AS41654,Inetra LLC
 AS35673,JSC Kaspi Bank
+AS134029,Unique Identification Authority of India
 AS45596,Centre For Railway Information Systems
 AS26347,"New Dream Network, LLC"
 AS1219,Oracle Corporation
@@ -1262,7 +1261,6 @@ AS55293,"A2 Hosting, Inc."
 AS8881,1&1 Versatel GmbH
 AS20705,HSBC Bank plc
 AS12353,Vodafone Portugal - Communicacoes Pessoais S.A.
-AS30193,Los Angeles Unified School District
 AS20764,CJSC RASCOM
 AS52016,JSC ADFACT
 AS15549,National Information Technologies Joint-Stock Company
@@ -1323,6 +1321,8 @@ AS204995,RTB Marketing and Tech Services Ltd
 AS44112,SpaceWeb Ltd
 AS198605,AVAST Software s.r.o.
 AS35676,La Poste S.A.
-AS133231,Goods And Services Tax Network
-AS134029,Unique Identification Authority of India
-AS20675,BOURSORAMA S.A.
+AS138727,Center For E-governance
+AS209274,Kraken Network ISP LTD
+AS30193,Los Angeles Unified School District
+AS401645,Softoria LLC
+AS60976,Parsan Lin Co. PJS

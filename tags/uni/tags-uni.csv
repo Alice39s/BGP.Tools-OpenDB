@@ -251,7 +251,6 @@ AS18360,Santo Tomas E-Service Providers
 AS18460,Fort Hays State University
 AS1851,The University of Adelaide
 AS18515,University of Texas at Arlington
-AS1852,University of California - Office of the President
 AS18553,University of West Florida
 AS18564,"St. John's University, New York"
 AS186,The Catholic University of America
@@ -334,7 +333,6 @@ AS20452,BALL STATE UNIVERSITY
 AS204626,Modern University College
 AS204813,Shahrekord University
 AS204904,University Of Art
-AS205,Montclair State University
 AS205029,Livesystems Group AG
 AS2055,Louisiana State University
 AS205667,JSC Narxoz University
@@ -615,9 +613,7 @@ AS35889,University of Hawaii
 AS35904,University of Phoenix
 AS3603,University de Los Andes
 AS36094,Worcester State University
-AS36101,Azusa Pacific University
 AS36269,University of Scranton
-AS36279,Misericordia University
 AS36319,NorthShore University HealthSystem
 AS3634,Stephen F. Austin State University
 AS36375,University of Michigan
@@ -652,6 +648,7 @@ AS37443,Usmanu Danfodiyo University
 AS37496,Aga Khan University
 AS37501,University of the Free State
 AS37513,Namibia University of Science and Technology
+AS37520,Rhodes University
 AS37568,National University of Science and Technology
 AS37686,Ahmadu Bello University Zaria Nigeria
 AS3778,Temple University
@@ -673,7 +670,6 @@ AS393251,Francis Marion University
 AS393257,Lawrence University
 AS393282,University of California at Berkeley
 AS393289,Mercer University
-AS393307,Cooper University Hospital
 AS393337,The University of Hartford
 AS393392,Pacific Northwest University of Health Sciences
 AS393408,University of Portland
@@ -847,7 +843,6 @@ AS53450,University of Arkansas at Monticello
 AS53568,Franklin University
 AS53604,University of Arkansas at Pine Bluff
 AS53695,Southern Illinois University at Edwardsville
-AS53701,Trinity Washington University
 AS53748,University Medical Center of Southern Nevada
 AS53750,Neumann University
 AS53785,University of North Carolina at Greensboro
@@ -886,7 +881,6 @@ AS55919,20 Dover Drive Singapore 138682
 AS56132,Monash University
 AS5627,Shahrood University of Technology
 AS56434,Modesco LLC
-AS5653,University of California San Francisco
 AS5661,UNIVERSITY OF SOUTH FLORIDA
 AS56714,Imam Abdulrahman Bin Faisal University
 AS56727,Ozyegin University
@@ -921,7 +915,6 @@ AS59962,Shiraz University
 AS59968,Avaye Resaye Iranian Co. Ltd
 AS60143,Brno University of Technology
 AS60161,Prince Sattam Bin Abdulaziz University
-AS60333,The University of Manchester
 AS60334,V.N.Karazin Kharkiv National University
 AS60560,MEDICAL UNIVERSITY - VARNA Prof. Dr. Paraskev Stoyanov
 AS6059,University System of Maryland
@@ -994,7 +987,6 @@ AS8122,Duquesne University
 AS8135,Troy University
 AS823,University of Western Ontario
 AS8253,Democritus University of Thrace
-AS8256,Lodz University of Technology
 AS8278,Technical University of Crete
 AS8324,South Ural State University
 AS8326,Politechnika Bydgoska im. Jana i Jedrzeja Sniadeckich
@@ -1230,7 +1222,6 @@ AS396979,OXNARD SCHOOL DISTRICT
 AS397001,College Station Independent School District
 AS39987,Kent Intermediate School District
 AS39999,Polk County Public Schools
-AS40159,Princeton Public Schools
 AS40252,Cleveland Municipal School District
 AS40270,The El Paso Independent School District (EPISD)
 AS40362,Chapin School
@@ -1273,7 +1264,6 @@ AS54453,Medicine Hat School District #76
 AS54520,Calgary Catholic School District
 AS54556,McCallie School
 AS54605,The Board of Trustees of Elk Island Public Schools
-AS54772,Klein Independent School District
 AS54884,Grasslands Public Schools
 AS54925,Fairbanks North Star Borough School District
 AS54933,Austin Independent School District
@@ -1292,10 +1282,8 @@ AS62546,Frisco Independent School District
 AS62552,San Marino Unified School District
 AS62636,Edina Public Schools
 AS62677,William Floyd Union Free School District
-AS62678,Horace Mann School
 AS62705,Spotsylvania County School Board
 AS62718,Springfield School District
-AS62867,Aldine Independent School District
 AS63056,Hoopeston Area Schools
 AS63071,Stafford County Public Schools
 AS63165,Clayton County Public Schools
@@ -1375,7 +1363,6 @@ AS1104,Nikhef - Dutch National Institute for Sub-atomic Physics
 AS766,Entidad Publica Empresarial Red.es
 AS293,ESnet
 AS8522,Foundation of Research and Technology Hellas
-AS16889,Stevens Institute of Technology
 AS22847,Bowdoin College
 AS14877,"FirstLight Fiber, Inc."
 AS4246,New Jersey Institute of Technology
@@ -1519,7 +1506,6 @@ AS64298,"UPN ""Veteran"" Surabaya"
 AS63876,Institut Seni Indonesia Yogyakarta
 AS137301,Poltekkes Kemenkes Yogyakarta
 AS62600,Arizona Board of Regents
-AS398845,McLennan Community College
 AS400994,Oneida Special School District
 AS24620,Riga Technical University
 AS201547,National Library of Latvia
@@ -1569,7 +1555,6 @@ AS198878,Universidad de Navarra
 AS20191,Pontificia Universidad Catolica de Chile
 AS204884,Fundacion Universidad de Valladolid
 AS212458,"IESE, Universidad de Navarra"
-AS21506,Fundação Universidade de Brasília
 AS21578,Universidad autonoma de Bucaramanga
 AS21603,"Universidad La Salle, AC"
 AS22122,UNIVERSIDAD AUTONOMA DE YUCATAN
@@ -1647,7 +1632,6 @@ AS269941,Universidad Particular de Especialidades Espíritu Santo
 AS269972,UNIVERSIDAD DEL QUINDÍO
 AS269992,Universidad de Guayaquil
 AS269999,UNIVERSIDAD MARIANA
-AS270033,Universidad Nacional Arturo Jauretche
 AS270074,UNIVERSIDAD DE LAS ARTES
 AS270693,UNIVERSIDADE FEDERAL DO PIAUI
 AS271354,UNIVERSIDADE FEDERAL DE MINAS GERAIS
@@ -1707,6 +1691,7 @@ AS52467,Universidad de Ibague
 AS52488,Universidad Pontificia Bolivariana
 AS52853,UFLA - UNIVERSIDADE FEDERAL DE LAVRAS
 AS52992,UNIVERSIDADE FEDERAL DE SAO PAULO
+AS53046,UNIVERSIDADE ESTADUAL DE PONTA GROSSA
 AS53164,UNIVERSIDADE FEDERAL DA BAHIA
 AS53166,UNIVERSIDADE ESTADUAL PAULISTA
 AS53187,UNIVERSIDADE ESTADUAL DE CAMPINAS
@@ -1727,7 +1712,6 @@ AS7125,Universidad de Monterrey
 AS7236,"Universidad Regiomontana, A.C."
 AS7325,Universidad Autonoma De Tamaulipas
 AS27817,Red Nacional Académica de Tecnología Avanzada - RENATA
-AS1840,Universidad de Las Americas-Puebla
 AS3454,Universidad Autonoma de Nuevo Leon
 AS23007,Universidad de Los Andes
 AS11694,Universidad Simon Bolivar
@@ -2056,7 +2040,6 @@ AS2683,Lomonosov Moscow State University
 AS401510,"IMG Academy, LLC"
 AS63505,UIN Sunan Ampel -  Surabaya
 AS32522,Multnomah Education Service District
-AS263149,Centro de Enseñanza Tecnica Industrial
 AS270167,"Centro de Investigación en Matemáticas, A.C."
 AS131112,"Sekolah Tinggi Multi Media ""MMTC"" Yogyakarta"
 AS22919,Portland Community College
@@ -2095,5 +2078,22 @@ AS7651,Lingnan University
 AS197982,Polsko-Japonska Wyzsza Szkola Technik Komputerowych
 AS211532,Moscow Technical University of Telecommunications and...
 AS30405,Capital Area Intermediate Unit
-AS37520,Rhodes University
-AS53046,UNIVERSIDADE ESTADUAL DE PONTA GROSSA
+AS16889,Stevens Institute of Technology
+AS1840,Universidad de Las Americas-Puebla
+AS1852,University of California - Office of the President
+AS205,Montclair State University
+AS21506,Fundação Universidade de Brasília
+AS263149,Centro de Enseñanza Tecnica Industrial
+AS270033,Universidad Nacional Arturo Jauretche
+AS36101,Azusa Pacific University
+AS36279,Misericordia University
+AS393307,Cooper University Hospital
+AS398845,McLennan Community College
+AS40159,Princeton Public Schools
+AS53701,Trinity Washington University
+AS54772,Klein Independent School District
+AS5653,University of California San Francisco
+AS60333,The University of Manchester
+AS62678,Horace Mann School
+AS62867,Aldine Independent School District
+AS8256,Lodz University of Technology

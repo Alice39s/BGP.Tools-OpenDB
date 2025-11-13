@@ -1,18 +1,23 @@
 AS18220,Australian Defence Organisation
 AS203311,NATO Cooperative Cyber Defence Centre of Excellence
+AS37258,Defence Intelligence Agency
 AS50758,Airbus Defence and Space SAS
 AS51455,Airbus Defence and Space SAS
 AS57201,Estonian Defence Forces
 AS7,The Defence Science and Technology Laboratory
 AS10944,Association of Bay Area Governments
 AS132228,Vanuatu Government
+AS132237,GOVERNMENT TECHNOLOGY AGENCY
+AS132293,GOVERNMENT TECHNOLOGY AGENCY
 AS132321,NORTHERN TERRITORY OF AUSTRALIA
 AS132909,ACT Government InTACT Group
 AS133383,Vanuatu Government
+AS133387,GOVERNMENT TECHNOLOGY AGENCY
 AS134164,NSW Government Telecommunications Authority
 AS135008,GOVERNMENT TECHNOLOGY AGENCY
 AS135675,Queensland Local Government Superannuation Board
 AS136601,GOVERNMENT TECHNOLOGY AGENCY
+AS14072,Government of the District of Columbia
 AS14263,South Dakota State Government
 AS15386,Lamis Ukraine LLC
 AS15806,Irish Government
@@ -36,8 +41,10 @@ AS25807,Arlington County Government
 AS264694,EGOVERNMENT UNIT
 AS30415,Sarasota County Government
 AS31753,Inmarsat Government
+AS32711,Wake County Government
 AS327795,e-Government Authority
 AS33527,Metropolitan Government of Nashville and Davidson Cou...
+AS33594,Government of the Northwest Territories
 AS35956,Snohomish County Government
 AS36081,State of Colorado General Government Computer
 AS36542,Gwinnett County Government
@@ -50,7 +57,6 @@ AS393313,"THE INSTITUTE FOR INTERGOVERNMENTAL RESEARCH, INC."
 AS393819,Lackawanna County Government
 AS394020,Lexington-Fayette Urban County Government
 AS394216,Pueblo County Government
-AS394465,Sussex County Government
 AS395634,Douglas County Government
 AS396072,Southern California Association of Governments
 AS396090,Seminole County Government
@@ -68,6 +74,7 @@ AS49369,Staff Governor and Government of the Orenburg region
 AS4954,Carroll County Government
 AS49932,State Autonomous Institution of Khakass Republic Cent...
 AS50222,"Federal Government Cultural Organization ""State Acade..."
+AS51438,Boly Varos Onkormanyzat
 AS51882,Government of Kurgan area
 AS51912,Department of Digital Development and Communications ...
 AS53302,Baltimore County Government
@@ -79,6 +86,7 @@ AS54735,Peraton Labs Inc.
 AS55046,"National Government Services, Inc."
 AS55330,Afghan Telecom
 AS57637,Government of the Khabarovsk Krai
+AS58031,"Government Communication Agency, republic of Abkhazia"
 AS6989,Government Technology Services Inc.
 AS7773,South Dakota State Government
 AS9732,"Digital Policy Office, HKSARG"
@@ -103,6 +111,7 @@ AS18440,"National Council on Compensation Insurance, Inc."
 AS196902,Dudley Metropolitan Borough Council
 AS197370,Nottinghamshire County Council
 AS198142,Warrington Borough Council
+AS198472,Manchester City Council
 AS201762,Royal Borough of Kingston Council
 AS202394,"KP ""Irpinkomunikaciaservice"" Irpin City Council"
 AS204486,Cheshire East Council
@@ -125,6 +134,7 @@ AS44110,Walsall Metropolitan Borough Council
 AS44403,Bristol City Council
 AS44442,The Borough of Telford and Wrekin Council
 AS46491,Metropolitan Educational Council
+AS47797,Essex County Council
 AS49049,Bath North East Somerset Council
 AS49324,Nottingham City Council
 AS49728,Herefordshire Council
@@ -132,8 +142,10 @@ AS51707,Medway Towns Council
 AS542,Alberta Research Council
 AS5507,Magyarorszagi Internet Szolgaltatok Tanacsa Tudomanyo...
 AS55435,Whangarei District Council
+AS55580,Moreton Bay Regional Council - Pine Rivers Office
 AS55870,Darwin City Council
 AS56670,West Sussex County Council
+AS56929,WANDSWORTH-BOROUGH-COUNCIL
 AS58545,DUBBO REGIONAL COUNCIL
 AS58716,Penrith City Council
 AS59619,Blackpool Borough Council
@@ -142,6 +154,7 @@ AS63932,Bangladesh Computer Council
 AS12376,Ministry of finance
 AS13029,Autonomous institution Center of Information Technolo...
 AS132117,Ministry of Interior
+AS132219,Ministry of Maori Development (Te Puni Kokiri)
 AS135666,Government Data Center (DITT/MoIC)
 AS16060,Kuwait Ministry of Finance
 AS196821,AzInTelecom LLC
@@ -152,12 +165,15 @@ AS199729,Ministry of Education
 AS202342,"Federal State Budgetary Institution ""National Medical..."
 AS202655,Ministry of Education (MOE)
 AS202710,ABnet Sh.p.k
+AS203147,Ministry Of Interior - Kuwait
 AS203310,Ministry of Internal Affairs
 AS206600,Ministry of Foreign Affairs Republic of Latvia
 AS206629,Ministry of Justice
 AS206645,Ministry of Regional Development and Public Works
 AS206845,FSBI SCCS of A. N. Bakulev of The Ministry of Health
+AS206879,Ministry of Electricity and Water
 AS20702,JSC Russian Railways
+AS20929,Ministerul Finanțelor Publice
 AS21002,Ministry of Finance of Saudi Arabia
 AS210229,Ministry of Environment and Water
 AS25241,Information Centre of the Ministry of the Interior
@@ -185,15 +201,20 @@ AS43344,State Enterprise Ukrvaktsina Ministry of Health of Ukraine
 AS43378,Ministry of Commerce and Industry in Saudi Arabia
 AS44560,Ministry of Interior Affairs of Russian Federation
 AS44689,Ministry of Education
+AS47519,Kuwait Ministry of Defense
 AS47736,"IT and Development Center of Ministry of Interior, Estonia"
+AS47805,Ministry of Communications and Information Technology
 AS49950,Ministry of Interior of Republic of Bulgaria
+AS50280,"Ministry Of Civil Service, Kingdom of Saudi Arabia"
 AS52184,Main Center of Information and Computing Ministry of ...
 AS5498,Institution Central Information and Analytical Center...
 AS5542,"Ministry of Health, Treatment and Medical Education"
 AS56751,Ministry of Internal Affairs of Ukraine
+AS56855,Ministry of Internal Affairs
 AS57580,"Federal State Budgetary Institution ""Research Center ..."
 AS57965,International Committe of the Red Cross (ICRC)
 AS57968,Ministry of Foreign Affairs
+AS58185,Ministry of Justice of Georgia
 AS59801,Main Center of Information and Computing Ministry of ...
 AS60179,GBU RS(Y) YARMIAC
 AS60562,Ministry Of Health and Medical Education
@@ -208,6 +229,7 @@ AS12156,City of Aurora Colorado
 AS12191,City of Lebanon - Lebanon Utilities
 AS133015,City of Stirling
 AS13456,City of Spokane
+AS135118,The Corporation of the City of Adelaide
 AS13543,City of Cookeville
 AS13855,The Municipal Communications Utility of the City of C...
 AS13918,City of Tucson
@@ -215,6 +237,7 @@ AS14242,City of Chandler
 AS14303,City of Memphis
 AS14308,City of Longmont
 AS14488,City of Williamstown
+AS14677,City of Tacoma
 AS14736,City of Kansas City Missouri
 AS14808,ERR_AS_NAME_NOT_FOUND
 AS16426,City of Columbus
@@ -228,6 +251,7 @@ AS17297,CITY OF CARROLLTON - TEXAS
 AS17365,City of Fresno
 AS18482,City of Raleigh
 AS18760,City of Rancho Cucamonga
+AS18889,City of Ruston
 AS19179,City of El Paso
 AS19185,City of Mesa
 AS19307,Water Works & Sanitary Sewer Board of the City of Mon...
@@ -267,8 +291,10 @@ AS26059,City of Pittsburgh
 AS26064,City of Kings Mountain
 AS26263,City of Las Vegas
 AS26402,City of Santa Barbara
+AS26439,City of Albuquerque
 AS26565,City of Medford
 AS26814,City of Birmingham
+AS26903,"City of Salisbury, North Carolina"
 AS27201,CITY OF LYNCHBURG
 AS27202,"City of Bardstown, Kentucky"
 AS2727,"Electric Plant Board of the City of Glasgow, Kentucky"
@@ -284,8 +310,10 @@ AS30577,City of Bellevue IT Dept
 AS31756,City of Colorado Springs
 AS31900,City of Thornton
 AS32146,City of Bozeman
+AS32193,"City of Ammon, Idaho"
 AS32269,City of Idaho Falls
 AS32294,"City of Champaign, Illinois"
+AS32324,CITY OF CERRITOS
 AS32365,City of Sandy
 AS32457,City of Houston
 AS32629,City of Charlotte
@@ -305,6 +333,7 @@ AS36358,City of Des Moines
 AS36548,"City of Jacksonville, Florida"
 AS36555,City Of Vernon
 AS36750,City of Mississauga
+AS36809,City of Coral Gables
 AS3709,City of San Antonio
 AS393228,City of Vineland Board of Education
 AS393281,City of Huntington Beach
@@ -335,6 +364,7 @@ AS395386,The City of Moncton
 AS395399,City of Montreal
 AS395411,"City of Smyrna, GA"
 AS395474,"City of Plano, Texas"
+AS395604,City of Cortez
 AS395614,City of Lansing
 AS395627,City of Montgomery
 AS395660,The City of Edmonton
@@ -388,6 +418,7 @@ AS54371,City of Roseville - Minnesota
 AS54385,City of Tolleson
 AS54469,City of Vacaville
 AS54474,City of Santa Cruz
+AS54797,CITY OF AURORA
 AS54832,City of Carlsbad
 AS54883,"City of Richmond, Virginia"
 AS55063,City of Fairfax
@@ -402,6 +433,7 @@ AS62841,City of New Orleans
 AS62924,"City of Bryan, Texas"
 AS63010,"City of LaGrange, Georgia"
 AS63097,City of Poway
+AS63316,City of Foster City
 AS64261,City of Cartersville
 AS7194,City of Burbank
 AS7471,City of Darebin
@@ -418,9 +450,11 @@ AS136035,Department of Tourism
 AS137540,Bangladesh Roads and Highways Department
 AS13972,"Wadsworth Center, NYS Department of Health"
 AS14223,New York State Department of Health
+AS14827,Washington State Department of Transportation
 AS14977,State of Wyoming Department A&I
 AS15130,U. S. Department of Justice
 AS15147,DEPARTMENT OF HOMELAND SECURITY
+AS15196,Maryland Department of Transportation
 AS15205,Nassau County Police Department
 AS17120,New Brunswick Department of Education and Early Child...
 AS18055,Department of Human Services
@@ -438,6 +472,7 @@ AS21852,"State Of Arkansas, Division of Information Systems"
 AS23024,Orange County Department of Education
 AS23307,Nova Scotia Department of Education
 AS24313,NSW Department of Education
+AS24394,DEPARTMENT OF THE PREMIER AND CABINET
 AS24449,Electrical and Mechanical Services Department
 AS25640,Hawaii Department of Education
 AS2576,U. S. Department of Transportation
@@ -447,6 +482,7 @@ AS2894,California Department of Water Resources
 AS29992,U.S. Department of Veterans Affairs
 AS32982,U.S. Department of Energy
 AS33138,New York City Police Department
+AS3635,"U.S. Department of Commerce, Bureau of Economic Analysis"
 AS38470,Department of Home Affairs
 AS38574,"LCSD, HKSARG"
 AS38603,"LCSD, HKSARG"
@@ -460,8 +496,8 @@ AS40116,New York State Department of Financial Services
 AS40158,Department of Homeland Security
 AS40749,CLARKSVILLE DEPARTMENT OF ELECTRICITY
 AS40839,KOHLS DEPARTMENT STORES
+AS41888,"State Institution ""Service Center for the Departments..."
 AS45442,"Department of Parliamentary Services,"
-AS45533,Comptroller General's Department
 AS46520,California Department of Justice
 AS46846,U.S. Department of Energy
 AS4820,Department of Communities and Justice
@@ -475,17 +511,19 @@ AS56557,Department of Digital Development of the Voronezh region
 AS61014,JSC Kurganmashzavod
 AS61106,PS Cloud Services LLC
 AS63254,Department of Information Technology
+AS64008,Department of Social Welfare and Development
+AS6699,Federal State Budgetary Institution of Science 'N.N. ...
 AS688,U.S. Department of Interior Bureau of Reclamation
 AS6922,Texas Department of Information Resources
 AS6966,U.S. Department of State
 AS7086,"Mississippi, Department of Information Technology Ser..."
 AS8103,Florida Department of Management Services
+AS818,Department of Communications
 AS8506,Institution of Russian Science Academy of Irkutsk Sci...
 AS9509,Department of Employment and Workplace Relations
 AS36223,Spanish Fork City
 AS131341,"Department of Information Technology, Government of Nepal"
 AS43381,Israel Ministry Of Defence
-AS62548,City of Norwich Department of Public Utilities
 AS203665,UK Ministry of Defence
 AS3219,Ministry of Local Government and Regional Development
 AS25554,Ministry of Finance of Bulgarian Government
@@ -494,6 +532,7 @@ AS206747,UK Ministry of Defence
 AS17485,"Trade and Industry Department, the Government of the ..."
 AS37313,Ghana Government (Ministry of Communications)
 AS199131,City of York Council
+AS203506,MINISTRY OF DEFENCE OF MONTENEGRO (MINISTARSTVO ODBRA...
 AS46879,North Central Texas Council of Governments
 AS51051,Saratov Region Government Administration  
 AS14734,Northeast Ohio Network for Educational Technology
@@ -506,18 +545,23 @@ AS196722,SCHWEIZERISCHE NATIONALBANK
 AS394015,Mikmaw Kinamatnewey
 AS139943,Diskominfo Garutkab
 AS138050,Dinas Komunikasi Provins Jawa Barat
+AS24,National Aeronautics and Space Administration
 AS3240,Styrelsen for It og Læring
 AS206341,Stadt Dortmund
 AS8956,Stadt Flensburg
 AS60997,Stadt Koeln
 AS205033,Stadt Regensburg
 AS786,Jisc Services Limited
+AS213158,Nittedal Kommune
+AS34592,Iranian Presidential Administration
+AS62186,Gjovik Kommune
 AS62090,Randers Kommune
 AS41306,Toender Kommune
 AS208237,Naestved Kommune
 AS209125,Kobenhavn Kommune
 AS198531,Silkeborg Kommune
 AS208551,Aabenraa Kommune
+AS206418,Gentofte Kommune
 AS201720,Fredensborg Kommune
 AS61128,Odense Kommune
 AS35789,Gribskov Kommune
@@ -530,14 +574,17 @@ AS328665,Zambia Revenue Authority
 AS45588,"Bangladesh Telecommunications Company Limited (BTCL),..."
 AS23744,Department of Home Affairs
 AS28682,Posta Slovenije d.o.o.
+AS764,Prime Minister's Office
 AS328316,Point d'Atterissement Virtuel - Burkina Faso
 AS37385,Societe Nigerienne des Telecommunications (SONITEL)
+AS37677,Societe Congolaise des Postes et Telecommunications (SCPT)
 AS393535,Fort Bend County
 AS30049,Metropolitan Transit Authority of Harris County
 AS397371,Harris County Department of Education Public Facil
 AS397824,Alaska Permanent Fund Corporation
 AS2650,Executive Office Of The President
 AS211875,Government of Jersey
+AS37016,Ethekwini Municipality
 AS7497,Computer Network Information Center of Chinese Academ...
 AS28513,UNINET
 AS58453,China Mobile International
@@ -571,7 +618,10 @@ AS210592,Fintraffic Tie Oy
 AS30754,Eduskunta
 AS207282,HUS Group
 AS43558,Traficom .FI Anycast
+AS203609,Suomen Erillisverkot Oy
+AS39098,Bank Of Finland
 AS39662,Finnish Transport and Communications Agency
+AS204452,Vaestorekisterikeskus
 AS205250,Turun Kaupunki
 AS209457,Etela-Pohjanmaan Hyvinvointialue
 AS209682,Finavia Oyj
@@ -579,6 +629,7 @@ AS37130,SITA Pty LTD
 AS18242,"Chengdu Information Harbor Co., Ltd"
 AS18125,"Ministry of Agriculture, Forestry and Fisheries Resea..."
 AS131279,Ryugyong-dong (DPRK)
+AS267086,MUNICIPIO DE ESTANCIA
 AS211589,Ríkisútvarpið Ohf
 AS206010,Rekstrarfélag Stjórnarráðsins
 AS57729,Kópavogsbær
@@ -603,14 +654,18 @@ AS316,United States Department of Defense (DoD)
 AS5132,United States Department of Defense (DoD)
 AS5831,United States Department of Defense (DoD)
 AS319,United States Department of Defense (DoD)
+AS5860,United States Department of Defense (DoD)
+AS5306,United States Department of Defense (DoD)
 AS352,United States Department of Defense (DoD)
 AS351,United States Department of Defense (DoD)
+AS571,United States Department of Defense (DoD)
 AS312,United States Department of Defense (DoD)
 AS1569,United States Department of Defense (DoD)
 AS1586,United States Department of Defense (DoD)
 AS6040,United States Department of Defense (DoD)
 AS356,United States Department of Defense (DoD)
 AS300,United States Department of Defense (DoD)
+AS341,United States Department of Defense (DoD)
 AS321,United States Department of Defense (DoD)
 AS27142,United States Department of Defense (DoD)
 AS5972,United States Department of Defense (DoD)
@@ -626,7 +681,9 @@ AS27064,Defense Information Systems Agency (DISA)
 AS265071,SECRETARIA DA FAZENDA DO ESTADO DO PIAUI
 AS36612,Clark County WA
 AS288,European Space Agency (ESA)
+AS8519,European Space Agency (ESA)
 AS36479,Saskatchewan Government Insurance
+AS209175,Kringvarp Foroya
 AS38414,Gyeonggi  siheung office of education
 AS42165,European Commission - Directorate General - Joint Res...
 AS42848,European Commission
@@ -652,12 +709,14 @@ AS200521,"Ministerio De Economia, Comercio Y Empresa"
 AS39658,Statistics Sweden
 AS20905,Banco de Espana
 AS49666,Telecommunication Infrastructure Company
+AS61458,GOBIERNO AUTÓNOMO MUNICIPAL DE LA PAZ
 AS262264,SECRETARIA DE GOBIERNO DE AMBIENTE Y DESARROLLO SUSTENTABLE
 AS52318,"Agencia de Sistemas de Informacion, Gobierno de la Ci..."
 AS265589,Gobierno del Estado de Morelos
 AS264808,Gobierno de Mendoza - Ministerio de Hacienda
 AS35264,Gobierno de Cantabria
 AS44998,GOBIERNO DE CANARIAS
+AS39353,Gobierno del Principado de Asturias
 AS197829,Gobierno de Navarra
 AS52293,Gobierno de Santa Fe
 AS24595,Belastingdienst
@@ -673,6 +732,7 @@ AS202553,Dienst Uitvoering Onderwijs
 AS200777,Deutsche Welle Anstalt des Oeffentlichen Rechts
 AS211319,breitbandmessung.de
 AS198815,Ríkisútvarpið Ohf
+AS3766,Shared Services Canada
 AS206458,Het Vlaams Parlement
 AS201859,Ministeries van de Vlaamse Gemeenschap
 AS204182,Ministeries van de Vlaamse Gemeenschap
@@ -702,7 +762,9 @@ AS205346,Lennuliiklusteeninduse AS
 AS8240,Information System Authority Republic of Estonia
 AS56561,Central Bank of the Republic of Armenia
 AS4152,U.S. Department of Agriculture
+AS60903,Tyrnävän kunta
 AS211929,Kuusamon kaupunki
+AS201557,Valoo Oy
 AS206860,Oulunkaaren kuntayhtymä
 AS8978,Holy See - Vatican City State
 AS398412,Weber County
@@ -726,11 +788,14 @@ AS202123,Nationale Alarmzentrale NEOC
 AS137291,Diskominfo Kab. Trenggalek
 AS134635,Diskominfo Kab. Banyuwangi
 AS131693,Kementerian Agama (KEMENAG)
+AS25461,Serviciul de Informatii Externe
 AS49507,Institutul National de Cercetare-Dezvoltare pentru Fi...
 AS50944,Institutul National al Patrimoniului
 AS49437,Institutul National de Cercetare Dezvoltare pentru Fi...
+AS51098,Agentia Spatiala Romana
 AS61353,INSTITUTUL NATIONAL DE CERCETARE DEZVOLTARE PENTRU FI...
 AS51970,Unitatea Executiva pentru Finantarea Invatamantului S...
+AS56519,Ministerul Apararii Nationale
 AS13011,RA Monitorul Oficial
 AS31278,Administratia Nationala de Meteorologie RA
 AS151561,PT ASABRI
@@ -779,6 +844,7 @@ AS215215,Bergen kommune
 AS224,Sikt (Uninett)
 AS137379,Diskominfo Kota Bekasi
 AS6733,Bundesinstitut fuer Arzneimittel und Medizinprodukte ...
+AS345,United States Department of Defense (DoD)
 AS137361,Diskominfo Kab. Malang
 AS131724,Diskominfo Jateng
 AS138114,Diskominfo Kab. Tangerang
@@ -787,6 +853,7 @@ AS38764,Markas Besar Kepolisian Negara Republik Indonesia
 AS149402,Diskominfo Kab. Probolinggo
 AS137318,Diskominfo Kab. Pati
 AS208820,DEPARTEMENT DE LA SEINE-SAINT-DENIS
+AS39675,Altum Development Finance Institution
 AS136094,Markas Besar TNI Angkatan Darat
 AS136842,PEMERINTAH PROVINSI PAPUA
 AS138055,BADAN INTELIJEN NEGARA
@@ -796,20 +863,33 @@ AS135473,BPJS Ketenagakerjaan
 AS149968,Diskominfo Kabupaten Humbang Hasundutan
 AS141644,Dinas Komunikasi dan Informatika Kabupaten Blora
 AS147136,Dinas Komunikasi dan Informasi Kabupaten Sragen
+AS34073,Ministry of Education and Science Republic of Latvia
 AS8194,Latvia State Radio and Television Centre
 AS45712,Departemen Luar Negeri Republik Indonesia
 AS60324,Latvijas Sabiedriskais medijs VSIA
 AS50893,Ministry of Welfare Republic of Latvia
+AS20548,Parliament of Latvia
+AS35373,Latvijas Pasts
+AS199300,The State Agency of Medicines of Latvia
+AS47922,Latvian Geospatial Information Agency
+AS57058,Road Traffic Safety Directorate Republic of Latvia
+AS12443,Riga City Council Finance Department
+AS25444,Latvian National Armed Forces
 AS44698,Chancery of the President of Latvia
+AS208284,"Latvian Environment, Geology and Meteorology Centre"
 AS29600,Latvenergo
 AS199663,Treasury Republic of Latvia
+AS41376,Jurmala City Council
 AS12509,Bank of Latvia
+AS29466,State Revenue Service of Republic of Latvia
 AS62220,State Regional Development Agency Republic of Latvia
 AS201547,National Library of Latvia
 AS41424,Latvian Railways
 AS210213,Latvia State Radio and Television Centre
 AS59503,LEPL Digital Governance Agency
+AS198561,Legal Entity Under Public Law Financial Analytical Service
 AS212398,Ministry of Environmental Protection and Agriculture ...
+AS201174,Tbilisi City Hall
 AS200568,LEPL Digital Governance Agency
 AS51010,National Agency of Public Registry
 AS57445,Administration of the President of Georgia
@@ -819,6 +899,8 @@ AS43104,SJSC RIGA International Airport
 AS139237,Nepal Police
 AS56974,State Revenue Committee of the Republic of Armenia
 AS57956,Rīgas satiksme
+AS43188,Agricultural Data Center Republic of Latvia
+AS21325,Tiesu Namu Agentura SIA
 AS393956,City of Richmond
 AS41289,Deutscher Wetterdienst
 AS136085,Pemerintah Kabupaten Bojonegoro
@@ -829,6 +911,7 @@ AS141583,BLDK Mahkamah Agung
 AS20116,CAIXA ECONOMICA FEDERAL
 AS138835,Diskominfo Kab. Pacitan
 AS54549,"City of Vallejo, A municipal corporation"
+AS400425,CITY OF NORTH RICHLAND HILLS
 AS37978,Networking Tasmania
 AS45703,Badan Koordinasi Penanaman Modal (BKPM)
 AS19534,Lee County Tax Collector
@@ -848,6 +931,7 @@ AS19014,NORCOM
 AS327861,Department of ICT Government of Seychelles
 AS267932,CENTRAL INFORMATION TECHNOLOGY OFFICE (CITO)
 AS150442,Bangladesh Fire Service and Civil Defense
+AS48109,Information and eGovernment Authority
 AS138059,PEMERINTAH KABUPATEN PURWOREJO
 AS58469,Ministry of Communication & IT
 AS17147,Ministerio del Interior y de Seguridad Publica - Gobi...
@@ -869,9 +953,12 @@ AS137287,DINAS KOMUNIKASI DAN INFORMATIKA KAB. BEKASI
 AS138852,Dinas Komunikasi dan Informatika Kabupaten Badung
 AS213283,Bundesministerium des Innern und fuer Heimat
 AS213238,Bundesministerium des Innern und fuer Heimat
+AS61352,Staatsbetrieb Saechsische Informatik Dienste
 AS13223,Council Of Europe
 AS132599,Ministry of Posts and Telecommunication
 AS40648,Lee County BoCC
+AS5744,United States Patent and Trademark Office
+AS40623,Office of Oceanic and Atmospheric Research - Geophysi...
 AS33343,"U.S. Department of Commerce, HQ and ITA"
 AS11956,National Oceanic and Atmospheric Administration
 AS26100,National Oceanic and Atmospheric Administration
@@ -887,15 +974,18 @@ AS29901,"Mecklenburg County, NC"
 AS600,OARnet
 AS25628,Collier County Clerk of the Circuit Court
 AS397276,Ninth Judicial Circuit Court of Florida
+AS215776,Kansaneläkelaitos
 AS269801,MINISTERIO DE HACIENDA Y FINANZAS
 AS136882,Diskominfotik Kota Cirebon
 AS16701,ADMINISTRACION FEDERAL DE INGRESOS PUBLICOS(AFIP)
 AS33845,Swiss Federation represented by FOITT
 AS203242,Gemeente Geldrop-Mierlo
+AS205637,Gemeente Amsterdam
 AS57124,Gemeente Maastricht
 AS208973,Gemeente Haarlem
 AS58083,Gemeente Zaanstad
 AS209721,Gemeente Schiedam
+AS208654,Gemeente Gouda
 AS208240,Gemeente Rotterdam
 AS48037,SSC-ICT Haaglanden
 AS141659,Badan Nasional Penanggulangan Bencana
@@ -909,6 +999,7 @@ AS49,National Institute of Standards and Technology
 AS7872,United States Antarctic Program
 AS6122,Iowa Communications Network
 AS197016,Provincie Friesland
+AS198687,Provincie Noord-Holland
 AS139948,Diskominfo Kota Banjarbaru
 AS139992,Diskominfo Kab. Cilacap
 AS212542,SE Diia
@@ -922,6 +1013,7 @@ AS2920,Los Angeles County Office of Education
 AS4859,The State Information Center of P.R.China
 AS133345,KEMENKO POLHUKAM RI
 AS56236,Badan Narkotika Nasional
+AS202024,TELECOMMUNICATIONS AND DIGITAL GOVERNMENT REGULATORY ...
 AS2384,Architect of the Capitol
 AS400588,Ville de Longueuil
 AS398905,Ville de Gatineau
@@ -936,7 +1028,9 @@ AS200538,Rudersdal Kommune
 AS212428,Vejle Kommune
 AS43806,Region Sjælland
 AS207316,Danmarks Eksport- og Investeringsfond
+AS203581,Region Hovedstaden
 AS51482,Banedanmark
+AS34670,Skatteforvaltningen
 AS58476,Direktorat Jenderal Pajak
 AS21669,New Jersey State Library
 AS131150,"Education Bureau, Kaohsiung City Government, Taiwan"
@@ -1004,6 +1098,8 @@ AS265375,Justica Federal de Primeiro Grau no RS
 AS63385,Gouvernement du Quebec (Government of Quebec)
 AS149974,Dinas Komunikasi dan Informatika Kabupaten Pemalang
 AS60583,SOCIETATEA NATIONALA NUCLEARELECTRICA SA BUCURESTI SU...
+AS42142,Agentia Nationala pentru Protectia Mediului
+AS50192,Autoritatea Electorala Permanenta
 AS205861,Unitatea Militara 02630
 AS3233,Institutul National de Cercetare-Dezvoltare in inform...
 AS41530,Agentia Nationala de Cadastru si Publicitate Imobiliara
@@ -1012,6 +1108,8 @@ AS20820,JUDETUL DAMBOVITA
 AS50252,Camera Deputatilor
 AS199189,CHAMBER OF COMMERCE AND INDUSTRY OF ROMANIA
 AS48843,MUNICIPIUL BUCURESTI
+AS49918,Institutul pentru Tehnologii Avansate
+AS48928,U.M. 0296 BUCURESTI
 AS208096,Serviciul de Telecomunicatii Speciale
 AS210822,OFICIUL DE STAT PENTRU INVENTII SI MARCI
 AS49077,UM 02499 BUCURESTI
@@ -1029,6 +1127,7 @@ AS28563,Instituto Nacional de Salud Pública
 AS8140,Instituto Federal Electoral
 AS60967,National system of payment cards Joint-stock Society
 AS213680,Ministry of Foreign Affairs
+AS1998,State of Minnesota
 AS266495,MUNICIPIO DE ARIQUEMES
 AS135551,Malaysian Communication and Multimedia Commission
 AS153075,BPJS Kesehatan
@@ -1052,6 +1151,7 @@ AS32815,Government of Yukon
 AS152422,Dinas Komunikasi dan Informatika Kabupaten Lamongan
 AS56141,Danang ICT Infrastructure Development Center
 AS35302,"AS ""Latvenergo"""
+AS210591,Latvia State Radio and Television Centre
 AS137294,Pusat Hidrografi dan Oseanografi TNI Angkatan Laut
 AS38157,Tentara Nasional Indonesia Angkatan Udara (TNI-AU)
 AS264019,Tribunal de Justiça do Estado de Rondônia
@@ -1067,109 +1167,9 @@ AS266031,PRESIDÊNCIA DA REPÚBLICA
 AS10954,SERVICO FEDERAL DE PROCESSAMENTO DE DADOS - SERPRO
 AS23074,PETROLEO BRASILEIRO S.A. - PETROBRAS
 AS50270,Nasjonal kommunikasjonsmyndighet
+AS400202,Municipality of the County of Pictou
 AS52958,Empr.Tec.Inform.Comun. Mun.SP-PRODAM-SP S/A
 AS265020,FUNDACAO INST BRAS DE GEOGRAFIA E ESTATISTICA IBGE
-AS12443,Riga City Council Finance Department
-AS132219,Ministry of Maori Development (Te Puni Kokiri)
-AS132237,GOVERNMENT TECHNOLOGY AGENCY
-AS132293,GOVERNMENT TECHNOLOGY AGENCY
-AS133387,GOVERNMENT TECHNOLOGY AGENCY
-AS135118,The Corporation of the City of Adelaide
-AS14072,Government of the District of Columbia
-AS14677,City of Tacoma
-AS14827,Washington State Department of Transportation
-AS15196,Maryland Department of Transportation
-AS18889,City of Ruston
-AS198472,Manchester City Council
-AS198561,Legal Entity Under Public Law Financial Analytical Service
-AS198687,Provincie Noord-Holland
-AS199300,The State Agency of Medicines of Latvia
-AS1998,State of Minnesota
-AS201174,Tbilisi City Hall
-AS201557,Valoo Oy
-AS202024,TELECOMMUNICATIONS AND DIGITAL GOVERNMENT REGULATORY ...
-AS203147,Ministry Of Interior - Kuwait
-AS203506,MINISTRY OF DEFENCE OF MONTENEGRO (MINISTARSTVO ODBRA...
-AS203581,Region Hovedstaden
-AS203609,Suomen Erillisverkot Oy
-AS204452,Vaestorekisterikeskus
-AS20548,Parliament of Latvia
-AS205637,Gemeente Amsterdam
-AS206418,Gentofte Kommune
-AS206879,Ministry of Electricity and Water
-AS208284,"Latvian Environment, Geology and Meteorology Centre"
-AS208654,Gemeente Gouda
-AS209175,Kringvarp Foroya
-AS20929,Ministerul Finanțelor Publice
-AS210591,Latvia State Radio and Television Centre
-AS213158,Nittedal Kommune
-AS21325,Tiesu Namu Agentura SIA
-AS215776,Kansaneläkelaitos
-AS24,National Aeronautics and Space Administration
-AS24394,DEPARTMENT OF THE PREMIER AND CABINET
-AS25444,Latvian National Armed Forces
-AS25461,Serviciul de Informatii Externe
-AS26439,City of Albuquerque
-AS267086,MUNICIPIO DE ESTANCIA
-AS26903,"City of Salisbury, North Carolina"
-AS29466,State Revenue Service of Republic of Latvia
-AS32193,"City of Ammon, Idaho"
-AS32324,CITY OF CERRITOS
-AS32711,Wake County Government
-AS33594,Government of the Northwest Territories
-AS34073,Ministry of Education and Science Republic of Latvia
-AS341,United States Department of Defense (DoD)
-AS345,United States Department of Defense (DoD)
-AS34592,Iranian Presidential Administration
-AS34670,Skatteforvaltningen
-AS35373,Latvijas Pasts
-AS3635,"U.S. Department of Commerce, Bureau of Economic Analysis"
-AS36809,City of Coral Gables
-AS37016,Ethekwini Municipality
-AS37258,Defence Intelligence Agency
-AS3766,Shared Services Canada
-AS37677,Societe Congolaise des Postes et Telecommunications (SCPT)
-AS39098,Bank Of Finland
-AS39353,Gobierno del Principado de Asturias
-AS395604,City of Cortez
-AS39675,Altum Development Finance Institution
-AS400202,Municipality of the County of Pictou
-AS400425,CITY OF NORTH RICHLAND HILLS
-AS40623,Office of Oceanic and Atmospheric Research - Geophysi...
-AS41376,Jurmala City Council
-AS41888,"State Institution ""Service Center for the Departments..."
-AS42142,Agentia Nationala pentru Protectia Mediului
-AS43188,Agricultural Data Center Republic of Latvia
-AS47519,Kuwait Ministry of Defense
-AS47797,Essex County Council
-AS47805,Ministry of Communications and Information Technology
-AS47922,Latvian Geospatial Information Agency
-AS48109,Information and eGovernment Authority
-AS48928,U.M. 0296 BUCURESTI
-AS49918,Institutul pentru Tehnologii Avansate
-AS50192,Autoritatea Electorala Permanenta
-AS50280,"Ministry Of Civil Service, Kingdom of Saudi Arabia"
-AS51098,Agentia Spatiala Romana
-AS51438,Boly Varos Onkormanyzat
-AS5306,United States Department of Defense (DoD)
-AS54797,CITY OF AURORA
-AS55580,Moreton Bay Regional Council - Pine Rivers Office
-AS56519,Ministerul Apararii Nationale
-AS56855,Ministry of Internal Affairs
-AS56929,WANDSWORTH-BOROUGH-COUNCIL
-AS57058,Road Traffic Safety Directorate Republic of Latvia
-AS571,United States Department of Defense (DoD)
-AS5744,United States Patent and Trademark Office
-AS58031,"Government Communication Agency, republic of Abkhazia"
-AS58185,Ministry of Justice of Georgia
-AS5860,United States Department of Defense (DoD)
-AS60903,Tyrnävän kunta
-AS61352,Staatsbetrieb Saechsische Informatik Dienste
-AS61458,GOBIERNO AUTÓNOMO MUNICIPAL DE LA PAZ
-AS62186,Gjovik Kommune
-AS63316,City of Foster City
-AS64008,Department of Social Welfare and Development
-AS6699,Federal State Budgetary Institution of Science 'N.N. ...
-AS764,Prime Minister's Office
-AS818,Department of Communications
-AS8519,European Space Agency (ESA)
+AS394465,Sussex County Government
+AS45533,Comptroller General's Department
+AS62548,City of Norwich Department of Public Utilities
