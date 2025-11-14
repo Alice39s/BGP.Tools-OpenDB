@@ -1,11 +1,11 @@
 perso,1376
-dsl,2830
+dsl,2834
 cdn,107
 a10k,1328
 vpn,774
 icrit,418
 tor,1014
-gov,1175
+gov,1179
 uni,2099
 jv6,7583
 event,20
@@ -17,4 +17,4 @@ satnet,43
 feeder,0
 corp,609
 anycast,792
-rpkirov,1221
+rpkirov,1210

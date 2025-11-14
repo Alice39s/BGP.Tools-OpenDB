@@ -1,107 +1,107 @@
-AS13335,"Cloudflare, Inc."
-AS395403,NSONE Inc
-AS16276,OVH SAS
-AS19551,Incapsula Inc
-AS22822,Edgio (Limelight)
-AS12989,Black HOST Ltd
-AS33438,Datum
-AS54113,"Fastly, Inc."
-AS36408,CDNetworks Inc.
-AS30081,CacheFly
-AS200325,Bunny.net
-AS32934,"Facebook, Inc."
-AS60068,Datacamp Limited (CDN77 / DataPacket)
-AS15169,Google LLC
-AS46489,Amazon IVS (Twitch)
-AS57976,"Blizzard Entertainment, Inc"
+AS42,"""WoodyNet", Inc."
 AS714,Apple Inc.
-AS40676,Psychz Networks
-AS27647,"Weebly, Inc."
-AS31424,Netrics AG
-AS49071,Schweizerische Radio- und Fernsehgesellschaft
-AS16265,LeaseWeb Network B.V.
-AS50069,"Misaka Network, Inc."
-AS22773,Cox Communications Inc.
-AS29789,"Reflected Networks, Inc."
-AS16509,"Amazon.com, Inc."
-AS6185,Apple Inc.
-AS7195,EdgeUno
-AS47787,EDGOO NETWORKS UNIPESSOAL LDA
-AS2906,Netflix Streaming Services Inc.
-AS328316,Point d'Atterissement Virtuel - Burkina Faso
-AS199524,Gcore S.A.
-AS34655,JWE S.a r.l.
-AS396998,"Path Network, Inc."
-AS211757,Panascais ehf.
-AS399531,"Hop, Inc"
-AS210004,Stichting Internet Domeinregistratie Nederland
-AS4134,China Telecom Backbone
-AS7671,NTT SmartConnect Corporation
-AS4766,Korea Telecom
-AS32590,Valve Corporation
-AS58453,China Mobile International
-AS32787,Akamai (Prolexic)
-AS7922,"Comcast Cable Communications, LLC"
-AS59077,Shanghai UCloud Information Technology Company Limited
-AS3462,HiNet (Chunghwa Telecom)
-AS59238,"Innovative Extremist Co., Ltd."
-AS14618,"Amazon.com, Inc."
-AS23693,PT. Telekomunikasi Selular
-AS52580,Azion Technologies Ltda.
-AS715,"WoodyNet, Inc."
-AS42,"WoodyNet, Inc."
-AS19281,Quad9
-AS11019,"HAProxy Technologies, Inc."
-AS14840,BR.DIGITAL 
-AS24429,Alibaba Cloud
-AS208722,Global DC Oy (Yandex Finland)
-AS37963,"Hangzhou Alibaba Advertising Co.,Ltd."
-AS57811,Redge Technologies sp. z o.o.
-AS15133,Edgecast Inc.
-AS20940,Akamai International B.V.
-AS21859,Zenlayer Inc
-AS45090,Tencent Cloud
-AS20546,SOPRADO GmbH
-AS63293,Meta (CDN Network)
-AS270014,GRUPO CG LIMITADA
-AS3214,xTom GmbH
-AS13414,Twitter Inc.
-AS20253,Qwilt Inc.
-AS197216,Delta HighTech Ltd.
-AS20446,ZFS.RENT LLC
-AS51185,MainStreaming SpA
-AS396986,"Bytedance, Inc. (TikTok)"
-AS139341,WeChat/QQ CDN
-AS2818,BBC
-AS54994,Meteverse Limited
-AS39928,"Broadcasting TV Company ""Studio 1+1"""
-AS13238,YANDEX LLC
-AS49477,E-TF1 SAS
-AS138915,Kaopu Cloud HK Limited
-AS38634,"DWANGO Co.,Ltd."
-AS25182,Nederlandse Publieke Omroep
-AS49544,i3D.net B.V
+AS715,"""WoodyNet", Inc."
 AS1764,Next Layer Telecommunications
-AS139057,Legend Dynasty Pte. Ltd.
-AS57277,BAIKAL-IX (LLC Zero Kilometer)
-AS21395,Orange Polska CDN
-AS55967,"Beijing Baidu Netcom Science and Technology Co., Ltd."
+AS2818,BBC
+AS2906,Netflix Streaming Services Inc.
+AS3214,xTom GmbH
+AS3462,HiNet (Chunghwa Telecom)
+AS4134,China Telecom Backbone
+AS4766,Korea Telecom
+AS6185,Apple Inc.
 AS6424,EDGOO NETWORKS
-AS33353,Sony Interactive Entertainment LLC
-AS51324,Exaring AG
-AS399647,Rumble USA Inc.
-AS44907,Telegram Messenger - CDN India
-AS62014,Telegram Messenger - Singapore
-AS59930,Telegram Messenger - Americas
-AS62041,Telegram Messenger - Europe
-AS22697,Roblox
-AS23344,"Disney Worldwide Services, Inc."
-AS208414,"WEDOS Internet, a.s."
-AS21245,MEDIANOVA INTERNET HIZMETLERI VE TICARET ANONIM SIRKETI
-AS29264,GROUPE CANAL+ S.A.
+AS7195,EdgeUno
+AS7671,NTT SmartConnect Corporation
+AS7922,"""Comcast Cable Communications", LLC"
 AS10310,Yahoo Holdings Inc.
-AS23576,NAVER Cloud Corp.
+AS11019,"""HAProxy Technologies", Inc."
+AS12989,Black HOST Ltd
+AS13238,YANDEX LLC
+AS13335,"""Cloudflare", Inc."
+AS13414,Twitter Inc.
+AS14618,"""Amazon.com", Inc."
+AS14840,BR.DIGITAL
 AS14907,Wikimedia Foundation Inc.
-AS263807,MEDIASTREAM SPA
-AS141013,GetaFIX Content Network
+AS15133,Edgecast Inc.
+AS15169,Google LLC
+AS16265,LeaseWeb Network B.V.
+AS16276,OVH SAS
+AS16509,"""Amazon.com", Inc."
+AS19281,Quad9
+AS19551,Incapsula Inc
+AS20253,Qwilt Inc.
+AS20446,ZFS.RENT LLC
+AS20546,SOPRADO GmbH
+AS20940,Akamai International B.V.
+AS21245,MEDIANOVA INTERNET HIZMETLERI VE TICARET ANONIM SIRKETI
+AS21395,Orange Polska CDN
+AS21859,Zenlayer Inc
+AS22697,Roblox
+AS22773,Cox Communications Inc.
+AS22822,Edgio (Limelight)
+AS23344,"""Disney Worldwide Services", Inc."
+AS23576,NAVER Cloud Corp.
+AS23693,PT. Telekomunikasi Selular
+AS24429,Alibaba Cloud
+AS25182,Nederlandse Publieke Omroep
+AS27647,"""Weebly", Inc."
+AS29264,GROUPE CANAL+ S.A.
+AS29789,"""Reflected Networks", Inc."
+AS30081,CacheFly
+AS31424,Netrics AG
+AS32590,Valve Corporation
+AS32787,Akamai (Prolexic)
+AS32934,"""Facebook", Inc."
+AS33353,Sony Interactive Entertainment LLC
+AS33438,Datum
+AS34655,JWE S.a r.l.
+AS36408,CDNetworks Inc.
+AS37963,"""Hangzhou Alibaba Advertising Co.",Ltd."
+AS38634,"""DWANGO Co.",Ltd."
+AS39928,"Broadcasting TV Company """"Studio 1+1"""""
+AS40676,Psychz Networks
 AS43500,Warner Bros. Discovery
+AS44907,Telegram Messenger - CDN India
+AS45090,Tencent Cloud
+AS46489,Amazon IVS (Twitch)
+AS47787,EDGOO NETWORKS UNIPESSOAL LDA
+AS49071,Schweizerische Radio- und Fernsehgesellschaft
+AS49477,E-TF1 SAS
+AS49544,i3D.net B.V
+AS50069,"""Misaka Network", Inc."
+AS51185,MainStreaming SpA
+AS51324,Exaring AG
+AS52580,Azion Technologies Ltda.
+AS54113,"""Fastly", Inc."
+AS54994,Meteverse Limited
+AS55967,"""Beijing Baidu Netcom Science and Technology Co.", Ltd."
+AS57277,BAIKAL-IX (LLC Zero Kilometer)
+AS57811,Redge Technologies sp. z o.o.
+AS57976,"""Blizzard Entertainment", Inc"
+AS58453,China Mobile International
+AS59077,Shanghai UCloud Information Technology Company Limited
+AS59238,"""Innovative Extremist Co.", Ltd."
+AS59930,Telegram Messenger - Americas
+AS60068,Datacamp Limited (CDN77 / DataPacket)
+AS62014,Telegram Messenger - Singapore
+AS62041,Telegram Messenger - Europe
+AS63293,Meta (CDN Network)
+AS138915,Kaopu Cloud HK Limited
+AS139057,Legend Dynasty Pte. Ltd.
+AS139341,WeChat/QQ CDN
+AS141013,GetaFIX Content Network
+AS197216,Delta HighTech Ltd.
+AS199524,Gcore S.A.
+AS200325,Bunny.net
+AS208414,"""WEDOS Internet", a.s."
+AS208722,Global DC Oy (Yandex Finland)
+AS210004,Stichting Internet Domeinregistratie Nederland
+AS211757,Panascais ehf.
+AS263807,MEDIASTREAM SPA
+AS270014,GRUPO CG LIMITADA
+AS328316,Point d'Atterissement Virtuel - Burkina Faso
+AS395403,NSONE Inc
+AS396986,"""Bytedance", Inc. (TikTok)"
+AS396998,"""Path Network", Inc."
+AS399531,"""Hop", Inc"
+AS399647,Rumble USA Inc.
