@@ -1,14 +1,14 @@
 {
-  "timestamp": 1763083892,
+  "timestamp": 1763170281,
   "version": "1.0",
   "tag_name": "corp",
   "tag_count": 609,
   "actual_entries": 609,
   "stats": {
-    "generated_at": "2025-11-14T01:31:33.052Z"
+    "generated_at": "2025-11-15T01:31:21.093Z"
   },
   "hash_list": {
-    "index-meta.json": "f26f7aa4d3b1841215843c6a00dd93c3e2e938bb79e53412ae02c9f4578c4e79",
+    "index-meta.json": "67d3b8930463e7588edbb43acdf96e1e0b011a45aedf5ee6e54249c1238075bd",
     "tags-corp.csv": "ebb0cb3c22e78109bf09c787b90ca9a51829e796914b6d7f4da3abc8a36570dd"
   }
 }
