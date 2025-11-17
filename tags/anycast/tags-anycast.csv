@@ -8,7 +8,6 @@ AS250,AS250.net Foundation
 AS260,"""GTT Americas", LLC"
 AS714,Apple Inc.
 AS955,LSHIY LLC
-AS965,Webhosting Holdings LLC
 AS1002,Bytefilter LLC
 AS1149,SURF B.V.
 AS1273,Vodafone Group PLC
@@ -102,6 +101,7 @@ AS11273,"""Fiserv Solutions", LLC"
 AS11351,Charter Communications Inc
 AS11374,"""Panterra Networks", Inc."
 AS11440,"""Netsville", Inc."
+AS11492,"""CABLE ONE", INC."
 AS11572,PhoenixNAP LLC
 AS11749,MPInet
 AS11802,Centro de Informatica e Automacao do Estado de SC
@@ -114,6 +114,7 @@ AS12654,RIPE NCC - RIS
 AS12684,SES ASTRA S.A.
 AS12996,Domeneshop AS
 AS13150,CATO NETWORKS LTD
+AS13238,YANDEX LLC
 AS13335,"""Cloudflare", Inc."
 AS13360,Triton Digital
 AS13414,Twitter Inc.
@@ -186,6 +187,7 @@ AS19934,Uber Freight US LLC
 AS19983,Global Technology Partners LLC
 AS20021,"""Ntirety", Inc."
 AS20077,IPNetZone
+AS20115,Charter Communications LLC
 AS20144,ICANN - L-root
 AS20326,TeraSwitch Networks Inc.
 AS20373,"""Marley Index", LLC"
@@ -333,7 +335,9 @@ AS39945,Nuspire Communications
 AS39975,GoCodeIT Inc
 AS40009,"""BitGravity", Inc."
 AS40027,Netflix Streaming Services Inc.
+AS40092,HostPapa
 AS40138,"""Mach Dilemma", LLC"
+AS40165,"""Voxology Carrier Services", Inc."
 AS40292,Cintas Corporation
 AS40355,Sundance International LLC
 AS40371,"""PROS", Inc."
@@ -387,6 +391,7 @@ AS45526,"""UGAM SOLUTIONS PVT LTD","
 AS45758,Triple T Broadband Public Company Limited
 AS45820,Tata Teleservices ISP
 AS45927,THE SINGARENI COLLIERIES COMPANY LIMITED
+AS46181,"""BCI Mississippi Broadband",LLC"
 AS46475,"""Limestone Networks", Inc."
 AS46735,"""Certigo", Inc"
 AS46844,Sharktech
@@ -459,6 +464,7 @@ AS54456,"""CloudAccess.net", LLC"
 AS54466,"""ISSQUARED", Inc."
 AS54528,"""Richie Software USA", Inc."
 AS54825,Equinix Metal (Packet.net)
+AS54990,1337 Services LLC
 AS54994,Meteverse Limited
 AS55002,"""F5", Inc."
 AS55195,CIRA Canadian Internet Registration Authority Autorit...
@@ -475,9 +481,10 @@ AS56045,China Mobile communications corporation
 AS56046,China Mobile Jiangsu Province Network
 AS56048,China Mobile Group Beijing Company
 AS56908,Netnod AB
-AS57138,LOCIX LIMITED
+AS57138,Mullvad DNS (LOCIX LIMITED)
 AS57352,Federal State Unitary Enterprise Rossiya Segodnya Int...
 AS57382,Telecommunication Tokelau Corporation Teletok
+AS57629,LLC IVI.RU
 AS57724,DDOS-GUARD LTD
 AS57910,"""Soluciones Corporativas IP", SL"
 AS57926,"""SafeDNS", Inc."
@@ -517,7 +524,9 @@ AS62597,NSONE Inc
 AS62610,Zenlayer Inc
 AS62642,"""Bigleaf Networks", Inc."
 AS62659,"""Q2 Software", Inc."
+AS62707,"""Glexia", Inc."
 AS62731,247RACK.com
+AS62752,Pegboard Hosting Inc.
 AS62766,SJB Communications
 AS62821,MNX Solutions LLC
 AS63023,GTHost
@@ -575,6 +584,7 @@ AS149511,"""Yamu Technologies Co.", Ltd."
 AS149614,TRANSACTION SOLUTIONS INTERNATIONAL INDIA PRIVATE LIMITED
 AS149981,Legend Dynasty Pte. Ltd.
 AS150974,Dinas Komunikasi dan Informatika Kabupaten Tapin
+AS151113,VERITY KNOWLEDGE SOLUTIONS PRIVATE LIMITED
 AS151194,Zhu Yucheng
 AS151325,TP Western Odisha Distribution Limited
 AS151332,CoinJar Pty Ltd
@@ -660,6 +670,7 @@ AS206042,Suhail Haris
 AS206164,Internet Utilities Europe and Asia Limited
 AS206540,BEANSUMMERHOST NEXTGEN SHED HOSTING SOLUTIONS LLC
 AS206653,Biocad JSC
+AS206980,AntiDDoS Solutions LLC
 AS206998,NEW RELIC INTERNATIONAL LIMITED
 AS207003,Web1 Oy
 AS207021,ipcom GmbH
@@ -757,8 +768,11 @@ AS216324,Hyper Group Network Ltd.
 AS216393,Synapt ApS
 AS216455,Sting Alleman
 AS262349,Instituto Curitiba de Informática
+AS262589,Megatelecom (Internexa BR)
 AS264080,MINISTERIO DE MINAS E ENERGIA
+AS266130,REDE TJNET
 AS266444,3L CLOUD INTERNET SERVICES LTDA - EPP
+AS267630,UNIVERSIDADE ESTADUAL DO MARANHÃO
 AS267867,COMISION ARBITRAL DEL CONVENIO MULTILATERAL
 AS268316,VAITELECOM LTDA ME
 AS268558,LANLINK INFORMATICA LTDA.
@@ -814,11 +828,10 @@ AS396501,CIRA Canadian Internet Registration Authority Autorit...
 AS396549,Verisign Anycast GB 0A
 AS396566,Verisign Anycast NL 0L
 AS396654,Verisign Anycast US 2K
-AS396686,Verisign Anycast RU 0B
 AS396982,Google Cloud Platform
 AS396986,"""Bytedance", Inc. (TikTok)"
 AS396998,"""Path Network", Inc."
-AS397198,Verisign Anycast DE 0F
+AS397197,Verisign Anycast DE 0E
 AS397203,Verisign Anycast US 2U
 AS397273,Render
 AS397444,Overkill Interbuzz LLC
@@ -850,6 +863,7 @@ AS400196,Netskrt
 AS400519,Developed Methods LLC
 AS400588,Ville de Longueuil
 AS400797,Ping Identity Corporation
+AS400910,"""Uptown Moose", Inc."
 AS400940,Railway
 AS401253,City of Gulfport
 AS401320,"""Globaliser", Inc."
