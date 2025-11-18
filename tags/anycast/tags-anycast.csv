@@ -8,6 +8,7 @@ AS250,AS250.net Foundation
 AS260,"""GTT Americas", LLC"
 AS714,Apple Inc.
 AS955,LSHIY LLC
+AS965,Webhosting Holdings LLC
 AS1002,Bytefilter LLC
 AS1149,SURF B.V.
 AS1273,Vodafone Group PLC
@@ -103,6 +104,7 @@ AS11374,"""Panterra Networks", Inc."
 AS11440,"""Netsville", Inc."
 AS11492,"""CABLE ONE", INC."
 AS11572,PhoenixNAP LLC
+AS11686,Zayo Bandwidth
 AS11749,MPInet
 AS11802,Centro de Informatica e Automacao do Estado de SC
 AS12008,Vercara (f.k.a Neustar)
@@ -145,6 +147,7 @@ AS16276,OVH SAS
 AS16509,"""Amazon.com", Inc."
 AS16552,Tiggee LLC
 AS16591,Google Fiber Inc.
+AS16645,"""EPIQ Systems", Inc"
 AS16686,"""easyDNS Technologies", Inc."
 AS16876,ICANN
 AS16909,imput
@@ -198,6 +201,7 @@ AS20940,Akamai International B.V.
 AS21030,Docker LTD
 AS21342,Akamai International B.V.
 AS21556,NASA Ames Research Center - E-root
+AS21629,"""TWR Tech", LLC"
 AS21787,CERIDIAN
 AS21859,Zenlayer Inc
 AS21928,"""T-Mobile USA", Inc."
@@ -253,7 +257,7 @@ AS27647,"""Weebly", Inc."
 AS27715,Locaweb Serviços de Internet S/A
 AS27792,Wiltel Comunicaciones SA
 AS27901,Pacifico Cable SPA.
-AS28110,NAVEGALO S.A.
+AS27947,Telconet S.A
 AS28180,DIGITRO TECNOLOGIA LTDA.
 AS28248,BRB - Banco de Brasília S/A
 AS28261,EMPRESA SERGIPANA DE TECNOLOGIA DA INFORMAÇÃO
@@ -295,12 +299,13 @@ AS32708,LoadEdge Limited
 AS32771,DNSimple Corporation
 AS32787,Akamai (Prolexic)
 AS32934,"""Facebook", Inc."
+AS33039,Unify Media Ltd
 AS33191,"""Notion Labs", Inc."
 AS33438,Datum
 AS33512,Gateway Processing Services
 AS33905,Akamai International B.V.
+AS34305,Base IP B.V.
 AS34309,Link11 GmbH
-AS34343,Eweka Internet Services B.V.
 AS34655,JWE S.a r.l.
 AS34879,"OOO """"Sovremennye setevye tekhnologii"""""
 AS34939,NextDNS
@@ -362,8 +367,8 @@ AS41954,Anverino Software SRL
 AS41992,Si2 Datakonsult HB
 AS42198,"""Jurassic Innovations", LLC"
 AS42214,Network Services Ltd.
-AS42354,ANEXIA Internetdienstleistungs GmbH
-AS42388,ANEXIA Internetdienstleistungs GmbH
+AS42354,Anexia Cloud Solutions GmbH
+AS42388,Anexia Cloud Solutions GmbH
 AS42465,Forcepoint UK Limited
 AS42612,DinaHosting S.L.
 AS42649,Baffin Bay Networks AB
@@ -515,6 +520,7 @@ AS61007,OpenTLD BV
 AS61165,Mountiela Services LLC
 AS61455,LACTLD - LATIN AMERICAN AND CARIBBEAN TLD ASSOCIATION
 AS61569,Tribunal Regional Federal da 1a Regiao
+AS61587,Hokinet
 AS61656,AGENCIA NACIONAL DE TELECOMUNICACOES - ANATEL
 AS61866,INTELBRAS S.A. INDUSTRIA DE TELECOMUNICACAO ELETRO
 AS61881,UNIMED PORTO ALEGRE COOPERATIVA MEDICA LTDA
@@ -540,6 +546,7 @@ AS63911,"""NetActuate", Inc"
 AS64011,APNIC ASN block
 AS64089,"""DNSFilter", Inc."
 AS64199,TCPShield
+AS64286,LogicWeb Inc.
 AS131723,Kementerian Keuangan Ditjen Bea Cukai
 AS132203,Tencent
 AS132647,Pengelola Nama Domain Internet Indonesia
@@ -632,6 +639,7 @@ AS200950,Lyratris Limited
 AS201188,BJT PARTNERS SAS
 AS201303,CentralNic Ltd
 AS201304,CentralNic Ltd
+AS201386,MYRNA MISAKA NETWORK INC
 AS201589,"""""EDGEAM"""" LLC"
 AS201595,mono solutions ApS
 AS201612,nic.at GmbH
@@ -641,7 +649,6 @@ AS202269,BitCommand LLC
 AS202422,G-Core Labs S.A.
 AS202540,Christopher Stephens
 AS202687,Mainloop AB
-AS202939,Chimon Technology Ltd
 AS203043,Tirastel GmbH
 AS203314,HATS NETWORK INC.
 AS203391,Cloud DNS Ltd
@@ -770,6 +777,9 @@ AS216455,Sting Alleman
 AS262349,Instituto Curitiba de Informática
 AS262589,Megatelecom (Internexa BR)
 AS264080,MINISTERIO DE MINAS E ENERGIA
+AS264792,Fuerza Aerea Argentina
+AS264798,Secretaria Legal y Tecnica
+AS265168,M. S. Ferreira Alves
 AS266130,REDE TJNET
 AS266444,3L CLOUD INTERNET SERVICES LTDA - EPP
 AS267630,UNIVERSIDADE ESTADUAL DO MARANHÃO
@@ -784,6 +794,7 @@ AS270262,BADYNET TELECOM LTDA
 AS270563,INVINET PROVEDOR LTDA - ME
 AS270681,Tribunal de Justiça do Estado da Paraíba
 AS270769,T DE OLIVEIRA FARIAS
+AS271273,NET FORT Telecom
 AS272432,MAGAZINE LUIZA S/A
 AS272809,"""THUNDERNET", C.A."
 AS273584,LINKED STORE BRASIL CRIACAO E DESENVOL DE SOFTWARE
