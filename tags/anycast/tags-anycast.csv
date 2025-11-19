@@ -258,6 +258,7 @@ AS27715,Locaweb Serviços de Internet S/A
 AS27792,Wiltel Comunicaciones SA
 AS27901,Pacifico Cable SPA.
 AS27947,Telconet S.A
+AS28110,NAVEGALO S.A.
 AS28180,DIGITRO TECNOLOGIA LTDA.
 AS28248,BRB - Banco de Brasília S/A
 AS28261,EMPRESA SERGIPANA DE TECNOLOGIA DA INFORMAÇÃO
@@ -304,8 +305,8 @@ AS33191,"""Notion Labs", Inc."
 AS33438,Datum
 AS33512,Gateway Processing Services
 AS33905,Akamai International B.V.
-AS34305,Base IP B.V.
 AS34309,Link11 GmbH
+AS34343,Eweka Internet Services B.V.
 AS34655,JWE S.a r.l.
 AS34879,"OOO """"Sovremennye setevye tekhnologii"""""
 AS34939,NextDNS
@@ -546,7 +547,6 @@ AS63911,"""NetActuate", Inc"
 AS64011,APNIC ASN block
 AS64089,"""DNSFilter", Inc."
 AS64199,TCPShield
-AS64286,LogicWeb Inc.
 AS131723,Kementerian Keuangan Ditjen Bea Cukai
 AS132203,Tencent
 AS132647,Pengelola Nama Domain Internet Indonesia
@@ -837,7 +837,6 @@ AS396417,"""Salesforce", Inc."
 AS396486,Conseil scolaire de district catholique du Centre-Est...
 AS396501,CIRA Canadian Internet Registration Authority Autorit...
 AS396549,Verisign Anycast GB 0A
-AS396566,Verisign Anycast NL 0L
 AS396654,Verisign Anycast US 2K
 AS396982,Google Cloud Platform
 AS396986,"""Bytedance", Inc. (TikTok)"
