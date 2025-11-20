@@ -455,7 +455,7 @@ AS10631,Georgia State University
 AS10680,Indiana University
 AS10755,Dartmouth College
 AS10812,University of Texas System
-AS10875,FUNDACAO DE APOIO DA UNIVERSIDADE FEDERAL DO
+AS10875,Fundação de Apoio da UFRGS
 AS10886,University of Maryland
 AS10952,East Carolina University
 AS10955,WILLIAM PATERSON UNIVERSITY
@@ -729,6 +729,7 @@ AS19470,LAS CRUCES PUBLIC SCHOOLS
 AS19473,Southwestern Adventist University
 AS19537,Upper Arlington City School District
 AS19564,Louisiana Tech University
+AS19611,Universidade do Vale do Rio dos Sinos
 AS19763,Fundacao Universidade do Vale do Itajai
 AS19782,Indiana University (GigaPOP)
 AS19870,Cherry Creek School District #5
@@ -773,6 +774,7 @@ AS21569,Dallas Baptist University
 AS21578,Universidad autonoma de Bucaramanga
 AS21582,Northern Arizona University
 AS21603,"""Universidad La Salle", AC"
+AS21612,FUNDACAO INSTITUTO OSWALDO CRUZ
 AS21727,Hamline University
 AS21781,The Dalton School
 AS21784,The Robert W. Woodruff Library of the Atlanta Univers...
@@ -964,6 +966,7 @@ AS28067,The University of the West IndiesSt Augustine Camp
 AS28068,Universidad Nacional de San Luis
 AS28107,UNIVERSIDAD NACIONAL DE SAN JUAN
 AS28116,Universidad de Adolfo Ibañez
+AS28157,AELBRA EDUC SUPERIOR-GRADUACAO E POSGRADUACAO S.A.
 AS28193,UNIVERSIDADE ESTADUAL DE LONDRINA
 AS28382,"""Universidad Iberoamericana", A.C."
 AS28390,Universidad Autonoma de Nayarit
@@ -979,6 +982,7 @@ AS28571,UNIVERSIDADE DE SAO PAULO
 AS28579,Fundacao Universidade do Sul de Santa Catarina
 AS28601,UNIVERSIDADE DO ESTADO DE SANTA CATARINA
 AS28614,Fundacao Universidade Regional de Blumenau
+AS28623,Pontifícia Universidade Católica do RS
 AS28678,Technical University of Koszalin
 AS28714,Fraunhofer-Gesellschaft zur Foerderung der angewandte...
 AS28797,Technical University of Koszalin
@@ -1368,6 +1372,8 @@ AS52467,Universidad de Ibague
 AS52488,Universidad Pontificia Bolivariana
 AS52853,UFLA - UNIVERSIDADE FEDERAL DE LAVRAS
 AS52888,UNIVERSIDADE FEDERAL DE SAO CARLOS
+AS52914,Associação Educacional Nove de Julho
+AS52950,Fund. de Apoio a Pesq. C&T do Est. de SC - FAPESC
 AS52992,UNIVERSIDADE FEDERAL DE SAO PAULO
 AS52998,Fundacao Assis Gurgacz
 AS53046,UNIVERSIDADE ESTADUAL DE PONTA GROSSA
@@ -1526,7 +1532,9 @@ AS61502,UNIVERSIDAD CENTROAMERICANA JOSE SIMEON CAÑAS
 AS61574,UNIVERSIDADE FEDERAL DE MINAS GERAIS
 AS61575,UNIVERSIDADE FEDERAL DE MINAS GERAIS
 AS61576,UNIVERSIDADE FEDERAL DE MINAS GERAIS
+AS61585,MINISTÉRIO DA SAÚDE - INSTITUTO NACIONAL DE CÂNCER
 AS61841,FUNDAÇÃO EDUCACIONAL SEVERINO SOMBRA
+AS61880,Hospital de Clínicas de Porto Alegre
 AS62138,Aarhus Universitet
 AS62402,Munitsipalnoe kazennoe uchrezhdenie Tsentr informatsi...
 AS62452,Al-Imam Muhammad Ibn Saud Islamic University
@@ -1852,9 +1860,11 @@ AS262226,Universidad Piloto de Colombia
 AS262245,UNIVERSIDAD DE LA SABANA
 AS262265,Fundación Universidad Empresarial Siglo 21
 AS262266,GRIDTICS UTN FRM
+AS262441,Fund. Vale do Taquari de Educ. e Desenvolv. Social
 AS262442,Fundação Universidade de Itaúna
 AS262511,Universidade Federal do Pará
 AS262533,Universidade do Estado do Pará
+AS262534,Laboratório Nacional de Computação Científica
 AS262583,Fundação Universidade de Passo Fundo
 AS262742,Fundação Universidade Federal do ABC - UFABC
 AS262829,Assoc do Inst Nac de Matematica Pura e Aplicada
@@ -1870,6 +1880,7 @@ AS263273,INST. FED. DE EDUCACAO CIENCIA E TECNO FLUMINENSE
 AS263282,FUNDACAO UNIVERSIDADE DO OESTE DE SANTA CATARINA
 AS263300,Universidade Federal de Santa Catarina
 AS263417,UNIVERSIDADE CATOLICA DOM BOSCO
+AS263605,Centro Nacional de Pesquisa em Energia e Materiais
 AS263610,UNIVERSIDADE FEDERAL DA FRONTEIRA SUL - UFFS
 AS263683,Universidad de Costa Rica
 AS263690,UNIVERSIDAD NACIONAL AUTÓNOMA DE HONDURAS
@@ -1878,6 +1889,7 @@ AS263709,UNIVERSIDAD SAN FRANCISCO XAVIER DE CHUQUISACA
 AS263779,Academia Nacional de Ciencias
 AS263842,UNIVERSIDADE FEDERAL DE MINAS GERAIS
 AS264029,Universidade para o Desenv. do Alto Vale do Itajai
+AS264185,FUNDACAO REGIONAL INTEGRADA - CAMPUS DE ERECHIM
 AS264466,ASSOCIACAO CULTURAL E EDUCACIONAL DO ESTADO DO PAR
 AS264471,UNIVERSIDADE ESTADUAL DO OESTE DO PARANA
 AS264630,Universidad Nacional de Jujuy
@@ -1914,6 +1926,7 @@ AS267860,UNIVERSIDAD DE ORIENTE
 AS267893,UNIVERSIDAD DEL MAGDALENA
 AS268118,UNIVERSIDADE FEDERAL DE SANTA MARIA
 AS268334,Fundação Universidade Alto Vale do Rio do Peixe
+AS268839,Associação Pró-Ensino Superior em Novo Hamburgo
 AS269224,Universidade La Salle
 AS269784,UNIVERSIDAD PROVINCIAL DEL SUDOESTE (UPSO)
 AS269790,UNIVERSIDAD CATÓLICA DE CUENCA
@@ -1933,7 +1946,7 @@ AS270167,"""Centro de Investigación en Matemáticas", A.C."
 AS270693,UNIVERSIDADE FEDERAL DO PIAUI
 AS271107,Instituto Federal do Tocantins - Campus Araguaina
 AS271354,UNIVERSIDADE FEDERAL DE MINAS GERAIS
-AS271640,UNIVERSIDADE FEDERAL DE VICOSA
+AS271640,Universidade Federal de Viçosa
 AS271755,UNIVERSIDADE DE SAO PAULO
 AS271821,UNIVERSIDAD TECNICA DEL NORTE
 AS271891,UNIVERSIDAD ESTATAL A DISTANCIA
@@ -1945,6 +1958,7 @@ AS272080,Universidad Estatal de Milagro
 AS272140,UNIVERSIDAD DE INVESTIGACION DE TECNOLOGIA EXPERIMENT...
 AS273027,UNIVERSIDAD DE ANTIOQUIA
 AS273041,Universidad de San Carlos de Guatemala
+AS274725,ASSOCIACAO LAB. INTER. DE E-ASTRONOMIA LINEA
 AS327687,Research and Education Network for Uganda
 AS327705,"""Federal University of Technology", Akure(FUTA)"
 AS327729,Babcock University

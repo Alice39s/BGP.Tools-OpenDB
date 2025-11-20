@@ -4,7 +4,6 @@ AS112,AS112 Project
 AS174,"""Cogent Communications", LLC"
 AS187,DNScast
 AS237,Merit Network Inc.
-AS250,AS250.net Foundation
 AS260,"""GTT Americas", LLC"
 AS714,Apple Inc.
 AS955,LSHIY LLC
@@ -164,7 +163,6 @@ AS18366,APNIC ANYCAST ASN
 AS18368,APNIC ANYCAST ASN
 AS18369,APNIC ANYCAST ASN
 AS18535,"""Hoffmann LaRoche", Inc."
-AS18723,Seagate Technology LLC
 AS18881,TELEFÔNICA BRASIL LTDA
 AS18944,AS18944 LLC
 AS19021,BTC Broadband Inc.
@@ -204,7 +202,6 @@ AS21556,NASA Ames Research Center - E-root
 AS21629,"""TWR Tech", LLC"
 AS21787,CERIDIAN
 AS21859,Zenlayer Inc
-AS21928,"""T-Mobile USA", Inc."
 AS22169,"""Omnis Network", LLC"
 AS22300,"""Wikia", Inc."
 AS22390,XEROX CORPORATION
@@ -249,7 +246,6 @@ AS25921,LUS Fiber
 AS25923,"""ChoicePoint", Inc."
 AS26008,"""Akamai Technologies", Inc."
 AS26277,ServerPoint.com
-AS26464,"""Joyent", Inc."
 AS26710,ICANN
 AS27357,Rackspace Hosting
 AS27515,"""Workday", Inc."
@@ -317,6 +313,7 @@ AS35873,"""Move Networks", inc."
 AS35994,"""Akamai Technologies", Inc."
 AS36015,Maury Regional Hospital
 AS36062,"""DoubleVerify", Inc."
+AS36183,Akamai Technologies (Apple Private Relay)
 AS36198,ZDM Network Solutions LLC (Erik Seidel)
 AS36217,"""NetActuate", Inc"
 AS36221,Esosoft Corporation
@@ -402,7 +399,6 @@ AS46475,"""Limestone Networks", Inc."
 AS46735,"""Certigo", Inc"
 AS46844,Sharktech
 AS47037,ScoutDNS
-AS47219,NTT Global Data Centers EMEA UK Ltd.
 AS47242,Host SpA
 AS47272,HYEHOST LLC
 AS47581,NSFOCUS Technologies UK Limited
@@ -532,9 +528,7 @@ AS62610,Zenlayer Inc
 AS62642,"""Bigleaf Networks", Inc."
 AS62659,"""Q2 Software", Inc."
 AS62707,"""Glexia", Inc."
-AS62731,247RACK.com
 AS62752,Pegboard Hosting Inc.
-AS62766,SJB Communications
 AS62821,MNX Solutions LLC
 AS63023,GTHost
 AS63103,Ochsner Clinic Foundation
@@ -577,7 +571,6 @@ AS140070,Adelaide Oval SMA Ltd
 AS140614,"""ASIA-ISP CO.", LIMITED"
 AS141288,National Institute Of Science Education And Research ...
 AS141383,VERGE CLOUD PRIVATE LIMITED
-AS141728,CONTINUUM INDIA LLP
 AS142052,Mempool Space K.K.
 AS142057,eMudhra Limited
 AS142269,KINA BANK
@@ -632,7 +625,6 @@ AS200242,Ember Ana
 AS200315,NetConnect Innovations LLC
 AS200325,Bunny.net
 AS200393,Klett IT GmbH
-AS200455,HOTARU NETWORK LTD.
 AS200853,Yifan Li
 AS200904,FOXCLOUD LLP
 AS200950,Lyratris Limited
@@ -672,7 +664,6 @@ AS205634,Prime Formation GmbH
 AS205675,Hybrid Adtech GmbH
 AS205794,JINZE YANG
 AS205886,121 LEGAL RECRUITMENT LIMITED
-AS205893,Wifi Telekom Bilisim Sanayi ve Ticaret A.S
 AS206042,Suhail Haris
 AS206164,Internet Utilities Europe and Asia Limited
 AS206540,BEANSUMMERHOST NEXTGEN SHED HOSTING SOLUTIONS LLC
@@ -756,7 +747,6 @@ AS214575,"""Curious Universe (Chongqing) Technology Co.", Ltd"
 AS214618,Hack The Box Ltd
 AS214696,Uncollapse LLC
 AS214731,ETO Networks Limited
-AS214806,Femboy Cyber Networks LLC
 AS214955,Weikang Zeng
 AS215212,Sander Jeurissen
 AS215478,Caden Wingler
@@ -776,7 +766,6 @@ AS216393,Synapt ApS
 AS216455,Sting Alleman
 AS262349,Instituto Curitiba de Informática
 AS262589,Megatelecom (Internexa BR)
-AS264080,MINISTERIO DE MINAS E ENERGIA
 AS264792,Fuerza Aerea Argentina
 AS264798,Secretaria Legal y Tecnica
 AS265168,M. S. Ferreira Alves
@@ -791,7 +780,6 @@ AS269454,FABIO F BARBOSA
 AS269607,SERGIPE MINISTERIO PUBLICO
 AS270034,AKY TELECOM SPA
 AS270262,BADYNET TELECOM LTDA
-AS270563,INVINET PROVEDOR LTDA - ME
 AS270681,Tribunal de Justiça do Estado da Paraíba
 AS270769,T DE OLIVEIRA FARIAS
 AS271273,NET FORT Telecom
@@ -803,7 +791,6 @@ AS274116,CTV CHICLIN E.I.R.L.
 AS328126,Orange Tunisie
 AS328486,Old Mutual Life Assurance Company (South Africa) Limited
 AS328608,Africa on Cloud
-AS329002,Pan African IX Data Centres Kenya Ltd
 AS329394,OneCloud LDA
 AS393312,TELEFLEX INCORPORATED
 AS393467,BOLT Fiber Optic Services
@@ -818,7 +805,6 @@ AS394256,Tech Futures Interactive Inc.
 AS394353,USC/ISI - B-root
 AS394354,Canadian Internet Registration Authority
 AS394564,Spectrotel Inc
-AS394646,"""Eagle Eye Networks", Inc"
 AS394681,Summit Healthcare Regional Medical Center
 AS395046,Sexing Technologies
 AS395126,"""Beck's Superior Hybrids", Inc."
@@ -837,6 +823,7 @@ AS396417,"""Salesforce", Inc."
 AS396486,Conseil scolaire de district catholique du Centre-Est...
 AS396501,CIRA Canadian Internet Registration Authority Autorit...
 AS396549,Verisign Anycast GB 0A
+AS396566,Verisign Anycast NL 0L
 AS396654,Verisign Anycast US 2K
 AS396982,Google Cloud Platform
 AS396986,"""Bytedance", Inc. (TikTok)"
