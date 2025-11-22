@@ -48,6 +48,7 @@ AS1930,"""Fundacao para a Ciencia e a Tecnologia", I.P."
 AS2018,TENET (The UNINET Project)
 AS2027,MilkyWan
 AS2119,Telenor Norge AS
+AS2486,AFNIC (Association Francaise pour le Nommage Internet...
 AS2497,Internet Initiative Japan Inc.
 AS2552,Washington University
 AS2602,Fondation RESTENA
@@ -89,6 +90,7 @@ AS4128,RGnet OU
 AS4181,TDS TELECOM
 AS4474,"""TCT West", Inc."
 AS4528,The University of Hong Kong
+AS4581,Socket Holdings Corporation
 AS4713,NTT Communications Corporation (OCN)
 AS4725,SoftBank Corp.
 AS4760,HKT Limited
@@ -175,7 +177,6 @@ AS8943,Jump Networks Ltd
 AS8968,BT Italia S.p.A.
 AS8991,Hellenic Centre for Marine Research
 AS9002,RETN Limited
-AS9022,TWL-Kom GmbH
 AS9026,MYNET S.R.L.
 AS9069,UNIWA
 AS9136,WOBCOM GmbH
@@ -201,15 +202,16 @@ AS10961,Boston GigaPoP
 AS11117,"""Nuyek", LLC"
 AS11131,University of Maryland Baltimore County (UMBC)
 AS11170,Roller Network LLC
+AS11172,"""Alestra", S. de R.L. de C.V."
 AS11232,Midcontinent Communications
 AS11351,Charter Communications Inc
 AS11358,Tennant Software
 AS11402,"""Charlotte Colocation Center", LLc"
 AS11426,Charter Communications Inc
 AS11427,Charter Communications Inc
+AS11655,Saskatoon Internet Exchange Inc
 AS11776,Breezeline
 AS11830,Instituto Costarricense de Electricidad y Telecom.
-AS11845,Vox Telecom Ltd
 AS11967,Hop179 LLC
 AS12119,ITV-3
 AS12127,Telefonica Moviles El Salvador S.A. de C.V.
@@ -323,7 +325,6 @@ AS19528,"""Meridian Parkway Data Center Owner", LLC"
 AS19901,Brightspeed
 AS20001,Charter Communications Inc
 AS20057,"""AT&T Enterprises", LLC"
-AS20207,Gigared S.A.
 AS20278,"""Nexeon Technologies", Inc."
 AS20412,Clarity Telecom LLC
 AS20473,"""The Constant Company", LLC"
@@ -360,7 +361,6 @@ AS21903,Arnhem Networks LLC
 AS22296,Vorsk LLC
 AS22442,"""Phonoscope", Inc."
 AS22611,"""InMotion Hosting", Inc."
-AS22646,"""Hargray Communications Group", Inc."
 AS22684,SSI Micro Ltd.
 AS22709,"""North State Telephone", LLC"
 AS22773,Cox Communications Inc.
@@ -370,7 +370,6 @@ AS23118,Skyline Telephone
 AS23483,Shasta County Office of Education
 AS23719,University of Sydney
 AS23947,PT Mora Telematika Indonesia Tbk
-AS24164,UNION BROADBAND NETWORK
 AS24165,UNION BROADBAND NETWORK
 AS24183,DTS LTD
 AS24309,Atria Convergence Technologies
@@ -399,8 +398,8 @@ AS25353,BAR Informatik AG
 AS25400,Telia Norge AS
 AS25412,"""CORPORACIO CATALANA DE MITJANS AUDIOVISUALS", S.A."
 AS25424,CEZNET s.r.o.
+AS25460,The Networking People (TNP) Limited
 AS25512,CD-Telematika a.s.
-AS25532,"LLC """"MASTERHOST"""""
 AS25538,Internet Ulm/Neu-Ulm e.V.
 AS25543,"""ONATEL (Office National des Telecommunications", PTT)"
 AS25620,COTAS LTDA.
@@ -412,7 +411,6 @@ AS27411,"""Leaseweb USA", Inc."
 AS27806,WAYSCOM
 AS27882,Telefónica Celular de Bolivia S.A.
 AS28006,CORPORACION NACIONAL DE TELECOMUNICACIONES - CNT EP
-AS28075,ARLINK S.A.
 AS28343,Unifique Telecomunicações SA
 AS28685,Routit BV
 AS28725,CETIN a.s.
@@ -421,7 +419,6 @@ AS28760,Infotech EDV-Systeme GmbH
 AS28768,Alpilink Cloud S.A.S.
 AS28785,Asseco Cloud Sp. z o. o.
 AS28854,SavMAN AB
-AS28933,"""University of Ljubljana", Faculty of Electrical Engineering"
 AS29018,trivago N.V.
 AS29050,Terrecablate Reti e Servizi S.R.L.
 AS29067,Hostmaster LLC
@@ -479,6 +476,8 @@ AS32270,"""LD Telecommunications", Inc."
 AS32425,Pixel Factory
 AS33185,Hive Data Center Inc.
 AS33363,"""Charter Communications", Inc"
+AS33604,Burlington Telecom
+AS33796,BOLIGNET-AARHUS F.M.B.A.
 AS33885,Telenor Sverige AB
 AS33915,Vodafone Libertel B.V.
 AS33932,everyWAN
@@ -486,7 +485,6 @@ AS33983,ARTMOTION SH.P.K.
 AS33984,Surfplanet GmbH
 AS34019,Hivane Association
 AS34134,FreeClix Ltd
-AS34154,Configo Systems Gesellschaft fuer Systemloesungen mbH
 AS34428,Giulio Lo Presti
 AS34467,"JSC Telephone Company """"Sotcom"""""
 AS34554,Antares Kommunikationstechnik AG
@@ -531,11 +529,12 @@ AS36884,Wana Corporate
 AS36914,Kenya Education Network
 AS36925,Orange Maroc
 AS37100,SEACOM Limited
+AS37187,Inq. Digital Limited
 AS37497,Network Platforms (PTY) LTD
 AS37551,ATI - Agence Tunisienne Internet
 AS37578,Telecommunication Sevice  Providers Association of Ke...
-AS37608,iRENALA
 AS37611,Afrihost (Pty) Ltd
+AS37904,"""BBIX", Inc."
 AS38195,Superloop
 AS38229,"""Lanka Education & Research Network", NREN"
 AS38299,REANNZ Corporate
@@ -558,6 +557,7 @@ AS39648,DataCom Group Nordic AB
 AS39686,Eurofiber Nederland BV
 AS39699,Lounea Palvelut Oy
 AS39702,S-IT Verwaltungs GmbH trading as S-IT Informationstec...
+AS39761,"""ABAK", Co.Ltd."
 AS39767,Sargasso N1 Limited
 AS39790,Web4U s.r.o.
 AS39835,goetel GmbH
@@ -578,8 +578,8 @@ AS41009,Oleksandr Melnyk
 AS41103,teleBIZZ Ltd
 AS41108,comtrance service GmbH
 AS41153,Gamma Communications Nederland B.V.
-AS41202,UNITEL LLC
 AS41327,Fiber Telecom S.p.A.
+AS41397,Redes Digitales de Telecomunicacion en Internet SL
 AS41424,Latvian Railways
 AS41696,Ram Mobile Data (Netherlands) B.V.
 AS41720,Revolution Provider S.r.l.
@@ -676,6 +676,7 @@ AS48777,DARC e.V.
 AS48813,Enix SAS
 AS48926,Pe3ny Net s.r.o.
 AS48945,OPEN FIBRE NETWORKS (WHOLESALE) LIMITED
+AS49254,Alternet Ltd
 AS49420,Aplitt Sp. z o.o.
 AS49505,JSC Selectel
 AS49556,Web Dadeh Paydar Co (Ltd)
@@ -712,20 +713,22 @@ AS51263,County Broadband Ltd
 AS51333,Arcolink Telecomunicazioni S.r.l.
 AS51468,One.com A/S
 AS51519,Karabro AB
-AS51580,TIMENET SPA
 AS51664,Bilendi Technology SARL
 AS51691,F-Solutions Oy
 AS51692,Steven Smith trading as HyberHost
 AS51786,Patrick Velder
 AS51815,GlobalConnect AB
+AS51840,CSL Data Centre Services Limited
 AS51852,Private Layer INC
 AS51929,Advania Sverige AB
 AS51996,MicroStrategy Poland Sp. z o.o.
 AS52063,TTP Cloud Group Ltd
 AS52130,LiveSport s.r.o.
 AS52210,Accuris Technologies Ltd.
+AS52322,TELCOCOM
 AS52376,CABASE Camara Arg de Base de Datos y Serv en Linea
 AS52431,CyberWave S.A.
+AS53006,ALGAR TELECOM S/A
 AS53343,sc Network
 AS53550,"""NTT Cloud Communications US", Inc."
 AS53667,FranTech Solutions
@@ -737,7 +740,6 @@ AS54594,Illuminate Hillsboro
 AS54632,Everythink Innovations Limited
 AS54978,ZYWAVE INC
 AS55002,"""F5", Inc."
-AS55577,"""Atria Convergence Technologies Ltd.","
 AS55666,PT Media Sarana Data
 AS55736,Dataknox Pty Limited
 AS55805,MobiCom Corporation
@@ -762,6 +764,7 @@ AS57103,Nomotech SAS
 AS57225,Floris van der Krieken
 AS57254,FHU SKANET Wojciech Capek
 AS57269,DIGI SPAIN TELECOM S.L.
+AS57294,Internet Expert s.r.o.
 AS57388,I.B.C - Telecom Sh.p.k.
 AS57407,CK Software GmbH
 AS57630,84 Grams AB
@@ -777,6 +780,7 @@ AS57944,IP-Connect LLC
 AS58075,X2com BV
 AS58130,rsnet s.r.o.
 AS58202,NoPKT LLC
+AS58224,Iran Telecommunication Company PJS
 AS58308,Cusae SAS
 AS58631,Vista Group (NZ) Limited
 AS58698,The University of Wollongong
@@ -784,7 +788,6 @@ AS59105,Home NOC Operators Group
 AS59128,Kyoto University Microcomputer Club
 AS59414,cloudscale.ch AG
 AS59474,Rechenzentrum Hassfurt GmbH
-AS59617,Andy Davidson
 AS59645,Tobias Fiebig
 AS59678,SYSTEM36 LLC
 AS59715,Comune di San Benedetto del Tronto
@@ -824,6 +827,7 @@ AS62000,SERVERD SAS
 AS62080,Adrian Almenar Serrano
 AS62125,Proact Netherlands B.V.
 AS62141,COMPAGNIE NATIONALE DU RHONE S.A.
+AS62227,EKCO CLOUD AND SECURITY LIMITED
 AS62310,axilaris GmbH
 AS62357,2M-IT Oy
 AS62371,Proton AG
@@ -849,7 +853,6 @@ AS133504,PAOCLOUD
 AS134111,Commonwealth Scientific and Industrial Research Organ...
 AS134148,SingAREN
 AS134356,"""NBC Co.",Ltd"
-AS135738,Adn Broadband
 AS135887,Belong (Telstra Limited)
 AS135918,VIET DIGITAL TECHNOLOGY LIABILITY COMPANY
 AS135932,Viet Storage Technology Joint Stock Company
@@ -875,24 +878,26 @@ AS152605,Z COM NETWORKS
 AS152873,Neodyland
 AS153720,Mark Delany
 AS196610,DE-CIX Academy
-AS196616,regio[.NET] Holding GmbH
 AS196819,DEMANDO GmbH
 AS196954,Epcan GmbH
+AS197071,active 1 GmbH
 AS197164,IsarNet AG
 AS197301,Parknet F.M.B.A.
-AS197307,"""Core4Net", s.r.o."
 AS197317,Nuuday A/S
 AS197448,NT Group Systemy Informatyczne Sp. z o.o.
 AS197540,netcup GmbH
 AS197564,Stiftelsen for Internetinfrastruktur
+AS197641,Innofinity GmbH
 AS197669,CloudCall LTD
 AS197696,Evolix SARL
+AS197706,Keminet SHPK
 AS197712,"""10dencehispahard", S.L."
 AS197729,Binect GmbH
 AS197732,OLLINK SARL
 AS197892,Spoldzielnia Mieszkaniowa W Nowym Tomyslu
 AS197975,LINK Mobility GmbH
 AS198024,Istekki Oy
+AS198050,Marek Piwowarski trading as ALFA-SYSTEM M. Piwowarski...
 AS198060,Darva (Developpement D'applications Sur Reseaux a Val...
 AS198161,"""Sokolovska uhelna", pravni nastupce, a.s."
 AS198249,Ops One AG
@@ -952,7 +957,6 @@ AS202196,Booking.com BV
 AS202208,teutel GmbH
 AS202288,Matthew Martin
 AS202329,Verein zur Foerderung freier Netze Region Mittlerer O...
-AS202359,AS207960 Cyfyngedig
 AS202401,Webhosting24 GmbH
 AS202422,G-Core Labs S.A.
 AS202454,Pine Media Ltd
@@ -965,6 +969,7 @@ AS202663,VOGANET SARL
 AS202693,Erik Schneider
 AS202716,WWK Lebensversicherung a.G.
 AS202870,Dimensione S.r.l.
+AS202898,DEVELOPPEMENT D'APPLICATIONS SUR RESEAUX A VALEUR AJO...
 AS202945,Benjamin Collet
 AS203020,HostRoyale Technologies Pvt Ltd
 AS203215,DATAGROUP Enterprise Services GmbH
@@ -988,6 +993,7 @@ AS204057,Duomenu apdorojimo centras LTD
 AS204058,"""Fibris", s.r.o."
 AS204059,Neutrinet ASBL/VZW
 AS204064,CEZNET s.r.o.
+AS204092,Association GRIFON
 AS204151,EWII Bredbaand A/S
 AS204253,CTS Eventim Solutions GmbH
 AS204279,Eltrona Interdiffusion S.A.
@@ -1069,15 +1075,14 @@ AS209894,Foerderverein Freie Infrastruktur e.V.
 AS209915,trivago N.V.
 AS210036,Rayhaan Ahmad Jaufeerally
 AS210140,GAVLEBORGS LANS LANDSTING
-AS210218,Open Fiber S.P.A.
 AS210303,Hamburg Port Authority AoeR
 AS210374,Pedro Direito
-AS210429,Hizakura B.V.
 AS210793,Altonetz GmbH
 AS210805,Open Infra ISP Production International AB
 AS211186,Fast Telecom P.C.
 AS211309,Obos Nett AS
 AS211327,CODEVAULT SRL
+AS211381,Podaon SIA
 AS211462,Andrei Tiberiu Holt
 AS211588,Innovation Harbor B.V.
 AS211623,NAML B.V.
@@ -1104,6 +1109,7 @@ AS213279,Reliably Coded B.V.
 AS213392,Tan Siewert
 AS213669,Varadi Daniel
 AS213768,Thomas Neumann
+AS214209,Internet Magnate (Pty) Ltd
 AS214213,START - Sines Transatlantic Renewable & Technology Ca...
 AS214331,Teske Virtual System Ltda
 AS214347,Massive Dynamic Technical Services Limited
@@ -1147,7 +1153,6 @@ AS267743,GILAT NETWORKS PERU S.A.
 AS267841,GIGAS HOSTING COLOMBIA S.A.S.
 AS269938,ADN TELECOM S.A.C.
 AS270009,GUALAN JAPON LUIS JOAQUIN (SARAGUROSNET)
-AS270024,ICONEX SPA
 AS272809,"""THUNDERNET", C.A."
 AS272839,NETCALLS SOCIEDAD DE RESPONSABILIDAD LIMITADA
 AS273002,TRACTORAL SOCIEDAD ANONIMA
@@ -1157,22 +1162,19 @@ AS273147,MUNICIPALIDAD DE CARRILLO GUANACASTE
 AS273149,PUNTO DE TRAFICO DE INTERCAMBIO DE INTERNET GUATEMALA...
 AS327750,JENNY INTERNET (PTY) LTD
 AS327822,Airpark Beaufort West CC
-AS327824,Converged Telecoms
 AS327831,Djibouti Data Center SARL
 AS327849,DIRECTEL COMMUNICATIONS (PTY) LTD
 AS327864,AlbideyNet
-AS327872,IBITS Internet (pty) Ltd
 AS327875,Internet service provider association - DRC
 AS327934,SOCIETE NATIONALE DES TELECOMMUNICATIONS (Tunisie Telecom)
-AS328162,Icolo Ltd
 AS328228,SOCIETE BENINOISE D'INFRASTRUCTURES NUMERIQUES
 AS328266,Atomic Access
 AS328391,Rocking Connect PTY (LTD)
 AS328594,SUDATCHAD SA/CA
+AS328856,VIJIJI CONNECT LIMITED
 AS328870,SynBurst (Pty) Ltd
 AS328913,ST DIGITAL
 AS328964,Insight Actuarial Solutions (Pty) Ltd
-AS329109,Zoodlabs(SL) Limited
 AS329158,N'Djamena IX
 AS329325,Maxko for Gaming Development
 AS393249,University of British Columbia
@@ -1215,6 +1217,7 @@ AS399105,CECREVIER
 AS399242,CodingFlyBoy LLC
 AS399275,Solid Systems LLC
 AS399580,Radish Networks
+AS399760,Zabbly
 AS399898,Conexon Connect
 AS399899,Lightening Systems
 AS400212,VergeTel Group LLC

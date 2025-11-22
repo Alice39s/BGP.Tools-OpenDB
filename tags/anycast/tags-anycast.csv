@@ -37,6 +37,7 @@ AS4515,PCCW IMS Ltd (PCCW Business Internet Access)
 AS4739,Internode Pty Ltd
 AS4749,WiseTechGlobal Pty Ltd
 AS4755,TATA Communications (formerly VSNL)
+AS4780,Digital United Inc.
 AS4783,SYSTEX Corporation
 AS4842,Tianhai InfoTech
 AS4847,China Telecom Beijing Province Network
@@ -96,6 +97,7 @@ AS10515,Verisign Anycast US 0Z
 AS10753,"""Level 3 Parent", LLC"
 AS10779,"""StepBroBD", Inc."
 AS10796,Charter Communications Inc
+AS10837,"""Wells Fargo Bank", N.A."
 AS10879,Unitedhealthcare
 AS10880,Yahoo Holdings Inc.
 AS10886,University of Maryland
@@ -160,6 +162,7 @@ AS16552,Tiggee LLC
 AS16591,Google Fiber Inc.
 AS16645,"""EPIQ Systems", Inc"
 AS16686,"""easyDNS Technologies", Inc."
+AS16839,"""SERVICENOW", INC."
 AS16876,ICANN
 AS17012,"""PayPal", Inc."
 AS17138,Matt Peterman Sole Proprietor
@@ -176,7 +179,6 @@ AS18368,APNIC ANYCAST ASN
 AS18369,APNIC ANYCAST ASN
 AS18535,"""Hoffmann LaRoche", Inc."
 AS18723,Seagate Technology LLC
-AS18881,TELEFÔNICA BRASIL LTDA
 AS18944,AS18944 LLC
 AS19021,BTC Broadband Inc.
 AS19039,DurableDNS Inc
@@ -276,6 +278,7 @@ AS28248,BRB - Banco de Brasília S/A
 AS28261,EMPRESA SERGIPANA DE TECNOLOGIA DA INFORMAÇÃO
 AS28369,SIGNALLINK INFORMATICA LTDA
 AS28583,RuralWeb Telecomunicações Ltda
+AS28614,Fundacao Universidade Regional de Blumenau
 AS29066,velia.net Internetdienste GmbH
 AS29067,Hostmaster LLC
 AS29085,Porsche Informatik Gesellschaft m.b.H
@@ -318,6 +321,7 @@ AS33039,Unify Media Ltd
 AS33191,"""Notion Labs", Inc."
 AS33438,Datum
 AS33512,Gateway Processing Services
+AS33726,GENEVA COLLEGE
 AS33905,Akamai International B.V.
 AS34309,Link11 GmbH
 AS34343,Eweka Internet Services B.V.
@@ -363,7 +367,6 @@ AS40138,"""Mach Dilemma", LLC"
 AS40165,"""Voxology Carrier Services", Inc."
 AS40292,Cintas Corporation
 AS40355,Sundance International LLC
-AS40371,"""PROS", Inc."
 AS40428,"""Pandora Media", LLC"
 AS40509,"""Fly.io", Inc."
 AS40539,"""Hosting Consulting", Inc"
@@ -404,6 +407,7 @@ AS44239,proinity GmbH
 AS44273,Host Europe GmbH
 AS44354,BROCK VOJKOVIC
 AS44421,Yifu Yu
+AS44521,Jagex Limited
 AS44654,VIXLY AS
 AS44709,O.M.C. COMPUTERS & COMMUNICATIONS LTD
 AS44788,Criteo Technology SAS
@@ -416,6 +420,7 @@ AS45513,Samespace India Pvt. Ltd.
 AS45526,"""UGAM SOLUTIONS PVT LTD","
 AS45758,Triple T Broadband Public Company Limited
 AS45820,Tata Teleservices ISP
+AS45838,Anticlockwise Pty Ltd
 AS45927,THE SINGARENI COLLIERIES COMPANY LIMITED
 AS46181,"""BCI Mississippi Broadband",LLC"
 AS46475,"""Limestone Networks", Inc."
@@ -520,7 +525,6 @@ AS58867,SG.GS Anycast AS
 AS59188,IndianOil Corporation Limited
 AS59238,"""Innovative Extremist Co.", Ltd."
 AS59245,G-Core Labs S.A
-AS59288,PT Net Sentra Cyberindo
 AS59692,IQWeb FZ-LLC
 AS59796,StormWall s.r.o.
 AS60068,Datacamp Limited (CDN77 / DataPacket)
@@ -555,7 +559,6 @@ AS63023,GTHost
 AS63103,Ochsner Clinic Foundation
 AS63113,Globecorp Networks
 AS63199,"""CDS Global Cloud Co.", Ltd"
-AS63297,Pacific Servers Inc.
 AS63341,"""ROKI America Co.", Ltd."
 AS63363,Tucows.com Co.
 AS63911,"""NetActuate", Inc"
@@ -656,7 +659,6 @@ AS200950,Lyratris Limited
 AS201188,BJT PARTNERS SAS
 AS201303,CentralNic Ltd
 AS201304,CentralNic Ltd
-AS201386,MYRNA MISAKA NETWORK INC
 AS201589,"""""EDGEAM"""" LLC"
 AS201595,mono solutions ApS
 AS201612,nic.at GmbH
@@ -768,6 +770,7 @@ AS214030,Kai-Wen Zheng
 AS214040,RUNNAN WEN
 AS214080,Transparent Edge Services S.L.
 AS214405,Eyeo GmbH
+AS214503,QuxLabs AB
 AS214514,Henry Clarke
 AS214575,"""Curious Universe (Chongqing) Technology Co.", Ltd"
 AS214618,Hack The Box Ltd
@@ -780,7 +783,6 @@ AS215527,Xero Networks LTD
 AS215540,GLOBAL CONNECTIVITY SOLUTIONS LLP
 AS215764,Ismael Munoz Hernandez
 AS215842,Erwin Paal
-AS216056,Jingqiu Xu
 AS216100,Rui Li
 AS216107,Noah van der Aa trading as Frumentum Media
 AS216108,Technology Transfer Intercontinental S.R.L
@@ -788,10 +790,12 @@ AS216126,James Ledger
 AS216206,Aphrodite Group Ltd
 AS216393,Synapt ApS
 AS216455,Sting Alleman
+AS262349,Instituto Curitiba de Informática
 AS262589,Megatelecom (Internexa BR)
 AS264792,Fuerza Aerea Argentina
 AS264798,Secretaria Legal y Tecnica
 AS265168,M. S. Ferreira Alves
+AS265756,BANCO PRODEM SA
 AS266130,REDE TJNET
 AS266444,3L CLOUD INTERNET SERVICES LTDA - EPP
 AS267630,UNIVERSIDADE ESTADUAL DO MARANHÃO
@@ -803,8 +807,9 @@ AS269607,SERGIPE MINISTERIO PUBLICO
 AS270034,AKY TELECOM SPA
 AS270262,BADYNET TELECOM LTDA
 AS270681,Tribunal de Justiça do Estado da Paraíba
-AS270769,T DE OLIVEIRA FARIAS
+AS270807,Bella Janela Ind. de Cortinas Ltda.
 AS271273,NET FORT Telecom
+AS272432,MAGAZINE LUIZA S/A
 AS272809,"""THUNDERNET", C.A."
 AS273584,LINKED STORE BRASIL CRIACAO E DESENVOL DE SOFTWARE
 AS274099,VALLENET SPA
@@ -826,7 +831,6 @@ AS394353,USC/ISI - B-root
 AS394354,Canadian Internet Registration Authority
 AS394564,Spectrotel Inc
 AS394646,"""Eagle Eye Networks", Inc"
-AS394681,Summit Healthcare Regional Medical Center
 AS395046,Sexing Technologies
 AS395126,"""Beck's Superior Hybrids", Inc."
 AS395363,"""Infoblox", Inc."
