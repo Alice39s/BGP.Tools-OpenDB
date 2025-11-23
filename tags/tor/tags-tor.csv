@@ -114,7 +114,6 @@ AS6718,NAV COMMUNICATIONS SRL
 AS6724,Strato GmbH
 AS6730,Sunrise GmbH
 AS6805,Telefonica Germany (o2)
-AS6810,"""""Bezeq""""- THE ISRAEL TELECOMMUNICATION CORP. LTD."
 AS6830,Liberty Global B.V.
 AS6848,Telenet BV
 AS6855,"""Slovak Telekom", a.s."
@@ -179,6 +178,7 @@ AS9286,KINX
 AS9316,DACOM-PUBNETPLUS
 AS9318,SK Broadband Co Ltd
 AS9370,SAKURA Internet Inc.
+AS9378,"""JCOM Co.", Ltd."
 AS9534,Maxis
 AS9617,"""JCOM Co.", Ltd."
 AS9790,Two Degrees Networks Limited
@@ -208,6 +208,7 @@ AS12083,WideOpenWest Finance LLC
 AS12093,University of Waterloo
 AS12161,"""dao Consulting", LLC"
 AS12271,Charter Communications Inc
+AS12302,Vodafone Romania S.A.
 AS12312,ecotel communication ag
 AS12322,Free SAS
 AS12338,Euskaltel S.A.
@@ -215,6 +216,7 @@ AS12353,Vodafone Portugal - Communicacoes Pessoais S.A.
 AS12355,HeLi NET Telekommunikation GmbH & Co.
 AS12364,"""University of Macedonia", Economic and Social Sciences"
 AS12389,PJSC Rostelecom
+AS12400,Partner Communications Ltd.
 AS12430,VODAFONE ESPANA S.A.U.
 AS12479,Orange Espagne SA
 AS12496,Infinity Developments Limited
@@ -268,6 +270,7 @@ AS16086,DNA Oyj
 AS16097,HL komm Telekommunikations GmbH
 AS16125,UAB Cherry Servers
 AS16276,OVH SAS
+AS16302,Suomi Communications Oy
 AS16509,"""Amazon.com", Inc."
 AS16591,Google Fiber Inc.
 AS16652,Riseup Networks
@@ -286,7 +289,6 @@ AS18390,Spintel Pty Ltd
 AS18460,Fort Hays State University
 AS18526,"""DDPS Networks", LLC"
 AS18624,Greenlight
-AS19008,"""Perry-Spencer Communications", Inc."
 AS19045,"""Direct Communications Cedar Valley", LLC"
 AS19148,"""Leaseweb USA", Inc."
 AS19165,Webpass Inc.
@@ -320,9 +322,10 @@ AS22296,Vorsk LLC
 AS22555,"""Smart Networks",LLC"
 AS22612,"""Namecheap", Inc."
 AS22773,Cox Communications Inc.
-AS22927,Telefonica de Argentina
 AS23310,TASTY LIME
 AS23470,ReliableSite.Net LLC
+AS23473,PAVLOV MEDIA INC
+AS23507,AV SERVICES LLC
 AS23655,2degrees Networks Limited
 AS23859,University of New South Wales
 AS24164,UNION BROADBAND NETWORK
@@ -410,7 +413,6 @@ AS33588,Charter Communications LLC
 AS33705,Digital Shape Technologies Inc.
 AS33796,BOLIGNET-AARHUS F.M.B.A.
 AS33837,Fredrik Holmqvist
-AS33885,Telenor Sverige AB
 AS33911,HZONE SRL
 AS33915,Vodafone Libertel B.V.
 AS33943,Eri Internet s.r.o.
@@ -505,7 +507,6 @@ AS42730,EVANZO e-commerce GmbH
 AS42831,UK Dedicated Servers Limited
 AS42927,S-NET Sp. z o.o.
 AS43067,"PE """"Pretcher"""""
-AS43139,Maximum-Net LLC
 AS43150,MK Netzdienste Verwaltungs GmbH trading as MK Netzdie...
 AS43180,Trunk Networks LTD
 AS43289,Trabia SRL
@@ -578,14 +579,13 @@ AS48753,AVA HOST SRL
 AS48900,Info Data Center Ltd.
 AS48926,Pe3ny Net s.r.o.
 AS48927,ESEVEN DevOps GmbH
-AS48956,HyperNET sp. z o.o.
 AS49367,Seflow s.r.l.
 AS49392,LLC Baxet
 AS49447,Nice IT Services Group Inc.
 AS49453,Global Layer B.V.
-AS49505,JSC Selectel
 AS49544,i3D.net B.V
 AS49581,Ferdinand Zink trading as Tube-Hosting
+AS49601,UNITEL-MEDIA Sp. z o.o.
 AS49683,MASSIVEGRID LTD
 AS49770,Internetport Sweden AB
 AS49826,Lounea (ex. Forssan Seudun Puhelin)
@@ -609,6 +609,7 @@ AS50979,GREEN FLOID LLC
 AS51167,Contabo GmbH
 AS51175,Multiplay Sp. z o.o.
 AS51290,BARTOSZ WASZAK trading as HOSTEAM S.C. TOMASZ GROSZEW...
+AS51319,KajoNet Oy
 AS51395,Datasource AG
 AS51396,Pfcloud UG
 AS51659,LLC Baxet
@@ -645,7 +646,6 @@ AS56611,REBA Communications BV
 AS56630,Melbikomas UAB
 AS56655,Gigahost AS
 AS56665,Proximus Luxembourg S.A.
-AS56803,Datasource AG
 AS56971,CGI GLOBAL LIMITED
 AS57043,HOSTKEY B.V.
 AS57169,EDIS GmbH
@@ -675,9 +675,11 @@ AS59729,GREEN FLOID LLC
 AS59741,Marco Sandro Naef
 AS59891,FSIT AG
 AS60016,Fiberstream 87 AG
+AS60068,Datacamp Limited (CDN77 / DataPacket)
 AS60117,Host Sailor Ltd
 AS60131,High5! B.V.
 AS60191,Nowatel Sp. z o.o.
+AS60352,S E L C O M SHPK
 AS60404,The Infrastructure Group B.V.
 AS60522,KomMITT-Ratingen GmbH
 AS60656,BOL BG IZTOK LTD
@@ -736,7 +738,7 @@ AS135377,UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED
 AS135411,Red Grapes Pte Ltd
 AS136052,PT Cloud Hosting Indonesia
 AS136258,"""BrainStorm Network", Inc"
-AS137643,MANAGE SERVER
+AS138754,Kerala Vision Broad Band Private Limited
 AS138915,Kaopu Cloud HK Limited
 AS138997,Eons Data Communications Limited
 AS141995,Contabo Asia Private Limited
@@ -793,6 +795,7 @@ AS200698,Globalhost d.o.o.
 AS200713,Zettaplan AG
 AS200736,MEDIANET INVEST AE
 AS200950,Lyratris Limited
+AS201112,Andrzej Erenc trading as awHost
 AS201308,Castlegem SRL
 AS201409,HOSTSHIELD LTD
 AS201670,S.C. INFOTECH-GRUP S.R.L.
@@ -842,14 +845,15 @@ AS206264,Amarutu Technology Ltd
 AS206774,Internetnord AB
 AS206804,EstNOC OU
 AS206996,ZAP-Hosting GmbH
+AS207003,Web1 Oy
 AS207083,HostSlim B.V.
 AS207143,hosttech GmbH
+AS207187,"""TKR Jasek", s.r.o."
 AS207252,Felix Gassan
 AS207459,TEKNOSOS BILISIM HIZMETLERI VE TIC. LTD. STI.
 AS207483,Netvia Bilisim Yazilim Dan. Tic. Ltd. Sti.
 AS207503,neu-medianet GmbH
 AS207695,Mario Kurz trading as LUME Solutions
-AS207713,GLOBAL INTERNET SOLUTIONS LLC
 AS207799,BOTANY SRL
 AS207916,Velocity1 Limited
 AS207957,SERV.HOST GROUP LTD
@@ -887,7 +891,6 @@ AS211619,MAXKO d.o.o.
 AS211673,Mynymbox LLC
 AS211720,"""Datashield", Inc."
 AS211742,Intraserv Kamil Schild
-AS211882,AQUILENET
 AS212057,Pascal Stattmann trading as Nodescrape
 AS212228,servinga GmbH
 AS212238,Datacamp Limited
@@ -936,7 +939,6 @@ AS215125,Church of Cyberology
 AS215248,Bastiaan Mathijs Brink
 AS215288,Michele Branchini
 AS215296,Raoul Brouns
-AS215311,Regxa Company for Information Technology Ltd
 AS215362,Promo Plus SRL
 AS215381,ROCKHOSTER PRIVATE LIMITED
 AS215467,Skhron OU
@@ -960,7 +962,6 @@ AS263608,WSNET TELECOM LTDA ME
 AS263812,SONDATECH S.A.S.
 AS264617,GRUPO PANAGLOBAL 15 S.A
 AS264811,AIR LINK COMMUNICATIONS
-AS272996,Sincere Networks B.V.
 AS328170,DataKeepers (Pty) Ltd
 AS328364,Host Africa (Pty) Ltd
 AS329007,ELENDE - TECNOLOGIAS DE INFORMACAO - COMERCIO E SERVI...
@@ -999,7 +1000,6 @@ AS399646,Snaju Development
 AS399804,Hostodo
 AS399820,Atomic Networks LLC
 AS400175,"""Microtronix ESolutions", LLC"
-AS400226,StormyCloud Inc
 AS400304,Redoubt Networks (Crunchbits)
 AS400442,Vulpine Networks
 AS400475,"""Nuclearfallout Enterprises", Inc."
