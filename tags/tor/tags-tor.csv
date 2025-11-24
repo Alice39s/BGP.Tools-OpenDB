@@ -114,6 +114,8 @@ AS6718,NAV COMMUNICATIONS SRL
 AS6724,Strato GmbH
 AS6730,Sunrise GmbH
 AS6805,Telefonica Germany (o2)
+AS6810,"""""Bezeq""""- THE ISRAEL TELECOMMUNICATION CORP. LTD."
+AS6821,Makedonski Telekom AD-Skopje
 AS6830,Liberty Global B.V.
 AS6848,Telenet BV
 AS6855,"""Slovak Telekom", a.s."
@@ -178,7 +180,6 @@ AS9286,KINX
 AS9316,DACOM-PUBNETPLUS
 AS9318,SK Broadband Co Ltd
 AS9370,SAKURA Internet Inc.
-AS9378,"""JCOM Co.", Ltd."
 AS9534,Maxis
 AS9617,"""JCOM Co.", Ltd."
 AS9790,Two Degrees Networks Limited
@@ -208,15 +209,12 @@ AS12083,WideOpenWest Finance LLC
 AS12093,University of Waterloo
 AS12161,"""dao Consulting", LLC"
 AS12271,Charter Communications Inc
-AS12302,Vodafone Romania S.A.
 AS12312,ecotel communication ag
 AS12322,Free SAS
 AS12338,Euskaltel S.A.
 AS12353,Vodafone Portugal - Communicacoes Pessoais S.A.
 AS12355,HeLi NET Telekommunikation GmbH & Co.
 AS12364,"""University of Macedonia", Economic and Social Sciences"
-AS12389,PJSC Rostelecom
-AS12400,Partner Communications Ltd.
 AS12430,VODAFONE ESPANA S.A.U.
 AS12479,Orange Espagne SA
 AS12496,Infinity Developments Limited
@@ -289,6 +287,7 @@ AS18390,Spintel Pty Ltd
 AS18460,Fort Hays State University
 AS18526,"""DDPS Networks", LLC"
 AS18624,Greenlight
+AS19008,"""Perry-Spencer Communications", Inc."
 AS19045,"""Direct Communications Cedar Valley", LLC"
 AS19148,"""Leaseweb USA", Inc."
 AS19165,Webpass Inc.
@@ -322,6 +321,7 @@ AS22296,Vorsk LLC
 AS22555,"""Smart Networks",LLC"
 AS22612,"""Namecheap", Inc."
 AS22773,Cox Communications Inc.
+AS23033,Wowrack.com
 AS23310,TASTY LIME
 AS23470,ReliableSite.Net LLC
 AS23473,PAVLOV MEDIA INC
@@ -499,6 +499,7 @@ AS42159,Zemlyaniy Dmitro Leonidovich
 AS42237,w1n ltd
 AS42532,SIA VEESP
 AS42541,Fiberby ApS
+AS42624,Global-Data System IT Corporation
 AS42652,inexio Informationstechnologie und Telekommunikation Gmbh
 AS42675,Obehosting AB
 AS42689,Glide Student & Residential Limited
@@ -507,6 +508,7 @@ AS42730,EVANZO e-commerce GmbH
 AS42831,UK Dedicated Servers Limited
 AS42927,S-NET Sp. z o.o.
 AS43067,"PE """"Pretcher"""""
+AS43139,Maximum-Net LLC
 AS43150,MK Netzdienste Verwaltungs GmbH trading as MK Netzdie...
 AS43180,Trunk Networks LTD
 AS43289,Trabia SRL
@@ -594,7 +596,6 @@ AS49981,WorldStream B.V.
 AS50053,Anton Levin
 AS50066,Serious Tubes Networks
 AS50266,Odido Netherlands B.V.
-AS50284,Goroshko Evgeniy Andreevich
 AS50304,Blix Solutions AS
 AS50340,Selectel - Moscow
 AS50360,Tamatiya EOOD
@@ -646,12 +647,13 @@ AS56611,REBA Communications BV
 AS56630,Melbikomas UAB
 AS56655,Gigahost AS
 AS56665,Proximus Luxembourg S.A.
+AS56803,Datasource AG
 AS56971,CGI GLOBAL LIMITED
 AS57043,HOSTKEY B.V.
+AS57099,Boundless Networks Limited
 AS57169,EDIS GmbH
 AS57269,DIGI SPAIN TELECOM S.L.
 AS57403,HFM S.R.L
-AS57494,Adman LLC
 AS57608,DG-NET SA
 AS57717,FiberXpress BV
 AS57811,Redge Technologies sp. z o.o.
@@ -675,7 +677,6 @@ AS59729,GREEN FLOID LLC
 AS59741,Marco Sandro Naef
 AS59891,FSIT AG
 AS60016,Fiberstream 87 AG
-AS60068,Datacamp Limited (CDN77 / DataPacket)
 AS60117,Host Sailor Ltd
 AS60131,High5! B.V.
 AS60191,Nowatel Sp. z o.o.
@@ -738,6 +739,7 @@ AS135377,UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED
 AS135411,Red Grapes Pte Ltd
 AS136052,PT Cloud Hosting Indonesia
 AS136258,"""BrainStorm Network", Inc"
+AS137409,GSL Networks Pty LTD
 AS138754,Kerala Vision Broad Band Private Limited
 AS138915,Kaopu Cloud HK Limited
 AS138997,Eons Data Communications Limited
@@ -761,7 +763,6 @@ AS197566,Livady s.r.o.
 AS197648,CLOUDLAYER8 LIMITED
 AS197695,"""""Domain names registrar REG.RU""", Ltd"
 AS197706,Keminet SHPK
-AS197902,Hostnet B.V.
 AS197922,Techcrea Solutions SAS
 AS198093,Foreningen for digitala fri- och rattigheter
 AS198161,"""Sokolovska uhelna", pravni nastupce, a.s."
@@ -803,7 +804,6 @@ AS201814,MEVSPACE sp. z o.o.
 AS201838,Community Fibre Limited
 AS202053,UpCloud Ltd
 AS202246,Valoo Oy
-AS202282,FIBRUS NETWORKS LTD
 AS202302,NETH LLC
 AS202329,Verein zur Foerderung freier Netze Region Mittlerer O...
 AS202422,G-Core Labs S.A.
@@ -848,7 +848,6 @@ AS206996,ZAP-Hosting GmbH
 AS207003,Web1 Oy
 AS207083,HostSlim B.V.
 AS207143,hosttech GmbH
-AS207187,"""TKR Jasek", s.r.o."
 AS207252,Felix Gassan
 AS207459,TEKNOSOS BILISIM HIZMETLERI VE TIC. LTD. STI.
 AS207483,Netvia Bilisim Yazilim Dan. Tic. Ltd. Sti.
@@ -962,6 +961,7 @@ AS263608,WSNET TELECOM LTDA ME
 AS263812,SONDATECH S.A.S.
 AS264617,GRUPO PANAGLOBAL 15 S.A
 AS264811,AIR LINK COMMUNICATIONS
+AS272996,Sincere Networks B.V.
 AS328170,DataKeepers (Pty) Ltd
 AS328364,Host Africa (Pty) Ltd
 AS329007,ELENDE - TECNOLOGIAS DE INFORMACAO - COMERCIO E SERVI...
