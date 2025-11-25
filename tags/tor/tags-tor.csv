@@ -173,13 +173,13 @@ AS9050,Orange Romania S.A.
 AS9063,VSE NET GmbH
 AS9123,"JSC """"TIMEWEB"""""
 AS9136,WOBCOM GmbH
-AS9141,P4 Sp. z o.o.
 AS9145,EWE TEL GmbH
 AS9269,Hong Kong Broadband Network Ltd.
 AS9286,KINX
 AS9316,DACOM-PUBNETPLUS
 AS9318,SK Broadband Co Ltd
 AS9370,SAKURA Internet Inc.
+AS9378,"""JCOM Co.", Ltd."
 AS9534,Maxis
 AS9617,"""JCOM Co.", Ltd."
 AS9790,Two Degrees Networks Limited
@@ -209,6 +209,7 @@ AS12083,WideOpenWest Finance LLC
 AS12093,University of Waterloo
 AS12161,"""dao Consulting", LLC"
 AS12271,Charter Communications Inc
+AS12302,Vodafone Romania S.A.
 AS12312,ecotel communication ag
 AS12322,Free SAS
 AS12338,Euskaltel S.A.
@@ -287,7 +288,6 @@ AS18390,Spintel Pty Ltd
 AS18460,Fort Hays State University
 AS18526,"""DDPS Networks", LLC"
 AS18624,Greenlight
-AS19008,"""Perry-Spencer Communications", Inc."
 AS19045,"""Direct Communications Cedar Valley", LLC"
 AS19148,"""Leaseweb USA", Inc."
 AS19165,Webpass Inc.
@@ -321,7 +321,6 @@ AS22296,Vorsk LLC
 AS22555,"""Smart Networks",LLC"
 AS22612,"""Namecheap", Inc."
 AS22773,Cox Communications Inc.
-AS23033,Wowrack.com
 AS23310,TASTY LIME
 AS23470,ReliableSite.Net LLC
 AS23473,PAVLOV MEDIA INC
@@ -493,6 +492,7 @@ AS41549,Elektrizitaets- und Wasserwerk der Stadt Buchs SG
 AS41564,Orion Network Limited
 AS41608,"""NextGenWebs", S.L."
 AS41634,Svea Hosting AB
+AS41652,SHPV FRANCE SAS
 AS41653,Aqua Ray SAS
 AS41745,Baykov Ilya Sergeevich
 AS42159,Zemlyaniy Dmitro Leonidovich
@@ -549,7 +549,6 @@ AS45731,PT Ardh Global Indonesia
 AS45758,Triple T Broadband Public Company Limited
 AS45839,Shinjiru Technology Sdn Bhd
 AS45899,VNPT Corp
-AS46015,Exa Bytes Network Sdn.Bhd.
 AS46375,Sonic Telecom LLC
 AS46475,"""Limestone Networks", Inc."
 AS46632,Southwest Arkansas Telephone Cooperative
@@ -635,6 +634,7 @@ AS54641,"""InMotion Hosting", Inc."
 AS54965,Polytechnic Institute of NYU
 AS55286,B2 Net Solutions Inc.
 AS55293,"""A2 Hosting", Inc."
+AS55430,Starhub Ltd
 AS55592,"""Korea Data Telecommunication Co.", Ltd."
 AS55720,Gigabit Hosting Sdn Bhd
 AS56030,Voyager Internet Ltd.
@@ -722,8 +722,6 @@ AS63930,Ready Server Pte. Ltd.
 AS63949,Akamai (Linode)
 AS64073,Vetta Online Ltd
 AS64289,Macarne.com
-AS64457,Matteo Fruhwald trading as PipeHost e.U.
-AS131293,TOT Public Company Limited
 AS131965,Xserver Inc.
 AS131970,Hikarinet Inc.
 AS132203,Tencent
@@ -761,7 +759,6 @@ AS197524,Leonet GmbH
 AS197540,netcup GmbH
 AS197566,Livady s.r.o.
 AS197648,CLOUDLAYER8 LIMITED
-AS197695,"""""Domain names registrar REG.RU""", Ltd"
 AS197706,Keminet SHPK
 AS197922,Techcrea Solutions SAS
 AS198093,Foreningen for digitala fri- och rattigheter
@@ -804,8 +801,8 @@ AS201814,MEVSPACE sp. z o.o.
 AS201838,Community Fibre Limited
 AS202053,UpCloud Ltd
 AS202246,Valoo Oy
+AS202282,FIBRUS NETWORKS LTD
 AS202302,NETH LLC
-AS202329,Verein zur Foerderung freier Netze Region Mittlerer O...
 AS202422,G-Core Labs S.A.
 AS202425,IP Volume inc
 AS202448,MVPS LTD
@@ -853,6 +850,7 @@ AS207459,TEKNOSOS BILISIM HIZMETLERI VE TIC. LTD. STI.
 AS207483,Netvia Bilisim Yazilim Dan. Tic. Ltd. Sti.
 AS207503,neu-medianet GmbH
 AS207695,Mario Kurz trading as LUME Solutions
+AS207713,GLOBAL INTERNET SOLUTIONS LLC
 AS207799,BOTANY SRL
 AS207916,Velocity1 Limited
 AS207957,SERV.HOST GROUP LTD
@@ -863,7 +861,6 @@ AS208208,Marco Lingl trading as Cyberse GmbH & Co. KG
 AS208226,OUIHEBERG SARL
 AS208323,Foundation for Applied Privacy
 AS209274,Kraken Network ISP LTD
-AS209281,"""Generacion Tecnologica De Comunicaciones", Sociedad Li..."
 AS209341,WHG Hosting Services Ltd
 AS209605,UAB Host Baltic
 AS209630,LLC VASH KREDIT BANK
@@ -909,7 +906,6 @@ AS213354,INTERNATIONAL HOSTING SOLUTIONS LLP
 AS213373,IP Connect Inc
 AS213438,ColocaTel Inc.
 AS213468,HD-decor Oy
-AS213488,Mustafa Gunes trading as Inoxweb Datacenter ve Hostin...
 AS213873,MOJI SAS
 AS213887,WAIcore Ltd
 AS213900,RS Computers L.L.C
@@ -1000,6 +996,7 @@ AS399646,Snaju Development
 AS399804,Hostodo
 AS399820,Atomic Networks LLC
 AS400175,"""Microtronix ESolutions", LLC"
+AS400226,StormyCloud Inc
 AS400304,Redoubt Networks (Crunchbits)
 AS400442,Vulpine Networks
 AS400475,"""Nuclearfallout Enterprises", Inc."
