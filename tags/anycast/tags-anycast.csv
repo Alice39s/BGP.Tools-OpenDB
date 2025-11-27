@@ -90,7 +90,6 @@ AS10158,Kakao Corp
 AS10175,Kumho Cable
 AS10326,Worcester Polytechnic Institute
 AS10461,Eze Castle Software LLC
-AS10515,Verisign Anycast US 0Z
 AS10753,"""Level 3 Parent", LLC"
 AS10779,"""StepBroBD", Inc."
 AS10796,Charter Communications Inc
@@ -264,6 +263,7 @@ AS27515,"""Workday", Inc."
 AS27647,"""Weebly", Inc."
 AS27715,Locaweb Serviços de Internet S/A
 AS27792,Wiltel Comunicaciones SA
+AS27872,URBE - Universidad Dr. Rafael Belloso
 AS27901,Pacifico Cable SPA.
 AS27947,Telconet S.A
 AS28075,ARLINK S.A.
@@ -592,6 +592,7 @@ AS137661,Rajcomp Info Services Ltd.
 AS137785,"""CACloud Services (Shanghai) Co.", Ltd."
 AS138310,Jubilant Foodworks Limited
 AS138496,"""Inspiro Relia", Inc"
+AS138945,BALLARAT AND QUEEN'S ANGLICAN GRAMMAR SCHOOL
 AS139070,Google Cloud Korea
 AS139341,WeChat/QQ CDN
 AS140033,INDIAN INSTITUTE OF TECHNOLOGY BHILAI
@@ -616,6 +617,7 @@ AS151194,Zhu Yucheng
 AS151325,TP Western Odisha Distribution Limited
 AS151332,CoinJar Pty Ltd
 AS151336,Verge
+AS151361,THE CUBICLEREBELS PTE LTD
 AS151397,China Telecom
 AS151485,CEYLON ELECTRICITY BOARD
 AS152162,5centsCDN Inc
@@ -735,7 +737,6 @@ AS209671,Qrator Labs CZ s.r.o.
 AS209854,Cyberzone S.A.
 AS210004,Stichting Internet Domeinregistratie Nederland
 AS210250,K Media Tech Ltd.
-AS210550,Andrey Krukover
 AS210562,WURZELLOS LLC
 AS210576,Sangmin Lee trading as YAGUMYAGUM
 AS210600,"PJSC """"Seligdar"""""
@@ -776,6 +777,7 @@ AS214696,Uncollapse LLC
 AS214731,ETO Networks Limited
 AS214955,Weikang Zeng
 AS215212,Sander Jeurissen
+AS215265,Lie Hu
 AS215478,Caden Wingler
 AS215527,Xero Networks LTD
 AS215540,GLOBAL CONNECTIVITY SOLUTIONS LLP
@@ -793,6 +795,7 @@ AS216455,Sting Alleman
 AS262349,Instituto Curitiba de Informática
 AS262589,Megatelecom (Internexa BR)
 AS262959,Centro Universitário do Rio G. do Norte - UNIRN
+AS263118,Celulose Nipo-Brasileira S.A - CENIBRA
 AS263162,Sustenta Telecom Ltda
 AS263267,VIUNET PROVIMENTO DE ACESSO A INTERNET LTDA - ME
 AS264798,Secretaria Legal y Tecnica
@@ -851,7 +854,7 @@ AS396367,"""Canadian Tire Corporation", LTD"
 AS396417,"""Salesforce", Inc."
 AS396486,Conseil scolaire de district catholique du Centre-Est...
 AS396501,CIRA Canadian Internet Registration Authority Autorit...
-AS396549,Verisign Anycast GB 0A
+AS396555,Verisign Anycast US 0O
 AS396566,Verisign Anycast NL 0L
 AS396654,Verisign Anycast US 2K
 AS396970,"""CommandLink", LLC"
@@ -859,6 +862,7 @@ AS396982,Google Cloud Platform
 AS396986,"""Bytedance", Inc. (TikTok)"
 AS396998,"""Path Network", Inc."
 AS397197,Verisign Anycast DE 0E
+AS397198,Verisign Anycast DE 0F
 AS397203,Verisign Anycast US 2U
 AS397273,Render
 AS397444,Overkill Interbuzz LLC

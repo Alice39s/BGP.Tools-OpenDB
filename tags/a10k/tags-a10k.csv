@@ -181,6 +181,7 @@ AS5723,Johns Hopkins University
 AS5774,United States Postal Service
 AS5972,United States Department of Defense (DoD)
 AS6057,Administracion Nacional de Telecomunicaciones
+AS6075,Lockheed Martin Corporation
 AS6106,"""University of California", Riverside"
 AS6128,Cablevision Systems Corp.
 AS6150,National Cancer Institute
@@ -196,7 +197,6 @@ AS6360,University of Hawaii
 AS6366,Portland State University
 AS6389,"""AT&T Enterprises", LLC"
 AS6429,Telmex Chile Internet S.A.
-AS6461,Zayo Bandwidth
 AS6482,Thryv
 AS6510,Brigham Young University
 AS6619,SamsungSDS Inc.
@@ -333,7 +333,6 @@ AS11105,Simon Fraser University
 AS11106,"""Wolfram Research", Inc."
 AS11207,"""Boston Globe Media Partners", LLC"
 AS11273,"""Fiserv Solutions", LLC"
-AS11278,Nintendo Of America inc.
 AS11279,George Mason University
 AS11403,NYI
 AS11406,CIGNA
@@ -422,6 +421,7 @@ AS14738,Digi-Key Corporation
 AS14744,Unitas Global
 AS14745,Unitas Global
 AS14782,MailChimp
+AS14840,BR.DIGITAL
 AS14907,Wikimedia Foundation Inc.
 AS15113,Harman International Industries Inc.
 AS15133,Edgecast Inc.
@@ -541,6 +541,7 @@ AS22427,GNET INC.
 AS22548,Núcleo de Informação e Coordenação do Ponto BR - NIC.BR
 AS22552,eSited Solutions
 AS22575,Massachusetts Mutual Life Insurance Company
+AS22604,Disney Streaming Services
 AS22611,"""InMotion Hosting", Inc."
 AS22612,"""Namecheap", Inc."
 AS22652,Videotron Ltee
@@ -554,6 +555,7 @@ AS23033,Wowrack.com
 AS23162,University of Kentucky
 AS23352,DEFT.COM
 AS23393,NuCDN LLC
+AS23498,Beanfield Technologies Inc.
 AS23576,NAVER Cloud Corp.
 AS23616,"""Hitachi Systems", Ltd."
 AS23724,China Telecom Beijing IDC Network
@@ -564,7 +566,6 @@ AS24151,China Internet Network Infomation Center
 AS24211,PT Detik Ini Juga
 AS24247,PacketFabric (Hong Kong) Limited
 AS24282,KAGOYA JAPAN Inc.
-AS24400,"""Shanghai Mobile Communications Co.",Ltd."
 AS24429,Alibaba Cloud
 AS24436,University of Queensland
 AS24462,Network Management Section
@@ -662,6 +663,7 @@ AS29992,U.S. Department of Veterans Affairs
 AS30083,velia.net
 AS30148,Sucuri
 AS30193,Los Angeles Unified School District
+AS30217,Desync Networks
 AS30313,Internal Revenue Service
 AS30320,"""Kia America", Inc."
 AS30383,General Motors LLC
@@ -748,7 +750,6 @@ AS35673,JSC Kaspi Bank
 AS35676,La Poste S.A.
 AS35704,ITZBund
 AS35739,Bayerischer Rundfunk
-AS35819,"""Etihad Etisalat", a joint stock company"
 AS36154,THE WESTERN UNION COMPANY
 AS36323,Ezri Inc
 AS36351,IBM Cloud
@@ -980,6 +981,7 @@ AS52016,JSC ADFACT
 AS52130,LiveSport s.r.o.
 AS52580,Azion Technologies Ltda.
 AS52649,Tribunal de Justica do Estado do Rio Grande do Sul
+AS53187,UNIVERSIDADE ESTADUAL DE CAMPINAS
 AS53332,"""C2Hosting", LLC"
 AS53334,"""Total Uptime Technologies", LLC"
 AS53589,PlanetHoster
@@ -1056,7 +1058,6 @@ AS60068,Datacamp Limited (CDN77 / DataPacket)
 AS60077,Asre Dadeha Asiatech
 AS60144,3W Infra B.V.
 AS60148,Iran Information Technology Company PJSC
-AS60229,Demonware Limited
 AS60330,Belarusian Cloud Technologies LLC
 AS60357,Megagroup.ru LLC
 AS60362,ALWAYSDATA SARL
@@ -1102,6 +1103,7 @@ AS64422,SIMA RAYAN SHARIF COMPANY (LTD.)
 AS131144,ASUSTek COMPUTER INC.
 AS131392,GMO-Z.com Runsystem Joint Stock Company
 AS131429,MOBIFONE Corporation
+AS131435,Vietnam Esports and Entertainment Joint Stock Company
 AS131623,SHOPEE (TAIWAN) CO. LTD.
 AS131663,GIGABYTE
 AS131930,"""Tokyo Broadcasting System Television", Inc."
@@ -1118,6 +1120,7 @@ AS133618,Trellian Pty. Limited
 AS133865,"""Beijing IQIYI Science & Technology Co.", Ltd."
 AS134029,Unique Identification Authority of India
 AS134756,CHINANET Nanjing Jishan IDC network
+AS134763,CHINANET Guangdong province network
 AS134771,China Telecom Wenzhou IDC Network
 AS135391,"""Aofei Data International Co.", Ltd."
 AS135392,MillenialHost Limited
@@ -1152,6 +1155,7 @@ AS139659,LUCIDACLOUD LIMITED
 AS140227,"""Hong Kong Communications International Co.", Limited"
 AS140633,BILIBILI HK LIMITED
 AS140637,Macquarie Technology Operations Pty Limited
+AS140717,UNICOM JiangSu Suzhou IDC network
 AS140766,FPT Smart Cloud Company Limited
 AS141679,China Telecom Beijing Tianjin Hebei Big Data Industry...
 AS142160,Joyo Technology Pte. Ltd.
@@ -1217,9 +1221,9 @@ AS202865,Dicastero per la Comunicazione
 AS203055,Datacenter Luxembourg S.A.
 AS203444,"""""MapMakers Group"""" Ltd"
 AS203939,"""Mosaic Data Services", Inc."
+AS204035,oneCorp GmbH
 AS204198,"NCO """"MONETA"""" (LLC)"
 AS204213,Netmihan Communication Company Ltd
-AS204544,Dade Pardazi Mobinhost Co LTD
 AS204563,NexTReT S.L.
 AS204590,Swiss International Air Lines AG
 AS204601,Zomro B.V.
@@ -1287,6 +1291,7 @@ AS213980,Net Media Zrt.
 AS214036,"""Ultahost", Inc."
 AS214390,"""Wojtek SASU", trading as Gofile"
 AS215402,Asadov Ruslan Rafaelevich
+AS215467,Skhron OU
 AS215540,GLOBAL CONNECTIVITY SOLUTIONS LLP
 AS215740,Netulu Incorporated
 AS216154,CLODO CLOUD SERVICE CO. L.L.C
@@ -1302,6 +1307,7 @@ AS393360,"""Tyler Technologies", Inc."
 AS393457,Hamilton Community Enterprises
 AS393942,WiredISP Inc.
 AS393952,Service Alberta
+AS394380,"""Leaseweb USA", Inc."
 AS394396,Listrak
 AS394493,"""CDK Global", LLC"
 AS394572,"""Tyler Technologies", Inc."
