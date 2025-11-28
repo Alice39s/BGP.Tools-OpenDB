@@ -41,7 +41,6 @@ AS2907,Science Information Network
 AS2914,"""NTT America", Inc."
 AS3130,RGnet OU
 AS3132,Red Cientifica Peruana
-AS3208,Algerian Academic Research Network
 AS3215,Orange S.A.
 AS3221,Haridus- ja Teadusministeerium
 AS3233,Institutul National de Cercetare-Dezvoltare in inform...
@@ -144,7 +143,6 @@ AS15964,CAMTEL
 AS15975,Hadara Technologies Private Shareholding Company
 AS16004,MIX S.r.L. - Milan Internet eXchange
 AS16086,DNA Oyj
-AS16214,C.E.R.I.S.T.
 AS16276,OVH SAS
 AS16509,"""Amazon.com", Inc."
 AS16686,"""easyDNS Technologies", Inc."
@@ -408,12 +406,11 @@ AS394353,USC/ISI - B-root
 AS394354,Canadian Internet Registration Authority
 AS395400,UNIVERSITY OF GUAM
 AS396501,CIRA Canadian Internet Registration Authority Autorit...
-AS396555,Verisign Anycast US 0O
+AS396549,Verisign Anycast GB 0A
 AS396566,Verisign Anycast NL 0L
 AS396654,Verisign Anycast US 2K
 AS396982,Google Cloud Platform
 AS397197,Verisign Anycast DE 0E
-AS397198,Verisign Anycast DE 0F
 AS398101,"""GoDaddy.com", LLC"
 AS399159,"""Vercara", LLC"
 AS399161,"""Vercara", LLC"
