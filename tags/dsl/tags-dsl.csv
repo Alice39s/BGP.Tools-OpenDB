@@ -230,7 +230,7 @@ AS8416,InfoLada Ltd
 AS8422,NetCologne
 AS8427,Joint Stock Company TransTeleCom
 AS8437,Hutchison Drei Austria GmbH
-AS8439,JSC AIST
+AS8439,AIST JSC
 AS8445,"""SALZBURG AG fur Energie", Verkehr und Telekommunikation"
 AS8447,A1 Telekom Austria AG
 AS8448,CETIN Hungary Zrt.
@@ -1002,7 +1002,7 @@ AS31036,"JSC """"ER-Telecom Holding"""""
 AS31042,Serbia BroadBand-Srpske Kablovske mreze d.o.o.
 AS31115,INTRED S.P.A.
 AS31122,Digiweb ltd
-AS31133,PJSC MegaFon
+AS31133,MegaFon PJSC
 AS31143,COSMOS TV JLLC
 AS31148,Freenet LTD
 AS31163,PJSC MegaFon
@@ -1743,6 +1743,7 @@ AS53062,ALT | GRUPO BRASIL TECPAR
 AS53066,VETORIAL INTERNET
 AS53072,INETVIP TELECOM LTDA
 AS53075,Holistica Provedor Internet Ltda
+AS53087,TELY Ltda.
 AS53097,SUPERIP TELECOMUNICAÇÕES
 AS53182,lazernet.com.br ltda me
 AS53213,BANDA LARGA VALE
@@ -1886,7 +1887,6 @@ AS60255,Internetty Ltd
 AS60257,TalkTalk Communications Limited
 AS60294,Deutsche Glasfaser Wholesale GmbH
 AS60377,toob limited
-AS60404,The Infrastructure Group B.V.
 AS60656,BOL BG IZTOK LTD
 AS60670,WideFM Ltd
 AS60822,Wispone S.R.L.
@@ -1908,6 +1908,7 @@ AS61716,Central Telecom
 AS61786,Prestek Telecom
 AS61802,GRUPO PEOPLE TELECOM LTDA
 AS61816,NetPower Telecomunicações
+AS61839,REGIS NET INFORMATICA LTDA - EPP
 AS61845,Grande Rede Fibra
 AS61884,Ollá Telecom
 AS61893,RMS Telecom
@@ -2906,6 +2907,7 @@ AS399226,SpeedFI Inc.
 AS399240,"""BLUE RIDGE INTERNET", L.L.C"
 AS399307,Town of Sterling
 AS399503,Dice Carrier Services LLC
+AS399788,Quad State Internet LLC
 AS399833,Rocky Ridge Wireless
 AS399898,Conexon Connect
 AS400220,PearlComm
