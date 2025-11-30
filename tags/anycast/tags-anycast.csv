@@ -35,7 +35,6 @@ AS4455,IX Reach Ltd
 AS4515,PCCW IMS Ltd (PCCW Business Internet Access)
 AS4749,WiseTechGlobal Pty Ltd
 AS4755,TATA Communications (formerly VSNL)
-AS4780,Digital United Inc.
 AS4842,Tianhai InfoTech
 AS4847,China Telecom Beijing Province Network
 AS4892,"""APPLIED SYSTEMS", INC"
@@ -157,8 +156,6 @@ AS17012,"""PayPal", Inc."
 AS17138,Matt Peterman Sole Proprietor
 AS17275,Federal Home Loan Mortgage Corporation
 AS17378,"""TierPoint", LLC"
-AS17477,Macquarie Technology Operations Pty Limited
-AS17561,LARUS Limited
 AS17817,Concentrix Daksh Services India Private Limited
 AS17984,PCCW Global (HK) Ltd.
 AS18002,World Phone Internet Services Pvt. Ltd
@@ -209,7 +206,6 @@ AS22390,XEROX CORPORATION
 AS22649,CodingDirect LLC
 AS22697,Roblox
 AS22702,RingSquared
-AS22820,"""Cybera", Inc."
 AS22843,"""Proofpoint", Inc."
 AS23013,Fortanix
 AS23145,IBM
@@ -260,7 +256,6 @@ AS27792,Wiltel Comunicaciones SA
 AS27872,URBE - Universidad Dr. Rafael Belloso
 AS27901,Pacifico Cable SPA.
 AS27947,Telconet S.A
-AS28075,ARLINK S.A.
 AS28110,NAVEGALO S.A.
 AS28180,DIGITRO TECNOLOGIA LTDA.
 AS28248,BRB - Banco de Brasília S/A
@@ -302,7 +297,6 @@ AS32298,Centersquare
 AS32338,Hostiserver Ltd
 AS32437,Webdev CC T/A Cybertek
 AS32575,"""DigiCert", Inc."
-AS32604,uwalkin IT Solutions
 AS32708,LoadEdge Limited
 AS32771,DNSimple Corporation
 AS32787,Akamai (Prolexic)
@@ -503,7 +497,6 @@ AS57926,"""SafeDNS", Inc."
 AS57976,"""Blizzard Entertainment", Inc"
 AS58057,Securebit AG
 AS58182,Wix.com Ltd.
-AS58594,INFRANET SOLUTIONS
 AS58811,CONAC (China Organizational Name Administration Center)
 AS58867,SG.GS Anycast AS
 AS59188,IndianOil Corporation Limited
@@ -527,7 +520,6 @@ AS61007,OpenTLD BV
 AS61165,Mountiela Services LLC
 AS61569,Tribunal Regional Federal da 1a Regiao
 AS61656,AGENCIA NACIONAL DE TELECOMUNICACOES - ANATEL
-AS61851,Garra Telecom Ltda
 AS61866,INTELBRAS S.A. INDUSTRIA DE TELECOMUNICACAO ELETRO
 AS61881,UNIMED PORTO ALEGRE COOPERATIVA MEDICA LTDA
 AS62153,DotIdea Solutions Inc
@@ -572,7 +564,6 @@ AS136907,Huawei Cloud
 AS136934,Bank Of Ceylon
 AS137130,Punjab National Bank
 AS137409,GSL Networks Pty LTD
-AS137661,Rajcomp Info Services Ltd.
 AS137785,"""CACloud Services (Shanghai) Co.", Ltd."
 AS138310,Jubilant Foodworks Limited
 AS138496,"""Inspiro Relia", Inc"
@@ -611,7 +602,6 @@ AS153248,BSES RAJDHANI POWER LTD
 AS153371,BACK WAVES LIMITED
 AS153467,Glen Eira City Council
 AS153725,Tenonet (Hangzhou) Co Ltd
-AS154051,KRISH COMMUNICATION PVT LTD
 AS154204,Shine Effort Inc Limited
 AS197000,RIPE NCC - Anycast DNS
 AS197440,dot IT ccTLD anycast
@@ -680,7 +670,6 @@ AS206042,Suhail Haris
 AS206164,Internet Utilities Europe and Asia Limited
 AS206540,BEANSUMMERHOST NEXTGEN SHED HOSTING SOLUTIONS LLC
 AS206653,Biocad JSC
-AS206980,AntiDDoS Solutions LLC
 AS206998,NEW RELIC INTERNATIONAL LIMITED
 AS207003,Web1 Oy
 AS207021,ipcom GmbH
@@ -745,7 +734,6 @@ AS213119,ALZ Software Ltd
 AS213120,Akamai International B.V.
 AS213231,CELKO LIMITED
 AS213430,HSIANG-LI CHAN
-AS213449,Jann-Ole Wagenaar
 AS213550,Jon Radel
 AS213605,Liu HaoRan
 AS213625,Xuluo Chen
@@ -754,7 +742,6 @@ AS213891,Liu Zhen
 AS214030,Kai-Wen Zheng
 AS214040,RUNNAN WEN
 AS214080,Transparent Edge Services S.L.
-AS214405,Eyeo GmbH
 AS214503,QuxLabs AB
 AS214575,"""Curious Universe (Chongqing) Technology Co.", Ltd"
 AS214618,Hack The Box Ltd
@@ -782,10 +769,8 @@ AS262589,Megatelecom (Internexa BR)
 AS262959,Centro Universitário do Rio G. do Norte - UNIRN
 AS263118,Celulose Nipo-Brasileira S.A - CENIBRA
 AS263162,Sustenta Telecom Ltda
-AS263267,VIUNET PROVIMENTO DE ACESSO A INTERNET LTDA - ME
 AS264798,Secretaria Legal y Tecnica
 AS265020,FUNDACAO INST BRAS DE GEOGRAFIA E ESTATISTICA IBGE
-AS265756,BANCO PRODEM SA
 AS266444,3L CLOUD INTERNET SERVICES LTDA - EPP
 AS267630,UNIVERSIDADE ESTADUAL DO MARANHÃO
 AS267695,FLY NET S.R.L.
@@ -800,7 +785,6 @@ AS270681,Tribunal de Justiça do Estado da Paraíba
 AS271967,TURBONET S.A.
 AS272739,Lider Fibra
 AS272809,"""THUNDERNET", C.A."
-AS272936,CIDEMS CIA.LTDA.
 AS273486,jvn telecom ltda
 AS273584,LINKED STORE BRASIL CRIACAO E DESENVOL DE SOFTWARE
 AS274116,CTV CHICLIN E.I.R.L.
@@ -822,7 +806,6 @@ AS394256,Tech Futures Interactive Inc.
 AS394353,USC/ISI - B-root
 AS394354,Canadian Internet Registration Authority
 AS394564,Spectrotel Inc
-AS394945,Expeditors International of Wa Inc.
 AS395126,"""Beck's Superior Hybrids", Inc."
 AS395363,"""Infoblox", Inc."
 AS395409,Neocities
