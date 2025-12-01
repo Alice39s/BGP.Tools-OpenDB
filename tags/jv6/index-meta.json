@@ -1,14 +1,14 @@
 {
-  "timestamp": 1764466422,
+  "timestamp": 1764552843,
   "version": "1.0",
   "tag_name": "jv6",
-  "tag_count": 7392,
-  "actual_entries": 7288,
+  "tag_count": 7404,
+  "actual_entries": 7300,
   "stats": {
-    "generated_at": "2025-11-30T01:33:42.120Z"
+    "generated_at": "2025-12-01T01:34:04.010Z"
   },
   "hash_list": {
-    "index-meta.json": "088a1a6ac6189ada3373d3dff2c268c087527eee904bd200d18a233f6c305fcc",
-    "tags-jv6.csv": "3c807d6dbb71ded6d3c642c13b60c2a81548ab2332c8df0d027a022544c1d02d"
+    "index-meta.json": "0ea7e88dda32111491bd35f07c228de163edfdf771b7261cbc291b6b164a389d",
+    "tags-jv6.csv": "08b4d9efffe80d2e45f76cc36210db3faf5a019110f897e44f5c5dcfc2636f35"
   }
 }

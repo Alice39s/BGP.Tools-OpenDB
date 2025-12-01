@@ -101,7 +101,6 @@ AS11351,Charter Communications Inc
 AS11358,Tennant Software
 AS11374,"""Panterra Networks", Inc."
 AS11440,"""Netsville", Inc."
-AS11686,Zayo Bandwidth
 AS11749,MPInet
 AS11802,Centro de Informatica e Automacao do Estado de SC
 AS12008,Vercara (f.k.a Neustar)
@@ -255,7 +254,6 @@ AS27715,Locaweb Serviços de Internet S/A
 AS27792,Wiltel Comunicaciones SA
 AS27872,URBE - Universidad Dr. Rafael Belloso
 AS27901,Pacifico Cable SPA.
-AS27947,Telconet S.A
 AS28110,NAVEGALO S.A.
 AS28180,DIGITRO TECNOLOGIA LTDA.
 AS28248,BRB - Banco de Brasília S/A
@@ -479,7 +477,6 @@ AS55260,Polk School District
 AS55532,Squiz Pty Ltd
 AS55542,Roads and Maritime Services
 AS55705,"""I World Tower", DLF CITY"
-AS55824,NKN Core Network
 AS55967,"""Beijing Baidu Netcom Science and Technology Co.", Ltd."
 AS56041,China Mobile Group Zhejiang Company
 AS56044,China Mobile Group Liaoning Company
@@ -551,7 +548,6 @@ AS133262,Tracmail I Pvt Ltd
 AS133504,PAOCLOUD
 AS133800,PT Biznet Gio Nusantara
 AS134094,"""Serverfield Co.", Ltd."
-AS134938,CAMPINDIA
 AS134963,Alibaba Cloud (Singapore) Private Limited
 AS135354,NAVER BUSINESS PLATFORM ASIA PACIFIC PTE. LTD.
 AS135629,Ningxia West Cloud Data Technology Co.Ltd.
@@ -562,10 +558,8 @@ AS136165,X4B DDoS Protected Announcements
 AS136787,PacketHub S.A.
 AS136907,Huawei Cloud
 AS136934,Bank Of Ceylon
-AS137130,Punjab National Bank
 AS137409,GSL Networks Pty LTD
 AS137785,"""CACloud Services (Shanghai) Co.", Ltd."
-AS138310,Jubilant Foodworks Limited
 AS138496,"""Inspiro Relia", Inc"
 AS138945,BALLARAT AND QUEEN'S ANGLICAN GRAMMAR SCHOOL
 AS139070,Google Cloud Korea
@@ -587,7 +581,6 @@ AS149614,TRANSACTION SOLUTIONS INTERNATIONAL INDIA PRIVATE LIMITED
 AS149981,Legend Dynasty Pte. Ltd.
 AS150289,Sun Yanzheng
 AS150974,Dinas Komunikasi dan Informatika Kabupaten Tapin
-AS151113,VERITY KNOWLEDGE SOLUTIONS PRIVATE LIMITED
 AS151194,Zhu Yucheng
 AS151325,TP Western Odisha Distribution Limited
 AS151332,CoinJar Pty Ltd
@@ -597,8 +590,8 @@ AS151485,CEYLON ELECTRICITY BOARD
 AS152162,5centsCDN Inc
 AS152508,BHARAT DATA SERVICES PVT LTD
 AS152594,NA
+AS152626,Cloudbase Network
 AS152899,REDSTAR GLOBAL TIMOR LDA
-AS153248,BSES RAJDHANI POWER LTD
 AS153371,BACK WAVES LIMITED
 AS153467,Glen Eira City Council
 AS153725,Tenonet (Hangzhou) Co Ltd
@@ -733,7 +726,6 @@ AS212982,Lu Wang
 AS213119,ALZ Software Ltd
 AS213120,Akamai International B.V.
 AS213231,CELKO LIMITED
-AS213430,HSIANG-LI CHAN
 AS213550,Jon Radel
 AS213605,Liu HaoRan
 AS213625,Xuluo Chen
@@ -773,7 +765,6 @@ AS264798,Secretaria Legal y Tecnica
 AS265020,FUNDACAO INST BRAS DE GEOGRAFIA E ESTATISTICA IBGE
 AS266444,3L CLOUD INTERNET SERVICES LTDA - EPP
 AS267630,UNIVERSIDADE ESTADUAL DO MARANHÃO
-AS267695,FLY NET S.R.L.
 AS267867,COMISION ARBITRAL DEL CONVENIO MULTILATERAL
 AS268142,MAXXTELECOM LTDA
 AS268976,Weclix Telecom S/A
@@ -782,7 +773,6 @@ AS269607,SERGIPE MINISTERIO PUBLICO
 AS270034,AKY TELECOM SPA
 AS270262,BADYNET TELECOM LTDA
 AS270681,Tribunal de Justiça do Estado da Paraíba
-AS271967,TURBONET S.A.
 AS272739,Lider Fibra
 AS272809,"""THUNDERNET", C.A."
 AS273486,jvn telecom ltda
@@ -840,7 +830,6 @@ AS398549,Zero Attack Vector LLC
 AS398787,"""GoDaddy.com", LLC"
 AS398962,CONTROLD INC.
 AS398987,PhirePhly Design
-AS398999,Sucura Networks Inc
 AS399049,Joe Wheeler EMC
 AS399077,Tcloudnet
 AS399159,"""Vercara", LLC"

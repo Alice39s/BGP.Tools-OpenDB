@@ -1,0 +1,14 @@
+{
+  "timestamp": 1764552843,
+  "version": "1.0",
+  "tag_name": "c2s",
+  "tag_count": 1,
+  "actual_entries": 1,
+  "stats": {
+    "generated_at": "2025-12-01T01:34:04.018Z"
+  },
+  "hash_list": {
+    "index-meta.json": "b3658c204301584585d5a0257828bbece0512137398695d0711e752ee52f696e",
+    "tags-c2s.csv": "91f870c7e3173f3d9a48a55fa93c366d0a820e682c458736dea354abed687cb3"
+  }
+}
