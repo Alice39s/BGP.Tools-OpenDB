@@ -38,7 +38,6 @@ AS4755,TATA Communications (formerly VSNL)
 AS4842,Tianhai InfoTech
 AS4847,China Telecom Beijing Province Network
 AS4892,"""APPLIED SYSTEMS", INC"
-AS4901,The George Washington University
 AS5416,BEYON B.S.C.
 AS5650,Frontier Communications
 AS5696,Express Scripts Incorporated
@@ -84,7 +83,6 @@ AS10515,Verisign Anycast US 0Z
 AS10753,"""Level 3 Parent", LLC"
 AS10779,"""StepBroBD", Inc."
 AS10796,Charter Communications Inc
-AS10837,"""Wells Fargo Bank", N.A."
 AS10879,Unitedhealthcare
 AS10880,Yahoo Holdings Inc.
 AS10886,University of Maryland
@@ -99,7 +97,6 @@ AS11251,Disney Streaming Services
 AS11273,"""Fiserv Solutions", LLC"
 AS11351,Charter Communications Inc
 AS11358,Tennant Software
-AS11374,"""Panterra Networks", Inc."
 AS11440,"""Netsville", Inc."
 AS11749,MPInet
 AS11802,Centro de Informatica e Automacao do Estado de SC
@@ -242,9 +239,7 @@ AS25921,LUS Fiber
 AS25923,"""ChoicePoint", Inc."
 AS26008,"""Akamai Technologies", Inc."
 AS26073,"""Cofractal", Inc."
-AS26118,MINISTERIO PUBLICO DA UNIAO
 AS26277,ServerPoint.com
-AS26594,Pampa Energía S.A.
 AS26710,ICANN
 AS26984,Universal TelCom LLC
 AS27357,Rackspace Hosting
@@ -255,7 +250,6 @@ AS27792,Wiltel Comunicaciones SA
 AS27872,URBE - Universidad Dr. Rafael Belloso
 AS27901,Pacifico Cable SPA.
 AS28110,NAVEGALO S.A.
-AS28180,DIGITRO TECNOLOGIA LTDA.
 AS28248,BRB - Banco de Brasília S/A
 AS28261,EMPRESA SERGIPANA DE TECNOLOGIA DA INFORMAÇÃO
 AS28369,SIGNALLINK INFORMATICA LTDA
@@ -457,7 +451,6 @@ AS53598,National Jewish Medical and Research Center Corporation
 AS53618,"""Aditya Birla Minacs Worldwide", Inc."
 AS53667,FranTech Solutions
 AS53699,Panamax Inc
-AS53828,"""NETWORK INNOVATIONS", LLC"
 AS53831,"""Squarespace", Inc."
 AS53847,Cedexis Inc
 AS54113,"""Fastly", Inc."
@@ -506,7 +499,6 @@ AS60217,Beyond.pl sp. z o.o.
 AS60423,E-Money Net Developers 24 Company Private Joint Stock
 AS60592,Gransy s.r.o.
 AS60679,Freedom Registry BV
-AS60725,SES ASTRA S.A.
 AS60781,LeaseWeb Netherlands B.V.
 AS60819,Safenames Ltd.
 AS60890,CentralNic Ltd
@@ -579,7 +571,6 @@ AS149194,Airtel Digital Limited
 AS149511,"""Yamu Technologies Co.", Ltd."
 AS149614,TRANSACTION SOLUTIONS INTERNATIONAL INDIA PRIVATE LIMITED
 AS149981,Legend Dynasty Pte. Ltd.
-AS150289,Sun Yanzheng
 AS150974,Dinas Komunikasi dan Informatika Kabupaten Tapin
 AS151194,Zhu Yucheng
 AS151325,TP Western Odisha Distribution Limited
@@ -640,7 +631,6 @@ AS202687,Mainloop AB
 AS203043,Tirastel GmbH
 AS203314,HATS NETWORK INC.
 AS203391,Cloud DNS Ltd
-AS203472,PENG YUJEN
 AS203755,ITGLOBAL.COM NL B.V.
 AS203961,CentralNic Ltd
 AS203969,YMC AG
@@ -713,7 +703,6 @@ AS210756,EdgeCenter LLC
 AS211072,MFI INVESTMENTS LIMITED
 AS211112,Qrator Technologies FZ-LLC
 AS211358,Patrizio Palumbo
-AS211575,Rui Feng
 AS211729,Yiming Zhang
 AS211757,Panascais ehf.
 AS212196,Daniel Piekacz
@@ -760,7 +749,6 @@ AS262349,Instituto Curitiba de Informática
 AS262589,Megatelecom (Internexa BR)
 AS262959,Centro Universitário do Rio G. do Norte - UNIRN
 AS263118,Celulose Nipo-Brasileira S.A - CENIBRA
-AS263162,Sustenta Telecom Ltda
 AS264798,Secretaria Legal y Tecnica
 AS265020,FUNDACAO INST BRAS DE GEOGRAFIA E ESTATISTICA IBGE
 AS266444,3L CLOUD INTERNET SERVICES LTDA - EPP
@@ -783,7 +771,6 @@ AS328486,Old Mutual Life Assurance Company (South Africa) Limited
 AS328608,Africa on Cloud
 AS329002,Pan African IX Data Centres Kenya Ltd
 AS329394,OneCloud LDA
-AS393312,TELEFLEX INCORPORATED
 AS393467,BOLT Fiber Optic Services
 AS393518,"""ClaimRemedi", Inc."
 AS393781,"""Helm Group", Inc."
@@ -810,6 +797,7 @@ AS396417,"""Salesforce", Inc."
 AS396486,Conseil scolaire de district catholique du Centre-Est...
 AS396501,CIRA Canadian Internet Registration Authority Autorit...
 AS396549,Verisign Anycast GB 0A
+AS396555,Verisign Anycast US 0O
 AS396566,Verisign Anycast NL 0L
 AS396654,Verisign Anycast US 2K
 AS396970,"""CommandLink", LLC"
@@ -817,7 +805,6 @@ AS396982,Google Cloud Platform
 AS396986,"""Bytedance", Inc. (TikTok)"
 AS396998,"""Path Network", Inc."
 AS397197,Verisign Anycast DE 0E
-AS397203,Verisign Anycast US 2U
 AS397273,Render
 AS397444,Overkill Interbuzz LLC
 AS397493,"""Ninecloud Services", Inc."
