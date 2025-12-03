@@ -43,7 +43,7 @@ AS3130,RGnet OU
 AS3132,Red Cientifica Peruana
 AS3208,Algerian Academic Research Network
 AS3215,Orange S.A.
-AS3221,Haridus- ja Teadusministeerium
+AS3221,Estonian Education and Research Network
 AS3233,Institutul National de Cercetare-Dezvoltare in inform...
 AS3238,Ålands Telekommunikation Ab
 AS3245,Digital Systems Ltd
@@ -57,7 +57,6 @@ AS3582,University of Oregon
 AS3586,University of the West Indies
 AS3661,The Chinese University of Hong Kong
 AS3741,Dimension Data
-AS4538,China Education and Research Network Center
 AS4609,Companhia de Telecomunicacoes de Macau SARL
 AS4613,Mercantile Office Systems
 AS4621,UNINET-TH
@@ -192,6 +191,7 @@ AS24149,Internet Domain Name System Beijing Engineering Resra...
 AS24151,China Internet Network Infomation Center
 AS24252,"""Japan Registry Service Co.", Ltd."
 AS24320,"""Railcom - Commercial Center","
+AS24348,CERNET2 IX at Tsinghua University
 AS24390,The University of the South Pacific
 AS24406,China Internet Network Infomation Center
 AS24409,China Internet Network Infomation Center
@@ -312,7 +312,7 @@ AS49063,Data Storage Center JSC
 AS49227,Ukrainian Internet Names Center LTD
 AS50611,Knipp Medien und Kommunikation GmbH
 AS51167,Contabo GmbH
-AS51172,Kauno Technologijos Universitetas
+AS51172,DOMREG
 AS51346,"Opened Joint Stock Company """"Tojiktelecom"""""
 AS51349,Foundation Eesti Interneti Sihtasutus
 AS51354,"""""Internet Society"""" Public Organisation"

@@ -208,6 +208,8 @@ AS6720,"""Magistrat der Stadt Wien", Magistratsabteilung 01"
 AS6724,Strato GmbH
 AS6730,Sunrise GmbH
 AS6736,Institute for Research in Fundamental Sciences
+AS6758,Monaco Telecom S.A.
+AS6762,Telecom Italia Sparkle (Seabone)
 AS6799,Ote SA (Hellenic Telecommunications Organisation)
 AS6848,Telenet BV
 AS6855,"""Slovak Telekom", a.s."
@@ -216,6 +218,7 @@ AS6949,"""Charles Schwab & Co.", Inc."
 AS6999,Interactive Telecom Network
 AS7004,CTC Transmisiones Regionales S.A.
 AS7018,"""AT&T Enterprises", LLC"
+AS7040,Netminders Server Hosting
 AS7046,Verizon Business
 AS7162,Universo Online S.A.
 AS7276,University of Houston
@@ -298,7 +301,6 @@ AS9370,SAKURA Internet Inc.
 AS9371,SAKURA Internet Inc.
 AS9498,Bharti Airtel Ltd.
 AS9597,KDDI Web Communications Inc.
-AS9607,"""BroadBand Tower", Inc."
 AS9752,Flipkart Internet Pvt Ltd
 AS9808,China Mobile Backbone
 AS9829,BSNL (Bharat Sanchar Nigam Ltd)
@@ -369,7 +371,7 @@ AS12322,Free SAS
 AS12337,noris network AG
 AS12348,ODN OnlineDienst Nordbayern GmbH & Co. KG
 AS12353,Vodafone Portugal - Communicacoes Pessoais S.A.
-AS12389,PJSC Rostelecom
+AS12389,Rostelecom PJSC
 AS12400,Partner Communications Ltd.
 AS12455,Kenyan Post & Telecommunications Company / Telkom Kenya Ltd
 AS12479,Orange Espagne SA
@@ -475,6 +477,7 @@ AS17035,NBCUniversal
 AS17054,Expedient
 AS17055,University of Utah
 AS17439,NTT Communications India Pvt. Ltd.
+AS17506,ARTERIA Networks Corporation
 AS17564,GITN Sdn. Bhd.
 AS17676,SoftBank Corp.
 AS17716,National Taiwan University
@@ -486,6 +489,7 @@ AS18403,FPT Telecom Company
 AS18465,"""Workday", Inc."
 AS18568,Bidtellect Inc.
 AS18705,BlackBerry Limited
+AS19037,AMX Argentina S.A.
 AS19071,"""Match Group", LLC"
 AS19189,Pulsepoint Inc
 AS19224,"""Quantum Services Group", LLC."
@@ -554,6 +558,7 @@ AS23352,DEFT.COM
 AS23393,NuCDN LLC
 AS23576,NAVER Cloud Corp.
 AS23616,"""Hitachi Systems", Ltd."
+AS23693,PT. Telekomunikasi Selular
 AS23724,China Telecom Beijing IDC Network
 AS23816,Yahoo Japan Corporation
 AS23820,"""Rakuten Group", Inc."
@@ -594,7 +599,6 @@ AS25291,SysEleven GmbH
 AS25292,"Federal State Unitary Enterprise """"The Russian Televis..."
 AS25394,MK Netzdienste Verwaltungs GmbH trading as MK Netzdie...
 AS25478,iHome LLC
-AS25504,Vautron Rechenzentrum AG
 AS25563,Webland AG
 AS25751,"""Conversant", Inc."
 AS25829,Smithsonian Institution
@@ -802,7 +806,6 @@ AS40675,"""PROQUEST", LLC"
 AS40824,Webzilla Inc.
 AS40913,"""Quality Technology Services", LLC"
 AS40934,Fortinet Inc.
-AS40966,ZAO Web Hosting
 AS41064,Telefun SAS
 AS41079,Cyber_Folks S.A.
 AS41231,Canonical Group Limited
@@ -928,6 +931,7 @@ AS48399,Svyaz VSD LLC
 AS48434,Tebyan-e-Noor Cultural-Artistic Institute
 AS48447,Sectigo Limited
 AS48551,Sindad Network Technology PJSC
+AS48573,PHAETON PLUS d.o.o
 AS48579,ELASTX AB
 AS48614,ITSOFT LLC
 AS48635,CLDIN B.V.
@@ -1097,7 +1101,7 @@ AS131144,ASUSTek COMPUTER INC.
 AS131392,GMO-Z.com Runsystem Joint Stock Company
 AS131429,MOBIFONE Corporation
 AS131435,Vietnam Esports and Entertainment Joint Stock Company
-AS131623,SHOPEE (TAIWAN) CO. LTD.
+AS131634,MOBA Private Limited Taiwan Branch
 AS131663,GIGABYTE
 AS131930,"""Tokyo Broadcasting System Television", Inc."
 AS131942,"""Gurunavi", Inc."
@@ -1147,6 +1151,7 @@ AS139659,LUCIDACLOUD LIMITED
 AS140227,"""Hong Kong Communications International Co.", Limited"
 AS140633,BILIBILI HK LIMITED
 AS140637,Macquarie Technology Operations Pty Limited
+AS140717,UNICOM JiangSu Suzhou IDC network
 AS140766,FPT Smart Cloud Company Limited
 AS141679,China Telecom Beijing Tianjin Hebei Big Data Industry...
 AS142160,Joyo Technology Pte. Ltd.
@@ -1215,7 +1220,6 @@ AS204035,oneCorp GmbH
 AS204198,"NCO """"MONETA"""" (LLC)"
 AS204213,Netmihan Communication Company Ltd
 AS204563,NexTReT S.L.
-AS204590,Swiss International Air Lines AG
 AS204601,Zomro B.V.
 AS204643,El Corte Ingles S.A.
 AS204706,JSC Kolesa
@@ -1297,7 +1301,6 @@ AS393360,"""Tyler Technologies", Inc."
 AS393457,Hamilton Community Enterprises
 AS393942,WiredISP Inc.
 AS393952,Service Alberta
-AS394380,"""Leaseweb USA", Inc."
 AS394396,Listrak
 AS394493,"""CDK Global", LLC"
 AS394572,"""Tyler Technologies", Inc."
