@@ -28,7 +28,6 @@ AS217,University of Minnesota
 AS224,Sikt (Uninett)
 AS225,University of Virginia
 AS237,Merit Network Inc.
-AS271,BCNET
 AS278,Universidad Nacional Autonoma de Mexico
 AS376,Reseau d'Informations Scientifiques du Quebec (RISQ Inc.)
 AS513,CERN
@@ -79,9 +78,7 @@ AS2165,HP Inc.
 AS2200,Renater
 AS2496,University of Kansas
 AS2497,Internet Initiative Japan Inc.
-AS2514,"""NTT PC Communications", Inc."
 AS2516,KDDI Corporation
-AS2519,ARTERIA Networks Corporation
 AS2527,Sony Network Communications Inc.
 AS2553,Florida State University
 AS2571,DHL Information Services (Europe) s.r.o
@@ -204,13 +201,12 @@ AS6629,National Oceanic and Atmospheric Administration
 AS6646,"""Aetna", Inc."
 AS6681,GIVEME CLOUD SP Z O O
 AS6698,Virtual Systems LLC
-AS6720,"""Magistrat der Stadt Wien", Magistratsabteilung 01"
 AS6724,Strato GmbH
 AS6730,Sunrise GmbH
 AS6736,Institute for Research in Fundamental Sciences
 AS6758,Monaco Telecom S.A.
-AS6762,Telecom Italia Sparkle (Seabone)
 AS6799,Ote SA (Hellenic Telecommunications Organisation)
+AS6805,Telefonica Germany (o2)
 AS6848,Telenet BV
 AS6855,"""Slovak Telekom", a.s."
 AS6939,Hurricane Electric LLC
@@ -221,6 +217,7 @@ AS7018,"""AT&T Enterprises", LLC"
 AS7040,Netminders Server Hosting
 AS7046,Verizon Business
 AS7162,Universo Online S.A.
+AS7203,"""Leaseweb USA", Inc."
 AS7276,University of Houston
 AS7301,National Academy of Sciences
 AS7303,Telecom Argentina S.A.
@@ -262,6 +259,7 @@ AS8391,Knipp Medien und Kommunikation GmbH
 AS8400,Telekom Srbija a.d.
 AS8414,International Telecommunication Union
 AS8426,Claranet Limited
+AS8434,Telenor Sverige AB
 AS8456,Bogazici University
 AS8473,Bahnhof AB
 AS8484,Novye oblachnye technologii LLC
@@ -384,7 +382,6 @@ AS12616,Citytelecom LLC
 AS12678,Badoo Trading Limited
 AS12695,LLC Digital Network
 AS12732,GutCon GmbH
-AS12768,"JSC """"ER-Telecom Holding"""""
 AS12816,Leibniz-Rechenzentrum
 AS12827,Wirtualna Polska Media S.A.
 AS12876,Scaleway
@@ -424,7 +421,6 @@ AS14738,Digi-Key Corporation
 AS14744,Unitas Global
 AS14745,Unitas Global
 AS14782,MailChimp
-AS14840,BR.DIGITAL
 AS14907,Wikimedia Foundation Inc.
 AS15113,Harman International Industries Inc.
 AS15133,Edgecast Inc.
@@ -725,6 +721,7 @@ AS34309,Link11 GmbH
 AS34343,Eweka Internet Services B.V.
 AS34624,Megaspace Internet Services GmbH
 AS34655,JWE S.a r.l.
+AS34718,"""""IST TELEKOM"""" JV LLC"
 AS34762,Combell NV
 AS34788,Neue Medien Muennich GmbH
 AS34798,willhaben internet service GmbH & Co KG
@@ -756,6 +753,7 @@ AS36154,THE WESTERN UNION COMPANY
 AS36323,Ezri Inc
 AS36351,IBM Cloud
 AS36459,"""GitHub", Inc."
+AS36493,FIBERNETICS CORPORATION
 AS36646,Yahoo Holdings Inc.
 AS36647,Yahoo Holdings Inc.
 AS36692,"""Cisco OpenDNS", LLC"
@@ -772,6 +770,7 @@ AS38532,Exabytes Network (Singapore) Pte. Ltd.
 AS38631,LINE Corporation
 AS38700,SMILESERV
 AS38731,Viettel - CHT Company Ltd
+AS38928,JSC GLONASS
 AS38952,"""MAFRA", a.s."
 AS39029,Redpill Linpro AS
 AS39122,Blacknight Internet Solutions Limited
@@ -779,7 +778,6 @@ AS39134,EDINAYA SET LIMITED LIABILITY COMPANY
 AS39218,Burda Digital Systems GmbH
 AS39227,Corpex Internet GmbH
 AS39287,ab stract ltd
-AS39323,"GBU SO """"TSIFROVOY REGION"""""
 AS39351,31173 Services AB
 AS39392,SH.cz s.r.o.
 AS39415,PJSC Moscow city telephone network
@@ -889,6 +887,7 @@ AS45708,Pemerintah Kota Surabaya
 AS45894,FPT Online JSC
 AS45899,VNPT Corp
 AS45903,CMC Telecom Infrastructure Company
+AS45974,NHNCLOUD
 AS46015,Exa Bytes Network Sdn.Bhd.
 AS46375,Sonic Telecom LLC
 AS46469,GETRESPONSE
@@ -967,6 +966,7 @@ AS50881,"""ESET", spol. s r.o."
 AS51013,WebSupport s.r.o.
 AS51026,Dade Pardazi Mobinhost Co LTD
 AS51115,HLL LLC
+AS51167,Contabo GmbH
 AS51269,HEXATOM s.a.r.l.
 AS51468,One.com A/S
 AS51527,Hyundai AutoEver Europe GmbH
@@ -1100,8 +1100,7 @@ AS64422,SIMA RAYAN SHARIF COMPANY (LTD.)
 AS131144,ASUSTek COMPUTER INC.
 AS131392,GMO-Z.com Runsystem Joint Stock Company
 AS131429,MOBIFONE Corporation
-AS131435,Vietnam Esports and Entertainment Joint Stock Company
-AS131634,MOBA Private Limited Taiwan Branch
+AS131623,SHOPEE (TAIWAN) CO. LTD.
 AS131663,GIGABYTE
 AS131930,"""Tokyo Broadcasting System Television", Inc."
 AS131942,"""Gurunavi", Inc."
@@ -1160,6 +1159,7 @@ AS147303,ColoCone
 AS150008,Pioneer Elabs Ltd.
 AS150436,Byteplus Pte. Ltd.
 AS151873,TOTHOST SOLUTIONS AND TECHNOLOGIES COMPANY LIMITED
+AS152194,CTG Server Limited
 AS152199,Kakao Corp
 AS153561,PITC
 AS196695,NetOne Rus JSC

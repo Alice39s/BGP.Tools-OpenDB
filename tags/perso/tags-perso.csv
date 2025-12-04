@@ -28,7 +28,7 @@ AS13646,Plactrix Technologies
 AS13850,FractalCore LLC
 AS15490,Shane Mc Cormack
 AS15562,Job Snijders
-AS16375,Henrik Hartelius
+AS16375,RIPE NCC ASN block
 AS17138,Matt Peterman Sole Proprietor
 AS17290,"""Austin Hadley", Sole Proprietorship"
 AS17415,Ming Yi Tea Farm
@@ -320,7 +320,6 @@ AS199684,Shangren Lu
 AS199689,Josha Prior trading as Netralex
 AS199762,Adita Tarkono Putra
 AS199763,Piotr Chrzanowski
-AS199779,AS199779
 AS199832,QUN LIN
 AS199840,Pieter Berkel
 AS199852,Joachim Tingvold
@@ -428,6 +427,8 @@ AS203074,Ashley Primo
 AS203125,Julian Braun
 AS203145,Debdut Biswas
 AS203236,Mingyang Shen
+AS203264,Ziad Attia
+AS203276,James Cook
 AS203286,Mario Silvestre
 AS203291,Arend Brouwer
 AS203333,Jonas Busch
@@ -557,7 +558,6 @@ AS205956,Louis Poinsignon
 AS205965,Mojtaba Sohrabi
 AS205969,Peter Hessler
 AS205970,Peter Hessler
-AS205987,AS205987
 AS205991,Rafal Grzywacz
 AS206000,Harry Rowan Elenor
 AS206020,VAST Data Ltd
@@ -598,7 +598,6 @@ AS206792,Zachary Buller
 AS206831,Thomas Dubois
 AS206835,Kurt Jaeger
 AS206843,Jikai Ren
-AS206858,AS206858
 AS206895,Ashley Primo
 AS206924,Ben Cartwright-Cox
 AS206981,Christopher Mountford
@@ -729,7 +728,7 @@ AS208958,Sascha Groetzner
 AS208985,Niklas Polte
 AS209074,Jonas Breuer
 AS209075,Klara Modin
-AS209131,Enes Korkmaz
+AS209131,AS209131
 AS209164,Richard Tristan Helmich
 AS209185,Tim Niemeyer
 AS209218,Yang Qi
@@ -1021,6 +1020,7 @@ AS213424,Jordan McKee
 AS213428,CHIEH SHENG LIN
 AS213430,HSIANG-LI CHAN
 AS213434,Rhys Woolcott
+AS213449,Jann-Ole Wagenaar
 AS213471,YAMAMOTO Hiroshi
 AS213510,Eric Johnson
 AS213543,Alexander Jones
@@ -1202,6 +1202,7 @@ AS215150,Shawn Maurin
 AS215153,Silvio Gabriel Neto da Silva
 AS215163,Lennart Seitz
 AS215164,ENRICO BASSETTI
+AS215172,Jianyue Hugo Liang
 AS215181,Cafer Latif
 AS215188,Nicholas Gregory
 AS215198,Theo Buehler
@@ -1336,8 +1337,6 @@ AS216254,Gary Lee
 AS216255,Axel Drelon
 AS216260,MAIK WILHELM
 AS216289,Ehsan Imani Kalkhoran
-AS216295,AS216295
-AS216296,Mark Stotz
 AS216299,Yang Liuchang
 AS216301,Thibaut MASSY
 AS216305,Cong Zhang

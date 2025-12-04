@@ -1,14 +1,14 @@
 {
-  "timestamp": 1764725891,
+  "timestamp": 1764812027,
   "version": "1.0",
   "tag_name": "gov",
-  "tag_count": 1207,
-  "actual_entries": 1207,
+  "tag_count": 1216,
+  "actual_entries": 1216,
   "stats": {
-    "generated_at": "2025-12-03T01:38:11.917Z"
+    "generated_at": "2025-12-04T01:33:47.720Z"
   },
   "hash_list": {
-    "index-meta.json": "1122a7fc049e2baba47bdc971088a378b5c44995b0917c03b44df60b7000ca7e",
-    "tags-gov.csv": "1c5ce24be5b312fa4cbf682d6ca309d56a49b0631b9f9c68e7b3c7a8c7606572"
+    "index-meta.json": "794feeab51ca7025d1c288d2fb8f6f83b351dfbf73900cef50c64b03f628a74b",
+    "tags-gov.csv": "04c0e3d9701b49b180808e9d2d6e60ced92131600af8434a3ff3ad95eb25547c"
   }
 }
