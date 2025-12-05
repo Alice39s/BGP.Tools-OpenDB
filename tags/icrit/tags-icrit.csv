@@ -65,7 +65,6 @@ AS4641,The Hong Kong Internet Exchange Limited
 AS4780,Digital United Inc.
 AS4837,China Unicom Backbone
 AS5087,Lanka Communication Services
-AS5379,"Univerzitet """"Sv. Kiril i Metodij"""""
 AS5408,National Infrastructures for Research and Technology S.A.
 AS5511,Orange S.A.
 AS5538,Institute of Mathematics and Computer Science of University of Latvia
@@ -245,6 +244,7 @@ AS35285,Institute for Research in Fundamental Sciences
 AS35819,"""Etihad Etisalat", a joint stock company"
 AS35916,MULTACOM CORPORATION
 AS36351,IBM Cloud
+AS36631,Verisign Anycast US 1A
 AS36864,AFRIBONE MALI SA
 AS36884,Wana Corporate
 AS36924,GVA Cote d'Ivoire SAS
@@ -280,6 +280,7 @@ AS39279,Information Technology and Cyber Security Service
 AS39839,Punktum dk A/S
 AS39840,Netnod AB
 AS39871,Netnod AB
+AS40647,Verisign Anycast NL 0C
 AS40945,SAT TELECOMMUNICATIONS LTD
 AS41176,Sahara Al Jazeera Network Information Technology Company
 AS41231,Canonical Group Limited
@@ -319,6 +320,7 @@ AS51559,Netinternet Bilisim Teknolojileri AS
 AS51833,Association of IT Companies of Kazakhstan
 AS51955,Institute of Mathematics and Computer Science of Univ...
 AS51966,Fondation RESTENA
+AS52188,"Univerzitet """"Sv. Kiril i Metodij"""""
 AS52234,NIC Chile
 AS52250,Ag para el Desarrollo de la Sociedad de la Inf en Bol...
 AS52274,NIC.EC S.A.
@@ -408,11 +410,10 @@ AS394354,Canadian Internet Registration Authority
 AS395400,UNIVERSITY OF GUAM
 AS396501,CIRA Canadian Internet Registration Authority Autorit...
 AS396549,Verisign Anycast GB 0A
-AS396566,Verisign Anycast NL 0L
-AS396587,Verisign Anycast NL 0G
 AS396654,Verisign Anycast US 2K
 AS396982,Google Cloud Platform
 AS397197,Verisign Anycast DE 0E
+AS397203,Verisign Anycast US 2U
 AS398101,"""GoDaddy.com", LLC"
 AS398987,PhirePhly Design
 AS399159,"""Vercara", LLC"

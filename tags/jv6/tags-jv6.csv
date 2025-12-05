@@ -2,6 +2,7 @@ AS86,DXC US Latin America Corporation
 AS168,University of Massachusetts - AMHERST
 AS177,University of Michigan
 AS266,IT Digital Services LLC
+AS575,"""Headquarters", USAISC"
 AS618,United States Department of Defense (DoD)
 AS809,PhirePhly Design
 AS922,GoCodeIT Inc
@@ -196,7 +197,6 @@ AS35848,"""20C", LLC"
 AS35859,"""Cultro Network Services", LLC"
 AS36113,Netopia
 AS36262,"""HashTable", Inc."
-AS36618,Verisign Anycast US 0P
 AS36757,Department of State Office of Inspector General
 AS37899,NIPPON TELEGRAPH AND TELEPHONE WEST CORPORATION
 AS37901,NIPPON TELEGRAPH AND TELEPHONE EAST CORPORATION
@@ -219,6 +219,7 @@ AS39282,PF Labs Pawel Foremski
 AS39335,June Slater
 AS39358,Bank Al Bilad
 AS39420,Arsenie Ciprian
+AS39477,Vectone Mobile Limited
 AS39639,"""Valor Information Technologies", S.L."
 AS39753,Kai Liu
 AS39792,Nicolas CHEVRIER
@@ -366,6 +367,7 @@ AS55641,"""Changping District", Beijing"
 AS56004,Information Center of Shanghai Municipal Education Co...
 AS56218,QGPOP
 AS56434,Fiber Ltd
+AS56638,j2 Global Ireland Limited
 AS56662,Marcin Gondek
 AS56708,D2CLOUD NETWORK SERVICES (PTY) LTD
 AS56758,Cr0bar Limited
@@ -486,7 +488,6 @@ AS132432,Bahagian Perkhidmatan Teknologi Maklumat
 AS132458,Pentanet Limited
 AS132479,Xue Desen
 AS132623,Tsukeru Networks
-AS132772,Air2net India Private Limited
 AS132841,Casbay Sdn. Bhd.
 AS132915,M1 Limited/ Next Generation Broadband Network
 AS133375,"""CHUAN KAI INTERNATIONAL CO.", LTD"
@@ -507,6 +508,7 @@ AS135103,Alex Neo
 AS135309,Geekzu Networks
 AS135515,NEW POS NETWORK HK LIMITED
 AS136317,Mukhtar Internet Service Private Limited
+AS136330,PIKAG BUSINESS DATAMATICS PRIVATE LIMITED
 AS136409,Daifuku Infrastructure OOB
 AS136421,"""Hong Kong LIBA Network Technology Co.", Limited"
 AS136535,Yang Mengqi
@@ -788,7 +790,6 @@ AS142652,APNIC ASN block
 AS142653,APNIC ASN block
 AS142654,APNIC ASN block
 AS142655,APNIC ASN block
-AS142656,APNIC ASN block
 AS142657,APNIC ASN block
 AS142658,APNIC ASN block
 AS142659,APNIC ASN block
@@ -810,7 +811,6 @@ AS142674,APNIC ASN block
 AS142675,APNIC ASN block
 AS142676,APNIC ASN block
 AS142677,APNIC ASN block
-AS142678,APNIC ASN block
 AS142679,APNIC ASN block
 AS142680,APNIC ASN block
 AS142681,APNIC ASN block
@@ -841,7 +841,6 @@ AS142705,APNIC ASN block
 AS142706,APNIC ASN block
 AS142707,APNIC ASN block
 AS142708,APNIC ASN block
-AS142709,APNIC ASN block
 AS142710,APNIC ASN block
 AS142711,APNIC ASN block
 AS142712,APNIC ASN block
@@ -860,14 +859,15 @@ AS142724,APNIC ASN block
 AS142725,APNIC ASN block
 AS142726,APNIC ASN block
 AS142727,APNIC ASN block
+AS142728,APNIC ASN block
 AS142729,APNIC ASN block
 AS142730,APNIC ASN block
-AS142731,APNIC ASN block
 AS142732,APNIC ASN block
 AS142733,APNIC ASN block
 AS142734,APNIC ASN block
 AS142735,APNIC ASN block
 AS142736,APNIC ASN block
+AS142737,APNIC ASN block
 AS142738,APNIC ASN block
 AS142739,APNIC ASN block
 AS142740,APNIC ASN block
@@ -923,7 +923,6 @@ AS142789,APNIC ASN block
 AS142790,APNIC ASN block
 AS142791,APNIC ASN block
 AS142792,APNIC ASN block
-AS142793,APNIC ASN block
 AS142794,APNIC ASN block
 AS142795,APNIC ASN block
 AS142796,APNIC ASN block
@@ -965,6 +964,7 @@ AS142831,APNIC ASN block
 AS142832,APNIC ASN block
 AS142833,APNIC ASN block
 AS142834,APNIC ASN block
+AS142835,APNIC ASN block
 AS142836,APNIC ASN block
 AS142837,APNIC ASN block
 AS142838,APNIC ASN block
@@ -1063,7 +1063,6 @@ AS142930,APNIC ASN block
 AS142931,APNIC ASN block
 AS142932,APNIC ASN block
 AS142933,APNIC ASN block
-AS142934,APNIC ASN block
 AS142935,APNIC ASN block
 AS142936,APNIC ASN block
 AS142937,APNIC ASN block
@@ -1092,6 +1091,7 @@ AS142959,APNIC ASN block
 AS142960,APNIC ASN block
 AS142961,APNIC ASN block
 AS142962,APNIC ASN block
+AS142963,APNIC ASN block
 AS142964,APNIC ASN block
 AS142965,APNIC ASN block
 AS142966,APNIC ASN block
@@ -1115,7 +1115,6 @@ AS142983,APNIC ASN block
 AS142984,APNIC ASN block
 AS142985,APNIC ASN block
 AS142986,APNIC ASN block
-AS142987,APNIC ASN block
 AS142988,APNIC ASN block
 AS142989,APNIC ASN block
 AS142990,APNIC ASN block
@@ -1145,6 +1144,7 @@ AS143013,APNIC ASN block
 AS143014,APNIC ASN block
 AS143015,APNIC ASN block
 AS143016,APNIC ASN block
+AS143017,APNIC ASN block
 AS143018,APNIC ASN block
 AS143019,APNIC ASN block
 AS143020,APNIC ASN block
@@ -1157,7 +1157,6 @@ AS143026,APNIC ASN block
 AS143027,APNIC ASN block
 AS143028,APNIC ASN block
 AS143029,APNIC ASN block
-AS143030,APNIC ASN block
 AS143031,APNIC ASN block
 AS143032,APNIC ASN block
 AS143033,APNIC ASN block
@@ -1182,7 +1181,6 @@ AS143051,APNIC ASN block
 AS143052,APNIC ASN block
 AS143053,APNIC ASN block
 AS143054,APNIC ASN block
-AS143055,APNIC ASN block
 AS143056,APNIC ASN block
 AS143057,APNIC ASN block
 AS143058,APNIC ASN block
@@ -1190,6 +1188,7 @@ AS143059,APNIC ASN block
 AS143060,APNIC ASN block
 AS143061,APNIC ASN block
 AS143062,APNIC ASN block
+AS143063,APNIC ASN block
 AS143064,APNIC ASN block
 AS143065,APNIC ASN block
 AS143066,APNIC ASN block
@@ -1213,12 +1212,10 @@ AS143083,APNIC ASN block
 AS143084,APNIC ASN block
 AS143085,APNIC ASN block
 AS143086,APNIC ASN block
-AS143087,APNIC ASN block
 AS143088,APNIC ASN block
 AS143089,APNIC ASN block
 AS143090,APNIC ASN block
 AS143091,APNIC ASN block
-AS143092,APNIC ASN block
 AS143093,APNIC ASN block
 AS143094,APNIC ASN block
 AS143095,APNIC ASN block
@@ -1240,6 +1237,7 @@ AS143110,APNIC ASN block
 AS143111,APNIC ASN block
 AS143112,APNIC ASN block
 AS143113,APNIC ASN block
+AS143114,APNIC ASN block
 AS143115,APNIC ASN block
 AS143116,APNIC ASN block
 AS143117,APNIC ASN block
@@ -1253,6 +1251,7 @@ AS143124,APNIC ASN block
 AS143125,APNIC ASN block
 AS143126,APNIC ASN block
 AS143127,APNIC ASN block
+AS143128,APNIC ASN block
 AS143129,APNIC ASN block
 AS143130,APNIC ASN block
 AS143131,APNIC ASN block
@@ -1287,12 +1286,10 @@ AS143159,APNIC ASN block
 AS143160,APNIC ASN block
 AS143161,APNIC ASN block
 AS143162,APNIC ASN block
-AS143163,APNIC ASN block
 AS143164,China Education and Research Network (CERNET)
 AS143165,China Education and Research Network (CERNET)
 AS143166,China Education and Research Network (CERNET)
 AS143167,China Education and Research Network (CERNET)
-AS143168,China Education and Research Network (CERNET)
 AS143169,China Education and Research Network (CERNET)
 AS143170,China Education and Research Network (CERNET)
 AS143171,China Education and Research Network (CERNET)
@@ -1356,7 +1353,6 @@ AS143228,China Education and Research Network (CERNET)
 AS143229,China Education and Research Network (CERNET)
 AS143230,China Education and Research Network (CERNET)
 AS143231,China Education and Research Network (CERNET)
-AS143232,China Education and Research Network (CERNET)
 AS143233,China Education and Research Network (CERNET)
 AS143234,China Education and Research Network (CERNET)
 AS143235,China Education and Research Network (CERNET)
@@ -1374,7 +1370,6 @@ AS143246,China Education and Research Network (CERNET)
 AS143247,China Education and Research Network (CERNET)
 AS143248,China Education and Research Network (CERNET)
 AS143249,China Education and Research Network (CERNET)
-AS143250,China Education and Research Network (CERNET)
 AS143251,China Education and Research Network (CERNET)
 AS143252,China Education and Research Network (CERNET)
 AS143253,China Education and Research Network (CERNET)
@@ -1390,7 +1385,6 @@ AS143262,China Education and Research Network (CERNET)
 AS143263,China Education and Research Network (CERNET)
 AS143264,China Education and Research Network (CERNET)
 AS143265,China Education and Research Network (CERNET)
-AS143266,China Education and Research Network (CERNET)
 AS143267,China Education and Research Network (CERNET)
 AS143268,China Education and Research Network (CERNET)
 AS143269,China Education and Research Network (CERNET)
@@ -1399,6 +1393,7 @@ AS143271,China Education and Research Network (CERNET)
 AS143272,China Education and Research Network (CERNET)
 AS143273,China Education and Research Network (CERNET)
 AS143274,China Education and Research Network (CERNET)
+AS143275,China Education and Research Network (CERNET)
 AS143276,China Education and Research Network (CERNET)
 AS143277,China Education and Research Network (CERNET)
 AS143278,China Education and Research Network (CERNET)
@@ -1409,6 +1404,7 @@ AS143282,China Education and Research Network (CERNET)
 AS143283,China Education and Research Network (CERNET)
 AS143284,China Education and Research Network (CERNET)
 AS143285,China Education and Research Network (CERNET)
+AS143286,China Education and Research Network (CERNET)
 AS143287,China Education and Research Network (CERNET)
 AS143288,China Education and Research Network (CERNET)
 AS143289,China Education and Research Network (CERNET)
@@ -1435,6 +1431,7 @@ AS143309,China Education and Research Network (CERNET)
 AS143310,China Education and Research Network (CERNET)
 AS143311,China Education and Research Network (CERNET)
 AS143312,China Education and Research Network (CERNET)
+AS143313,China Education and Research Network (CERNET)
 AS143314,China Education and Research Network (CERNET)
 AS143315,China Education and Research Network (CERNET)
 AS143316,China Education and Research Network (CERNET)
@@ -1445,7 +1442,6 @@ AS143320,China Education and Research Network (CERNET)
 AS143321,China Education and Research Network (CERNET)
 AS143322,China Education and Research Network (CERNET)
 AS143323,China Education and Research Network (CERNET)
-AS143324,China Education and Research Network (CERNET)
 AS143325,China Education and Research Network (CERNET)
 AS143326,China Education and Research Network (CERNET)
 AS143327,China Education and Research Network (CERNET)
@@ -1467,10 +1463,8 @@ AS143342,China Education and Research Network (CERNET)
 AS143343,China Education and Research Network (CERNET)
 AS143344,China Education and Research Network (CERNET)
 AS143345,China Education and Research Network (CERNET)
-AS143346,China Education and Research Network (CERNET)
 AS143347,China Education and Research Network (CERNET)
 AS143348,China Education and Research Network (CERNET)
-AS143349,China Education and Research Network (CERNET)
 AS143350,China Education and Research Network (CERNET)
 AS143351,China Education and Research Network (CERNET)
 AS143352,China Education and Research Network (CERNET)
@@ -1503,7 +1497,6 @@ AS143378,China Education and Research Network (CERNET)
 AS143379,China Education and Research Network (CERNET)
 AS143380,China Education and Research Network (CERNET)
 AS143381,China Education and Research Network (CERNET)
-AS143382,China Education and Research Network (CERNET)
 AS143383,China Education and Research Network (CERNET)
 AS143384,China Education and Research Network (CERNET)
 AS143385,China Education and Research Network (CERNET)
@@ -1513,6 +1506,7 @@ AS143388,China Education and Research Network (CERNET)
 AS143389,China Education and Research Network (CERNET)
 AS143390,China Education and Research Network (CERNET)
 AS143391,China Education and Research Network (CERNET)
+AS143392,China Education and Research Network (CERNET)
 AS143393,China Education and Research Network (CERNET)
 AS143394,China Education and Research Network (CERNET)
 AS143395,China Education and Research Network (CERNET)
@@ -1542,7 +1536,6 @@ AS143418,China Education and Research Network (CERNET)
 AS143419,China Education and Research Network (CERNET)
 AS143420,China Education and Research Network (CERNET)
 AS143421,China Education and Research Network (CERNET)
-AS143422,China Education and Research Network (CERNET)
 AS143423,China Education and Research Network (CERNET)
 AS143424,China Education and Research Network (CERNET)
 AS143425,China Education and Research Network (CERNET)
@@ -1580,7 +1573,6 @@ AS143456,China Education and Research Network (CERNET)
 AS143457,China Education and Research Network (CERNET)
 AS143458,China Education and Research Network (CERNET)
 AS143459,China Education and Research Network (CERNET)
-AS143460,China Education and Research Network (CERNET)
 AS143461,China Education and Research Network (CERNET)
 AS143462,China Education and Research Network (CERNET)
 AS143463,China Education and Research Network (CERNET)
@@ -1622,6 +1614,7 @@ AS143498,China Education and Research Network (CERNET)
 AS143499,China Education and Research Network (CERNET)
 AS143500,China Education and Research Network (CERNET)
 AS143501,China Education and Research Network (CERNET)
+AS143502,China Education and Research Network (CERNET)
 AS143503,China Education and Research Network (CERNET)
 AS143504,China Education and Research Network (CERNET)
 AS143505,China Education and Research Network (CERNET)
@@ -1686,6 +1679,7 @@ AS143563,China Education and Research Network (CERNET)
 AS143564,China Education and Research Network (CERNET)
 AS143565,China Education and Research Network (CERNET)
 AS143566,China Education and Research Network (CERNET)
+AS143567,China Education and Research Network (CERNET)
 AS143568,China Education and Research Network (CERNET)
 AS143569,China Education and Research Network (CERNET)
 AS143570,China Education and Research Network (CERNET)
@@ -1700,7 +1694,6 @@ AS143578,China Education and Research Network (CERNET)
 AS143579,China Education and Research Network (CERNET)
 AS143580,China Education and Research Network (CERNET)
 AS143581,China Education and Research Network (CERNET)
-AS143582,China Education and Research Network (CERNET)
 AS143583,China Education and Research Network (CERNET)
 AS143584,China Education and Research Network (CERNET)
 AS143585,China Education and Research Network (CERNET)
@@ -1738,6 +1731,7 @@ AS143616,China Education and Research Network (CERNET)
 AS143617,China Education and Research Network (CERNET)
 AS143618,China Education and Research Network (CERNET)
 AS143619,China Education and Research Network (CERNET)
+AS143620,China Education and Research Network (CERNET)
 AS143621,China Education and Research Network (CERNET)
 AS143622,China Education and Research Network (CERNET)
 AS143623,China Education and Research Network (CERNET)
@@ -1808,6 +1802,7 @@ AS143687,APNIC ASN block
 AS143688,APNIC ASN block
 AS143689,APNIC ASN block
 AS143690,APNIC ASN block
+AS143691,APNIC ASN block
 AS143692,APNIC ASN block
 AS143693,APNIC ASN block
 AS143694,APNIC ASN block
@@ -1837,6 +1832,7 @@ AS143717,APNIC ASN block
 AS143718,APNIC ASN block
 AS143719,APNIC ASN block
 AS143720,APNIC ASN block
+AS143721,APNIC ASN block
 AS143722,APNIC ASN block
 AS143723,APNIC ASN block
 AS143724,APNIC ASN block
@@ -1857,7 +1853,6 @@ AS143738,APNIC ASN block
 AS143739,APNIC ASN block
 AS143740,APNIC ASN block
 AS143741,APNIC ASN block
-AS143742,APNIC ASN block
 AS143743,APNIC ASN block
 AS143744,APNIC ASN block
 AS143745,APNIC ASN block
@@ -1904,7 +1899,6 @@ AS143785,APNIC ASN block
 AS143786,APNIC ASN block
 AS143787,APNIC ASN block
 AS143788,APNIC ASN block
-AS143789,APNIC ASN block
 AS143790,APNIC ASN block
 AS143791,APNIC ASN block
 AS143792,APNIC ASN block
@@ -2025,7 +2019,6 @@ AS143906,APNIC ASN block
 AS143907,APNIC ASN block
 AS143908,APNIC ASN block
 AS143909,APNIC ASN block
-AS143910,APNIC ASN block
 AS143911,APNIC ASN block
 AS143912,APNIC ASN block
 AS143913,APNIC ASN block
@@ -2084,6 +2077,7 @@ AS143965,APNIC ASN block
 AS143966,APNIC ASN block
 AS143967,APNIC ASN block
 AS143968,APNIC ASN block
+AS143969,APNIC ASN block
 AS143970,APNIC ASN block
 AS143971,APNIC ASN block
 AS143972,APNIC ASN block
@@ -2096,11 +2090,11 @@ AS143978,APNIC ASN block
 AS143979,APNIC ASN block
 AS143980,APNIC ASN block
 AS143981,APNIC ASN block
-AS143982,APNIC ASN block
 AS143983,APNIC ASN block
 AS143984,APNIC ASN block
 AS143985,APNIC ASN block
 AS143986,APNIC ASN block
+AS143987,APNIC ASN block
 AS143988,APNIC ASN block
 AS143989,APNIC ASN block
 AS143990,APNIC ASN block
@@ -2109,11 +2103,13 @@ AS143992,APNIC ASN block
 AS143993,APNIC ASN block
 AS143994,APNIC ASN block
 AS143995,APNIC ASN block
+AS143996,APNIC ASN block
 AS143997,APNIC ASN block
 AS143998,APNIC ASN block
 AS143999,APNIC ASN block
 AS144000,APNIC ASN block
 AS144001,APNIC ASN block
+AS144002,APNIC ASN block
 AS144003,APNIC ASN block
 AS144004,APNIC ASN block
 AS144005,APNIC ASN block
@@ -2126,7 +2122,6 @@ AS144011,APNIC ASN block
 AS144012,APNIC ASN block
 AS144013,APNIC ASN block
 AS144014,APNIC ASN block
-AS144015,APNIC ASN block
 AS144016,APNIC ASN block
 AS144017,APNIC ASN block
 AS144018,APNIC ASN block
@@ -2184,6 +2179,7 @@ AS144069,APNIC ASN block
 AS144070,APNIC ASN block
 AS144071,APNIC ASN block
 AS144072,APNIC ASN block
+AS144073,APNIC ASN block
 AS144074,APNIC ASN block
 AS144075,APNIC ASN block
 AS144076,APNIC ASN block
@@ -2203,7 +2199,6 @@ AS144089,APNIC ASN block
 AS144090,APNIC ASN block
 AS144091,APNIC ASN block
 AS144092,APNIC ASN block
-AS144093,APNIC ASN block
 AS144094,APNIC ASN block
 AS144095,APNIC ASN block
 AS144096,APNIC ASN block
@@ -2225,7 +2220,6 @@ AS144111,APNIC ASN block
 AS144112,APNIC ASN block
 AS144113,APNIC ASN block
 AS144114,APNIC ASN block
-AS144115,APNIC ASN block
 AS144116,APNIC ASN block
 AS144117,APNIC ASN block
 AS144118,APNIC ASN block
@@ -2264,7 +2258,6 @@ AS144150,APNIC ASN block
 AS144151,APNIC ASN block
 AS144152,APNIC ASN block
 AS144153,APNIC ASN block
-AS144154,APNIC ASN block
 AS144155,APNIC ASN block
 AS144156,APNIC ASN block
 AS144157,APNIC ASN block
@@ -2326,7 +2319,6 @@ AS144212,China Education and Research Network (CERNET)
 AS144213,China Education and Research Network (CERNET)
 AS144214,China Education and Research Network (CERNET)
 AS144215,China Education and Research Network (CERNET)
-AS144216,China Education and Research Network (CERNET)
 AS144217,China Education and Research Network (CERNET)
 AS144218,China Education and Research Network (CERNET)
 AS144219,China Education and Research Network (CERNET)
@@ -2338,6 +2330,7 @@ AS144224,China Education and Research Network (CERNET)
 AS144225,China Education and Research Network (CERNET)
 AS144226,China Education and Research Network (CERNET)
 AS144227,China Education and Research Network (CERNET)
+AS144228,China Education and Research Network (CERNET)
 AS144229,China Education and Research Network (CERNET)
 AS144230,China Education and Research Network (CERNET)
 AS144231,China Education and Research Network (CERNET)
@@ -2361,7 +2354,6 @@ AS144248,China Education and Research Network (CERNET)
 AS144249,China Education and Research Network (CERNET)
 AS144250,China Education and Research Network (CERNET)
 AS144251,China Education and Research Network (CERNET)
-AS144252,China Education and Research Network (CERNET)
 AS144253,China Education and Research Network (CERNET)
 AS144254,China Education and Research Network (CERNET)
 AS144255,China Education and Research Network (CERNET)
@@ -2468,6 +2460,7 @@ AS144355,China Education and Research Network (CERNET)
 AS144356,China Education and Research Network (CERNET)
 AS144357,China Education and Research Network (CERNET)
 AS144358,China Education and Research Network (CERNET)
+AS144359,China Education and Research Network (CERNET)
 AS144360,China Education and Research Network (CERNET)
 AS144361,China Education and Research Network (CERNET)
 AS144362,China Education and Research Network (CERNET)
@@ -2537,8 +2530,11 @@ AS144425,China Education and Research Network (CERNET)
 AS144426,China Education and Research Network (CERNET)
 AS144427,China Education and Research Network (CERNET)
 AS144428,China Education and Research Network (CERNET)
+AS144429,China Education and Research Network (CERNET)
 AS144430,China Education and Research Network (CERNET)
 AS144431,China Education and Research Network (CERNET)
+AS144432,China Education and Research Network (CERNET)
+AS144433,China Education and Research Network (CERNET)
 AS144434,China Education and Research Network (CERNET)
 AS144435,China Education and Research Network (CERNET)
 AS144436,China Education and Research Network (CERNET)
@@ -2564,6 +2560,7 @@ AS144455,China Education and Research Network (CERNET)
 AS144456,China Education and Research Network (CERNET)
 AS144457,China Education and Research Network (CERNET)
 AS144458,China Education and Research Network (CERNET)
+AS144459,China Education and Research Network (CERNET)
 AS144460,China Education and Research Network (CERNET)
 AS144461,China Education and Research Network (CERNET)
 AS144462,China Education and Research Network (CERNET)
@@ -2642,13 +2639,13 @@ AS144534,China Education and Research Network (CERNET)
 AS144535,China Education and Research Network (CERNET)
 AS144536,China Education and Research Network (CERNET)
 AS144537,China Education and Research Network (CERNET)
+AS144538,China Education and Research Network (CERNET)
 AS144539,China Education and Research Network (CERNET)
 AS144540,China Education and Research Network (CERNET)
 AS144541,China Education and Research Network (CERNET)
 AS144542,China Education and Research Network (CERNET)
 AS144543,China Education and Research Network (CERNET)
 AS144544,China Education and Research Network (CERNET)
-AS144545,China Education and Research Network (CERNET)
 AS144546,China Education and Research Network (CERNET)
 AS144547,China Education and Research Network (CERNET)
 AS144548,China Education and Research Network (CERNET)
@@ -2686,7 +2683,6 @@ AS144579,China Education and Research Network (CERNET)
 AS144580,China Education and Research Network (CERNET)
 AS144581,China Education and Research Network (CERNET)
 AS144582,China Education and Research Network (CERNET)
-AS144583,China Education and Research Network (CERNET)
 AS144584,China Education and Research Network (CERNET)
 AS144585,China Education and Research Network (CERNET)
 AS144586,China Education and Research Network (CERNET)
@@ -2729,8 +2725,6 @@ AS144622,China Education and Research Network (CERNET)
 AS144623,China Education and Research Network (CERNET)
 AS144624,China Education and Research Network (CERNET)
 AS144625,China Education and Research Network (CERNET)
-AS144626,China Education and Research Network (CERNET)
-AS144627,China Education and Research Network (CERNET)
 AS144628,China Education and Research Network (CERNET)
 AS144629,China Education and Research Network (CERNET)
 AS144630,China Education and Research Network (CERNET)
@@ -2746,7 +2740,6 @@ AS144639,China Education and Research Network (CERNET)
 AS144640,China Education and Research Network (CERNET)
 AS144641,China Education and Research Network (CERNET)
 AS144642,China Education and Research Network (CERNET)
-AS144643,China Education and Research Network (CERNET)
 AS144644,China Education and Research Network (CERNET)
 AS144645,China Education and Research Network (CERNET)
 AS144646,China Education and Research Network (CERNET)
@@ -2784,7 +2777,6 @@ AS144677,China Education and Research Network (CERNET)
 AS144678,China Education and Research Network (CERNET)
 AS144679,China Education and Research Network (CERNET)
 AS144680,China Education and Research Network (CERNET)
-AS144681,China Education and Research Network (CERNET)
 AS144682,China Education and Research Network (CERNET)
 AS144683,China Education and Research Network (CERNET)
 AS144684,China Education and Research Network (CERNET)
@@ -2821,7 +2813,6 @@ AS144714,APNIC ASN block
 AS144715,APNIC ASN block
 AS144716,APNIC ASN block
 AS144717,APNIC ASN block
-AS144718,APNIC ASN block
 AS144719,APNIC ASN block
 AS144720,APNIC ASN block
 AS144721,APNIC ASN block
@@ -2881,7 +2872,6 @@ AS144774,APNIC ASN block
 AS144775,APNIC ASN block
 AS144776,APNIC ASN block
 AS144777,APNIC ASN block
-AS144778,APNIC ASN block
 AS144779,APNIC ASN block
 AS144780,APNIC ASN block
 AS144781,APNIC ASN block
@@ -2892,7 +2882,6 @@ AS144785,APNIC ASN block
 AS144786,APNIC ASN block
 AS144787,APNIC ASN block
 AS144788,APNIC ASN block
-AS144789,APNIC ASN block
 AS144790,APNIC ASN block
 AS144791,APNIC ASN block
 AS144792,APNIC ASN block
@@ -2914,7 +2903,6 @@ AS144807,APNIC ASN block
 AS144808,APNIC ASN block
 AS144809,APNIC ASN block
 AS144810,APNIC ASN block
-AS144811,APNIC ASN block
 AS144812,APNIC ASN block
 AS144813,APNIC ASN block
 AS144814,APNIC ASN block
@@ -2925,7 +2913,6 @@ AS144818,APNIC ASN block
 AS144819,APNIC ASN block
 AS144820,APNIC ASN block
 AS144821,APNIC ASN block
-AS144822,APNIC ASN block
 AS144823,APNIC ASN block
 AS144824,APNIC ASN block
 AS144825,APNIC ASN block
@@ -2966,6 +2953,7 @@ AS144859,APNIC ASN block
 AS144860,APNIC ASN block
 AS144861,APNIC ASN block
 AS144862,APNIC ASN block
+AS144863,APNIC ASN block
 AS144864,APNIC ASN block
 AS144865,APNIC ASN block
 AS144866,APNIC ASN block
@@ -2980,6 +2968,7 @@ AS144874,APNIC ASN block
 AS144875,APNIC ASN block
 AS144876,APNIC ASN block
 AS144877,APNIC ASN block
+AS144878,APNIC ASN block
 AS144879,APNIC ASN block
 AS144880,APNIC ASN block
 AS144881,APNIC ASN block
@@ -2990,11 +2979,9 @@ AS144885,APNIC ASN block
 AS144886,APNIC ASN block
 AS144887,APNIC ASN block
 AS144888,APNIC ASN block
-AS144889,APNIC ASN block
 AS144890,APNIC ASN block
 AS144891,APNIC ASN block
 AS144892,APNIC ASN block
-AS144893,APNIC ASN block
 AS144894,APNIC ASN block
 AS144895,APNIC ASN block
 AS144896,APNIC ASN block
@@ -3011,6 +2998,7 @@ AS144906,APNIC ASN block
 AS144907,APNIC ASN block
 AS144908,APNIC ASN block
 AS144909,APNIC ASN block
+AS144910,APNIC ASN block
 AS144911,APNIC ASN block
 AS144912,APNIC ASN block
 AS144913,APNIC ASN block
@@ -3067,7 +3055,6 @@ AS144963,APNIC ASN block
 AS144964,APNIC ASN block
 AS144965,APNIC ASN block
 AS144966,APNIC ASN block
-AS144967,APNIC ASN block
 AS144968,APNIC ASN block
 AS144969,APNIC ASN block
 AS144970,APNIC ASN block
@@ -3126,7 +3113,6 @@ AS145022,APNIC ASN block
 AS145023,APNIC ASN block
 AS145024,APNIC ASN block
 AS145025,APNIC ASN block
-AS145026,APNIC ASN block
 AS145027,APNIC ASN block
 AS145028,APNIC ASN block
 AS145029,APNIC ASN block
@@ -3164,6 +3150,7 @@ AS145060,APNIC ASN block
 AS145061,APNIC ASN block
 AS145062,APNIC ASN block
 AS145063,APNIC ASN block
+AS145064,APNIC ASN block
 AS145065,APNIC ASN block
 AS145066,APNIC ASN block
 AS145067,APNIC ASN block
@@ -3175,7 +3162,7 @@ AS145072,APNIC ASN block
 AS145073,APNIC ASN block
 AS145074,APNIC ASN block
 AS145075,APNIC ASN block
-AS145077,APNIC ASN block
+AS145076,APNIC ASN block
 AS145078,APNIC ASN block
 AS145079,APNIC ASN block
 AS145080,APNIC ASN block
@@ -3193,7 +3180,6 @@ AS145091,APNIC ASN block
 AS145092,APNIC ASN block
 AS145093,APNIC ASN block
 AS145094,APNIC ASN block
-AS145095,APNIC ASN block
 AS145096,APNIC ASN block
 AS145097,APNIC ASN block
 AS145098,APNIC ASN block
@@ -3216,6 +3202,7 @@ AS145114,APNIC ASN block
 AS145115,APNIC ASN block
 AS145116,APNIC ASN block
 AS145117,APNIC ASN block
+AS145118,APNIC ASN block
 AS145119,APNIC ASN block
 AS145120,APNIC ASN block
 AS145121,APNIC ASN block
@@ -3233,9 +3220,9 @@ AS145132,APNIC ASN block
 AS145133,APNIC ASN block
 AS145134,APNIC ASN block
 AS145135,APNIC ASN block
-AS145136,APNIC ASN block
 AS145137,APNIC ASN block
 AS145138,APNIC ASN block
+AS145139,APNIC ASN block
 AS145140,APNIC ASN block
 AS145141,APNIC ASN block
 AS145142,APNIC ASN block
@@ -3263,6 +3250,7 @@ AS145163,APNIC ASN block
 AS145164,APNIC ASN block
 AS145165,APNIC ASN block
 AS145166,APNIC ASN block
+AS145167,APNIC ASN block
 AS145168,APNIC ASN block
 AS145169,APNIC ASN block
 AS145170,APNIC ASN block
@@ -3389,7 +3377,6 @@ AS145290,China Education and Research Network (CERNET)
 AS145291,China Education and Research Network (CERNET)
 AS145292,China Education and Research Network (CERNET)
 AS145293,China Education and Research Network (CERNET)
-AS145294,China Education and Research Network (CERNET)
 AS145295,China Education and Research Network (CERNET)
 AS145296,China Education and Research Network (CERNET)
 AS145297,China Education and Research Network (CERNET)
@@ -3465,7 +3452,6 @@ AS145366,China Education and Research Network (CERNET)
 AS145367,China Education and Research Network (CERNET)
 AS145368,China Education and Research Network (CERNET)
 AS145369,China Education and Research Network (CERNET)
-AS145370,China Education and Research Network (CERNET)
 AS145371,China Education and Research Network (CERNET)
 AS145372,China Education and Research Network (CERNET)
 AS145373,China Education and Research Network (CERNET)
@@ -3482,15 +3468,16 @@ AS145383,China Education and Research Network (CERNET)
 AS145384,China Education and Research Network (CERNET)
 AS145385,China Education and Research Network (CERNET)
 AS145386,China Education and Research Network (CERNET)
-AS145387,China Education and Research Network (CERNET)
 AS145388,China Education and Research Network (CERNET)
 AS145389,China Education and Research Network (CERNET)
 AS145390,China Education and Research Network (CERNET)
 AS145391,China Education and Research Network (CERNET)
 AS145392,China Education and Research Network (CERNET)
 AS145393,China Education and Research Network (CERNET)
+AS145394,China Education and Research Network (CERNET)
 AS145395,China Education and Research Network (CERNET)
 AS145396,China Education and Research Network (CERNET)
+AS145397,China Education and Research Network (CERNET)
 AS145398,China Education and Research Network (CERNET)
 AS145399,China Education and Research Network (CERNET)
 AS145400,China Education and Research Network (CERNET)
@@ -3502,7 +3489,6 @@ AS145405,China Education and Research Network (CERNET)
 AS145406,China Education and Research Network (CERNET)
 AS145407,China Education and Research Network (CERNET)
 AS145408,China Education and Research Network (CERNET)
-AS145409,China Education and Research Network (CERNET)
 AS145410,China Education and Research Network (CERNET)
 AS145411,China Education and Research Network (CERNET)
 AS145412,China Education and Research Network (CERNET)
@@ -3638,19 +3624,17 @@ AS145541,China Education and Research Network (CERNET)
 AS145542,China Education and Research Network (CERNET)
 AS145543,China Education and Research Network (CERNET)
 AS145544,China Education and Research Network (CERNET)
-AS145545,China Education and Research Network (CERNET)
 AS145546,China Education and Research Network (CERNET)
 AS145547,China Education and Research Network (CERNET)
 AS145548,China Education and Research Network (CERNET)
 AS145549,China Education and Research Network (CERNET)
 AS145550,China Education and Research Network (CERNET)
+AS145551,China Education and Research Network (CERNET)
 AS145552,China Education and Research Network (CERNET)
 AS145553,China Education and Research Network (CERNET)
 AS145554,China Education and Research Network (CERNET)
 AS145555,China Education and Research Network (CERNET)
 AS145556,China Education and Research Network (CERNET)
-AS145557,China Education and Research Network (CERNET)
-AS145558,China Education and Research Network (CERNET)
 AS145559,China Education and Research Network (CERNET)
 AS145560,China Education and Research Network (CERNET)
 AS145561,China Education and Research Network (CERNET)
@@ -3671,7 +3655,6 @@ AS145575,China Education and Research Network (CERNET)
 AS145576,China Education and Research Network (CERNET)
 AS145577,China Education and Research Network (CERNET)
 AS145578,China Education and Research Network (CERNET)
-AS145579,China Education and Research Network (CERNET)
 AS145580,China Education and Research Network (CERNET)
 AS145581,China Education and Research Network (CERNET)
 AS145582,China Education and Research Network (CERNET)
@@ -3715,7 +3698,6 @@ AS145619,China Education and Research Network (CERNET)
 AS145620,China Education and Research Network (CERNET)
 AS145621,China Education and Research Network (CERNET)
 AS145622,China Education and Research Network (CERNET)
-AS145623,China Education and Research Network (CERNET)
 AS145624,China Education and Research Network (CERNET)
 AS145625,China Education and Research Network (CERNET)
 AS145626,China Education and Research Network (CERNET)
@@ -3743,7 +3725,6 @@ AS145647,China Education and Research Network (CERNET)
 AS145648,China Education and Research Network (CERNET)
 AS145649,China Education and Research Network (CERNET)
 AS145650,China Education and Research Network (CERNET)
-AS145651,China Education and Research Network (CERNET)
 AS145652,China Education and Research Network (CERNET)
 AS145653,China Education and Research Network (CERNET)
 AS145654,China Education and Research Network (CERNET)
@@ -3777,6 +3758,7 @@ AS145681,China Education and Research Network (CERNET)
 AS145682,China Education and Research Network (CERNET)
 AS145683,China Education and Research Network (CERNET)
 AS145684,China Education and Research Network (CERNET)
+AS145685,China Education and Research Network (CERNET)
 AS145686,China Education and Research Network (CERNET)
 AS145687,China Education and Research Network (CERNET)
 AS145688,China Education and Research Network (CERNET)
@@ -3806,6 +3788,7 @@ AS145711,China Education and Research Network (CERNET)
 AS145712,China Education and Research Network (CERNET)
 AS145713,China Education and Research Network (CERNET)
 AS145714,China Education and Research Network (CERNET)
+AS145715,China Education and Research Network (CERNET)
 AS145716,China Education and Research Network (CERNET)
 AS145717,China Education and Research Network (CERNET)
 AS145718,China Education and Research Network (CERNET)
@@ -3858,6 +3841,7 @@ AS145764,APNIC ASN block
 AS145765,APNIC ASN block
 AS145766,APNIC ASN block
 AS145767,APNIC ASN block
+AS145768,APNIC ASN block
 AS145769,APNIC ASN block
 AS145770,APNIC ASN block
 AS145771,APNIC ASN block
@@ -3951,6 +3935,7 @@ AS145858,APNIC ASN block
 AS145859,APNIC ASN block
 AS145860,APNIC ASN block
 AS145861,APNIC ASN block
+AS145862,APNIC ASN block
 AS145863,APNIC ASN block
 AS145864,APNIC ASN block
 AS145865,APNIC ASN block
@@ -3964,6 +3949,7 @@ AS145872,APNIC ASN block
 AS145873,APNIC ASN block
 AS145874,APNIC ASN block
 AS145875,APNIC ASN block
+AS145876,APNIC ASN block
 AS145877,APNIC ASN block
 AS145878,APNIC ASN block
 AS145879,APNIC ASN block
@@ -3987,7 +3973,6 @@ AS145896,APNIC ASN block
 AS145897,APNIC ASN block
 AS145898,APNIC ASN block
 AS145899,APNIC ASN block
-AS145900,APNIC ASN block
 AS145901,APNIC ASN block
 AS145902,APNIC ASN block
 AS145903,APNIC ASN block
@@ -3995,6 +3980,7 @@ AS145904,APNIC ASN block
 AS145905,APNIC ASN block
 AS145906,APNIC ASN block
 AS145907,APNIC ASN block
+AS145908,APNIC ASN block
 AS145909,APNIC ASN block
 AS145910,APNIC ASN block
 AS145911,APNIC ASN block
@@ -4005,10 +3991,10 @@ AS145915,APNIC ASN block
 AS145916,APNIC ASN block
 AS145917,APNIC ASN block
 AS145918,APNIC ASN block
+AS145919,APNIC ASN block
 AS145920,APNIC ASN block
 AS145921,APNIC ASN block
 AS145922,APNIC ASN block
-AS145923,APNIC ASN block
 AS145924,APNIC ASN block
 AS145925,APNIC ASN block
 AS145926,APNIC ASN block
@@ -4044,12 +4030,12 @@ AS145955,APNIC ASN block
 AS145956,APNIC ASN block
 AS145957,APNIC ASN block
 AS145958,APNIC ASN block
+AS145959,APNIC ASN block
 AS145960,APNIC ASN block
 AS145961,APNIC ASN block
 AS145962,APNIC ASN block
 AS145963,APNIC ASN block
 AS145964,APNIC ASN block
-AS145965,APNIC ASN block
 AS145966,APNIC ASN block
 AS145967,APNIC ASN block
 AS145968,APNIC ASN block
@@ -4083,6 +4069,7 @@ AS145995,APNIC ASN block
 AS145996,APNIC ASN block
 AS145997,APNIC ASN block
 AS145998,APNIC ASN block
+AS145999,APNIC ASN block
 AS146000,APNIC ASN block
 AS146001,APNIC ASN block
 AS146002,APNIC ASN block
@@ -4098,11 +4085,10 @@ AS146011,APNIC ASN block
 AS146012,APNIC ASN block
 AS146013,APNIC ASN block
 AS146014,APNIC ASN block
-AS146015,APNIC ASN block
+AS146016,APNIC ASN block
 AS146017,APNIC ASN block
 AS146018,APNIC ASN block
 AS146019,APNIC ASN block
-AS146020,APNIC ASN block
 AS146021,APNIC ASN block
 AS146022,APNIC ASN block
 AS146023,APNIC ASN block
@@ -4114,7 +4100,6 @@ AS146028,APNIC ASN block
 AS146029,APNIC ASN block
 AS146030,APNIC ASN block
 AS146031,APNIC ASN block
-AS146032,APNIC ASN block
 AS146033,APNIC ASN block
 AS146034,APNIC ASN block
 AS146035,APNIC ASN block
@@ -4171,6 +4156,7 @@ AS146085,APNIC ASN block
 AS146086,APNIC ASN block
 AS146087,APNIC ASN block
 AS146088,APNIC ASN block
+AS146089,APNIC ASN block
 AS146090,APNIC ASN block
 AS146091,APNIC ASN block
 AS146092,APNIC ASN block
@@ -4221,15 +4207,18 @@ AS146136,APNIC ASN block
 AS146137,APNIC ASN block
 AS146138,APNIC ASN block
 AS146139,APNIC ASN block
+AS146140,APNIC ASN block
 AS146141,APNIC ASN block
 AS146142,APNIC ASN block
 AS146143,APNIC ASN block
 AS146144,APNIC ASN block
+AS146145,APNIC ASN block
 AS146146,APNIC ASN block
 AS146147,APNIC ASN block
 AS146148,APNIC ASN block
 AS146149,APNIC ASN block
 AS146150,APNIC ASN block
+AS146151,APNIC ASN block
 AS146152,APNIC ASN block
 AS146153,ERR_AS_NAME_NOT_FOUND
 AS146154,APNIC ASN block
@@ -4269,7 +4258,6 @@ AS146187,APNIC ASN block
 AS146188,APNIC ASN block
 AS146189,APNIC ASN block
 AS146190,APNIC ASN block
-AS146191,APNIC ASN block
 AS146192,APNIC ASN block
 AS146193,APNIC ASN block
 AS146194,APNIC ASN block
@@ -4282,18 +4270,21 @@ AS146200,APNIC ASN block
 AS146201,APNIC ASN block
 AS146202,APNIC ASN block
 AS146203,APNIC ASN block
+AS146204,APNIC ASN block
 AS146205,APNIC ASN block
 AS146206,APNIC ASN block
 AS146207,APNIC ASN block
 AS146208,APNIC ASN block
 AS146209,APNIC ASN block
 AS146210,APNIC ASN block
+AS146211,APNIC ASN block
 AS146212,APNIC ASN block
 AS146213,APNIC ASN block
 AS146214,APNIC ASN block
 AS146215,APNIC ASN block
 AS146216,APNIC ASN block
 AS146217,APNIC ASN block
+AS146218,APNIC ASN block
 AS146219,APNIC ASN block
 AS146220,APNIC ASN block
 AS146221,APNIC ASN block
@@ -4341,9 +4332,7 @@ AS146262,China Education and Research Network (CERNET)
 AS146263,China Education and Research Network (CERNET)
 AS146264,China Education and Research Network (CERNET)
 AS146265,China Education and Research Network (CERNET)
-AS146266,China Education and Research Network (CERNET)
 AS146267,China Education and Research Network (CERNET)
-AS146268,China Education and Research Network (CERNET)
 AS146269,China Education and Research Network (CERNET)
 AS146270,China Education and Research Network (CERNET)
 AS146271,China Education and Research Network (CERNET)
@@ -4370,7 +4359,6 @@ AS146291,China Education and Research Network (CERNET)
 AS146292,China Education and Research Network (CERNET)
 AS146293,China Education and Research Network (CERNET)
 AS146294,China Education and Research Network (CERNET)
-AS146295,China Education and Research Network (CERNET)
 AS146296,China Education and Research Network (CERNET)
 AS146297,China Education and Research Network (CERNET)
 AS146298,China Education and Research Network (CERNET)
@@ -4422,6 +4410,7 @@ AS146343,China Education and Research Network (CERNET)
 AS146344,China Education and Research Network (CERNET)
 AS146345,China Education and Research Network (CERNET)
 AS146346,China Education and Research Network (CERNET)
+AS146347,China Education and Research Network (CERNET)
 AS146348,China Education and Research Network (CERNET)
 AS146349,China Education and Research Network (CERNET)
 AS146350,China Education and Research Network (CERNET)
@@ -4459,7 +4448,6 @@ AS146381,China Education and Research Network (CERNET)
 AS146382,China Education and Research Network (CERNET)
 AS146383,China Education and Research Network (CERNET)
 AS146384,China Education and Research Network (CERNET)
-AS146385,China Education and Research Network (CERNET)
 AS146386,China Education and Research Network (CERNET)
 AS146387,China Education and Research Network (CERNET)
 AS146388,China Education and Research Network (CERNET)
@@ -4497,6 +4485,7 @@ AS146419,China Education and Research Network (CERNET)
 AS146420,China Education and Research Network (CERNET)
 AS146421,China Education and Research Network (CERNET)
 AS146422,China Education and Research Network (CERNET)
+AS146423,China Education and Research Network (CERNET)
 AS146424,China Education and Research Network (CERNET)
 AS146425,China Education and Research Network (CERNET)
 AS146426,China Education and Research Network (CERNET)
@@ -4519,7 +4508,6 @@ AS146442,China Education and Research Network (CERNET)
 AS146443,China Education and Research Network (CERNET)
 AS146444,China Education and Research Network (CERNET)
 AS146445,China Education and Research Network (CERNET)
-AS146446,China Education and Research Network (CERNET)
 AS146447,China Education and Research Network (CERNET)
 AS146448,China Education and Research Network (CERNET)
 AS146449,China Education and Research Network (CERNET)
@@ -4528,6 +4516,7 @@ AS146451,China Education and Research Network (CERNET)
 AS146452,China Education and Research Network (CERNET)
 AS146453,China Education and Research Network (CERNET)
 AS146454,China Education and Research Network (CERNET)
+AS146455,China Education and Research Network (CERNET)
 AS146456,China Education and Research Network (CERNET)
 AS146457,China Education and Research Network (CERNET)
 AS146458,China Education and Research Network (CERNET)
@@ -4535,7 +4524,6 @@ AS146459,China Education and Research Network (CERNET)
 AS146460,China Education and Research Network (CERNET)
 AS146461,China Education and Research Network (CERNET)
 AS146462,China Education and Research Network (CERNET)
-AS146463,China Education and Research Network (CERNET)
 AS146464,China Education and Research Network (CERNET)
 AS146465,China Education and Research Network (CERNET)
 AS146466,China Education and Research Network (CERNET)
@@ -4559,7 +4547,6 @@ AS146483,China Education and Research Network (CERNET)
 AS146484,China Education and Research Network (CERNET)
 AS146485,China Education and Research Network (CERNET)
 AS146486,China Education and Research Network (CERNET)
-AS146487,China Education and Research Network (CERNET)
 AS146488,China Education and Research Network (CERNET)
 AS146489,China Education and Research Network (CERNET)
 AS146490,China Education and Research Network (CERNET)
@@ -4572,7 +4559,6 @@ AS146496,China Education and Research Network (CERNET)
 AS146497,China Education and Research Network (CERNET)
 AS146498,China Education and Research Network (CERNET)
 AS146499,China Education and Research Network (CERNET)
-AS146500,China Education and Research Network (CERNET)
 AS146501,China Education and Research Network (CERNET)
 AS146502,China Education and Research Network (CERNET)
 AS146503,China Education and Research Network (CERNET)
@@ -4612,7 +4598,6 @@ AS146536,China Education and Research Network (CERNET)
 AS146537,China Education and Research Network (CERNET)
 AS146538,China Education and Research Network (CERNET)
 AS146539,China Education and Research Network (CERNET)
-AS146540,China Education and Research Network (CERNET)
 AS146541,China Education and Research Network (CERNET)
 AS146542,China Education and Research Network (CERNET)
 AS146543,China Education and Research Network (CERNET)
@@ -4688,7 +4673,6 @@ AS146612,China Education and Research Network (CERNET)
 AS146613,China Education and Research Network (CERNET)
 AS146614,China Education and Research Network (CERNET)
 AS146615,China Education and Research Network (CERNET)
-AS146616,China Education and Research Network (CERNET)
 AS146617,China Education and Research Network (CERNET)
 AS146618,China Education and Research Network (CERNET)
 AS146619,China Education and Research Network (CERNET)
@@ -4710,6 +4694,7 @@ AS146634,China Education and Research Network (CERNET)
 AS146635,China Education and Research Network (CERNET)
 AS146636,China Education and Research Network (CERNET)
 AS146637,China Education and Research Network (CERNET)
+AS146638,China Education and Research Network (CERNET)
 AS146639,China Education and Research Network (CERNET)
 AS146640,China Education and Research Network (CERNET)
 AS146641,China Education and Research Network (CERNET)
@@ -4750,7 +4735,6 @@ AS146675,China Education and Research Network (CERNET)
 AS146676,China Education and Research Network (CERNET)
 AS146677,China Education and Research Network (CERNET)
 AS146678,China Education and Research Network (CERNET)
-AS146679,China Education and Research Network (CERNET)
 AS146680,China Education and Research Network (CERNET)
 AS146681,China Education and Research Network (CERNET)
 AS146682,China Education and Research Network (CERNET)
@@ -4765,7 +4749,9 @@ AS146690,China Education and Research Network (CERNET)
 AS146691,China Education and Research Network (CERNET)
 AS146692,China Education and Research Network (CERNET)
 AS146693,China Education and Research Network (CERNET)
+AS146694,China Education and Research Network (CERNET)
 AS146695,China Education and Research Network (CERNET)
+AS146696,China Education and Research Network (CERNET)
 AS146697,China Education and Research Network (CERNET)
 AS146698,China Education and Research Network (CERNET)
 AS146699,China Education and Research Network (CERNET)
@@ -4780,9 +4766,9 @@ AS146707,China Education and Research Network (CERNET)
 AS146708,China Education and Research Network (CERNET)
 AS146709,China Education and Research Network (CERNET)
 AS146710,China Education and Research Network (CERNET)
-AS146711,China Education and Research Network (CERNET)
 AS146712,China Education and Research Network (CERNET)
 AS146713,China Education and Research Network (CERNET)
+AS146714,China Education and Research Network (CERNET)
 AS146715,China Education and Research Network (CERNET)
 AS146716,China Education and Research Network (CERNET)
 AS146717,China Education and Research Network (CERNET)
@@ -4792,7 +4778,6 @@ AS146720,China Education and Research Network (CERNET)
 AS146721,China Education and Research Network (CERNET)
 AS146722,China Education and Research Network (CERNET)
 AS146723,China Education and Research Network (CERNET)
-AS146724,China Education and Research Network (CERNET)
 AS146725,China Education and Research Network (CERNET)
 AS146726,China Education and Research Network (CERNET)
 AS146727,China Education and Research Network (CERNET)
@@ -4816,7 +4801,6 @@ AS146744,China Education and Research Network (CERNET)
 AS146745,China Education and Research Network (CERNET)
 AS146772,"""Shenzhen Pengcheng communication network Co.", Ltd"
 AS146816,"""Guizhou Moutai Winery (Group) Co.", Ltd."
-AS146900,TRISHA ENTERPRISES
 AS146950,Haruue Network Limited
 AS147036,HANARIN LTD
 AS147047,Yuet Au Yeung
@@ -4882,7 +4866,6 @@ AS151440,Future Internet Technology Infrastructure (FITI)
 AS151441,Future Internet Technology Infrastructure (FITI)
 AS151442,Future Internet Technology Infrastructure (FITI)
 AS151443,Future Internet Technology Infrastructure (FITI)
-AS151444,Future Internet Technology Infrastructure (FITI)
 AS151445,Future Internet Technology Infrastructure (FITI)
 AS151446,Future Internet Technology Infrastructure (FITI)
 AS151447,Future Internet Technology Infrastructure (FITI)
@@ -4953,7 +4936,6 @@ AS153439,VPS4U TECHNOLOGY COMPANY LIMITED
 AS153458,Haruzakura Cloud
 AS153663,SAKURA LINK LIMITED
 AS153782,"""Com2Math", Inc."
-AS153891,CloudSIM Corporation Ltd.
 AS154155,"""Suzhou Yesong Information Technology Co.", Ltd"
 AS154165,PT Unicom Muda Utama
 AS154185,Liu HaoRan
@@ -5178,6 +5160,7 @@ AS203199,UNUM SIA
 AS203309,Liangyi Ma
 AS203314,HATS NETWORK INC.
 AS203333,Jonas Busch
+AS203359,Roschupkina Viktoriia Chunuevna
 AS203405,Lin Kai-Lun
 AS203415,Jorgen Sovik
 AS203438,Regus Group Services Ltd
@@ -5203,6 +5186,7 @@ AS203757,Gregor Czubayko
 AS203801,Jason Miller
 AS203807,Wouter Goyen
 AS203838,WPK Kunststofftechnik GmbH & Co. KG
+AS203846,SESTERCE France LABS SAS
 AS203852,Roger Medeiros
 AS203860,Aartsen Breda B.V.
 AS203868,Rifqi Arief Pamungkas
@@ -5284,6 +5268,7 @@ AS204994,Luke Seabrook
 AS205008,HUANG JUNQI
 AS205013,SHIH-CHIEH YU
 AS205018,Irsyad Khoirul Anwar
+AS205029,Livesystems Group AG
 AS205036,Krzysztof Krych trading as Nakigoto
 AS205043,Andreas Martin Steiro
 AS205058,Maeeko Cat Housing Ltd.
@@ -5854,6 +5839,7 @@ AS213326,Kalpak Mukhopadhyay Lab
 AS213341,Johannes Erwerle
 AS213344,FLAME HOST BRASIL LTDA
 AS213346,Marcus Aram
+AS213349,OctoSEC LTD
 AS213366,Albin Hakanson
 AS213367,IGOR BISSOLI ZULCAO
 AS213368,Marco Ciotola
@@ -5961,6 +5947,7 @@ AS214425,CASTECH LTD
 AS214426,ALPHAWAVE NETWORKS LTD
 AS214430,Takahiro Fukushima
 AS214436,Ali Koyuncu trading as Zumbak Hosting
+AS214445,The North Atlantic Treaty Organization
 AS214450,Oliver Lutz
 AS214454,PoloNetwork Limited
 AS214457,Veesix Networks Ltd
@@ -6295,11 +6282,11 @@ AS262626,CICLONET SERVICOS DE INTERNET E MULTIMIDIA EIRELI
 AS263719,POLICIA NACIONAL DE COLOMBIA
 AS263770,HFC INGENIERIA SRL
 AS263794,Hondutel
-AS264136,LT2 TELECOMUNICACOES LTDA - EPP
 AS264307,Netcom Provedor de Internet e Comércio Ltda
 AS264684,Telefonica del Peru S.A.A.
 AS264841,SYSTRAY S.A
 AS264846,LACNIC - Latin American and Caribbean IP address
+AS265301,UPNET TELECOMUNICACOES EIRELI
 AS265760,PECHIEU GASTON
 AS265850,TELEIUM SA
 AS265892,Telbe Telecom Valinhos LTDA
@@ -6314,6 +6301,7 @@ AS267170,SM DA SILVA SERVIÇOS DE COMUNICAÇÃO
 AS267562,PRISMAREDE TELECOMUNICAÇÕES LTDA - ME
 AS267928,CORPORACIÓN AUTÓNOMA REGIONAL DE CUNDINAMARCA - CAR -
 AS267937,Reelu Telecom LTDA
+AS268109,PRO TELECOM SERVIÇOS DE COMUNICAÇÃO M. LTDA
 AS268632,CONNECTION LAN GAMES E INTERNET LTDA - ME
 AS268918,MAXISPEED TELECOMUNICACOES LTDA - EPP
 AS269104,TIX TELECOMUNICACOES LTDA
@@ -6826,7 +6814,6 @@ AS273574,Via Wireless Telecom Comuninação e Multimidia Ltda
 AS273577,MESSIAS CUNHA DA MOTA
 AS273578,NEW NET FIBRA LTDA
 AS273581,vitoria telecom ltda
-AS273587,C.G.A.FARIA LTDA
 AS273591,GEOVANI FABRICIO WELTER TELECOMUNICACOES - EIRELI
 AS273594,Wifinet Telecom Parnamirim
 AS273598,ROSILENE BRIET DE FREITAS ME
@@ -6872,7 +6859,6 @@ AS273665,INTERNET HOUSE TELECOM EIRELI
 AS273667,CAMPELO ROCHA SERVICOS DE COMUNICACAO E MULTIMIDIA
 AS273669,LINKE SOLUCOES LTDA
 AS273671,Acesso com
-AS273672,Rocket Internet
 AS273675,CRERAL - TELECOMUNICACOES COMERCIO E SERVICOS LTDA
 AS273676,F G F MAIA MEDEIROS COMUNICAÇOES
 AS273677,AGILITY TELECOM
@@ -6949,7 +6935,6 @@ AS273882,MEGAS MAYORISTAS S.A.C.
 AS273910,UNIVERSIDAD COLEGIO MAYOR DE CUNDINAMARCA
 AS273918,Future E.A.S
 AS273930,ALONSO JOSE DARIO (SF PLUS!)
-AS273957,CHANNEL PLUS S.A.S
 AS273972,SOFTNET S DE RL
 AS273977,OFICINA DE NORMALIZACION PREVISIONAL
 AS273999,INSTITUTO FINANCIERO PARA EL DESARROLLO DEL VALLE - I...
@@ -6961,7 +6946,6 @@ AS274039,CONEXION DIGITAL EXPRESS S.A.S.
 AS274052,SERVICIOS INTEGRALES PARA TELECOMUNICACION SERVITELECOM SRL
 AS274055,SOLORZANO ANDRADE RONALD JAVIER(Meganet Internet)
 AS274064,PEDRAZA EMILCE DANIELA (TORTUINTERNET WIFI)
-AS274067,PIT HONDURAS S. DE R.L. DE C.V.
 AS274079,ANTARES WIFI SOCIEDAD ANONIMA
 AS274088,SOCIAL NETWORKS S.R.L.
 AS274094,VIALNET SPA
@@ -6984,6 +6968,7 @@ AS274223,NETWORKS TV S.A.S
 AS274232,"""NETIG COMPUTACION", C.A."
 AS274236,CONNECT SRL
 AS274240,NETWORK NAT S.A. DE C.V.
+AS274267,FIBEX TELECOM SRL
 AS274334,ONY FIBRA Tecnologia ltda
 AS274335,R. de Jesus - Telecomunicacoes LTDA
 AS274338,ERR_AS_NAME_NOT_FOUND
@@ -6994,14 +6979,13 @@ AS274354,LIFES CREATIVE TECNOLOGIA LTDA
 AS274355,ATLANTIC DATA CENTER LTDA
 AS274359,Renan Quevedo Peres
 AS274361,LAN YES TELECOM LTDA
-AS274362,AS274362
+AS274362,W C OLIVEIRA TELECOM LTDA
 AS274462,WEB FIBER TELECOMUNICA��ES
 AS274465,MV NET TELECOM
 AS274467,Experience telecomunicações
 AS274468,ENTEC SERVICOS DE TELECOMUNICACOES LTDA
 AS274470,MMB FIBRA COMERCIO E SERVI�OS LTDA
 AS274471,Wifi net serviços de telecomunicações
-AS274472,H M FIGUEREDO
 AS274473,ENTERNET TELECOMUNICAÇÕES LTDA
 AS274475,weblink net provedor de internet ltda
 AS274476,ALTERNATIVA INTERNET E SERVICOS LTDA
@@ -7202,7 +7186,7 @@ AS328159,ARC Informatique
 AS328206,Johannesburg Area Wireless User Group (JAWUG)
 AS328920,AFRICA DATA CENTER SA
 AS328962,Watchtower Bible and Tract Society of South Africa
-AS329035,Telsense
+AS329035,ERR_AS_NAME_NOT_FOUND
 AS329324,Windstream Limited
 AS329334,Ndiza Information Systems
 AS329352,IP4Solutions
@@ -7219,6 +7203,7 @@ AS394593,"""Matroid", Inc."
 AS394707,Access 2 Networks Inc.
 AS394839,Tritan Internet LLC
 AS394882,Jupiter Cloud LLC
+AS395152,CloudPBX
 AS395250,Bristol-Myers Squibb Company
 AS395326,Massachusetts Institute of Technology
 AS395458,TATA COMMUNICATIONS (AMERICA) INC
@@ -7247,8 +7232,6 @@ AS396641,Verisign Anycast AR 0A
 AS396646,Verisign Anycast TZ 0A
 AS396682,Verisign Anycast KW 0A
 AS396685,Verisign Anycast GB 0I
-AS396706,Verisign Anycast FI 0A
-AS396739,Verisign Anycast AU 0B
 AS396874,JAMF
 AS396931,HostRoyale LLC
 AS396968,imput
@@ -7276,6 +7259,7 @@ AS399087,"""Rooftop", LLC"
 AS399196,REDRAY STUDIOS LLC
 AS399342,SOPHOS
 AS399477,"""Ryan Companies US", Inc."
+AS399624,Lectron
 AS399836,SXG LLC
 AS399916,PACKETSTREAM LLC
 AS399975,NetSWAT LLC
@@ -7299,6 +7283,7 @@ AS401015,"""Association for Computing Machinery", Inc."
 AS401033,"""Tri-County Communications Cooperative", Inc."
 AS401038,Accuris Technologies Ltd.
 AS401082,SPICYTRADE LLC
+AS401143,"""BYTE BROADBAND", LLC"
 AS401315,Integrity Logic Corporation
 AS401333,"""CeraNet", Inc."
 AS401352,Tenacity Unite PEC Inc.
@@ -7325,6 +7310,7 @@ AS401767,T4T Labs
 AS401771,CEDAR CREEK IT SOLUTIONS
 AS401790,West Virginia Internet Exchange
 AS401835,Brass City Residences Inc.
+AS401889,Infinitron Internet LLC
 AS401898,Blue Stasis Technology LLC
 AS401904,Orchard Lake Systems Inc
 AS401932,Elemono LLC
