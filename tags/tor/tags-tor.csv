@@ -53,7 +53,6 @@ AS2860,"""NOS COMUNICACOES", S.A."
 AS2900,Arizona Tri University Network
 AS3061,ProvDotNet LLC
 AS3164,Astimp IT Solution SRL
-AS3170,VeloxServ Communications Ltd
 AS3209,Vodafone GmbH
 AS3214,xTom GmbH
 AS3215,Orange S.A.
@@ -125,6 +124,7 @@ AS6855,"""Slovak Telekom", a.s."
 AS6871,Plusnet plc
 AS6939,Hurricane Electric LLC
 AS7018,"""AT&T Enterprises", LLC"
+AS7029,Windstream Communications LLC
 AS7203,"""Leaseweb USA", Inc."
 AS7303,Telecom Argentina S.A.
 AS7377,"""University of California", San Diego"
@@ -205,7 +205,6 @@ AS11404,Wave Broadband
 AS11426,Charter Communications Inc
 AS11427,Charter Communications Inc
 AS11572,PhoenixNAP LLC
-AS11721,StylenTech LLC
 AS11796,"""Airstream Communications", LLC"
 AS11847,GoNetSpeed
 AS11878,"""tzulo", inc."
@@ -213,6 +212,7 @@ AS12083,WideOpenWest Finance LLC
 AS12093,University of Waterloo
 AS12161,"""dao Consulting", LLC"
 AS12271,Charter Communications Inc
+AS12302,Vodafone Romania S.A.
 AS12312,ecotel communication ag
 AS12322,Free SAS
 AS12338,Euskaltel S.A.
@@ -239,6 +239,7 @@ AS13030,Init7 (Switzerland) Ltd.
 AS13036,T-Mobile Czech Republic a.s.
 AS13037,Zen Internet Ltd
 AS13045,htp GmbH
+AS13046,Hrvatski Telekom d.d.
 AS13110,INEA sp. z o.o.
 AS13113,ISI Line srl
 AS13127,Odido Netherlands B.V.
@@ -283,7 +284,6 @@ AS17356,"""Vermont Telephone Company", Inc."
 AS17506,ARTERIA Networks Corporation
 AS17511,OPTAGE Inc.
 AS17551,Swoop (Anycast Global Backbone)
-AS17552,True Online
 AS17676,SoftBank Corp.
 AS17931,"""Netforest",Inc."
 AS18106,Viewqwest Pte Ltd
@@ -291,6 +291,7 @@ AS18390,Spintel Pty Ltd
 AS18460,Fort Hays State University
 AS18526,"""DDPS Networks", LLC"
 AS18624,Greenlight
+AS19008,"""Perry-Spencer Communications", Inc."
 AS19045,"""Direct Communications Cedar Valley", LLC"
 AS19148,"""Leaseweb USA", Inc."
 AS19165,Webpass Inc.
@@ -320,7 +321,6 @@ AS21473,PFALZKOM GmbH
 AS21499,Host Europe GmbH
 AS21859,Zenlayer Inc
 AS22295,Advin Services LLC
-AS22296,Vorsk LLC
 AS22555,"""Smart Networks",LLC"
 AS22612,"""Namecheap", Inc."
 AS22773,Cox Communications Inc.
@@ -334,6 +334,7 @@ AS24164,UNION BROADBAND NETWORK
 AS24282,KAGOYA JAPAN Inc.
 AS24482,SG.GS
 AS24560,"""Bharti Airtel Ltd.", Telemedia Services"
+AS24768,"""AlmourolTec", Lda"
 AS24800,BornFiber Service Provider ApS
 AS24875,NovoServe B.V.
 AS24940,Hetzner Online GmbH
@@ -453,7 +454,6 @@ AS36007,"""Kamatera", Inc."
 AS36149,"""Hawaiian Telcom Services Company", Inc."
 AS36352,HostPapa
 AS36375,University of Michigan
-AS36530,IDC Cube
 AS36849,1st Amendment Encrypted Openness LLC
 AS36850,University of North Carolina at Chapel Hill
 AS37680,Cool Ideas Service Provider (Pty) Ltd
@@ -511,7 +511,6 @@ AS42730,EVANZO e-commerce GmbH
 AS42831,UK Dedicated Servers Limited
 AS42927,S-NET Sp. z o.o.
 AS43067,"PE """"Pretcher"""""
-AS43139,Maximum-Net LLC
 AS43150,MK Netzdienste Verwaltungs GmbH trading as MK Netzdie...
 AS43180,Trunk Networks LTD
 AS43289,Trabia SRL
@@ -537,6 +536,7 @@ AS44679,INVITE Systems SRL
 AS44684,Mythic Beasts Ltd
 AS44709,O.M.C. COMPUTERS & COMMUNICATIONS LTD
 AS44716,D-hosting die Rackspace & Connectivity GmbH
+AS44851,Retel JSC
 AS44869,FIBIA P/S
 AS44901,Belcloud LTD
 AS44925,1984 ehf
@@ -588,6 +588,7 @@ AS49367,Seflow s.r.l.
 AS49392,LLC Baxet
 AS49447,Nice IT Services Group Inc.
 AS49453,Global Layer B.V.
+AS49505,JSC Selectel
 AS49544,i3D.net B.V
 AS49581,Ferdinand Zink trading as Tube-Hosting
 AS49601,UNITEL-MEDIA Sp. z o.o.
@@ -599,6 +600,7 @@ AS49981,WorldStream B.V.
 AS50053,Anton Levin
 AS50066,Serious Tubes Networks
 AS50266,Odido Netherlands B.V.
+AS50284,Goroshko Evgeniy Andreevich
 AS50304,Blix Solutions AS
 AS50340,Selectel - Moscow
 AS50360,Tamatiya EOOD
@@ -659,7 +661,6 @@ AS57608,DG-NET SA
 AS57717,FiberXpress BV
 AS57811,Redge Technologies sp. z o.o.
 AS57860,Zencurity ApS
-AS58010,uvensys GmbH
 AS58044,free-zona s.r.o.
 AS58061,Scalaxy B.V.
 AS58087,Florian Kolb
@@ -851,12 +852,10 @@ AS206996,ZAP-Hosting GmbH
 AS207003,Web1 Oy
 AS207083,HostSlim B.V.
 AS207143,hosttech GmbH
-AS207187,"""TKR Jasek", s.r.o."
 AS207252,Felix Gassan
 AS207459,TEKNOSOS BILISIM HIZMETLERI VE TIC. LTD. STI.
 AS207483,Netvia Bilisim Yazilim Dan. Tic. Ltd. Sti.
 AS207503,neu-medianet GmbH
-AS207695,Mario Kurz trading as LUME Solutions
 AS207713,GLOBAL INTERNET SOLUTIONS LLC
 AS207799,BOTANY SRL
 AS207916,Velocity1 Limited

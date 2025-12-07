@@ -1,14 +1,14 @@
 {
-  "timestamp": 1764984823,
+  "timestamp": 1765071272,
   "version": "1.0",
   "tag_name": "biznet",
   "tag_count": 1355,
   "actual_entries": 1355,
   "stats": {
-    "generated_at": "2025-12-06T01:33:43.266Z"
+    "generated_at": "2025-12-07T01:34:32.787Z"
   },
   "hash_list": {
-    "index-meta.json": "87b435e40c53ac9ac0bf654a30411b16a5abf5387631ddb393a6acb883b6c89d",
+    "index-meta.json": "ae58d4b5f809f94d8b58774cbd5a7a22de083a22f65769e3d2f505650da484c6",
     "tags-biznet.csv": "ec91ef1dd7197022f2e3f8755919b7b997d84be4b650098281ace86ba1b1511e"
   }
 }
