@@ -1,14 +1,14 @@
 {
-  "timestamp": 1765071272,
+  "timestamp": 1765157680,
   "version": "1.0",
   "tag_name": "anycast",
-  "tag_count": 820,
-  "actual_entries": 820,
+  "tag_count": 844,
+  "actual_entries": 844,
   "stats": {
-    "generated_at": "2025-12-07T01:34:32.801Z"
+    "generated_at": "2025-12-08T01:34:40.565Z"
   },
   "hash_list": {
-    "index-meta.json": "985d863a2a05f59ef6931432e4dcdfaea4257e9fbe149a641b69e24e651af3cb",
-    "tags-anycast.csv": "7cf6eba7772892b0acbd80b7277a80459e64c40b1ed0f80f4041d1d335ebfbc6"
+    "index-meta.json": "f017e13c5515fbad1c7b7153829af5176df77ab9c907370a00e34ee467f325ed",
+    "tags-anycast.csv": "3d829d9853ebe5863520a566cdff53c6f333c4121a6802035ebe199afeddcc99"
   }
 }
