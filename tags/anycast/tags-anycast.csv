@@ -1,6 +1,7 @@
 AS42,"""WoodyNet", Inc."
 AS49,National Institute of Standards and Technology
 AS112,AS112 Project
+AS125,"""Honeywell International", Inc."
 AS174,"""Cogent Communications", LLC"
 AS187,DNScast
 AS209,Lumen (ex. Qwest)
@@ -71,6 +72,7 @@ AS8561,Knipp Medien und Kommunikation GmbH
 AS8674,Netnod AB
 AS8757,"""NSFOCUS", Inc."
 AS9053,VSHosting s.r.o.
+AS9155,Quality Net General Trading & Contracting Company
 AS9179,BINK GROUP LTD
 AS9327,Hopcount Limited
 AS9417,Electricity Generation and Retail Corporation
@@ -146,6 +148,7 @@ AS16509,"""Amazon.com", Inc."
 AS16552,Tiggee LLC
 AS16591,Google Fiber Inc.
 AS16686,"""easyDNS Technologies", Inc."
+AS16839,"""SERVICENOW", INC."
 AS16876,ICANN
 AS17012,"""PayPal", Inc."
 AS17138,Matt Peterman Sole Proprietor
@@ -446,6 +449,7 @@ AS53595,Oshkosh Corporation
 AS53618,"""Aditya Birla Minacs Worldwide", Inc."
 AS53667,FranTech Solutions
 AS53699,Panamax Inc
+AS53828,"""NETWORK INNOVATIONS", LLC"
 AS53831,"""Squarespace", Inc."
 AS53847,Cedexis Inc
 AS54113,"""Fastly", Inc."
@@ -456,6 +460,7 @@ AS54406,Convermax Corp
 AS54456,"""CloudAccess.net", LLC"
 AS54528,"""Richie Software USA", Inc."
 AS54825,Equinix Metal (Packet.net)
+AS54990,1337 Services LLC
 AS54994,Meteverse Limited
 AS55002,"""F5", Inc."
 AS55195,CIRA Canadian Internet Registration Authority Autorit...
@@ -553,6 +558,7 @@ AS138945,BALLARAT AND QUEEN'S ANGLICAN GRAMMAR SCHOOL
 AS139057,Legend Dynasty Pte. Ltd.
 AS139070,Google Cloud Korea
 AS139341,WeChat/QQ CDN
+AS139911,DELUXE ENTERTAINMENT SERVICES INDIA PRIVATE LIMITED
 AS140033,INDIAN INSTITUTE OF TECHNOLOGY BHILAI
 AS140614,"""ASIA-ISP CO.", LIMITED"
 AS141288,National Institute Of Science Education And Research ...
@@ -579,6 +585,7 @@ AS151397,China Telecom
 AS151485,CEYLON ELECTRICITY BOARD
 AS151688,UNM BROADBAND SERVICE PRIVATE LIMITED
 AS152162,5centsCDN Inc
+AS152508,BHARAT DATA SERVICES PVT LTD
 AS152565,JOY SERVICES
 AS152594,NA
 AS152899,REDSTAR GLOBAL TIMOR LDA
@@ -602,6 +609,7 @@ AS199289,Kobalt ApS
 AS199330,CentralNic Ltd
 AS199524,Gcore S.A.
 AS199535,Bet Invest LTD
+AS199610,marbis GmbH
 AS199805,UGO LLC
 AS199816,Luna.nl B.V.
 AS199918,Wilton Arthur Poth
@@ -727,6 +735,7 @@ AS214575,"""Curious Universe (Chongqing) Technology Co.", Ltd"
 AS214618,Hack The Box Ltd
 AS214675,Hidenori Matsuo
 AS214696,Uncollapse LLC
+AS214731,ETO Networks Limited
 AS214749,James Cahill
 AS214955,Weikang Zeng
 AS215212,Sander Jeurissen
@@ -739,16 +748,20 @@ AS216107,Noah van der Aa trading as Frumentum Media
 AS216108,Technology Transfer Intercontinental S.R.L
 AS216126,James Ledger
 AS216206,Aphrodite Group Ltd
+AS216324,Hyper Group Network Ltd.
 AS216393,Synapt ApS
 AS216455,Sting Alleman
+AS262349,Instituto Curitiba de Informática
 AS262589,Megatelecom (Internexa BR)
 AS262960,HEPTANET CONSULTORIA E INTERNET LTDA ME
 AS263118,Celulose Nipo-Brasileira S.A - CENIBRA
 AS263432,CORPORATIVA TELECOMUNICACOES EIRELI ME
 AS264798,Secretaria Legal y Tecnica
+AS265020,FUNDACAO INST BRAS DE GEOGRAFIA E ESTATISTICA IBGE
 AS265169,VIPNETT TELECOM
 AS265756,BANCO PRODEM SA
 AS266444,3L CLOUD INTERNET SERVICES LTDA - EPP
+AS267630,UNIVERSIDADE ESTADUAL DO MARANHÃO
 AS267867,COMISION ARBITRAL DEL CONVENIO MULTILATERAL
 AS268976,Weclix Telecom S/A
 AS269454,FABIO F BARBOSA
@@ -765,6 +778,7 @@ AS274116,CTV CHICLIN E.I.R.L.
 AS328126,Orange Tunisie
 AS328486,Old Mutual Life Assurance Company (South Africa) Limited
 AS328608,Africa on Cloud
+AS329002,Pan African IX Data Centres Kenya Ltd
 AS329394,OneCloud LDA
 AS393467,BOLT Fiber Optic Services
 AS393518,"""ClaimRemedi", Inc."
@@ -802,6 +816,7 @@ AS397197,Verisign Anycast DE 0E
 AS397203,Verisign Anycast US 2U
 AS397273,Render
 AS397378,PhoenixNAP LLC
+AS397423,Tier.Net Technologies LLC
 AS397444,Overkill Interbuzz LLC
 AS397493,"""Ninecloud Services", Inc."
 AS397497,"""Paycom Payroll", LLC"
