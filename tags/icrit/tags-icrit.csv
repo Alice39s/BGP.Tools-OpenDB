@@ -160,7 +160,6 @@ AS18366,APNIC ANYCAST ASN
 AS18840,EQUIPOS Y SISTEMAS S.A.
 AS18865,Intuix LLC
 AS19318,"""Interserver", Inc"
-AS19836,Verisign Anycast US 2M
 AS19994,Rackspace Hosting
 AS20144,ICANN - L-root
 AS20294,MTN Uganda
@@ -409,11 +408,13 @@ AS394353,USC/ISI - B-root
 AS394354,Canadian Internet Registration Authority
 AS395400,UNIVERSITY OF GUAM
 AS396501,CIRA Canadian Internet Registration Authority Autorit...
+AS396540,Verisign Anycast US 0G
 AS396549,Verisign Anycast GB 0A
 AS396566,Verisign Anycast NL 0L
-AS396654,Verisign Anycast US 2K
+AS396686,Verisign Anycast RU 0B
 AS396982,Google Cloud Platform
 AS397197,Verisign Anycast DE 0E
+AS397198,Verisign Anycast DE 0F
 AS398101,"""GoDaddy.com", LLC"
 AS398987,PhirePhly Design
 AS399159,"""Vercara", LLC"

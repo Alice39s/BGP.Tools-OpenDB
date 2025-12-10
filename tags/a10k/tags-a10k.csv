@@ -129,6 +129,7 @@ AS3701,Link Oregon (University of Oregon)
 AS3705,U.S. Government Publishing Office
 AS3778,Temple University
 AS3786,LG DACOM Corporation
+AS3807,University of Montana
 AS3842,"""InMotion Hosting", Inc."
 AS3920,ESTOXY OU
 AS4015,"""CenturyLink Communications", LLC"
@@ -193,6 +194,7 @@ AS6360,University of Hawaii
 AS6366,Portland State University
 AS6389,"""AT&T Enterprises", LLC"
 AS6429,Telmex Chile Internet S.A.
+AS6461,Zayo Bandwidth
 AS6482,Thryv
 AS6510,Brigham Young University
 AS6619,SamsungSDS Inc.
@@ -328,6 +330,7 @@ AS11105,Simon Fraser University
 AS11106,"""Wolfram Research", Inc."
 AS11207,"""Boston Globe Media Partners", LLC"
 AS11273,"""Fiserv Solutions", LLC"
+AS11278,Nintendo Of America inc.
 AS11279,George Mason University
 AS11403,NYI
 AS11406,CIGNA
@@ -394,6 +397,7 @@ AS13335,"""Cloudflare", Inc."
 AS13348,CIGNA
 AS13371,Duke University
 AS13445,Cisco Webex LLC
+AS13446,"""Netzero",INC."
 AS13462,"""Institute of Electrical and Electronics Engineers", Inc"
 AS13490,"""Buckeye Cablevision", Inc."
 AS13506,United States Department of the Treasury
@@ -418,7 +422,6 @@ AS14738,Digi-Key Corporation
 AS14744,Unitas Global
 AS14745,Unitas Global
 AS14782,MailChimp
-AS14840,BR.DIGITAL
 AS14907,Wikimedia Foundation Inc.
 AS15113,Harman International Industries Inc.
 AS15133,Edgecast Inc.
@@ -549,11 +552,8 @@ AS23033,Wowrack.com
 AS23162,University of Kentucky
 AS23352,DEFT.COM
 AS23393,NuCDN LLC
-AS23470,ReliableSite.Net LLC
-AS23498,Beanfield Technologies Inc.
 AS23576,NAVER Cloud Corp.
 AS23616,"""Hitachi Systems", Ltd."
-AS23693,PT. Telekomunikasi Selular
 AS23724,China Telecom Beijing IDC Network
 AS23816,Yahoo Japan Corporation
 AS23820,"""Rakuten Group", Inc."
@@ -562,7 +562,6 @@ AS24151,China Internet Network Infomation Center
 AS24211,PT Detik Ini Juga
 AS24247,PacketFabric (Hong Kong) Limited
 AS24282,KAGOYA JAPAN Inc.
-AS24400,"""Shanghai Mobile Communications Co.",Ltd."
 AS24429,Alibaba Cloud
 AS24436,University of Queensland
 AS24462,Network Management Section
@@ -591,7 +590,6 @@ AS25248,RADIOKOMUNIKACE a.s.
 AS25273,Broadcasting Center Europe (an RTL Group Company)
 AS25285,Boletin Oficial del Estado
 AS25291,SysEleven GmbH
-AS25292,"Federal State Unitary Enterprise """"The Russian Televis..."
 AS25394,MK Netzdienste Verwaltungs GmbH trading as MK Netzdie...
 AS25478,iHome LLC
 AS25563,Webland AG
@@ -637,6 +635,7 @@ AS29119,AIRE NETWORKS DEL MEDITERRANEO SL UNIPERSONAL
 AS29169,GANDI SAS
 AS29182,JSC IOT
 AS29222,Infomaniak Network SA
+AS29226,MasterTel
 AS29278,Rackhost Zrt.
 AS29298,SUSE Software Solutions Germany GmbH
 AS29447,Iliad Italia S.p.A
@@ -657,6 +656,7 @@ AS30058,FDCservers.net
 AS30083,velia.net
 AS30148,Sucuri
 AS30193,Los Angeles Unified School District
+AS30217,Desync Networks
 AS30313,Internal Revenue Service
 AS30320,"""Kia America", Inc."
 AS30383,General Motors LLC
@@ -664,10 +664,10 @@ AS30447,Internet Names For Business Inc.
 AS30600,Metronet
 AS30633,LeaseWeb USA / WDC-01
 AS30811,Optimizely AB
-AS30931,IG Index Ltd.
 AS31004,Schweizerische Bundesbahnen SBB
 AS31034,Aruba S.p.A.
 AS31042,Serbia BroadBand-Srpske Kablovske mreze d.o.o.
+AS31080,Wirtualna Polska Media S.A.
 AS31083,Telepoint Ltd
 AS31133,MegaFon PJSC
 AS31151,PERFORMANCE HORIZON GROUP LIMITED
@@ -715,7 +715,6 @@ AS34177,CELESTE SAS
 AS34285,Sociedad Andaluza para el Desarrollo de las Telecomun...
 AS34309,Link11 GmbH
 AS34343,Eweka Internet Services B.V.
-AS34545,Webinar Tehnologii OOO
 AS34624,Megaspace Internet Services GmbH
 AS34655,JWE S.a r.l.
 AS34718,"""""IST TELEKOM"""" JV LLC"
@@ -760,12 +759,14 @@ AS37936,Sina
 AS37963,"""Hangzhou Alibaba Advertising Co.",Ltd."
 AS38099,Kakao Corp
 AS38244,VNG Corporation
+AS38264,Wateen Telecom
 AS38283,CHINANET SiChuan Telecom Internet Data Center
 AS38365,"""Beijing Baidu Netcom Science and Technology Co.", Ltd."
 AS38529,Reliance Industries Limited WAN Backbone Interface wi...
 AS38631,LINE Corporation
 AS38700,SMILESERV
 AS38731,Viettel - CHT Company Ltd
+AS38928,JSC GLONASS
 AS38952,"""MAFRA", a.s."
 AS39029,Redpill Linpro AS
 AS39122,Blacknight Internet Solutions Limited
@@ -882,7 +883,6 @@ AS45708,Pemerintah Kota Surabaya
 AS45894,FPT Online JSC
 AS45899,VNPT Corp
 AS45903,CMC Telecom Infrastructure Company
-AS45974,NHNCLOUD
 AS46375,Sonic Telecom LLC
 AS46469,GETRESPONSE
 AS46475,"""Limestone Networks", Inc."
@@ -912,11 +912,9 @@ AS47917,RTV Slovenija
 AS47948,24sata doo
 AS47952,ICT BULUT BILISIM A.S.
 AS47957,Worldline IGSA SA
-AS48018,Fornex Hosting S.L.
 AS48061,Limited Liability Company GPM Digital Technologies
 AS48096,Enterprise Cloud Ltd.
 AS48158,DigitalOne AG
-AS48247,Government of Kaliningrad region
 AS48287,"JSC """"RU-CENTER"""""
 AS48324,webgo GmbH
 AS48399,Svyaz VSD LLC
@@ -951,6 +949,7 @@ AS50335,PANDA SECURITY S.L.
 AS50340,Selectel - Moscow
 AS50343,New Work SE
 AS50472,Chaos Computer Club e.V.
+AS50482,JSC Kazakhtelecom
 AS50613,Advania Ísland ehf (ThorDC)
 AS50638,Zaklad Ubezpieczen Spolecznych
 AS50673,Serverius Holding B.V.
@@ -1097,6 +1096,7 @@ AS64422,SIMA RAYAN SHARIF COMPANY (LTD.)
 AS131144,ASUSTek COMPUTER INC.
 AS131392,GMO-Z.com Runsystem Joint Stock Company
 AS131429,MOBIFONE Corporation
+AS131435,Vietnam Esports and Entertainment Joint Stock Company
 AS131623,SHOPEE (TAIWAN) CO. LTD.
 AS131663,GIGABYTE
 AS131930,"""Tokyo Broadcasting System Television", Inc."
@@ -1123,6 +1123,7 @@ AS135905,Vietnam P&T
 AS135967,Bach Kim Network solutions Join stock company
 AS136133,SQUIXA PTY LIMITED
 AS136252,THE BANK OF BARODA LIMITED
+AS136258,"""BrainStorm Network", Inc"
 AS136291,Madhya Pradesh State Electronics Development Corporat...
 AS136907,Huawei Cloud
 AS136958,China Unicom Guangdong IDC Network
@@ -1154,6 +1155,7 @@ AS146943,Tier 4 Cloud Services
 AS147303,ColoCone
 AS150008,Pioneer Elabs Ltd.
 AS150436,Byteplus Pte. Ltd.
+AS151873,TOTHOST SOLUTIONS AND TECHNOLOGIES COMPANY LIMITED
 AS152194,CTG Server Limited
 AS152199,Kakao Corp
 AS153561,PITC
@@ -1171,6 +1173,7 @@ AS198696,EURO-NET Sp. z o.o.
 AS198913,Babiel GmbH
 AS198947,RETN Saint Petersburg
 AS198949,Radware
+AS199081,Lancom Ltd.
 AS199148,Ministry of Health of Russian Federation
 AS199178,Micro Systems Marc Balmer
 AS199524,Gcore S.A.
@@ -1233,6 +1236,7 @@ AS205461,Pole emploi
 AS205544,Leaseweb UK Limited
 AS205585,Arvan Cloud CDN
 AS205787,Public Cloud Ltd.
+AS205809,MEGA Cloud Services Limited
 AS205820,Unitary enterprise A1
 AS206170,Yelles AB
 AS206238,Freedom Internet BV
@@ -1267,6 +1271,7 @@ AS210275,Saudi Information Technology Company CJSC
 AS210403,Groupe LWS SARL
 AS210756,EdgeCenter LLC
 AS210879,Sparteo SAS
+AS211381,Podaon SIA
 AS211609,OKKO LLC
 AS212216,Netafraz Iranian Ltd.
 AS212238,Datacamp Limited
@@ -1280,7 +1285,6 @@ AS213306,Comtrade System Integration doo Belgrade Serbia
 AS213980,Net Media Zrt.
 AS214036,"""Ultahost", Inc."
 AS214390,"""Wojtek SASU", trading as Gofile"
-AS214719,LLC DZHIBIEN HOST
 AS215402,Asadov Ruslan Rafaelevich
 AS215467,Skhron OU
 AS215540,GLOBAL CONNECTIVITY SOLUTIONS LLP
