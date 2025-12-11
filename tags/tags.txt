@@ -1,9 +1,13 @@
-perso,1379
+perso,1381
 dsl,3018
 cdn,109
-a10k,1332
+a10k,1336
 vpn,772
-icrit,421
-tor,1033
+icrit,419
+tor,1028
 gov,1233
 uni,2119
+jv6,7460
+event,21
+vpsh,1990
+c2s,1
