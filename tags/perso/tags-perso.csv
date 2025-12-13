@@ -222,7 +222,6 @@ AS141221,Equinox
 AS141776,Baoshuo Network
 AS142130,NICHONET Inter-Continental Hosting Operation Network
 AS142281,Yuuta Backbone
-AS142598,APNIC ASN block
 AS142641,Yuze Zhang
 AS147047,Yuet Au Yeung
 AS149423,Yu-Shan Tsai
@@ -415,8 +414,12 @@ AS202729,Jennifer Graul
 AS202739,Daniel Czerwonk
 AS202776,MOECLUB LTD
 AS202820,Chih-Jen CHENG
+AS202858,Alastair Barber
 AS202881,Wen-Lung Chen
 AS202886,BRET Wilfried
+AS202902,Nathen Goldsborough
+AS202905,Lior Avraham Slakman
+AS202909,Benjamin Kuebler
 AS202928,Armin Fisslthaler
 AS202939,Chimon Technology Ltd
 AS202945,Benjamin Collet
@@ -430,6 +433,7 @@ AS203125,Julian Braun
 AS203145,Debdut Biswas
 AS203236,Mingyang Shen
 AS203264,Ziad Attia
+AS203271,Antonio Anzil
 AS203276,James Cook
 AS203286,Mario Silvestre
 AS203291,Arend Brouwer
