@@ -183,7 +183,6 @@ AS9299,PLDT (Philippine Long Distance Telephone Company)
 AS9316,DACOM-PUBNETPLUS
 AS9318,SK Broadband Co Ltd
 AS9370,SAKURA Internet Inc.
-AS9378,"""JCOM Co.", Ltd."
 AS9471,ONATI
 AS9534,Maxis
 AS9617,"""JCOM Co.", Ltd."
@@ -309,6 +308,7 @@ AS20712,Andrews & Arnold Ltd
 AS20766,"Association """"Gitoyen"""""
 AS20845,DIGI Tavkozlesi es Szolgaltato Kft.
 AS20853,eTOP sp. z o.o.
+AS20857,TransIP B.V. (team.blue NL)
 AS20860,IOMART CLOUD SERVICES LIMITED
 AS20904,Cinia Oy (fka. Netplaza)
 AS21100,GREEN FLOID LLC
@@ -323,6 +323,7 @@ AS22296,Vorsk LLC
 AS22555,"""Smart Networks",LLC"
 AS22612,"""Namecheap", Inc."
 AS22773,Cox Communications Inc.
+AS23033,Wowrack.com
 AS23310,TASTY LIME
 AS23470,ReliableSite.Net LLC
 AS23473,PAVLOV MEDIA INC
@@ -415,6 +416,7 @@ AS33588,Charter Communications LLC
 AS33705,Digital Shape Technologies Inc.
 AS33796,BOLIGNET-AARHUS F.M.B.A.
 AS33837,Fredrik Holmqvist
+AS33885,Telenor Sverige AB
 AS33911,HZONE SRL
 AS33915,Vodafone Libertel B.V.
 AS33943,Eri Internet s.r.o.
@@ -425,7 +427,6 @@ AS34087,NTE TELEKOM AS
 AS34224,Neterra Ltd.
 AS34244,Teleservice Bredband Skane AB
 AS34259,"TOV """"Highload Systems"""""
-AS34288,Kantonsschule Zug
 AS34689,Castlegem SRL
 AS34694,Stadtwerke Woergl GmbH
 AS34700,"""Maxnet Telecom", LTD"
@@ -478,6 +479,7 @@ AS39819,Optima Telecom Ltd.
 AS39900,SIA GOOD
 AS39912,oja.at GmbH
 AS40021,"""Contabo (Nubes", LLC)"
+AS40029,Novus Entertainment Inc.
 AS40156,The Optimal Link Corporation
 AS40244,Turnkey Internet Inc.
 AS40284,Glenwood Springs Community Broadband Network
@@ -508,6 +510,7 @@ AS42730,EVANZO e-commerce GmbH
 AS42831,UK Dedicated Servers Limited
 AS42927,S-NET Sp. z o.o.
 AS43067,"PE """"Pretcher"""""
+AS43139,Maximum-Net LLC
 AS43150,MK Netzdienste Verwaltungs GmbH trading as MK Netzdie...
 AS43180,Trunk Networks LTD
 AS43289,Trabia SRL
@@ -551,7 +554,6 @@ AS45899,VNPT Corp
 AS46015,Exa Bytes Network Sdn.Bhd.
 AS46375,Sonic Telecom LLC
 AS46475,"""Limestone Networks", Inc."
-AS46632,Southwest Arkansas Telephone Cooperative
 AS46690,Frontier Communications
 AS46841,"""Fork Networking", LLC"
 AS46844,Sharktech
@@ -718,6 +720,7 @@ AS63930,Ready Server Pte. Ltd.
 AS63949,Akamai (Linode)
 AS64073,Vetta Online Ltd
 AS64289,Macarne.com
+AS64457,Matteo Fruhwald trading as PipeHost e.U.
 AS131965,Xserver Inc.
 AS131970,Hikarinet Inc.
 AS132203,Tencent
@@ -732,7 +735,9 @@ AS135377,UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED
 AS135411,Red Grapes Pte Ltd
 AS136052,PT Cloud Hosting Indonesia
 AS136258,"""BrainStorm Network", Inc"
+AS137643,MANAGE SERVER
 AS138115,PT Deneva
+AS138754,Kerala Vision Broad Band Private Limited
 AS138915,Kaopu Cloud HK Limited
 AS138997,Eons Data Communications Limited
 AS141995,Contabo Asia Private Limited
@@ -767,6 +772,7 @@ AS198967,BITel Gesellschaft fuer Telekommunikation mbH
 AS198985,AQUILENET
 AS199058,SERVA ONE LTD
 AS199087,KaseNet Oy
+AS199091,The Best Media Halina Ostrowska
 AS199118,Heinlein-Support GmbH
 AS199173,TechnoLux Ltd.
 AS199246,ENARTIA Single Member S.A.
@@ -806,6 +812,7 @@ AS202422,G-Core Labs S.A.
 AS202425,IP Volume inc
 AS202448,MVPS LTD
 AS202520,SkyPass Solutions Sp. z.o.o.
+AS202539,Internetmanufaktur Karlsruhe UG (haftungsbeschraenkt)
 AS202585,Nick Bouwhuis
 AS202613,Aruba S.p.A.
 AS202616,Wien Energie GmbH
@@ -829,7 +836,6 @@ AS205007,Maxim Azarov trading as eServer
 AS205090,FIRST SERVER LIMITED
 AS205100,F3 Netze e.V.
 AS205235,Labitat
-AS205388,Marcel Andrew Zaiser trading as Metaliance ISP Systems e.k
 AS205449,DevNet Oy
 AS205714,Telemach Hrvatska d.o.o.
 AS206075,Hollander & Jacobsen UG (haftungsbeschraenkt)
@@ -857,6 +863,7 @@ AS208208,Marco Lingl trading as Cyberse GmbH & Co. KG
 AS208226,OUIHEBERG SARL
 AS208323,Foundation for Applied Privacy
 AS208723,VDX SYSTEMS LTD
+AS209101,IP Vendetta Inc.
 AS209274,Kraken Network ISP LTD
 AS209281,"""Generacion Tecnologica De Comunicaciones", Sociedad Li..."
 AS209341,WHG Hosting Services Ltd
@@ -889,7 +896,6 @@ AS212057,Pascal Stattmann trading as Nodescrape
 AS212238,Datacamp Limited
 AS212271,Cinzia Tocci trading as Lumanex Srl
 AS212317,Hetzner Cloud - Hillsboro
-AS212441,Cloud assets LLC
 AS212477,RoyaleHosting B.V.
 AS212508,Lowhosting services of Davide Gennari
 AS212531,"UAB """"Interneto vizija"""""
@@ -898,10 +904,10 @@ AS212895,Johannes Ernst
 AS212913,FOP Hornostay Mykhaylo Ivanovych
 AS213230,Hetzner Cloud - Ashburn
 AS213250,Dominic Scholz trading as ITP-Solutions GmbH & Co. KG
+AS213251,Marcel Andrew Zaiser trading as Metaliance ISP Systems e.k
 AS213281,Greenfiber Internet & Dienste GmbH
 AS213354,INTERNATIONAL HOSTING SOLUTIONS LLP
 AS213373,IP Connect Inc
-AS213426,Danny Lotz
 AS213438,ColocaTel Inc.
 AS213468,HD-decor Oy
 AS213488,Mustafa Gunes trading as Inoxweb Datacenter ve Hostin...

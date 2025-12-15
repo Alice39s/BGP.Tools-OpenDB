@@ -191,7 +191,6 @@ AS6360,University of Hawaii
 AS6366,Portland State University
 AS6389,"""AT&T Enterprises", LLC"
 AS6429,Telmex Chile Internet S.A.
-AS6461,Zayo Bandwidth
 AS6482,Thryv
 AS6510,Brigham Young University
 AS6619,SamsungSDS Inc.
@@ -232,7 +231,6 @@ AS7922,"""Comcast Cable Communications", LLC"
 AS7941,Internet Archive
 AS7973,Mayo Foundation for Medical Education and Research
 AS7979,"""Servers.com", Inc."
-AS7992,Cogeco Connexion Inc.
 AS8030,AT&T WorldNet
 AS8068,Microsoft Corporation
 AS8069,Microsoft Corporation
@@ -242,7 +240,7 @@ AS8076,Department of Housing and Urban Development
 AS8151,UNINET
 AS8193,"""""Uzbektelekom"""" Joint Stock Company"
 AS8220,COLT
-AS8234,RAI RadioTelevisione Italiana
+AS8234,RAI RadioTelevisione Italiana SPA
 AS8248,"Computer Technology Institute and Press """"Diophantus"""""
 AS8255,Euro-Information-Europeenne de Traitement de l'Inform...
 AS8291,The Federal Guard Service of the Russian Federation
@@ -322,8 +320,6 @@ AS10921,Commonwealth of KentuckyDepartment of Information Systems
 AS10929,eStruxture Data Centers Inc.
 AS10954,SERVICO FEDERAL DE PROCESSAMENTO DE DADOS - SERPRO
 AS10966,"""Alaska Airlines", Inc."
-AS10996,Concorde inc.
-AS11014,Metrotel
 AS11019,"""HAProxy Technologies", Inc."
 AS11054,"""LivePerson", Inc."
 AS11078,Brown University
@@ -334,6 +330,7 @@ AS11273,"""Fiserv Solutions", LLC"
 AS11279,George Mason University
 AS11403,NYI
 AS11406,CIGNA
+AS11426,Charter Communications Inc
 AS11432,Telium Telecomunicações Ltda
 AS11442,North Carolina State University
 AS11492,"""CABLE ONE", INC."
@@ -472,7 +469,6 @@ AS17035,NBCUniversal
 AS17054,Expedient
 AS17055,University of Utah
 AS17564,GITN Sdn. Bhd.
-AS17621,China Unicom Shanghai network
 AS17623,China Unicom Shenzhen network
 AS17676,SoftBank Corp.
 AS17716,National Taiwan University
@@ -549,6 +545,7 @@ AS23033,Wowrack.com
 AS23162,University of Kentucky
 AS23352,DEFT.COM
 AS23393,NuCDN LLC
+AS23498,Beanfield Technologies Inc.
 AS23576,NAVER Cloud Corp.
 AS23616,"""Hitachi Systems", Ltd."
 AS23724,China Telecom Beijing IDC Network
@@ -572,7 +569,6 @@ AS24611,Datacenter Luxembourg S.A.
 AS24638,Rambler Internet Holding LLC
 AS24641,FASTER CZ spol. s r.o.
 AS24690,Szerencsejatek Zrt
-AS24723,Atman Sp. z o.o.
 AS24768,"""AlmourolTec", Lda"
 AS24823,VTB Bank (Public Joint-Stock Company)
 AS24843,France Televisions SA
@@ -652,11 +648,9 @@ AS29873,"""Newfold Digital", Inc."
 AS29988,Rogers Communications Canada Inc.
 AS29990,Xandr Inc.
 AS29992,U.S. Department of Veterans Affairs
-AS30058,FDCservers.net
 AS30083,velia.net
 AS30148,Sucuri
 AS30193,Los Angeles Unified School District
-AS30217,Desync Networks
 AS30313,Internal Revenue Service
 AS30320,"""Kia America", Inc."
 AS30383,General Motors LLC
@@ -761,7 +755,6 @@ AS37936,Sina
 AS37963,"""Hangzhou Alibaba Advertising Co.",Ltd."
 AS38099,Kakao Corp
 AS38244,VNG Corporation
-AS38264,Wateen Telecom
 AS38283,CHINANET SiChuan Telecom Internet Data Center
 AS38365,"""Beijing Baidu Netcom Science and Technology Co.", Ltd."
 AS38529,Reliance Industries Limited WAN Backbone Interface wi...
@@ -827,7 +820,6 @@ AS42612,DinaHosting S.L.
 AS42632,MnogoByte LLC
 AS42649,Baffin Bay Networks AB
 AS42652,inexio Informationstechnologie und Telekommunikation Gmbh
-AS42656,Allegro sp. z o.o.
 AS42708,Glesys AB
 AS42807,CIZGI TELEKOMUNIKASYON ANONIM SIRKETI
 AS42848,European Commission
@@ -883,6 +875,7 @@ AS45596,Centre For Railway Information Systems
 AS45638,SYNERGY WHOLESALE PTY LTD
 AS45644,IT-Networking Department
 AS45708,Pemerintah Kota Surabaya
+AS45773,"""PERN AS Content Servie Provider", Islamabad, Pakistan"
 AS45894,FPT Online JSC
 AS45899,VNPT Corp
 AS45903,CMC Telecom Infrastructure Company
@@ -967,6 +960,7 @@ AS50881,"""ESET", spol. s r.o."
 AS51013,WebSupport s.r.o.
 AS51026,Dade Pardazi Mobinhost Co LTD
 AS51115,HLL LLC
+AS51167,Contabo GmbH
 AS51269,HEXATOM s.a.r.l.
 AS51468,One.com A/S
 AS51527,Hyundai AutoEver Europe GmbH
@@ -981,7 +975,6 @@ AS52016,JSC ADFACT
 AS52130,LiveSport s.r.o.
 AS52580,Azion Technologies Ltda.
 AS52649,Tribunal de Justica do Estado do Rio Grande do Sul
-AS53187,UNIVERSIDADE ESTADUAL DE CAMPINAS
 AS53332,"""C2Hosting", LLC"
 AS53334,"""Total Uptime Technologies", LLC"
 AS53589,PlanetHoster
@@ -1075,7 +1068,6 @@ AS60772,Sky Italia srl
 AS60781,LeaseWeb Netherlands B.V.
 AS60885,Zengenti Ltd.
 AS60922,KKM IT Limited
-AS60976,Parsan Lin Co. PJS
 AS61098,Exoscale (Akenes SA)
 AS61157,PlusServer GmbH
 AS61168,Planet Service SARL
@@ -1161,6 +1153,7 @@ AS139659,LUCIDACLOUD LIMITED
 AS140227,"""Hong Kong Communications International Co.", Limited"
 AS140633,BILIBILI HK LIMITED
 AS140637,Macquarie Technology Operations Pty Limited
+AS140717,UNICOM JiangSu Suzhou IDC network
 AS140766,FPT Smart Cloud Company Limited
 AS141679,China Telecom Beijing Tianjin Hebei Big Data Industry...
 AS142160,Joyo Technology Pte. Ltd.
@@ -1311,6 +1304,7 @@ AS393360,"""Tyler Technologies", Inc."
 AS393457,Hamilton Community Enterprises
 AS393942,WiredISP Inc.
 AS393952,Service Alberta
+AS394380,"""Leaseweb USA", Inc."
 AS394396,Listrak
 AS394493,"""CDK Global", LLC"
 AS394572,"""Tyler Technologies", Inc."
