@@ -39,6 +39,7 @@ AS3819,EdgePrizm
 AS4455,IX Reach Ltd
 AS4466,"""AT&T Enterprises", LLC"
 AS4515,PCCW IMS Ltd (PCCW Business Internet Access)
+AS4538,China Education and Research Network Center
 AS4749,WiseTechGlobal Pty Ltd
 AS4755,TATA Communications (formerly VSNL)
 AS4780,Digital United Inc.
@@ -183,6 +184,7 @@ AS19021,BTC Broadband Inc.
 AS19039,DurableDNS Inc
 AS19054,Nath Network & Telecom Inc
 AS19133,Bird Hosting Inc.
+AS19171,Stargate Connections Inc.
 AS19186,GMCHOSTING LLC
 AS19254,"""Koch Industries", Inc."
 AS19281,Quad9
@@ -219,6 +221,7 @@ AS21859,Zenlayer Inc
 AS21928,"""T-Mobile USA", Inc."
 AS22169,"""Omnis Network", LLC"
 AS22300,"""Wikia", Inc."
+AS22356,Durand do Brasil Ltda
 AS22390,XEROX CORPORATION
 AS22649,CodingDirect LLC
 AS22697,Roblox
@@ -232,7 +235,6 @@ AS23344,"""Disney Worldwide Services", Inc."
 AS23347,ZYC Network LLC
 AS23352,DEFT.COM
 AS23393,NuCDN LLC
-AS23404,Ritter Communications
 AS23467,New Relic
 AS23473,PAVLOV MEDIA INC
 AS23599,Korea Internet Security Agency
@@ -285,7 +287,6 @@ AS28614,Fundacao Universidade Regional de Blumenau
 AS28649,Desktop Sigmanet Comunicação Multimídia SA
 AS28656,Blink Telecom
 AS28753,Leaseweb Deutschland GmbH
-AS29066,velia.net Internetdienste GmbH
 AS29067,Hostmaster LLC
 AS29085,Porsche Informatik Gesellschaft m.b.H
 AS29216,Netnod - I-root
@@ -308,6 +309,7 @@ AS30295,Smartt Inc.
 AS30311,"""Disney Worldwide Services", Inc."
 AS30456,Cosmic Global Networks
 AS30539,Flowfinity Wireless Inc
+AS30690,Kazehana Networks LLC
 AS30811,Optimizely AB
 AS30893,No ACK Group Holding AB
 AS31079,Liberty Global Europe Holding B.V.
@@ -319,6 +321,7 @@ AS32133,Ting Fiber Inc.
 AS32244,"""Liquid Web", L.L.C"
 AS32298,Centersquare
 AS32338,Hostiserver Ltd
+AS32575,"""DigiCert", Inc."
 AS32708,LoadEdge Limited
 AS32771,DNSimple Corporation
 AS32787,Akamai (Prolexic)
@@ -429,6 +432,7 @@ AS45838,Anticlockwise Pty Ltd
 AS45927,THE SINGARENI COLLIERIES COMPANY LIMITED
 AS46181,"""BCI Mississippi Broadband",LLC"
 AS46475,"""Limestone Networks", Inc."
+AS46723,Unlabeled LLC
 AS46735,"""Certigo", Inc"
 AS46760,Drury Inns
 AS46844,Sharktech
@@ -486,6 +490,7 @@ AS53343,sc Network
 AS53535,ARIN Operations
 AS53589,PlanetHoster
 AS53595,Oshkosh Corporation
+AS53598,National Jewish Medical and Research Center Corporation
 AS53618,"""Aditya Birla Minacs Worldwide", Inc."
 AS53667,FranTech Solutions
 AS53699,Panamax Inc
@@ -494,7 +499,6 @@ AS53831,"""Squarespace", Inc."
 AS53847,Cedexis Inc
 AS54113,"""Fastly", Inc."
 AS54148,Dynamic Quantum Networks
-AS54266,"""ABC Financial Services", Inc."
 AS54290,Hostwinds LLC.
 AS54406,Convermax Corp
 AS54456,"""CloudAccess.net", LLC"
@@ -554,7 +558,6 @@ AS61165,Mountiela Services LLC
 AS61317,Hivelocity LLC
 AS61455,LACTLD - LATIN AMERICAN AND CARIBBEAN TLD ASSOCIATION
 AS61569,Tribunal Regional Federal da 1a Regiao
-AS61866,INTELBRAS S.A. INDUSTRIA DE TELECOMUNICACAO ELETRO
 AS61881,UNIMED PORTO ALEGRE COOPERATIVA MEDICA LTDA
 AS62153,DotIdea Solutions Inc
 AS62406,DNScale OU
@@ -781,7 +784,6 @@ AS211757,Panascais ehf.
 AS212196,Daniel Piekacz
 AS212217,BB-Online UK Ltd
 AS212294,Basel Al-Sayeh
-AS212618,Xentain Solutions Inc.
 AS212772,AdGuard Software Limited
 AS212788,Edge Network Technologies Ltd
 AS212895,Johannes Ernst
@@ -833,6 +835,8 @@ AS263118,Celulose Nipo-Brasileira S.A - CENIBRA
 AS263333,VIPTURBO COMÉRCIO & SERVIÇOS DE INFORMÁTICA LTDA
 AS263546,TURBONETT TELECOMUNICACOES LTDA. - ME
 AS263639,AMAZONAS TRIBUNAL DE JUSTICA
+AS264021,JSINET TELECOM
+AS264080,MINISTERIO DE MINAS E ENERGIA
 AS264363,Unimed de Bauru - Cooperativa de Trabalho Medico
 AS264798,Secretaria Legal y Tecnica
 AS264958,Expresso São Miguel S/A
@@ -840,7 +844,6 @@ AS265020,FUNDACAO INST BRAS DE GEOGRAFIA E ESTATISTICA IBGE
 AS265279,Soft System Informatica Ltda
 AS266444,3L CLOUD INTERNET SERVICES LTDA - EPP
 AS267630,UNIVERSIDADE ESTADUAL DO MARANHÃO
-AS267867,COMISION ARBITRAL DEL CONVENIO MULTILATERAL
 AS268976,Weclix Telecom S/A
 AS269454,FABIO F BARBOSA
 AS269607,SERGIPE MINISTERIO PUBLICO
@@ -858,7 +861,6 @@ AS328486,Old Mutual Life Assurance Company (South Africa) Limited
 AS328608,Africa on Cloud
 AS328974,Datonet (Pty) Ltd
 AS329002,Pan African IX Data Centres Kenya Ltd
-AS329394,OneCloud LDA
 AS393312,TELEFLEX INCORPORATED
 AS393467,BOLT Fiber Optic Services
 AS393518,"""ClaimRemedi", Inc."
@@ -886,13 +888,13 @@ AS396417,"""Salesforce", Inc."
 AS396486,Conseil scolaire de district catholique du Centre-Est...
 AS396501,CIRA Canadian Internet Registration Authority Autorit...
 AS396549,Verisign Anycast GB 0A
+AS396555,Verisign Anycast US 0O
 AS396566,Verisign Anycast NL 0L
 AS396654,Verisign Anycast US 2K
 AS396982,Google Cloud Platform
 AS396986,"""Bytedance", Inc. (TikTok)"
 AS396998,"""Path Network", Inc."
 AS397197,Verisign Anycast DE 0E
-AS397203,Verisign Anycast US 2U
 AS397273,Render
 AS397378,PhoenixNAP LLC
 AS397444,Overkill Interbuzz LLC
