@@ -1,10 +1,10 @@
 AS42,"""WoodyNet", Inc."
 AS49,National Institute of Standards and Technology
 AS112,AS112 Project
-AS125,"""Honeywell International", Inc."
 AS174,"""Cogent Communications", LLC"
 AS187,DNScast
 AS209,Lumen (ex. Qwest)
+AS237,Merit Network Inc.
 AS260,"""GTT Americas", LLC"
 AS714,Apple Inc.
 AS955,LSHIY LLC
@@ -220,6 +220,7 @@ AS22356,Durand do Brasil Ltda
 AS22390,XEROX CORPORATION
 AS22649,CodingDirect LLC
 AS22697,Roblox
+AS22803,"""National Oilwell Varco", Inc."
 AS22820,"""Cybera", Inc."
 AS22843,"""Proofpoint", Inc."
 AS22885,"""ADVERTISING SPECIALTY INSTITUTE", INC."
@@ -561,6 +562,7 @@ AS63103,Ochsner Clinic Foundation
 AS63113,Globecorp Networks
 AS63135,"""Tabor College", Inc."
 AS63199,"""CDS Global Cloud Co.", Ltd"
+AS63325,"""Carriage Services", Inc."
 AS63330,Emily Cooperative Telephone Company
 AS63341,"""ROKI America Co.", Ltd."
 AS63363,Tucows.com Co.
@@ -576,7 +578,6 @@ AS133096,MOTHERSHIP
 AS133175,OZtell
 AS133262,Tracmail I Pvt Ltd
 AS133275,Gigantic Infotel Pvt Ltd
-AS133504,PAOCLOUD
 AS133706,Gigantic Internet Services Pvt. Ltd.
 AS133775,Xiamen
 AS133800,PT Biznet Gio Nusantara
@@ -685,6 +686,7 @@ AS203314,HATS NETWORK INC.
 AS203391,Cloud DNS Ltd
 AS203472,PENG YUJEN
 AS203504,Tomas Freitas Fernandes
+AS203755,ITGLOBAL.COM NL B.V.
 AS203961,CentralNic Ltd
 AS203969,YMC AG
 AS204055,CentralNic Ltd
@@ -760,7 +762,6 @@ AS210756,EdgeCenter LLC
 AS211072,MFI INVESTMENTS LIMITED
 AS211112,Qrator Technologies FZ-LLC
 AS211358,Patrizio Palumbo
-AS211575,Rui Feng
 AS211757,Panascais ehf.
 AS212196,Daniel Piekacz
 AS212217,BB-Online UK Ltd
@@ -781,6 +782,7 @@ AS213768,Thomas Neumann
 AS213798,Jude Gabriel Powell
 AS214030,Kai-Wen Zheng
 AS214040,RUNNAN WEN
+AS214079,LendNodes LTD
 AS214080,Transparent Edge Services S.L.
 AS214405,Eyeo GmbH
 AS214503,QuxLabs AB
@@ -800,7 +802,6 @@ AS215764,Ismael Munoz Hernandez
 AS215828,"Tizian Maxime Weigt trading as """"TMW Global Networks"""""
 AS215842,Erwin Paal
 AS216056,Jingqiu Xu
-AS216100,Rui Li
 AS216107,Noah van der Aa trading as Frumentum Media
 AS216108,Technology Transfer Intercontinental S.R.L
 AS216126,James Ledger
@@ -834,6 +835,7 @@ AS328486,Old Mutual Life Assurance Company (South Africa) Limited
 AS328608,Africa on Cloud
 AS328974,Datonet (Pty) Ltd
 AS329002,Pan African IX Data Centres Kenya Ltd
+AS329524,ZANZIBAR CABLE TELEVISION LIMITED
 AS393312,TELEFLEX INCORPORATED
 AS393467,BOLT Fiber Optic Services
 AS393518,"""ClaimRemedi", Inc."
@@ -846,6 +848,7 @@ AS394225,"""Grand Telephone Company", Inc."
 AS394256,Tech Futures Interactive Inc.
 AS394353,USC/ISI - B-root
 AS394354,Canadian Internet Registration Authority
+AS394646,"""Eagle Eye Networks", Inc"
 AS395126,"""Beck's Superior Hybrids", Inc."
 AS395363,"""Infoblox", Inc."
 AS395409,Neocities
@@ -854,7 +857,6 @@ AS395696,Intoxalock
 AS395725,USACS
 AS395747,"""Cloudflare", Inc."
 AS395831,Meraki LLC
-AS395943,Memorial Hospital at Gulfport
 AS396002,TeleVoIPs
 AS396163,"""My Digital Shield", Inc."
 AS396367,"""Canadian Tire Corporation", LTD"

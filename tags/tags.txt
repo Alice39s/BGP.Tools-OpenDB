@@ -1,13 +1,13 @@
 perso,1390
 dsl,3126
 cdn,109
-a10k,1339
+a10k,1341
 vpn,772
 icrit,417
-tor,1021
+tor,1011
 gov,1262
 uni,2125
-jv6,7409
+jv6,7416
 event,22
 vpsh,2008
 c2s,1
@@ -17,5 +17,5 @@ biznet,1388
 satnet,44
 feeder,0
 corp,609
-anycast,912
-rpkirov,1235
+anycast,914
+rpkirov,1242

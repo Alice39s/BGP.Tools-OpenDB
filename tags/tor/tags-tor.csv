@@ -61,6 +61,7 @@ AS3242,REEVO S.P.A.
 AS3243,MEO
 AS3249,Telia Eesti AS
 AS3257,GTT Communications Inc.
+AS3258,xTom Japan
 AS3269,TIM S.p.A. (fka. Telecom Italia S.p.A.)
 AS3292,TDC Holding A/S
 AS3301,Telia Company AB
@@ -181,7 +182,6 @@ AS9299,PLDT (Philippine Long Distance Telephone Company)
 AS9316,DACOM-PUBNETPLUS
 AS9318,SK Broadband Co Ltd
 AS9370,SAKURA Internet Inc.
-AS9378,"""JCOM Co.", Ltd."
 AS9471,ONATI
 AS9534,Maxis
 AS9617,"""JCOM Co.", Ltd."
@@ -193,7 +193,6 @@ AS10796,Charter Communications Inc
 AS10929,eStruxture Data Centers Inc.
 AS10961,Boston GigaPoP
 AS10996,Concorde inc.
-AS11062,MTCO Communications
 AS11114,Wintek Corporation
 AS11117,"""Nuyek", LLC"
 AS11232,Midcontinent Communications
@@ -212,7 +211,6 @@ AS12093,University of Waterloo
 AS12129,"""123.Net", Inc."
 AS12161,"""dao Consulting", LLC"
 AS12271,Charter Communications Inc
-AS12302,Vodafone Romania S.A.
 AS12312,ecotel communication ag
 AS12322,Free SAS
 AS12337,noris network AG
@@ -245,7 +243,6 @@ AS13045,htp GmbH
 AS13101,TNG Stadtnetz GmbH
 AS13110,INEA sp. z o.o.
 AS13113,ISI Line srl
-AS13127,Odido Netherlands B.V.
 AS13213,UK-2 Limited
 AS13237,euNetworks GmbH
 AS13285,TalkTalk Communications Limited
@@ -253,7 +250,6 @@ AS13428,"""Surf Air Wireless", LLC"
 AS13692,Douglas FastNet
 AS13693,Vexus Fiber
 AS13868,Peak Internet
-AS13977,Fidium
 AS14061,DigitalOcean LLC
 AS14237,Beamspeed LLC
 AS14618,"""Amazon.com", Inc."
@@ -374,6 +370,7 @@ AS28573,Claro NXT Telecomunicacoes Ltda
 AS28640,VIPWay Telecomunicações Ltda
 AS28753,Leaseweb Deutschland GmbH
 AS28855,Octopuce s.a.r.l.
+AS28886,RETN Latvia
 AS29066,velia.net Internetdienste GmbH
 AS29075,IELO-LIAZO SERVICES SAS
 AS29134,"""Webglobe", s.r.o."
@@ -423,7 +420,6 @@ AS33588,Charter Communications LLC
 AS33705,Digital Shape Technologies Inc.
 AS33796,BOLIGNET-AARHUS F.M.B.A.
 AS33837,Fredrik Holmqvist
-AS33885,Telenor Sverige AB
 AS33911,HZONE SRL
 AS33915,Vodafone Libertel B.V.
 AS33943,Eri Internet s.r.o.
@@ -469,6 +465,7 @@ AS38700,SMILESERV
 AS39007,"UAB """"Balticum TV"""""
 AS39020,Comvive Servidores S.L.
 AS39287,ab stract ltd
+AS39351,31173 Services AB
 AS39375,Telekomunikacja Podlasie Sp. z o.o.
 AS39378,servinga GmbH
 AS39392,SH.cz s.r.o.
@@ -493,7 +490,6 @@ AS40284,Glenwood Springs Community Broadband Network
 AS40662,Layer7 Technologies Inc
 AS40663,IncogNet LLC
 AS40676,Psychz Networks
-AS40924,Harley Security Solutions LLC
 AS40994,Alwyzon (Hohl IT)
 AS41075,ATW Internet Kft.
 AS41108,comtrance service GmbH
@@ -504,6 +500,7 @@ AS41634,Svea Hosting AB
 AS41652,SHPV FRANCE SAS
 AS41653,Aqua Ray SAS
 AS41745,Baykov Ilya Sergeevich
+AS41881,Fanava Group
 AS42159,Zemlyaniy Dmitro Leonidovich
 AS42237,w1n ltd
 AS42532,SIA VEESP
@@ -527,7 +524,6 @@ AS43513,Sia Nano IT
 AS43541,VSHosting s.r.o.
 AS43619,Association pour l'union des reseaux des residences e...
 AS43641,SOLLUTIUM EU Sp z.o.o.
-AS43653,"""PEGO Slovakia", s.r.o."
 AS43700,UAB Consilium Optimum
 AS43927,HOSTERION SRL
 AS44133,IPAX GmbH
@@ -553,7 +549,6 @@ AS45382,Hostcenter
 AS45731,PT Ardh Global Indonesia
 AS45758,Triple T Broadband Public Company Limited
 AS45839,Shinjiru Technology Sdn Bhd
-AS45899,VNPT Corp
 AS46015,Exa Bytes Network Sdn.Bhd.
 AS46375,Sonic Telecom LLC
 AS46475,"""Limestone Networks", Inc."
@@ -562,7 +557,6 @@ AS46690,Frontier Communications
 AS46841,"""Fork Networking", LLC"
 AS46844,Sharktech
 AS46887,Crown Castle Fiber LLC
-AS46979,Madison County Telephone Company
 AS47066,"""prgmr.com", Inc."
 AS47172,Greenhost BV
 AS47325,VPS4You Kft.
@@ -660,6 +654,7 @@ AS57494,Adman LLC
 AS57717,FiberXpress BV
 AS57811,Redge Technologies sp. z o.o.
 AS57860,Zencurity ApS
+AS58010,uvensys GmbH
 AS58061,Scalaxy B.V.
 AS58087,Florian Kolb
 AS58212,dataforest GmbH
@@ -668,7 +663,6 @@ AS58299,Openfactory GmbH
 AS58791,"""GMO Internet Group", Inc."
 AS58915,Arktisma Pty Ltd
 AS59253,Leaseweb Singapore Pte. Ltd.
-AS59444,Andrzej Szreter AMSNET
 AS59491,Livenet Sp. z o.o.
 AS59711,HZ Hosting Ltd
 AS59720,Bofiber AS
@@ -678,7 +672,6 @@ AS59891,FSIT AG
 AS60016,Fiberstream 87 AG
 AS60117,Host Sailor Ltd
 AS60131,High5! B.V.
-AS60191,Nowatel Sp. z o.o.
 AS60352,S E L C O M SHPK
 AS60404,The Infrastructure Group B.V.
 AS60729,Stiftung Erneuerbare Freiheit
@@ -687,7 +680,6 @@ AS60800,Netwise Hosting Ltd
 AS60900,Adrian Trifonov trading as Ssmidge Technologies
 AS61098,Exoscale (Akenes SA)
 AS61106,PS Cloud Services LLC
-AS61112,AKILE LTD
 AS61125,SABOTAGE LLC
 AS61138,Zappie Host LLC
 AS61157,PlusServer GmbH
@@ -714,6 +706,7 @@ AS63023,GTHost
 AS63473,"""HostHatch", LLC"
 AS63770,Industrial Cyber Security Center of Excellence
 AS63806,Human-life Information Platforms Institute
+AS63859,PT Eka Mas Republik
 AS63930,Ready Server Pte. Ltd.
 AS63949,Akamai (Linode)
 AS64073,Vetta Online Ltd
@@ -734,6 +727,7 @@ AS135377,UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED
 AS135411,Red Grapes Pte Ltd
 AS136052,PT Cloud Hosting Indonesia
 AS136258,"""BrainStorm Network", Inc"
+AS137409,GSL Networks Pty LTD
 AS137643,MANAGE SERVER
 AS138915,Kaopu Cloud HK Limited
 AS138997,Eons Data Communications Limited
@@ -743,7 +737,6 @@ AS142594,SpeedyPage Ltd
 AS147181,Flarezen Ltd.
 AS149440,Evoxt Enterprise
 AS151873,TOTHOST SOLUTIONS AND TECHNOLOGIES COMPANY LIMITED
-AS152992,ONLINE DATA COMPANY LIMITED
 AS153003,Digital Shield Technology Company Limited
 AS154317,VyomCloud
 AS196967,N.Henulin
@@ -849,7 +842,6 @@ AS207252,Felix Gassan
 AS207459,TEKNOSOS BILISIM HIZMETLERI VE TIC. LTD. STI.
 AS207483,Netvia Bilisim Yazilim Dan. Tic. Ltd. Sti.
 AS207503,neu-medianet GmbH
-AS207713,GLOBAL INTERNET SOLUTIONS LLC
 AS207799,BOTANY SRL
 AS207916,Velocity1 Limited
 AS207957,SERV.HOST GROUP LTD
@@ -876,7 +868,6 @@ AS210403,Groupe LWS SARL
 AS210457,Kyonix Networks Limited
 AS210464,ANDREW KRISTULI
 AS210558,1337 Services GmbH
-AS210644,Aéza International Limited
 AS210731,Forening for DotSrc
 AS210874,Box Broadband Limited
 AS210893,Layered Technologies Limited
@@ -887,12 +878,12 @@ AS211507,Julian Achter
 AS211619,MAXKO d.o.o.
 AS211673,Mynymbox LLC
 AS211720,"""Datashield", Inc."
+AS211882,AQUILENET
 AS212057,Pascal Stattmann trading as Nodescrape
 AS212219,HOSTING DUNYAM BILISIM TEKNOLOJILERI TICARET LIMITED ...
 AS212238,Datacamp Limited
 AS212271,Cinzia Tocci trading as Lumanex Srl
 AS212317,Hetzner Cloud - Hillsboro
-AS212441,Cloud assets LLC
 AS212477,RoyaleHosting B.V.
 AS212508,Lowhosting services of Davide Gennari
 AS212531,"UAB """"Interneto vizija"""""
@@ -960,7 +951,6 @@ AS216107,Noah van der Aa trading as Frumentum Media
 AS216127,INTERNATIONAL HOSTING COMPANY LIMITED
 AS216309,InvisionTech Group S.r.l.
 AS262287,Latitude.sh LTDA
-AS262391,ACESSOLINE TELECOMUNICAÇÕES LTDA
 AS263608,WSNET TELECOM LTDA ME
 AS263812,SONDATECH S.A.S.
 AS264617,GRUPO PANAGLOBAL 15 S.A
