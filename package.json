@@ -1,6 +1,6 @@
 {
   "name": "bgp.tools-opendb",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "BGP.Tools OpenDB - Daily updated BGP data package version",
   "main": "src/index.js",
   "bin": {
@@ -54,9 +54,9 @@
     "CLAUDE.md"
   ],
   "devDependencies": {
-    "@eslint/js": "^9.34.0",
-    "eslint": "^9.34.0",
-    "globals": "^16.3.0",
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "globals": "^16.5.0",
     "prettier": "3.6.2"
   }
 }
