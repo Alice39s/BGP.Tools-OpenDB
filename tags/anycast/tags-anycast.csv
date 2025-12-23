@@ -29,7 +29,6 @@ AS3215,Orange S.A.
 AS3223,Voxility LLP
 AS3257,GTT Communications Inc.
 AS3356,Lumen (Level 3)
-AS3462,HiNet (Chunghwa Telecom)
 AS3549,Lumen (fka. Global Crossing)
 AS3557,ISC - F-root
 AS3643,Sprint
@@ -206,6 +205,7 @@ AS20326,TeraSwitch Networks Inc.
 AS20385,AccessLine Communications Corp.
 AS20473,"""The Constant Company", LLC"
 AS20756,NAMESHIELD SAS
+AS20773,Host Europe GmbH
 AS20940,Akamai International B.V.
 AS21030,Docker LTD
 AS21342,Akamai International B.V.
@@ -227,7 +227,6 @@ AS22885,"""ADVERTISING SPECIALTY INSTITUTE", INC."
 AS23013,Fortanix
 AS23145,IBM
 AS23149,"""BATH & BODY WORKS", INC."
-AS23344,"""Disney Worldwide Services", Inc."
 AS23347,ZYC Network LLC
 AS23352,DEFT.COM
 AS23393,NuCDN LLC
@@ -247,7 +246,6 @@ AS24409,China Internet Network Infomation Center
 AS24429,Alibaba Cloud
 AS24444,Shandong Mobile Communication Company Limited
 AS24445,"""Henan Mobile Communications Co.",Ltd"
-AS24474,Nepal Internet Exchange NP Anycast
 AS24482,SG.GS
 AS24543,AS FIRST DATA ELECTRONIC tRANSACTION PROCESSOR SYDNEY
 AS24547,Hebei Mobile Communication Company Limited
@@ -359,7 +357,6 @@ AS38332,.au Domain Administration Ltd
 AS38345,Internet Domain Name System Beijing Engineering Resra...
 AS38452,Leo Paper Group Manufacturing Limited
 AS38719,Dreamscape Networks Limited
-AS38750,PT Telemedia Dinamika Sarana
 AS39572,DataWeb Global Group B.V.
 AS39588,Mimecast Services Limited
 AS39945,Nuspire Communications
@@ -428,7 +425,6 @@ AS46735,"""Certigo", Inc"
 AS46844,Sharktech
 AS47037,ScoutDNS
 AS47242,Host SpA
-AS47272,HYEHOST LLC
 AS47581,NSFOCUS Technologies UK Limited
 AS47583,Hostinger International Limited
 AS47689,"""Pudu", LLC"
@@ -463,6 +459,7 @@ AS52025,ParadoxNetworks Limited
 AS52224,LACNIC - Latin American and Caribbean IP address
 AS52234,NIC Chile
 AS52304,NIC Chile
+AS52468,UFINET PANAMA S.A.
 AS52580,Azion Technologies Ltda.
 AS52620,BRASIL NORTE BEBIDAS S/A
 AS52795,ONE TELECOM TELECOMUNICACOES LTDA
@@ -555,7 +552,6 @@ AS62610,Zenlayer Inc
 AS62642,"""Bigleaf Networks", Inc."
 AS62659,"""Q2 Software", Inc."
 AS62695,"""Verso Networks", Inc."
-AS62752,Pegboard Hosting Inc.
 AS62821,MNX Solutions LLC
 AS63023,GTHost
 AS63103,Ochsner Clinic Foundation
@@ -578,7 +574,6 @@ AS133096,MOTHERSHIP
 AS133175,OZtell
 AS133262,Tracmail I Pvt Ltd
 AS133275,Gigantic Infotel Pvt Ltd
-AS133706,Gigantic Internet Services Pvt. Ltd.
 AS133775,Xiamen
 AS133800,PT Biznet Gio Nusantara
 AS134094,"""Serverfield Co.", Ltd."
@@ -606,6 +601,7 @@ AS141995,Contabo Asia Private Limited
 AS142052,Mempool Space K.K.
 AS142057,eMudhra Limited
 AS142269,KINA BANK
+AS142283,AUSTRALIAN LAMB (COLAC) PTY LTD
 AS146806,"""Beijing Yunlian Interactive Technology Co.", Ltd."
 AS147008,Shenzhen Dianjiang Technology Co Ltd
 AS148000,National Knowledge Network
@@ -626,7 +622,6 @@ AS151349,Yuki Network Ltd
 AS151361,THE CUBICLEREBELS PTE LTD
 AS151397,China Telecom
 AS151485,CEYLON ELECTRICITY BOARD
-AS151688,UNM BROADBAND SERVICE PRIVATE LIMITED
 AS152162,5centsCDN Inc
 AS152594,NA
 AS152899,REDSTAR GLOBAL TIMOR LDA
@@ -720,7 +715,6 @@ AS207104,"""""BiZone"""" LLC"
 AS207266,Identity Digital Limited
 AS207353,Ruform LLC
 AS207414,Ganawa Juanah
-AS207419,Richard Marino
 AS207529,LOLINYA TECHNOLOGY LTD
 AS207543,DOWNUNDER GEOSOLUTIONS (LONDON) PTY LIMITED
 AS207893,Tech Futures Interactive Inc.
@@ -753,6 +747,7 @@ AS209671,Qrator Labs CZ s.r.o.
 AS209854,Cyberzone S.A.
 AS210004,Stichting Internet Domeinregistratie Nederland
 AS210250,K Media Tech Ltd.
+AS210352,Yijia Xu
 AS210562,WURZELLOS LLC
 AS210600,"PJSC """"Seligdar"""""
 AS210667,Adam Goodenough
@@ -825,8 +820,9 @@ AS269454,FABIO F BARBOSA
 AS269607,SERGIPE MINISTERIO PUBLICO
 AS270034,AKY TELECOM SPA
 AS270807,Bella Janela Ind. de Cortinas Ltda.
+AS271814,NEXTNET SAC
+AS271967,TURBONET S.A.
 AS272809,"""THUNDERNET", C.A."
-AS272890,MASTER TECHNOLOGY CIA. LTDA.
 AS272913,MEGALINK S.R.L.
 AS273584,NuvemShop
 AS274116,CTV CHICLIN E.I.R.L.
@@ -888,7 +884,6 @@ AS399077,Tcloudnet
 AS399159,"""Vercara", LLC"
 AS399161,"""Vercara", LLC"
 AS399182,FICTIONPRESS INC.
-AS399284,"""luYs", Inc."
 AS399288,WEATHERTAP INCORPORATED
 AS399358,"""Anthropic", PBC"
 AS399454,Global Linking Solutions
