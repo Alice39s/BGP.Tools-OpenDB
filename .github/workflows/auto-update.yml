@@ -44,6 +44,12 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: main
 
+      - name: Cleanup disk space
+        uses: ./.github/actions/cleanup-disk-space
+        with:
+          clean-tools-cache: "false"
+          clean-docker: "false"
+
       - name: Setup runtime
         uses: ./.github/actions/setup-runtime
         with:

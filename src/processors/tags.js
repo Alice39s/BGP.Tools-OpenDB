@@ -151,7 +151,7 @@ function formatTagEntry(entry) {
 }
 
 function quoteIfNeeded(value) {
-  if (value.includes(",") || value.includes("\"")) {
+  if (value.includes(",") || value.includes('"')) {
     const escaped = value.replace(/"/g, '""');
     return `"${escaped}"`;
   }

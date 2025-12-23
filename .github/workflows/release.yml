@@ -42,6 +42,12 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: main
 
+      - name: Cleanup disk space
+        uses: ./.github/actions/cleanup-disk-space
+        with:
+          clean-tools-cache: "false"
+          clean-docker: "false"
+
       - name: Checkout source branch for data
         if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.source_branch != '' && github.event.inputs.source_branch != 'main' }}
         uses: actions/checkout@v4

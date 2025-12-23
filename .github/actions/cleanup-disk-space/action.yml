@@ -1,0 +1,123 @@
+name: Cleanup Disk Space
+description: Clean up unnecessary files from GitHub Actions runner to free disk space
+
+inputs:
+  clean-android:
+    description: Remove Android SDK
+    required: false
+    default: "true"
+  clean-dotnet:
+    description: Remove .NET SDK
+    required: false
+    default: "true"
+  clean-haskell:
+    description: Remove Haskell toolchain
+    required: false
+    default: "true"
+  clean-swift:
+    description: Remove Swift toolchain
+    required: false
+    default: "true"
+  clean-java:
+    description: Remove Java/JVM
+    required: false
+    default: "true"
+  clean-chromium:
+    description: Remove Chromium browser
+    required: false
+    default: "true"
+  clean-cloud-tools:
+    description: Remove Azure CLI and Google Cloud SDK
+    required: false
+    default: "true"
+  clean-docker:
+    description: Clean Docker system
+    required: false
+    default: "true"
+  clean-tools-cache:
+    description: Remove tools cache directory (Node.js, Python, Go, etc.)
+    required: false
+    default: "false"
+  clean-apt-cache:
+    description: Clean APT cache
+    required: false
+    default: "true"
+
+runs:
+  using: "composite"
+  steps:
+    - name: Cleanup disk space
+      shell: bash
+      run: |
+        set -euo pipefail
+
+        echo "=== Before cleanup ==="
+        df -h /
+        du -sh /usr/local/lib/android /usr/share/dotnet /usr/local/.ghcup 2>/dev/null || true
+
+        # Android SDK
+        if [[ "${{ inputs.clean-android }}" == "true" ]]; then
+          echo "Removing Android SDK..."
+          sudo rm -rf /usr/local/lib/android || true
+        fi
+
+        # .NET SDK
+        if [[ "${{ inputs.clean-dotnet }}" == "true" ]]; then
+          echo "Removing .NET SDK..."
+          sudo rm -rf /usr/share/dotnet || true
+        fi
+
+        # Haskell toolchain
+        if [[ "${{ inputs.clean-haskell }}" == "true" ]]; then
+          echo "Removing Haskell toolchain..."
+          sudo rm -rf /usr/local/.ghcup || true
+        fi
+
+        # Swift toolchain
+        if [[ "${{ inputs.clean-swift }}" == "true" ]]; then
+          echo "Removing Swift toolchain..."
+          sudo rm -rf /usr/share/swift || true
+        fi
+
+        # Java/JVM
+        if [[ "${{ inputs.clean-java }}" == "true" ]]; then
+          echo "Removing Java/JVM..."
+          sudo rm -rf /usr/lib/jvm || true
+        fi
+
+        # Chromium browser
+        if [[ "${{ inputs.clean-chromium }}" == "true" ]]; then
+          echo "Removing Chromium..."
+          sudo rm -rf /usr/local/share/chromium || true
+          sudo rm -rf /opt/microsoft /opt/google || true
+        fi
+
+        # Cloud tools
+        if [[ "${{ inputs.clean-cloud-tools }}" == "true" ]]; then
+          echo "Removing cloud tools..."
+          sudo rm -rf /opt/az || true
+          sudo rm -rf /usr/lib/google-cloud-sdk || true
+        fi
+
+        # Tools cache
+        if [[ "${{ inputs.clean-tools-cache }}" == "true" ]]; then
+          echo "Removing tools cache..."
+          sudo rm -rf "$AGENT_TOOLSDIRECTORY" || true
+        fi
+
+        # Docker cleanup
+        if [[ "${{ inputs.clean-docker }}" == "true" ]]; then
+          echo "Cleaning Docker..."
+          docker system prune -af --volumes || true
+        fi
+
+        # APT cache cleanup
+        if [[ "${{ inputs.clean-apt-cache }}" == "true" ]]; then
+          echo "Cleaning APT cache..."
+          sudo apt-get clean
+          sudo apt-get autoremove -y --purge || true
+          sudo rm -rf /var/lib/apt/lists/* || true
+        fi
+
+        echo "=== After cleanup ==="
+        df -h /
