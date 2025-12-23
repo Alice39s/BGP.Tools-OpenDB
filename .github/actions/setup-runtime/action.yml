@@ -13,7 +13,7 @@ inputs:
   go-version:
     description: Go version for mmdbwriter
     required: false
-    default: "1.24.4"
+    default: "1.25"
   install-deps:
     description: Run pnpm install when true
     required: false

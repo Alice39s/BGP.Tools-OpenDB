@@ -1,6 +1,6 @@
 module mmdbwriter
 
-go 1.24.4
+go 1.25
 
 require github.com/maxmind/mmdbwriter v1.0.0
 

@@ -23,6 +23,7 @@ on:
 env:
   NODE_VERSION: "20"
   PNPM_VERSION: "10.11.0"
+  GO_VERSION: "1.25"
 
 concurrency:
   group: release-${{ github.ref }}
@@ -90,8 +91,9 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           pnpm-version: ${{ env.PNPM_VERSION }}
           install-deps: "true"
-          setup-go: "false"
-          build-mmdbwriter: "false"
+          go-version: ${{ env.GO_VERSION }}
+          setup-go: "true"
+          build-mmdbwriter: "true"
 
       # 仅 workflow_dispatch 且 refresh_data==true 时，运行数据更新脚本
       - name: Refresh data (manual trigger only)

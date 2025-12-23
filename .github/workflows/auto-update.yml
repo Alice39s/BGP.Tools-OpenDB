@@ -22,7 +22,7 @@ on:
 env:
   NODE_VERSION: "22"
   PNPM_VERSION: "10.11.0"
-  GO_VERSION: "1.24.4"
+  GO_VERSION: "1.25"
   TABLE_SCHEDULE: "0 */2 * * *"
   ARCHIVE_SCHEDULE: "0 1 * * *"
 
