@@ -29,6 +29,7 @@ AS3215,Orange S.A.
 AS3223,Voxility LLP
 AS3257,GTT Communications Inc.
 AS3356,Lumen (Level 3)
+AS3462,HiNet (Chunghwa Telecom)
 AS3549,Lumen (fka. Global Crossing)
 AS3557,ISC - F-root
 AS3643,Sprint
@@ -169,7 +170,6 @@ AS17378,"""TierPoint", LLC"
 AS17561,LARUS Limited
 AS17817,Concentrix Daksh Services India Private Limited
 AS17984,PCCW Global (HK) Ltd.
-AS18002,World Phone Internet Services Pvt. Ltd
 AS18229,CtrlS
 AS18366,APNIC ANYCAST ASN
 AS18367,Asia Pacific Network Information Centre
@@ -205,7 +205,6 @@ AS20326,TeraSwitch Networks Inc.
 AS20385,AccessLine Communications Corp.
 AS20473,"""The Constant Company", LLC"
 AS20756,NAMESHIELD SAS
-AS20773,Host Europe GmbH
 AS20940,Akamai International B.V.
 AS21030,Docker LTD
 AS21342,Akamai International B.V.
@@ -227,6 +226,7 @@ AS22885,"""ADVERTISING SPECIALTY INSTITUTE", INC."
 AS23013,Fortanix
 AS23145,IBM
 AS23149,"""BATH & BODY WORKS", INC."
+AS23344,"""Disney Worldwide Services", Inc."
 AS23347,ZYC Network LLC
 AS23352,DEFT.COM
 AS23393,NuCDN LLC
@@ -271,6 +271,7 @@ AS27651,ENTEL CHILE S.A.
 AS27715,Locaweb Serviços de Internet S/A
 AS27792,Wiltel Comunicaciones SA
 AS27872,URBE - Universidad Dr. Rafael Belloso
+AS27882,Telefónica Celular de Bolivia S.A.
 AS27901,Pacifico Cable SPA.
 AS27947,Telconet S.A
 AS27948,CORPORACION NACIONAL DE TELECOMUNICACIONES - CNT EP
@@ -349,7 +350,6 @@ AS36444,"""Liquid Web", L.L.C"
 AS36631,Verisign Anycast US 1A
 AS36692,"""Cisco OpenDNS", LLC"
 AS36780,ALSCO
-AS36829,Winstri Corporation
 AS36912,Orange Cameroun SA
 AS37017,Edge connect (pty) Ltd
 AS38136,Akari Networks
@@ -373,7 +373,6 @@ AS40509,"""Fly.io", Inc."
 AS40539,"""Hosting Consulting", Inc"
 AS40568,CIRA Canadian Internet Registration Authority Autorit...
 AS40627,RingCentral Inc
-AS40647,Verisign Anycast NL 0C
 AS40663,IncogNet LLC
 AS40676,Psychz Networks
 AS40680,Protocol Labs
@@ -628,7 +627,6 @@ AS152899,REDSTAR GLOBAL TIMOR LDA
 AS153371,BACK WAVES LIMITED
 AS153467,Glen Eira City Council
 AS153725,Tenonet (Hangzhou) Co Ltd
-AS154051,KRISH COMMUNICATION PVT LTD
 AS154204,Shine Effort Inc Limited
 AS197000,RIPE NCC - Anycast DNS
 AS197440,dot IT ccTLD anycast
@@ -696,6 +694,7 @@ AS205008,HUANG JUNQI
 AS205157,Daniel Cid
 AS205184,Adjust GmbH
 AS205282,Tilda Publishing Ltd.
+AS205369,LI YIRAN
 AS205383,Rhys Perry
 AS205398,Tyler OBrien
 AS205585,Arvan Cloud CDN
@@ -760,6 +759,7 @@ AS211358,Patrizio Palumbo
 AS211757,Panascais ehf.
 AS212196,Daniel Piekacz
 AS212217,BB-Online UK Ltd
+AS212238,Datacamp Limited
 AS212294,Basel Al-Sayeh
 AS212772,AdGuard Software Limited
 AS212788,Edge Network Technologies Ltd
@@ -772,6 +772,7 @@ AS213231,CELKO LIMITED
 AS213430,HSIANG-LI CHAN
 AS213550,Jon Radel
 AS213605,Liu HaoRan
+AS213606,Jose Luis Monserrat Alburquenque
 AS213625,Xuluo Chen
 AS213768,Thomas Neumann
 AS213798,Jude Gabriel Powell
@@ -811,7 +812,6 @@ AS264021,JSINET TELECOM
 AS264080,MINISTERIO DE MINAS E ENERGIA
 AS264363,Unimed de Bauru - Cooperativa de Trabalho Medico
 AS264798,Secretaria Legal y Tecnica
-AS264958,Expresso São Miguel S/A
 AS265171,SITELBRA LTDA
 AS266444,GoCache / 3L CLOUD
 AS267630,UNIVERSIDADE ESTADUAL DO MARANHÃO
@@ -850,7 +850,6 @@ AS395363,"""Infoblox", Inc."
 AS395409,Neocities
 AS395637,"""Roush Fenway Keselowski Racing", LLC"
 AS395696,Intoxalock
-AS395725,USACS
 AS395747,"""Cloudflare", Inc."
 AS395831,Meraki LLC
 AS396002,TeleVoIPs
@@ -861,6 +860,7 @@ AS396486,Conseil scolaire de district catholique du Centre-Est...
 AS396501,CIRA Canadian Internet Registration Authority Autorit...
 AS396549,Verisign Anycast GB 0A
 AS396566,Verisign Anycast NL 0L
+AS396587,Verisign Anycast NL 0G
 AS396654,Verisign Anycast US 2K
 AS396970,"""CommandLink", LLC"
 AS396982,Google Cloud Platform
