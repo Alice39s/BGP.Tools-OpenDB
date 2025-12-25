@@ -43,7 +43,6 @@ AS4739,Internode Pty Ltd
 AS4749,WiseTechGlobal Pty Ltd
 AS4755,TATA Communications (formerly VSNL)
 AS4780,Digital United Inc.
-AS4842,Tianhai InfoTech
 AS4847,China Telecom Beijing Province Network
 AS4892,"""APPLIED SYSTEMS", INC"
 AS4901,The George Washington University
@@ -164,6 +163,7 @@ AS16839,"""SERVICENOW", INC."
 AS16876,ICANN
 AS16909,imput
 AS17012,"""PayPal", Inc."
+AS17069,Coop Telefonica Villa Gesell Ltda
 AS17138,Matt Peterman Sole Proprietor
 AS17275,Federal Home Loan Mortgage Corporation
 AS17378,"""TierPoint", LLC"
@@ -249,7 +249,6 @@ AS24445,"""Henan Mobile Communications Co.",Ltd"
 AS24482,SG.GS
 AS24543,AS FIRST DATA ELECTRONIC tRANSACTION PROCESSOR SYDNEY
 AS24547,Hebei Mobile Communication Company Limited
-AS25019,Saudi Telecom Company JSC
 AS25098,Netcalibre Ltd
 AS25111,Coloplast A/S
 AS25152,RIPE NCC - K-root
@@ -315,7 +314,6 @@ AS32221,Baron Services
 AS32244,"""Liquid Web", L.L.C"
 AS32298,Centersquare
 AS32338,Hostiserver Ltd
-AS32575,"""DigiCert", Inc."
 AS32708,LoadEdge Limited
 AS32771,DNSimple Corporation
 AS32787,Akamai (Prolexic)
@@ -325,7 +323,6 @@ AS33191,"""Notion Labs", Inc."
 AS33438,Datum
 AS33512,Gateway Processing Services
 AS33905,Akamai International B.V.
-AS34309,Link11 GmbH
 AS34343,Eweka Internet Services B.V.
 AS34655,JWE S.a r.l.
 AS34879,"OOO """"Sovremennye setevye tekhnologii"""""
@@ -350,7 +347,6 @@ AS36444,"""Liquid Web", L.L.C"
 AS36631,Verisign Anycast US 1A
 AS36692,"""Cisco OpenDNS", LLC"
 AS36780,ALSCO
-AS36912,Orange Cameroun SA
 AS37017,Edge connect (pty) Ltd
 AS38136,Akari Networks
 AS38332,.au Domain Administration Ltd
@@ -373,6 +369,7 @@ AS40509,"""Fly.io", Inc."
 AS40539,"""Hosting Consulting", Inc"
 AS40568,CIRA Canadian Internet Registration Authority Autorit...
 AS40627,RingCentral Inc
+AS40647,Verisign Anycast NL 0C
 AS40663,IncogNet LLC
 AS40676,Psychz Networks
 AS40680,Protocol Labs
@@ -416,7 +413,6 @@ AS45526,"""UGAM SOLUTIONS PVT LTD","
 AS45758,Triple T Broadband Public Company Limited
 AS45820,Tata Teleservices ISP
 AS45838,Anticlockwise Pty Ltd
-AS45927,THE SINGARENI COLLIERIES COMPANY LIMITED
 AS46181,"""BCI Mississippi Broadband",LLC"
 AS46475,"""Limestone Networks", Inc."
 AS46723,Unlabeled LLC
@@ -482,6 +478,7 @@ AS53831,"""Squarespace", Inc."
 AS53847,Cedexis Inc
 AS54113,"""Fastly", Inc."
 AS54148,Dynamic Quantum Networks
+AS54266,"""ABC Financial Services", Inc."
 AS54290,Hostwinds LLC.
 AS54406,Convermax Corp
 AS54456,"""CloudAccess.net", LLC"
@@ -503,7 +500,6 @@ AS56044,China Mobile Group Liaoning Company
 AS56045,China Mobile communications corporation
 AS56046,China Mobile Jiangsu Province Network
 AS56048,China Mobile Group Beijing Company
-AS56073,First Focus Pty Ltd
 AS56147,Creative Communication Vietnam Joint Stock Company
 AS56908,Netnod AB
 AS57138,Mullvad DNS (LOCIX LIMITED)
@@ -573,6 +569,7 @@ AS133096,MOTHERSHIP
 AS133175,OZtell
 AS133262,Tracmail I Pvt Ltd
 AS133275,Gigantic Infotel Pvt Ltd
+AS133504,PAOCLOUD
 AS133775,Xiamen
 AS133800,PT Biznet Gio Nusantara
 AS134094,"""Serverfield Co.", Ltd."
@@ -604,11 +601,9 @@ AS142283,AUSTRALIAN LAMB (COLAC) PTY LTD
 AS146806,"""Beijing Yunlian Interactive Technology Co.", Ltd."
 AS147008,Shenzhen Dianjiang Technology Co Ltd
 AS148000,National Knowledge Network
-AS149005,TP SOUTHERN ODISHA DISTRIBUTION LIMITED
 AS149194,Airtel Digital Limited
 AS149511,"""Yamu Technologies Co.", Ltd."
 AS149614,TRANSACTION SOLUTIONS INTERNATIONAL INDIA PRIVATE LIMITED
-AS149652,Nepal Bank Limited
 AS149834,COMPUTERS NOW PTY LTD a/t/f The Trustee for COMPUTERS...
 AS149981,Legend Dynasty Pte. Ltd.
 AS150289,Sun Yanzheng
@@ -674,6 +669,7 @@ AS202422,G-Core Labs S.A.
 AS202540,Christopher Stephens
 AS202673,Ohz Digital S.L.
 AS202687,Mainloop AB
+AS202986,Lukas Tautz
 AS203043,Tirastel GmbH
 AS203314,HATS NETWORK INC.
 AS203391,Cloud DNS Ltd
@@ -712,8 +708,10 @@ AS207021,ipcom GmbH
 AS207071,Joshua Jones
 AS207104,"""""BiZone"""" LLC"
 AS207266,Identity Digital Limited
+AS207333,"LLP """"Kompaniya Hoster.KZ"""""
 AS207353,Ruform LLC
 AS207414,Ganawa Juanah
+AS207419,Richard Marino
 AS207529,LOLINYA TECHNOLOGY LTD
 AS207543,DOWNUNDER GEOSOLUTIONS (LONDON) PTY LIMITED
 AS207893,Tech Futures Interactive Inc.
@@ -728,6 +726,8 @@ AS208260,Daniel Stocker
 AS208366,Stefan Pattberg trading as DENIC Services GmbH & Co. KG
 AS208398,Edge Technology Plus (Yandex)
 AS208414,"""WEDOS Internet", a.s."
+AS208626,ServTech LTD
+AS208754,XingRui Li
 AS208759,nzt.ventures GmbH
 AS208800,G42 CLOUD TECHNOLOGY L.L.C.
 AS208915,HYPERLXC MEDICAL LTD
@@ -759,7 +759,6 @@ AS211358,Patrizio Palumbo
 AS211757,Panascais ehf.
 AS212196,Daniel Piekacz
 AS212217,BB-Online UK Ltd
-AS212238,Datacamp Limited
 AS212294,Basel Al-Sayeh
 AS212772,AdGuard Software Limited
 AS212788,Edge Network Technologies Ltd
@@ -785,6 +784,7 @@ AS214503,QuxLabs AB
 AS214618,Hack The Box Ltd
 AS214675,Hidenori Matsuo
 AS214696,Uncollapse LLC
+AS214720,MoeDove LLC
 AS214731,ETO Networks Limited
 AS214757,Jakub Krsa
 AS214781,Rapid Solutions ApS
@@ -808,8 +808,6 @@ AS262687,Screen Saver Informática LTDA
 AS263118,Celulose Nipo-Brasileira S.A - CENIBRA
 AS263546,TURBONETT TELECOMUNICACOES LTDA. - ME
 AS263639,AMAZONAS TRIBUNAL DE JUSTICA
-AS264021,JSINET TELECOM
-AS264080,MINISTERIO DE MINAS E ENERGIA
 AS264363,Unimed de Bauru - Cooperativa de Trabalho Medico
 AS264798,Secretaria Legal y Tecnica
 AS265171,SITELBRA LTDA
@@ -820,6 +818,7 @@ AS269454,FABIO F BARBOSA
 AS269607,SERGIPE MINISTERIO PUBLICO
 AS270034,AKY TELECOM SPA
 AS270807,Bella Janela Ind. de Cortinas Ltda.
+AS270860,Mundial Central de Comércio e Serviços Eirelli
 AS271814,NEXTNET SAC
 AS271967,TURBONET S.A.
 AS272809,"""THUNDERNET", C.A."
@@ -860,7 +859,6 @@ AS396486,Conseil scolaire de district catholique du Centre-Est...
 AS396501,CIRA Canadian Internet Registration Authority Autorit...
 AS396549,Verisign Anycast GB 0A
 AS396566,Verisign Anycast NL 0L
-AS396587,Verisign Anycast NL 0G
 AS396654,Verisign Anycast US 2K
 AS396970,"""CommandLink", LLC"
 AS396982,Google Cloud Platform
