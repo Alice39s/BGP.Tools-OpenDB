@@ -8,6 +8,7 @@ AS237,Merit Network Inc.
 AS260,"""GTT Americas", LLC"
 AS714,Apple Inc.
 AS955,LSHIY LLC
+AS965,Webhosting Holdings LLC
 AS1002,Bytefilter LLC
 AS1050,Onvox LLC
 AS1149,SURF B.V.
@@ -74,6 +75,7 @@ AS8674,Netnod AB
 AS8757,"""NSFOCUS", Inc."
 AS9053,VSHosting s.r.o.
 AS9179,BINK GROUP LTD
+AS9299,PLDT (Philippine Long Distance Telephone Company)
 AS9327,Hopcount Limited
 AS9417,Electricity Generation and Retail Corporation
 AS9498,Bharti Airtel Ltd.
@@ -114,6 +116,7 @@ AS11749,MPInet
 AS11802,Centro de Informatica e Automacao do Estado de SC
 AS12008,Vercara (f.k.a Neustar)
 AS12041,"""Afilias", Inc."
+AS12198,JSMSR Network
 AS12213,Centersquare
 AS12488,Krystal Hosting Ltd
 AS12567,GAIJIN NETWORK LTD
@@ -231,7 +234,6 @@ AS23393,NuCDN LLC
 AS23428,ServerForge LLC
 AS23467,New Relic
 AS23473,PAVLOV MEDIA INC
-AS23596,Korea Internet Security Agency
 AS23724,China Telecom Beijing IDC Network
 AS23969,TOT Public Company Limited
 AS24013,SB Professional Services
@@ -311,6 +313,7 @@ AS32221,Baron Services
 AS32244,"""Liquid Web", L.L.C"
 AS32298,Centersquare
 AS32338,Hostiserver Ltd
+AS32604,uwalkin IT Solutions
 AS32708,LoadEdge Limited
 AS32771,DNSimple Corporation
 AS32787,Akamai (Prolexic)
@@ -320,6 +323,7 @@ AS33191,"""Notion Labs", Inc."
 AS33438,Datum
 AS33512,Gateway Processing Services
 AS33905,Akamai International B.V.
+AS34309,Link11 GmbH
 AS34343,Eweka Internet Services B.V.
 AS34655,JWE S.a r.l.
 AS34879,"OOO """"Sovremennye setevye tekhnologii"""""
@@ -532,7 +536,6 @@ AS61165,Mountiela Services LLC
 AS61317,Hivelocity LLC
 AS61455,LACTLD - LATIN AMERICAN AND CARIBBEAN TLD ASSOCIATION
 AS61569,Tribunal Regional Federal da 1a Regiao
-AS61803,Provedor Corporativo Internet Ltda
 AS61881,UNIMED PORTO ALEGRE COOPERATIVA MEDICA LTDA
 AS62153,DotIdea Solutions Inc
 AS62406,DNScale OU
@@ -560,9 +563,10 @@ AS132203,Tencent
 AS132647,Pengelola Nama Domain Internet Indonesia
 AS133050,CNCNA Pty Ltd
 AS133096,MOTHERSHIP
+AS133098,Metropolitan Bank and Trust Company
 AS133175,OZtell
 AS133262,Tracmail I Pvt Ltd
-AS133275,Gigantic Infotel Pvt Ltd
+AS133334,DCTV Cable Network Broadband Services Inc
 AS133504,PAOCLOUD
 AS133775,Xiamen
 AS133800,PT Biznet Gio Nusantara
@@ -578,6 +582,7 @@ AS136907,Huawei Cloud
 AS136934,Bank Of Ceylon
 AS137409,GSL Networks Pty LTD
 AS137785,"""CACloud Services (Shanghai) Co.", Ltd."
+AS138496,"""Inspiro Relia", Inc"
 AS139070,Google Cloud Korea
 AS139299,FGHRSH STUDIO
 AS139341,WeChat/QQ CDN
@@ -586,6 +591,7 @@ AS140070,Adelaide Oval SMA Ltd
 AS140614,"""ASIA-ISP CO.", LIMITED"
 AS141288,National Institute Of Science Education And Research ...
 AS141383,VERGE CLOUD PRIVATE LIMITED
+AS141994,Ocean Wave Communications Philippine Corp.
 AS141995,Contabo Asia Private Limited
 AS142052,Mempool Space K.K.
 AS142057,eMudhra Limited
@@ -647,7 +653,7 @@ AS200510,Kiwazo CommV
 AS200853,Yifan Li
 AS200904,FOXCLOUD LLP
 AS200950,Lyratris Limited
-AS201188,BJT PARTNERS SAS
+AS201188,BJT Partners SAS
 AS201216,Lolo Company AB
 AS201303,CentralNic Ltd
 AS201304,CentralNic Ltd
@@ -748,7 +754,6 @@ AS210753,Tilda Publishing JSC
 AS210756,EdgeCenter LLC
 AS211072,MFI INVESTMENTS LIMITED
 AS211112,Qrator Technologies FZ-LLC
-AS211358,Patrizio Palumbo
 AS211757,Panascais ehf.
 AS212196,Daniel Piekacz
 AS212217,BB-Online UK Ltd
@@ -802,16 +807,19 @@ AS263546,TURBONETT TELECOMUNICACOES LTDA. - ME
 AS263639,AMAZONAS TRIBUNAL DE JUSTICA
 AS264363,Unimed de Bauru - Cooperativa de Trabalho Medico
 AS264798,Secretaria Legal y Tecnica
+AS265020,FUNDACAO INST BRAS DE GEOGRAFIA E ESTATISTICA IBGE
 AS266444,GoCache / 3L CLOUD
 AS267630,UNIVERSIDADE ESTADUAL DO MARANHÃO
 AS268976,Weclix Telecom S/A
 AS269454,FABIO F BARBOSA
 AS269607,SERGIPE MINISTERIO PUBLICO
 AS270034,AKY TELECOM SPA
+AS270328,Justiça Federal de 1º instância em Pernambuco
 AS270807,Bella Janela Ind. de Cortinas Ltda.
 AS270860,Mundial Central de Comércio e Serviços Eirelli
 AS271814,NEXTNET SAC
 AS271967,TURBONET S.A.
+AS272432,MAGAZINE LUIZA S/A
 AS272739,Lider Fibra
 AS272809,"""THUNDERNET", C.A."
 AS272913,MEGALINK S.R.L.
