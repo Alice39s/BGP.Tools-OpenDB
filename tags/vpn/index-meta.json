@@ -1,14 +1,14 @@
 {
-  "timestamp": 1766799527,
+  "timestamp": 1766885979,
   "version": "1.0",
   "tag_name": "vpn",
   "tag_count": 772,
   "actual_entries": 772,
   "stats": {
-    "generated_at": "2025-12-27T01:38:47.827Z"
+    "generated_at": "2025-12-28T01:39:39.610Z"
   },
   "hash_list": {
-    "index-meta.json": "4b94ee15b89063ee88c5f50e764adcaa30dac421ab85f6e7233eace43d4d689d",
+    "index-meta.json": "4afd2bead91661918a6df06655b0a843d6c7ffc73ec3ba4a5529c498439b30b8",
     "tags-vpn.csv": "0aa2ad161c95e8ce080144edd71c9ac1a949199cfb55356ae44cd06ddd62452b"
   }
 }
