@@ -49,7 +49,6 @@ AS2860,"""NOS COMUNICACOES", S.A."
 AS2900,Arizona Tri University Network
 AS3061,ProvDotNet LLC
 AS3164,Astimp IT Solution SRL
-AS3170,VeloxServ Communications Ltd
 AS3209,Vodafone GmbH
 AS3214,xTom GmbH
 AS3215,Orange S.A.
@@ -208,7 +207,6 @@ AS12093,University of Waterloo
 AS12129,"""123.Net", Inc."
 AS12161,"""dao Consulting", LLC"
 AS12271,Charter Communications Inc
-AS12302,Vodafone Romania S.A.
 AS12312,ecotel communication ag
 AS12322,Free SAS
 AS12337,noris network AG
@@ -217,7 +215,6 @@ AS12353,Vodafone Portugal - Communicacoes Pessoais S.A.
 AS12355,HeLi NET Telekommunikation GmbH & Co.
 AS12364,"""University of Macedonia", Economic and Social Sciences"
 AS12400,Partner Communications Ltd.
-AS12430,VODAFONE ESPANA S.A.U.
 AS12479,Orange Espagne SA
 AS12508,Rainside s.r.o.
 AS12552,GlobalConnect (IP-Only)
@@ -329,6 +326,7 @@ AS24164,UNION BROADBAND NETWORK
 AS24282,KAGOYA JAPAN Inc.
 AS24482,SG.GS
 AS24768,"""AlmourolTec", Lda"
+AS24800,BornFiber Service Provider ApS
 AS24875,NovoServe B.V.
 AS24940,Hetzner Online GmbH
 AS24953,NETPLANET GmbH
@@ -554,6 +552,7 @@ AS46690,Frontier Communications
 AS46841,"""Fork Networking", LLC"
 AS46844,Sharktech
 AS46887,Crown Castle Fiber LLC
+AS46979,Madison County Telephone Company
 AS47066,"""prgmr.com", Inc."
 AS47172,Greenhost BV
 AS47325,VPS4You Kft.
@@ -645,6 +644,7 @@ AS57043,HOSTKEY B.V.
 AS57169,EDIS GmbH
 AS57269,DIGI SPAIN TELECOM S.L.
 AS57403,HFM S.R.L
+AS57494,Adman LLC
 AS57717,FiberXpress BV
 AS57811,Redge Technologies sp. z o.o.
 AS57860,Zencurity ApS
@@ -659,6 +659,7 @@ AS58791,"""GMO Internet Group", Inc."
 AS58915,Arktisma Pty Ltd
 AS59253,Leaseweb Singapore Pte. Ltd.
 AS59491,Livenet Sp. z o.o.
+AS59702,Junet AB
 AS59711,HZ Hosting Ltd
 AS59720,Bofiber AS
 AS59729,GREEN FLOID LLC
@@ -677,7 +678,6 @@ AS60900,Adrian Trifonov trading as Ssmidge Technologies
 AS61046,HZ Hosting Ltd
 AS61098,Exoscale (Akenes SA)
 AS61106,PS Cloud Services LLC
-AS61112,AKILE LTD
 AS61125,SABOTAGE LLC
 AS61138,Zappie Host LLC
 AS61157,PlusServer GmbH
@@ -709,10 +709,10 @@ AS63930,Ready Server Pte. Ltd.
 AS63949,Akamai (Linode)
 AS64073,Vetta Online Ltd
 AS64289,Macarne.com
-AS64457,Matteo Fruhwald trading as PipeHost e.U.
 AS131965,Xserver Inc.
 AS131970,Hikarinet Inc.
 AS132203,Tencent
+AS132986,Digital Dreams Consulting Pvt Ltd
 AS133159,Mammoth Media Pty Ltd
 AS133206,DGTEK PTY LTD
 AS133210,EN Technologies Pte Ltd
@@ -729,6 +729,7 @@ AS136258,"""BrainStorm Network", Inc"
 AS137643,MANAGE SERVER
 AS138915,Kaopu Cloud HK Limited
 AS138997,Eons Data Communications Limited
+AS140543,"""ReadyDedis", LLC"
 AS141995,Contabo Asia Private Limited
 AS142036,Hosteons Pte. Ltd.
 AS142594,SpeedyPage Ltd
@@ -737,7 +738,6 @@ AS149440,Evoxt Enterprise
 AS151873,TOTHOST SOLUTIONS AND TECHNOLOGIES COMPANY LIMITED
 AS152992,ONLINE DATA COMPANY LIMITED
 AS153003,Digital Shield Technology Company Limited
-AS154317,VyomCloud
 AS197019,"""WEDOS Internet", a.s."
 AS197071,active 1 GmbH
 AS197226,"""""SPRINT"""" S.A."
@@ -865,7 +865,6 @@ AS210403,Groupe LWS SARL
 AS210457,Kyonix Networks Limited
 AS210558,1337 Services GmbH
 AS210579,Rackhost Zrt.
-AS210644,Aéza International Limited
 AS210731,Forening for DotSrc
 AS210874,Box Broadband Limited
 AS210893,Layered Technologies Limited
@@ -882,7 +881,6 @@ AS212219,HOSTING DUNYAM BILISIM TEKNOLOJILERI TICARET LIMITED ...
 AS212238,Datacamp Limited
 AS212271,Cinzia Tocci trading as Lumanex Srl
 AS212317,Hetzner Cloud - Hillsboro
-AS212441,Cloud assets LLC
 AS212477,RoyaleHosting B.V.
 AS212508,Lowhosting services of Davide Gennari
 AS212531,"UAB """"Interneto vizija"""""
@@ -895,6 +893,7 @@ AS213251,Marcel Andrew Zaiser trading as Metaliance ISP Systems e.k
 AS213281,Greenfiber Internet & Dienste GmbH
 AS213354,INTERNATIONAL HOSTING SOLUTIONS LLP
 AS213373,IP Connect Inc
+AS213426,Danny Lotz
 AS213438,ColocaTel Inc.
 AS213449,Jann-Ole Wagenaar
 AS213468,HD-decor Oy
@@ -949,7 +948,6 @@ AS216107,Noah van der Aa trading as Frumentum Media
 AS216127,INTERNATIONAL HOSTING COMPANY LIMITED
 AS216309,InvisionTech Group S.r.l.
 AS262287,Latitude.sh LTDA
-AS263108,OPANET TELECOMUNICACOES LTDA - ME
 AS263608,WSNET TELECOM LTDA ME
 AS263812,SONDATECH S.A.S.
 AS264617,GRUPO PANAGLOBAL 15 S.A
