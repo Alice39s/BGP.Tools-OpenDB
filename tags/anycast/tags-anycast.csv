@@ -37,7 +37,6 @@ AS3819,EdgePrizm
 AS4455,IX Reach Ltd
 AS4466,"""AT&T Enterprises", LLC"
 AS4515,PCCW IMS Ltd (PCCW Business Internet Access)
-AS4538,China Education and Research Network Center
 AS4739,Internode Pty Ltd
 AS4749,WiseTechGlobal Pty Ltd
 AS4755,TATA Communications (formerly VSNL)
@@ -259,25 +258,21 @@ AS26008,"""Akamai Technologies", Inc."
 AS26073,"""Cofractal", Inc."
 AS26277,ServerPoint.com
 AS26710,ICANN
-AS26984,Universal TelCom LLC
 AS27357,Rackspace Hosting
 AS27515,"""Workday", Inc."
 AS27647,"""Weebly", Inc."
-AS27651,ENTEL CHILE S.A.
 AS27715,Locaweb Serviços de Internet S/A
 AS27792,Wiltel Comunicaciones SA
 AS27872,URBE - Universidad Dr. Rafael Belloso
 AS27882,Telefónica Celular de Bolivia S.A.
 AS27901,Pacifico Cable SPA.
 AS27947,Telconet S.A
-AS27948,CORPORACION NACIONAL DE TELECOMUNICACIONES - CNT EP
 AS28180,DIGITRO TECNOLOGIA LTDA.
 AS28248,BRB - Banco de Brasília S/A
 AS28369,SIGNALLINK INFORMATICA LTDA
 AS28583,RuralWeb Telecomunicações Ltda
 AS28614,Fundacao Universidade Regional de Blumenau
 AS28649,Desktop Sigmanet Comunicação Multimídia SA
-AS28656,Blink Telecom
 AS28753,Leaseweb Deutschland GmbH
 AS29085,Porsche Informatik Gesellschaft m.b.H
 AS29216,Netnod - I-root
@@ -822,8 +817,7 @@ AS270034,AKY TELECOM SPA
 AS270328,Justiça Federal de 1º instância em Pernambuco
 AS270807,Bella Janela Ind. de Cortinas Ltda.
 AS270860,Mundial Central de Comércio e Serviços Eirelli
-AS271814,NEXTNET SAC
-AS271967,TURBONET S.A.
+AS271406,Ultranet / I. L. DE SOUSA
 AS272432,MAGAZINE LUIZA S/A
 AS272739,Lider Fibra
 AS272809,"""THUNDERNET", C.A."
@@ -910,3 +904,4 @@ AS401645,Softoria LLC
 AS401736,Project Daylily
 AS401782,"""Boku", Inc."
 AS401824,Coritan LLC
+AS401859,D3VUR LLC

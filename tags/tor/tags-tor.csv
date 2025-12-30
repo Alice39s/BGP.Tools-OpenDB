@@ -119,7 +119,6 @@ AS6855,"""Slovak Telekom", a.s."
 AS6871,Plusnet plc
 AS6939,Hurricane Electric LLC
 AS7018,"""AT&T Enterprises", LLC"
-AS7029,Windstream Communications LLC
 AS7203,"""Leaseweb USA", Inc."
 AS7303,Telecom Argentina S.A.
 AS7377,"""University of California", San Diego"
@@ -215,6 +214,7 @@ AS12353,Vodafone Portugal - Communicacoes Pessoais S.A.
 AS12355,HeLi NET Telekommunikation GmbH & Co.
 AS12364,"""University of Macedonia", Economic and Social Sciences"
 AS12400,Partner Communications Ltd.
+AS12430,VODAFONE ESPANA S.A.U.
 AS12479,Orange Espagne SA
 AS12508,Rainside s.r.o.
 AS12552,GlobalConnect (IP-Only)
@@ -274,7 +274,6 @@ AS16904,Arvig Enterprises Inc.
 AS17055,University of Utah
 AS17356,"""Vermont Telephone Company", Inc."
 AS17506,ARTERIA Networks Corporation
-AS17511,OPTAGE Inc.
 AS17551,Swoop (Anycast Global Backbone)
 AS17552,True Online
 AS17676,SoftBank Corp.
@@ -309,11 +308,9 @@ AS21100,GREEN FLOID LLC
 AS21211,"""Penkiu kontinentu komunikaciju centras", Ltd."
 AS21334,One Hungary Ltd.
 AS21409,Ikoula Net SAS
-AS21473,PFALZKOM GmbH
 AS21499,Host Europe GmbH
 AS21859,Zenlayer Inc
 AS22295,Advin Services LLC
-AS22296,Vorsk LLC
 AS22555,"""Smart Networks",LLC"
 AS22612,"""Namecheap", Inc."
 AS22773,Cox Communications Inc.
@@ -338,7 +335,6 @@ AS25353,BAR Informatik AG
 AS25400,Telia Norge AS
 AS25512,CD-Telematika a.s.
 AS25795,"""ARP NETWORKS", INC."
-AS25820,IT7 Networks Inc
 AS25853,Ellijay Telephone Company
 AS26042,"""FiberState", LLC"
 AS26068,"""OnShore", Inc."
@@ -426,7 +422,6 @@ AS34263,MPY Telecom Oy
 AS34288,Kantonsschule Zug
 AS34689,Castlegem SRL
 AS34694,Stadtwerke Woergl GmbH
-AS34700,"""Maxnet Telecom", LTD"
 AS34702,Aktsiaselts WaveCom
 AS34779,"""T-2", d.o.o."
 AS34878,Karlsruhe Institute of Technology
@@ -505,6 +500,7 @@ AS42730,EVANZO e-commerce GmbH
 AS42831,UK Dedicated Servers Limited
 AS42927,S-NET Sp. z o.o.
 AS43067,"PE """"Pretcher"""""
+AS43139,Maximum-Net LLC
 AS43150,MK Netzdienste Verwaltungs GmbH trading as MK Netzdie...
 AS43180,Trunk Networks LTD
 AS43289,Trabia SRL
@@ -566,6 +562,7 @@ AS47890,UNMANAGED LTD
 AS47987,Zemlyaniy Dmitro Leonidovich
 AS48014,Albanian Hosting SH.P.K.
 AS48031,Ivanov Vitaliy Sergeevich
+AS48040,Fornex Hosting S.L.
 AS48090,TECHOFF SRV LIMITED
 AS48101,Trooli Ltd.
 AS48239,Scientific-Production Enterprise Information Technolo...
@@ -592,7 +589,6 @@ AS49981,WorldStream B.V.
 AS50066,Serious Tubes Networks
 AS50266,Odido Netherlands B.V.
 AS50304,Blix Solutions AS
-AS50340,Selectel - Moscow
 AS50360,Tamatiya EOOD
 AS50436,Tele Columbus AG
 AS50606,Horyzont Technologie Internetowe sp.z.o.o.
@@ -609,6 +605,7 @@ AS51202,NUXOA GmbH
 AS51290,BARTOSZ WASZAK trading as HOSTEAM S.C. TOMASZ GROSZEW...
 AS51395,Datasource AG
 AS51396,Pfcloud UG (haftungsbeschrankt)
+AS51430,AltusHost B.V.
 AS51659,LLC Baxet
 AS51765,Oy Crea Nova Hosting Solution Ltd
 AS51852,Private Layer INC
@@ -644,7 +641,6 @@ AS57043,HOSTKEY B.V.
 AS57169,EDIS GmbH
 AS57269,DIGI SPAIN TELECOM S.L.
 AS57403,HFM S.R.L
-AS57494,Adman LLC
 AS57717,FiberXpress BV
 AS57811,Redge Technologies sp. z o.o.
 AS57860,Zencurity ApS
@@ -658,8 +654,8 @@ AS58487,CV Rumahweb Indonesia
 AS58791,"""GMO Internet Group", Inc."
 AS58915,Arktisma Pty Ltd
 AS59253,Leaseweb Singapore Pte. Ltd.
+AS59444,Andrzej Szreter AMSNET
 AS59491,Livenet Sp. z o.o.
-AS59702,Junet AB
 AS59711,HZ Hosting Ltd
 AS59720,Bofiber AS
 AS59729,GREEN FLOID LLC
@@ -738,6 +734,7 @@ AS149440,Evoxt Enterprise
 AS151873,TOTHOST SOLUTIONS AND TECHNOLOGIES COMPANY LIMITED
 AS152992,ONLINE DATA COMPANY LIMITED
 AS153003,Digital Shield Technology Company Limited
+AS154317,VyomCloud
 AS197019,"""WEDOS Internet", a.s."
 AS197071,active 1 GmbH
 AS197226,"""""SPRINT"""" S.A."
@@ -824,6 +821,7 @@ AS205100,F3 Netze e.V.
 AS205235,Labitat
 AS205449,DevNet Oy
 AS205714,Telemach Hrvatska d.o.o.
+AS205771,OCTAPLUS NETWORKS LTD
 AS206075,Hollander & Jacobsen UG (haftungsbeschraenkt)
 AS206125,Nicklas Yli-Länttä
 AS206236,default gateway UG (haftungsbeschraenkt)
@@ -856,6 +854,7 @@ AS209605,UAB Host Baltic
 AS209630,LLC VASH KREDIT BANK
 AS209641,I-SERVERS LTD
 AS209825,Katanytsia Lyubov Viktorivna
+AS209835,Despliegue de Redes de Telecomunicaciones S.L.
 AS209847,WorkTitans B.V.
 AS210083,Privex Inc.
 AS210100,Adam Chodkowski
