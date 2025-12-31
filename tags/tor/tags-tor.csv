@@ -40,6 +40,7 @@ AS2033,Panix
 AS2108,Croatian Academic and Research Network
 AS2116,GLOBALCONNECT AS
 AS2119,Telenor Norge AS
+AS2497,Internet Initiative Japan Inc.
 AS2516,KDDI Corporation
 AS2603,NORDUnet
 AS2611,BELNET
@@ -58,6 +59,7 @@ AS3242,REEVO S.P.A.
 AS3243,MEO
 AS3249,Telia Eesti AS
 AS3257,GTT Communications Inc.
+AS3258,xTom Japan
 AS3269,TIM S.p.A. (fka. Telecom Italia S.p.A.)
 AS3292,TDC Holding A/S
 AS3301,Telia Company AB
@@ -119,6 +121,7 @@ AS6855,"""Slovak Telekom", a.s."
 AS6871,Plusnet plc
 AS6939,Hurricane Electric LLC
 AS7018,"""AT&T Enterprises", LLC"
+AS7029,Windstream Communications LLC
 AS7203,"""Leaseweb USA", Inc."
 AS7303,Telecom Argentina S.A.
 AS7377,"""University of California", San Diego"
@@ -170,6 +173,7 @@ AS9050,Orange Romania S.A.
 AS9063,VSE NET GmbH
 AS9123,"JSC """"TIMEWEB"""""
 AS9136,WOBCOM GmbH
+AS9141,P4 Sp. z o.o.
 AS9145,EWE TEL GmbH
 AS9269,Hong Kong Broadband Network Ltd.
 AS9286,KINX
@@ -274,6 +278,7 @@ AS16904,Arvig Enterprises Inc.
 AS17055,University of Utah
 AS17356,"""Vermont Telephone Company", Inc."
 AS17506,ARTERIA Networks Corporation
+AS17511,OPTAGE Inc.
 AS17551,Swoop (Anycast Global Backbone)
 AS17552,True Online
 AS17676,SoftBank Corp.
@@ -311,6 +316,7 @@ AS21409,Ikoula Net SAS
 AS21499,Host Europe GmbH
 AS21859,Zenlayer Inc
 AS22295,Advin Services LLC
+AS22296,Vorsk LLC
 AS22555,"""Smart Networks",LLC"
 AS22612,"""Namecheap", Inc."
 AS22773,Cox Communications Inc.
@@ -349,6 +355,7 @@ AS26801,"""Zito Media", L.P."
 AS26832,Rica Web Services
 AS27176,DataWagon LLC
 AS27284,Fourplex Telecom LLC
+AS27364,Armstrong
 AS27411,"""Leaseweb USA", Inc."
 AS27631,PANGAEA
 AS27651,ENTEL CHILE S.A.
@@ -400,7 +407,6 @@ AS32244,"""Liquid Web", L.L.C"
 AS32338,Hostiserver Ltd
 AS33083,AxcelX Technologies LLC
 AS33255,Hampden-Sydney College
-AS33363,"""Charter Communications", Inc"
 AS33387,"""Nocix", LLC"
 AS33566,Knoxville Utilities Board
 AS33588,Charter Communications LLC
@@ -431,7 +437,6 @@ AS35100,Patrik Lagerman
 AS35179,Korbank S. A.
 AS35366,ISPpro Internet KG
 AS35369,LINZ STROM GAS WAERME GmbH fuer Energiedienstleistung...
-AS35425,IOMART MANAGED SERVICES LIMITED
 AS35426,NXT Initiative SAS
 AS35434,PirxNet Grzegorz Bialas
 AS35470,Signet B.V.
@@ -444,6 +449,7 @@ AS36007,"""Kamatera", Inc."
 AS36149,"""Hawaiian Telcom Services Company", Inc."
 AS36352,HostPapa
 AS36375,University of Michigan
+AS36680,Netiface LLC
 AS36849,1st Amendment Encrypted Openness LLC
 AS36850,University of North Carolina at Chapel Hill
 AS37680,Cool Ideas Service Provider (Pty) Ltd
@@ -462,7 +468,6 @@ AS39409,Sebastian-Wilhelm Graf
 AS39421,Sapinet SAS
 AS39484,Pirkan Opiskelija-asunnot Oy
 AS39519,WIIT AG
-AS39572,DataWeb Global Group B.V.
 AS39603,P4 Sp. z o.o.
 AS39622,ZERGRUSH SRL
 AS39642,Norlys Digital A/S
@@ -589,6 +594,7 @@ AS49981,WorldStream B.V.
 AS50066,Serious Tubes Networks
 AS50266,Odido Netherlands B.V.
 AS50304,Blix Solutions AS
+AS50340,Selectel - Moscow
 AS50360,Tamatiya EOOD
 AS50436,Tele Columbus AG
 AS50606,Horyzont Technologie Internetowe sp.z.o.o.
@@ -605,7 +611,6 @@ AS51202,NUXOA GmbH
 AS51290,BARTOSZ WASZAK trading as HOSTEAM S.C. TOMASZ GROSZEW...
 AS51395,Datasource AG
 AS51396,Pfcloud UG (haftungsbeschrankt)
-AS51430,AltusHost B.V.
 AS51659,LLC Baxet
 AS51765,Oy Crea Nova Hosting Solution Ltd
 AS51852,Private Layer INC
@@ -615,7 +620,6 @@ AS52173,Sia Nano IT
 AS52284,Panamaserver.com
 AS52423,Data Miners S.A. ( Racknation.cr )
 AS53340,FiberHub (VegasNAP)
-AS53486,Niagara Regional Broadband Networks Limited
 AS53667,FranTech Solutions
 AS53850,"""GorillaServers", Inc."
 AS53914,"""Genesis Hosting Solutions", LLC"
@@ -869,6 +873,7 @@ AS210874,Box Broadband Limited
 AS210893,Layered Technologies Limited
 AS210976,"""Timeweb", LLP"
 AS211301,Collin Schneeweiss trading as Unesty Company
+AS211381,Podaon SIA
 AS211462,Andrei Tiberiu Holt
 AS211507,Julian Achter
 AS211619,MAXKO d.o.o.
@@ -880,6 +885,7 @@ AS212219,HOSTING DUNYAM BILISIM TEKNOLOJILERI TICARET LIMITED ...
 AS212238,Datacamp Limited
 AS212271,Cinzia Tocci trading as Lumanex Srl
 AS212317,Hetzner Cloud - Hillsboro
+AS212441,Cloud assets LLC
 AS212477,RoyaleHosting B.V.
 AS212508,Lowhosting services of Davide Gennari
 AS212531,"UAB """"Interneto vizija"""""
@@ -892,10 +898,10 @@ AS213251,Marcel Andrew Zaiser trading as Metaliance ISP Systems e.k
 AS213281,Greenfiber Internet & Dienste GmbH
 AS213354,INTERNATIONAL HOSTING SOLUTIONS LLP
 AS213373,IP Connect Inc
-AS213426,Danny Lotz
 AS213438,ColocaTel Inc.
 AS213449,Jann-Ole Wagenaar
 AS213468,HD-decor Oy
+AS213520,Senko Digital Ltd
 AS213725,03AI LTD
 AS213873,MOJI SAS
 AS213887,WAIcore Ltd
@@ -922,10 +928,12 @@ AS214961,Stellar Group SAS
 AS214967,"""Optibounce", LLC"
 AS214996,netcup GmbH - Manassas
 AS215120,Evolus IT Solutions GmbH
+AS215124,FLEXICORE SASU
 AS215125,Church of Cyberology
 AS215248,Bastiaan Mathijs Brink
 AS215288,Michele Branchini
 AS215296,Raoul Brouns
+AS215311,Regxa Company for Information Technology Ltd
 AS215362,Promo Plus SRL
 AS215381,ROCKHOSTER PRIVATE LIMITED
 AS215467,Skhron OU
