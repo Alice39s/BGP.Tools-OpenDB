@@ -34,6 +34,7 @@ AS3462,HiNet (Chunghwa Telecom)
 AS3549,Lumen (fka. Global Crossing)
 AS3557,ISC - F-root
 AS3819,EdgePrizm
+AS4181,TDS TELECOM
 AS4455,IX Reach Ltd
 AS4466,"""AT&T Enterprises", LLC"
 AS4515,PCCW IMS Ltd (PCCW Business Internet Access)
@@ -46,6 +47,7 @@ AS4847,China Telecom Beijing Province Network
 AS4892,"""APPLIED SYSTEMS", INC"
 AS4901,The George Washington University
 AS5555,Sohonet Limited
+AS5650,Frontier Communications
 AS5696,Express Scripts Incorporated
 AS5927,United States Department of Defense (DoD)
 AS6185,Apple Inc.
@@ -62,6 +64,7 @@ AS7500,WIDE Project - M-root
 AS7578,Global Secure Layer
 AS7623,Gyeongbuk Cable TV
 AS7633,Software Technology Parks of India - Bangalore
+AS7896,The Board of Regents of the University of Nebraska
 AS7979,"""Servers.com", Inc."
 AS8025,BrightNet Oklahoma
 AS8038,"""6connect", Inc."
@@ -164,7 +167,6 @@ AS16839,"""SERVICENOW", INC."
 AS16876,ICANN
 AS16909,imput
 AS17012,"""PayPal", Inc."
-AS17069,Coop Telefonica Villa Gesell Ltda
 AS17138,Matt Peterman Sole Proprietor
 AS17275,Federal Home Loan Mortgage Corporation
 AS17378,"""TierPoint", LLC"
@@ -201,7 +203,6 @@ AS20021,"""Ntirety", Inc."
 AS20077,IPNetZone
 AS20144,ICANN - L-root
 AS20326,TeraSwitch Networks Inc.
-AS20385,AccessLine Communications Corp.
 AS20473,"""The Constant Company", LLC"
 AS20756,NAMESHIELD SAS
 AS20940,Akamai International B.V.
@@ -264,7 +265,6 @@ AS27647,"""Weebly", Inc."
 AS27715,Locaweb Serviços de Internet S/A
 AS27792,Wiltel Comunicaciones SA
 AS27872,URBE - Universidad Dr. Rafael Belloso
-AS27901,Pacifico Cable SPA.
 AS27947,Telconet S.A
 AS28180,DIGITRO TECNOLOGIA LTDA.
 AS28248,BRB - Banco de Brasília S/A
@@ -400,7 +400,6 @@ AS44709,O.M.C. COMPUTERS & COMMUNICATIONS LTD
 AS44788,Criteo Technology SAS
 AS44932,Fannavaran-e Idea Pardaz-e Saba PJSC
 AS45102,"""Alibaba (US) Technology Co.", Ltd."
-AS45474,NEXUSGUARD LIMITED
 AS45513,Samespace India Pvt. Ltd.
 AS45526,"""UGAM SOLUTIONS PVT LTD","
 AS45758,Triple T Broadband Public Company Limited
@@ -450,7 +449,6 @@ AS52112,Gentlent GmbH
 AS52224,LACNIC - Latin American and Caribbean IP address
 AS52234,NIC Chile
 AS52304,NIC Chile
-AS52468,UFINET PANAMA S.A.
 AS52580,Azion Technologies Ltda.
 AS52620,BRASIL NORTE BEBIDAS S/A
 AS52795,ONE TELECOM TELECOMUNICACOES LTDA
@@ -473,7 +471,6 @@ AS53831,"""Squarespace", Inc."
 AS53847,Cedexis Inc
 AS54113,"""Fastly", Inc."
 AS54148,Dynamic Quantum Networks
-AS54266,"""ABC Financial Services", Inc."
 AS54290,Hostwinds LLC.
 AS54406,Convermax Corp
 AS54456,"""CloudAccess.net", LLC"
@@ -565,6 +562,7 @@ AS133096,MOTHERSHIP
 AS133098,Metropolitan Bank and Trust Company
 AS133175,OZtell
 AS133262,Tracmail I Pvt Ltd
+AS133269,Fiberpipe communications pvt. ltd
 AS133334,DCTV Cable Network Broadband Services Inc
 AS133504,PAOCLOUD
 AS133775,Xiamen
@@ -582,6 +580,7 @@ AS136934,Bank Of Ceylon
 AS137409,GSL Networks Pty LTD
 AS137785,"""CACloud Services (Shanghai) Co.", Ltd."
 AS138496,"""Inspiro Relia", Inc"
+AS139057,Legend Dynasty Pte. Ltd.
 AS139070,Google Cloud Korea
 AS139299,FGHRSH STUDIO
 AS139341,WeChat/QQ CDN
@@ -610,7 +609,6 @@ AS151332,CoinJar Pty Ltd
 AS151336,Verge
 AS151361,THE CUBICLEREBELS PTE LTD
 AS151397,China Telecom
-AS151485,CEYLON ELECTRICITY BOARD
 AS152162,5centsCDN Inc
 AS152508,BHARAT DATA SERVICES PVT LTD
 AS152594,NA
@@ -660,7 +658,6 @@ AS201595,mono solutions ApS
 AS201612,nic.at GmbH
 AS201839,Zaymer PJSC
 AS201910,Pragma Security SASU
-AS202269,BitCommand LLC
 AS202319,Hezardastan Unit Cloud Computing PJSC
 AS202422,G-Core Labs S.A.
 AS202540,Christopher Stephens
@@ -722,7 +719,6 @@ AS208260,Daniel Stocker
 AS208366,Stefan Pattberg trading as DENIC Services GmbH & Co. KG
 AS208398,Edge Technology Plus (Yandex)
 AS208414,"""WEDOS Internet", a.s."
-AS208626,ServTech LTD
 AS208754,XingRui Li
 AS208759,nzt.ventures GmbH
 AS208800,G42 CLOUD TECHNOLOGY L.L.C.
@@ -809,17 +805,18 @@ AS263320,Sansara Telecom
 AS263546,TURBONETT TELECOMUNICACOES LTDA. - ME
 AS263639,AMAZONAS TRIBUNAL DE JUSTICA
 AS264363,Unimed de Bauru - Cooperativa de Trabalho Medico
+AS264693,INSTITUCION UNIVERSITARIA VISION DE LAS AMERICAS
 AS264798,Secretaria Legal y Tecnica
 AS265020,FUNDACAO INST BRAS DE GEOGRAFIA E ESTATISTICA IBGE
 AS266444,GoCache / 3L CLOUD
 AS267630,UNIVERSIDADE ESTADUAL DO MARANHÃO
+AS267798,GENERACION WI-FI SA
 AS268976,Weclix Telecom S/A
 AS269454,FABIO F BARBOSA
 AS269607,SERGIPE MINISTERIO PUBLICO
 AS270034,AKY TELECOM SPA
 AS270328,Justiça Federal de 1º instância em Pernambuco
 AS270807,Bella Janela Ind. de Cortinas Ltda.
-AS270860,Mundial Central de Comércio e Serviços Eirelli
 AS271406,Ultranet / I. L. DE SOUSA
 AS272432,MAGAZINE LUIZA S/A
 AS272739,Lider Fibra
