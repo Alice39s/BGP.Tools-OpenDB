@@ -353,6 +353,7 @@ AS27843,WIN Empresas S.A.C
 AS27884,CABLECOLOR S.A.
 AS28126,BRISANET SERVICOS DE TELECOMUNICACOES S.A
 AS28146,MHNET TELECOM
+AS28151,Datora Telecomunicações Ltda.
 AS28165,Wireless Comm Services LTDA
 AS28166,TESA - Telecom South America
 AS28189,NOVVACORE
@@ -459,6 +460,7 @@ AS38896,PT Centra Global Investama
 AS39120,Convergenze S.p.A.
 AS39122,Blacknight Internet Solutions Limited
 AS39194,Vakka-Suomen Puhelin Oy
+AS39201,WaveCom Informatikai Kft.
 AS39216,AL-SARD FIBER Co.
 AS39326,Syntura Group Limited
 AS39602,The Cent.re Group Limited
@@ -570,6 +572,7 @@ AS52056,Lounea (ex. Härkätien Puhelin)
 AS52320,V.tal (GlobeNet)
 AS52660,e.serv informatica e tecnologia ltda.
 AS52839,RSS SOCIEDADE CIVIL LTDA
+AS52948,INTERNEITH INTERNET LTDA
 AS52999,START TELECOM LTDA
 AS53013,WIXNET DO BRASIL LTDA - ME
 AS53019,Yo Telecom / INFOTEC
@@ -714,6 +717,7 @@ AS134127,PT Zona Sejahtera Mandiri
 AS134146,SAM ONLINE
 AS134220,Lightwire LTD
 AS134489,S. B Link Network
+AS134505,Ideal Communication Network
 AS134506,DNET
 AS134630,PT Palapa Global Nusantara
 AS134640,PT DCI Indonesia
@@ -766,7 +770,7 @@ AS136861,PT Artamedia Citra Telematika Indonesia
 AS136865,PT Foura Inti Sinergi
 AS136869,PT Lima Menara Bintang
 AS136873,PT Mega Artha Lintas Data
-AS136874,PT. Garuda Media Telematika
+AS136874,PT Garuda Media Telematika
 AS136879,PT Media Jaringan Indonesia
 AS136885,PT Bintang Mataram Teknologi
 AS137000,VIJAYALAKSHMI NET SERVICES PVT LTD
@@ -969,6 +973,7 @@ AS147097,PT Jangkau Lintas Nusantara
 AS147101,PT Lintas Teknologi Solusindo
 AS147113,PT Eyza Kausa Sinergi Abadi
 AS147120,PT Myarsyila Indonesia Interkoneksi
+AS147121,PT Marva Global Telekomunikasi
 AS147126,PT Patra Sinar Teknologi
 AS147131,PT Global Sarana Elektronika
 AS147132,PT Mafianet Akses Media
@@ -1033,6 +1038,7 @@ AS150235,PT Insolikh Jaringan Multimedia
 AS150242,PT Kampung Dua Net
 AS150243,CV. KHALISTA GROUP
 AS150253,PT Fins Mediatechno Nusantara
+AS150256,PT Interkoneksi Jaringan Data Nusantar
 AS150257,PT Telindo Flash Mediatama
 AS150261,PT Cybermedia Network Nusantara
 AS150262,PT Juli Digital Nusantara
@@ -1137,7 +1143,7 @@ AS153582,PT INFINITY GLOBAL DATA NUSANTARA
 AS153615,PT Lentera Abadi Solusinet
 AS153664,PT Naomi Aurora Teknologi
 AS153667,SADAT INTERNET
-AS153820,PT EXA TELEKOMUNIKASI NUSANTARA
+AS153820,PT Exa Telekomunikasi Indonesia
 AS153856,ZZNET
 AS153887,PT DASA INFRA INDONESIA
 AS153910,PT Ryza Data Nusantara
@@ -1214,7 +1220,7 @@ AS208041,Rafal Rajba trading as INTERTELL
 AS208152,Cloud Networks B.V.
 AS208189,AllPoints Fibre Networks Limited
 AS208594,Netbone Telekomunikasyon A.S.
-AS208599,Lounea Palvelut Oy
+AS208599,Lounea (ex. Kalajoen Kuitu)
 AS208819,Uwe Zillner trading as Zillner IT
 AS208972,GIBIRNet Iletisim
 AS209551,Amisol GmbH
@@ -1300,7 +1306,9 @@ AS267490,C e B do Amaral Comunicacao - ME
 AS267811,FRESH TECHS C.A.
 AS268036,REDE NEWTRA TELECOMUNICACOES LTDA - ME
 AS268042,JETNET COMUNICACAO LTDA
+AS268269,Seitel Network
 AS268917,N W INFORMATICA LTDA-ME
+AS269025,Nova Rede Ltda
 AS269096,NORTH TECNOLOGIA
 AS269180,VIPNET Conexão
 AS269475,STI TELECOM
@@ -1378,6 +1386,7 @@ AS396422,3ds Communications LLC
 AS396952,"""Net253", LLC"
 AS397412,Tachus Fiber Internet
 AS397732,"""Net Vision Communications", LLC"
+AS398035,SkyNet Communications LLC
 AS398113,Gateway Fiber LLC
 AS398143,Great Lakes Energy Connections Inc.
 AS398420,"""Tishomingo Connect", LLC"

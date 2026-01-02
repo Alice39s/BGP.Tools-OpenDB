@@ -1,14 +1,14 @@
 {
-  "timestamp": 1767231629,
+  "timestamp": 1767317974,
   "version": "1.0",
   "tag_name": "dsl",
-  "tag_count": 3137,
-  "actual_entries": 3137,
+  "tag_count": 3160,
+  "actual_entries": 3160,
   "stats": {
-    "generated_at": "2026-01-01T01:40:29.430Z"
+    "generated_at": "2026-01-02T01:39:34.988Z"
   },
   "hash_list": {
-    "index-meta.json": "24f59f8ebdec1c4ddb02d19b286e538746079f0f5d64139d2a9db70bacb42054",
-    "tags-dsl.csv": "be06cde5cd5ca0c3e49eedc333f536a9dbc5b8b064461322ab34a665cb294bca"
+    "index-meta.json": "57846cb5d4127548f312179e75cc2af39327e9b48f373b2b389d9694b7811992",
+    "tags-dsl.csv": "2e24fd62d6ab87f2512d8fd7dc66672c550cd00f85f4bc0d9f99bcfde40caaf9"
   }
 }

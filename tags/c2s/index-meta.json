@@ -1,14 +1,14 @@
 {
-  "timestamp": 1767231629,
+  "timestamp": 1767317974,
   "version": "1.0",
   "tag_name": "c2s",
   "tag_count": 2,
   "actual_entries": 2,
   "stats": {
-    "generated_at": "2026-01-01T01:40:29.472Z"
+    "generated_at": "2026-01-02T01:39:35.029Z"
   },
   "hash_list": {
-    "index-meta.json": "9021ae94810ccdceda0ae14fdadf78142c56d8477bdc0679ebcfa38925acb362",
-    "tags-c2s.csv": "9c312006e33b1b0d870cf6bba3f583138cfde45972146022e8c224a6a6b2723f"
+    "index-meta.json": "eaf0c578d9e382dec0ae45b282a7efb5d9ea479233874bc9915e26816ce359f1",
+    "tags-c2s.csv": "333bb190257f15b046d044b209a04fe85c75327c437e01e076e1504d6e77a5e8"
   }
 }
