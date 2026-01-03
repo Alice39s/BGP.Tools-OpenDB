@@ -15,6 +15,7 @@ AS803,Saskatchewan Telecommunications
 AS852,TELUS Communications Inc.
 AS855,Bell Canada
 AS924,Cloudie Networks LLC
+AS1002,Bytefilter LLC
 AS1101,SURF (Thunderlab)
 AS1102,SURF B.V.
 AS1103,SURF B.V.
@@ -40,6 +41,7 @@ AS2033,Panix
 AS2108,Croatian Academic and Research Network
 AS2116,GLOBALCONNECT AS
 AS2119,Telenor Norge AS
+AS2497,Internet Initiative Japan Inc.
 AS2516,KDDI Corporation
 AS2527,Sony Network Communications Inc.
 AS2603,NORDUnet
@@ -215,6 +217,7 @@ AS12338,Euskaltel S.A.
 AS12353,Vodafone Portugal - Communicacoes Pessoais S.A.
 AS12355,HeLi NET Telekommunikation GmbH & Co.
 AS12364,"""University of Macedonia", Economic and Social Sciences"
+AS12400,Partner Communications Ltd.
 AS12430,VODAFONE ESPANA S.A.U.
 AS12479,Orange Espagne SA
 AS12508,Rainside s.r.o.
@@ -255,6 +258,7 @@ AS14956,RouterHosting LLC
 AS15435,DELTA Fiber Nederland B.V.
 AS15502,Vodafone Ireland Limited
 AS15547,netplus.ch SA
+AS15557,SFR SA
 AS15600,Quickline AG
 AS15614,Dragon Internet a.s.
 AS15626,GREEN FLOID LLC
@@ -406,7 +410,6 @@ AS32244,"""Liquid Web", L.L.C"
 AS32338,Hostiserver Ltd
 AS33083,AxcelX Technologies LLC
 AS33255,Hampden-Sydney College
-AS33363,"""Charter Communications", Inc"
 AS33387,"""Nocix", LLC"
 AS33566,Knoxville Utilities Board
 AS33588,Charter Communications LLC
@@ -426,7 +429,6 @@ AS34259,"TOV """"Highload Systems"""""
 AS34263,MPY Telecom Oy
 AS34288,Kantonsschule Zug
 AS34689,Castlegem SRL
-AS34694,Stadtwerke Woergl GmbH
 AS34700,"""Maxnet Telecom", LTD"
 AS34702,Aktsiaselts WaveCom
 AS34779,"""T-2", d.o.o."
@@ -468,6 +470,7 @@ AS39409,Sebastian-Wilhelm Graf
 AS39421,Sapinet SAS
 AS39484,Pirkan Opiskelija-asunnot Oy
 AS39519,WIIT AG
+AS39603,P4 Sp. z o.o.
 AS39622,ZERGRUSH SRL
 AS39642,Norlys Digital A/S
 AS39699,Lounea Palvelut Oy
@@ -605,7 +608,6 @@ AS50840,Marek Bajerski trading as HITME.PL
 AS50979,GREEN FLOID LLC
 AS51167,Contabo GmbH
 AS51175,Multiplay Sp. z o.o.
-AS51202,NUXOA GmbH
 AS51290,BARTOSZ WASZAK trading as HOSTEAM S.C. TOMASZ GROSZEW...
 AS51395,Datasource AG
 AS51396,Pfcloud UG (haftungsbeschrankt)
@@ -645,10 +647,10 @@ AS57043,HOSTKEY B.V.
 AS57169,EDIS GmbH
 AS57269,DIGI SPAIN TELECOM S.L.
 AS57403,HFM S.R.L
+AS57494,Adman LLC
 AS57717,FiberXpress BV
 AS57811,Redge Technologies sp. z o.o.
 AS57860,Zencurity ApS
-AS58010,uvensys GmbH
 AS58061,Scalaxy B.V.
 AS58087,Florian Kolb
 AS58212,dataforest GmbH
@@ -679,7 +681,6 @@ AS60900,Adrian Trifonov trading as Ssmidge Technologies
 AS61046,HZ Hosting Ltd
 AS61098,Exoscale (Akenes SA)
 AS61106,PS Cloud Services LLC
-AS61112,AKILE LTD
 AS61125,SABOTAGE LLC
 AS61138,Zappie Host LLC
 AS61157,PlusServer GmbH
@@ -712,7 +713,6 @@ AS63930,Ready Server Pte. Ltd.
 AS63949,Akamai (Linode)
 AS64073,Vetta Online Ltd
 AS64289,Macarne.com
-AS64457,Matteo Fruhwald trading as PipeHost e.U.
 AS131965,Xserver Inc.
 AS131970,Hikarinet Inc.
 AS132203,Tencent
@@ -740,6 +740,7 @@ AS142594,SpeedyPage Ltd
 AS147181,Flarezen Ltd.
 AS149440,Evoxt Enterprise
 AS151873,TOTHOST SOLUTIONS AND TECHNOLOGIES COMPANY LIMITED
+AS152992,ONLINE DATA COMPANY LIMITED
 AS153003,Digital Shield Technology Company Limited
 AS154317,VyomCloud
 AS197019,"""WEDOS Internet", a.s."
@@ -845,7 +846,6 @@ AS207143,hosttech GmbH
 AS207252,Felix Gassan
 AS207459,TEKNOSOS BILISIM HIZMETLERI VE TIC. LTD. STI.
 AS207483,Netvia Bilisim Yazilim Dan. Tic. Ltd. Sti.
-AS207503,neu-medianet GmbH
 AS207799,BOTANY SRL
 AS207916,Velocity1 Limited
 AS207957,SERV.HOST GROUP LTD
@@ -864,6 +864,7 @@ AS209630,LLC VASH KREDIT BANK
 AS209641,I-SERVERS LTD
 AS209825,Katanytsia Lyubov Viktorivna
 AS209847,WorkTitans B.V.
+AS210079,EuroByte LLC
 AS210083,Privex Inc.
 AS210100,Adam Chodkowski
 AS210152,Jon Arve Vanvik
@@ -935,7 +936,6 @@ AS215125,Church of Cyberology
 AS215248,Bastiaan Mathijs Brink
 AS215288,Michele Branchini
 AS215296,Raoul Brouns
-AS215311,Regxa Company for Information Technology Ltd
 AS215362,Promo Plus SRL
 AS215381,ROCKHOSTER PRIVATE LIMITED
 AS215467,Skhron OU
@@ -946,7 +946,6 @@ AS215703,ALEXANDRU VLAD trading as FREAKHOSTING
 AS215730,H2NEXUS LTD
 AS215733,Blacknight Internet Solutions Limited
 AS215762,Bullet Group LTD
-AS215859,Hetzner Cloud - Singapore
 AS215904,HostingBazis Beteti Tarsasag
 AS215925,VPSVAULT.HOST LTD
 AS215960,Hollander & Jacobsen UG (haftungsbeschraenkt)
@@ -986,11 +985,13 @@ AS396362,"""Leaseweb USA", Inc."
 AS396507,Emerald Onion
 AS396527,Massachusetts Institute of Technology
 AS396982,Google Cloud Platform
+AS397162,Sumofiber
 AS398101,"""GoDaddy.com", LLC"
 AS398242,Prentiss County Electric Power Association
 AS398493,System In Place
 AS398721,OXIO
 AS399122,VPS House Technology Group LLC
+AS399275,Solid Systems LLC
 AS399334,Skysilk
 AS399486,Virtuo
 AS399493,Petit Jean Fiber
@@ -1013,6 +1014,5 @@ AS401401,Unredacted Inc
 AS401486,RAVNIX LLC
 AS401604,Colocataires Inc.
 AS401652,"""FOREVER BUCKET", INC."
-AS401696,cognetcloud INC
 AS401736,Project Daylily
 AS401833,AXNET LLC

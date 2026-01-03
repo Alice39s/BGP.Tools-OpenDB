@@ -190,7 +190,6 @@ AS6356,University of Florida
 AS6360,University of Hawaii
 AS6366,Portland State University
 AS6429,Telmex Chile Internet S.A.
-AS6461,Zayo Bandwidth
 AS6482,Thryv
 AS6510,Brigham Young University
 AS6619,SamsungSDS Inc.
@@ -325,8 +324,6 @@ AS11078,Brown University
 AS11105,Simon Fraser University
 AS11106,"""Wolfram Research", Inc."
 AS11207,"""Boston Globe Media Partners", LLC"
-AS11273,"""Fiserv Solutions", LLC"
-AS11278,Nintendo Of America inc.
 AS11279,George Mason University
 AS11403,NYI
 AS11406,CIGNA
@@ -526,7 +523,6 @@ AS22414,"""Craigslist", Inc."
 AS22427,GNET INC.
 AS22548,Núcleo de Informação e Coordenação do Ponto BR - NIC.BR
 AS22552,eSited Solutions
-AS22604,Disney Streaming Services
 AS22611,"""InMotion Hosting", Inc."
 AS22612,"""Namecheap", Inc."
 AS22652,Videotron Ltee
@@ -540,6 +536,7 @@ AS23033,Wowrack.com
 AS23162,University of Kentucky
 AS23352,DEFT.COM
 AS23393,NuCDN LLC
+AS23498,Beanfield Technologies Inc.
 AS23576,NAVER Cloud Corp.
 AS23616,"""Hitachi Systems", Ltd."
 AS23693,PT. Telekomunikasi Selular
@@ -548,9 +545,11 @@ AS23816,Yahoo Japan Corporation
 AS23820,"""Rakuten Group", Inc."
 AS24020,"""University ITM", Shah Alam, Selangor Malaysia"
 AS24151,China Internet Network Infomation Center
+AS24154,"""Asia Pacific Broadband Fixed Lines Co.", Ltd."
 AS24211,PT Detik Ini Juga
 AS24247,PacketFabric (Hong Kong) Limited
 AS24282,KAGOYA JAPAN Inc.
+AS24400,"""Shanghai Mobile Communications Co.",Ltd."
 AS24429,Alibaba Cloud
 AS24436,University of Queensland
 AS24462,Network Management Section
@@ -646,7 +645,6 @@ AS29992,U.S. Department of Veterans Affairs
 AS30083,velia.net
 AS30148,Sucuri
 AS30193,Los Angeles Unified School District
-AS30217,Desync Networks
 AS30313,Internal Revenue Service
 AS30320,"""Kia America", Inc."
 AS30383,General Motors LLC
@@ -665,6 +663,7 @@ AS31151,PERFORMANCE HORIZON GROUP LIMITED
 AS31174,AO RAIFFEISENBANK
 AS31200,Novotelecom Ltd
 AS31229,Beyond.pl sp. z o.o.
+AS31313,Serviciul de Telecomunicatii Speciale
 AS31483,"JSC """"ER-Telecom Holding"""""
 AS31549,Aria Shatel PJSC
 AS31621,Allegro sp. z o.o.
@@ -732,9 +731,11 @@ AS35293,E-Card Ltd.
 AS35338,Ministry of Interior
 AS35415,Webzilla B.V.
 AS35673,JSC Kaspi Bank
+AS35676,La Poste S.A.
 AS35704,ITZBund
 AS35728,MTS PJSC
 AS35739,Bayerischer Rundfunk
+AS35819,"""Etihad Etisalat", a joint stock company"
 AS36154,THE WESTERN UNION COMPANY
 AS36323,Ezri Inc
 AS36351,IBM Cloud
@@ -744,6 +745,7 @@ AS36646,Yahoo Holdings Inc.
 AS36647,Yahoo Holdings Inc.
 AS36692,"""Cisco OpenDNS", LLC"
 AS36850,University of North Carolina at Chapel Hill
+AS36947,Telecom Algeria
 AS37917,University of Tsukuba
 AS37936,Sina
 AS37963,"""Hangzhou Alibaba Advertising Co.",Ltd."
@@ -818,6 +820,7 @@ AS42612,DinaHosting S.L.
 AS42632,MnogoByte LLC
 AS42649,Baffin Bay Networks AB
 AS42652,inexio Informationstechnologie und Telekommunikation Gmbh
+AS42656,Allegro sp. z o.o.
 AS42708,Glesys AB
 AS42807,CIZGI TELEKOMUNIKASYON ANONIM SIRKETI
 AS42848,European Commission
@@ -918,7 +921,6 @@ AS48399,Svyaz VSD LLC
 AS48434,Tebyan-e-Noor Cultural-Artistic Institute
 AS48447,Sectigo Limited
 AS48551,Sindad Network Technology PJSC
-AS48573,PHAETON PLUS d.o.o
 AS48579,ELASTX AB
 AS48614,ITSOFT LLC
 AS48635,CLDIN B.V.
@@ -1051,7 +1053,7 @@ AS60362,ALWAYSDATA SARL
 AS60404,The Infrastructure Group B.V.
 AS60458,XNET CORE SL
 AS60580,"""""PROFI.RU"""" LLC"
-AS60631,Pars Parva System LLC
+AS60631,Vandad Vira Hooman LLC
 AS60651,Stek Kazan LLC
 AS60684,"Managing company """"Realty of Petersburg Ltd"""""
 AS60772,Sky Italia srl
@@ -1110,6 +1112,7 @@ AS134029,Unique Identification Authority of India
 AS134756,CHINANET Nanjing Jishan IDC network
 AS134763,CHINANET Guangdong province network
 AS134771,China Telecom Wenzhou IDC Network
+AS134774,CHINANET Guangdong province Shenzhen MAN network
 AS135391,"""Aofei Data International Co.", Ltd."
 AS135402,Wired ISP Inc.
 AS135629,Ningxia West Cloud Data Technology Co.Ltd.
@@ -1162,7 +1165,6 @@ AS197431,GEMIUS SA
 AS197482,DoubleGIS LLC
 AS197571,"LLC """"Search portal Sputnik"""""
 AS197695,"""""Domain names registrar REG.RU""", Ltd"
-AS197876,ICM Netsystems 2005 SL
 AS198605,AVAST Software s.r.o.
 AS198610,Beget LLC
 AS198622,Adform A/S
@@ -1279,7 +1281,6 @@ AS213306,Comtrade System Integration doo Belgrade Serbia
 AS213980,Net Media Zrt.
 AS214036,"""Ultahost", Inc."
 AS214390,"""Wojtek SASU", trading as Gofile"
-AS215467,Skhron OU
 AS215540,GLOBAL CONNECTIVITY SOLUTIONS LLP
 AS215740,Netulu Incorporated
 AS216154,CLODO CLOUD SERVICE CO. L.L.C
