@@ -263,7 +263,6 @@ AS27715,Locaweb Serviços de Internet S/A
 AS27792,Wiltel Comunicaciones SA
 AS27872,URBE - Universidad Dr. Rafael Belloso
 AS27947,Telconet S.A
-AS28180,DIGITRO TECNOLOGIA LTDA.
 AS28248,BRB - Banco de Brasília S/A
 AS28369,SIGNALLINK INFORMATICA LTDA
 AS28545,Cablemas Telecomunicaciones SA de CV
@@ -279,6 +278,7 @@ AS29729,Teleflora LLC
 AS29789,"""Reflected Networks", Inc."
 AS29802,"""HIVELOCITY", Inc."
 AS29832,Mettler-Toledo LLC
+AS29888,Unum Group
 AS29894,South Central Rural Telecommunications Cooperative Inc.
 AS29990,Xandr Inc.
 AS29997,"""Vitalwerks Internet Solutions", LLC"
@@ -340,7 +340,6 @@ AS36780,ALSCO
 AS36912,Orange Cameroun SA
 AS37017,Edge connect (pty) Ltd
 AS37156,Xtranet Communications Ltd
-AS38136,Akari Networks
 AS38332,.au Domain Administration Ltd
 AS38345,Internet Domain Name System Beijing Engineering Resra...
 AS38452,Leo Paper Group Manufacturing Limited
@@ -361,6 +360,7 @@ AS40509,"""Fly.io", Inc."
 AS40539,"""Hosting Consulting", Inc"
 AS40568,CIRA Canadian Internet Registration Authority Autorit...
 AS40627,RingCentral Inc
+AS40647,Verisign Anycast NL 0C
 AS40663,IncogNet LLC
 AS40676,Psychz Networks
 AS40680,Protocol Labs
@@ -383,6 +383,7 @@ AS42465,Forcepoint UK Limited
 AS42612,DinaHosting S.L.
 AS42649,Baffin Bay Networks AB
 AS42692,Overweb Srl
+AS42856,Elmar K. Bins
 AS42909,Community DNS Limited
 AS43211,Noavaran Fan Avazeh Co. PJS
 AS43298,Storm Networks LLC
@@ -440,6 +441,7 @@ AS50922,SHI Li Li
 AS51044,Kazuki Yamaguchi
 AS51115,HLL LLC
 AS51185,MainStreaming SpA
+AS51561,ICUK Computing Services Limited
 AS51790,"""SIEL", d.o.o."
 AS51966,Fondation RESTENA
 AS52025,ParadoxNetworks Limited
@@ -449,7 +451,6 @@ AS52234,NIC Chile
 AS52304,NIC Chile
 AS52580,Azion Technologies Ltda.
 AS52620,BRASIL NORTE BEBIDAS S/A
-AS52795,ONE TELECOM TELECOMUNICACOES LTDA
 AS52844,Teracom Telemática SA.
 AS53007,Volvo do Brasil Veículos Ltda.
 AS53017,REDE NOVO TEMPO DE COMUNICAÇÃO
@@ -492,7 +493,6 @@ AS56908,Netnod AB
 AS57138,Mullvad DNS (LOCIX LIMITED)
 AS57352,Federal State Unitary Enterprise Rossiya Segodnya Int...
 AS57382,Telecommunication Tokelau Corporation Teletok
-AS57629,LLC IVI.RU
 AS57724,DDOS-GUARD LTD
 AS57910,"""Soluciones Corporativas IP", SL"
 AS57926,"""SafeDNS", Inc."
@@ -687,6 +687,7 @@ AS205941,Lungu Stefan Gabriel
 AS206164,F.N.S. HOLDINGS LIMITED
 AS206540,BEANSUMMERHOST NEXTGEN SHED HOSTING SOLUTIONS LLC
 AS206653,Biocad JSC
+AS206980,AntiDDoS Solutions LLC
 AS206998,NEW RELIC INTERNATIONAL LIMITED
 AS207003,Web1 Oy
 AS207021,ipcom GmbH
@@ -740,6 +741,8 @@ AS210753,Tilda Publishing JSC
 AS210756,EdgeCenter LLC
 AS211072,MFI INVESTMENTS LIMITED
 AS211112,Qrator Technologies FZ-LLC
+AS211281,NEOHOST SRL
+AS211352,Tom MARQUAILLE trading as OBSIDIAN CORE
 AS211757,Panascais ehf.
 AS212196,Daniel Piekacz
 AS212217,BB-Online UK Ltd
@@ -785,6 +788,7 @@ AS215828,"Tizian Maxime Weigt trading as """"TMW Global Networks"""""
 AS215842,Erwin Paal
 AS216056,Jingqiu Xu
 AS216107,Noah van der Aa trading as Frumentum Media
+AS216108,Technology Transfer Intercontinental S.R.L
 AS216126,James Ledger
 AS216206,Aphrodite Group Ltd
 AS216324,Hyper Group Network Ltd.
@@ -818,7 +822,6 @@ AS273584,NuvemShop
 AS328126,Orange Tunisie
 AS328486,Old Mutual Life Assurance Company (South Africa) Limited
 AS328608,Africa on Cloud
-AS328957,CoLi Link Ghana Limited
 AS328974,Datonet (Pty) Ltd
 AS329002,Pan African IX Data Centres Kenya Ltd
 AS329524,ZANZIBAR CABLE TELEVISION LIMITED
@@ -849,7 +852,6 @@ AS396501,CIRA Canadian Internet Registration Authority Autorit...
 AS396549,Verisign Anycast GB 0A
 AS396566,Verisign Anycast NL 0L
 AS396654,Verisign Anycast US 2K
-AS396761,Verisign Anycast CH 0A
 AS396970,"""CommandLink", LLC"
 AS396982,Google Cloud Platform
 AS396986,"""Bytedance", Inc. (TikTok)"
