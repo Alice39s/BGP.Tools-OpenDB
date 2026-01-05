@@ -10,6 +10,7 @@ AS714,Apple Inc.
 AS955,LSHIY LLC
 AS965,Webhosting Holdings LLC
 AS1002,Bytefilter LLC
+AS1015,Server Starter Host LLC
 AS1050,Onvox LLC
 AS1149,SURF B.V.
 AS1248,HERE Global BV
@@ -157,7 +158,6 @@ AS16276,OVH SAS
 AS16509,"""Amazon.com", Inc."
 AS16552,Tiggee LLC
 AS16591,Google Fiber Inc.
-AS16645,"""EPIQ Systems", Inc"
 AS16686,"""easyDNS Technologies", Inc."
 AS16740,DOXX.NET CORPORATION
 AS16839,"""SERVICENOW", INC."
@@ -230,7 +230,6 @@ AS23352,DEFT.COM
 AS23393,NuCDN LLC
 AS23467,New Relic
 AS23473,PAVLOV MEDIA INC
-AS23596,Korea Internet Security Agency
 AS23724,China Telecom Beijing IDC Network
 AS24013,SB Professional Services
 AS24149,Internet Domain Name System Beijing Engineering Resra...
@@ -263,6 +262,7 @@ AS27715,Locaweb Serviços de Internet S/A
 AS27792,Wiltel Comunicaciones SA
 AS27872,URBE - Universidad Dr. Rafael Belloso
 AS27947,Telconet S.A
+AS28180,DIGITRO TECNOLOGIA LTDA.
 AS28248,BRB - Banco de Brasília S/A
 AS28369,SIGNALLINK INFORMATICA LTDA
 AS28545,Cablemas Telecomunicaciones SA de CV
@@ -302,7 +302,6 @@ AS32133,Ting Fiber Inc.
 AS32244,"""Liquid Web", L.L.C"
 AS32298,Centersquare
 AS32338,Hostiserver Ltd
-AS32577,The Kroger Co.
 AS32604,uwalkin IT Solutions
 AS32708,LoadEdge Limited
 AS32771,DNSimple Corporation
@@ -355,6 +354,7 @@ AS40027,Netflix Streaming Services Inc.
 AS40138,"""Mach Dilemma", LLC"
 AS40165,"""Voxology Carrier Services", Inc."
 AS40292,Cintas Corporation
+AS40371,"""PROS", Inc."
 AS40428,"""Pandora Media", LLC"
 AS40509,"""Fly.io", Inc."
 AS40539,"""Hosting Consulting", Inc"
@@ -427,6 +427,7 @@ AS48707,AS48707 OPS PL sp. z o.o.
 AS48851,Radware Ltd
 AS48925,VibeGAMES B.V.
 AS49287,Melbikomas UAB
+AS49304,SAKURA LINK LIMITED
 AS49544,i3D.net B.V
 AS49959,ReadSpeaker AB
 AS50069,"""Misaka Network", Inc."
@@ -493,6 +494,7 @@ AS56908,Netnod AB
 AS57138,Mullvad DNS (LOCIX LIMITED)
 AS57352,Federal State Unitary Enterprise Rossiya Segodnya Int...
 AS57382,Telecommunication Tokelau Corporation Teletok
+AS57629,LLC IVI.RU
 AS57724,DDOS-GUARD LTD
 AS57910,"""Soluciones Corporativas IP", SL"
 AS57926,"""SafeDNS", Inc."
@@ -525,7 +527,6 @@ AS61165,Mountiela Services LLC
 AS61317,Hivelocity LLC
 AS61455,LACTLD - LATIN AMERICAN AND CARIBBEAN TLD ASSOCIATION
 AS61569,Tribunal Regional Federal da 1a Regiao
-AS61866,INTELBRAS S.A. INDUSTRIA DE TELECOMUNICACAO ELETRO
 AS61881,UNIMED PORTO ALEGRE COOPERATIVA MEDICA LTDA
 AS62153,DotIdea Solutions Inc
 AS62406,DNScale OU
@@ -544,6 +545,7 @@ AS63330,Emily Cooperative Telephone Company
 AS63341,"""ROKI America Co.", Ltd."
 AS63363,Tucows.com Co.
 AS63399,"""Dialpad", Inc."
+AS63440,TELNYX LLC
 AS63911,"""NetActuate", Inc"
 AS64011,APNIC ASN block
 AS64089,"""DNSFilter", Inc."
@@ -594,6 +596,7 @@ AS149614,TRANSACTION SOLUTIONS INTERNATIONAL INDIA PRIVATE LIMITED
 AS149981,Legend Dynasty Pte. Ltd.
 AS150289,Sun Yanzheng
 AS151113,VERITY KNOWLEDGE SOLUTIONS PRIVATE LIMITED
+AS151194,Zhu Yucheng
 AS151325,TP Western Odisha Distribution Limited
 AS151332,CoinJar Pty Ltd
 AS151336,Verge
@@ -614,7 +617,6 @@ AS197440,dot IT ccTLD anycast
 AS197640,"""Overplay", Inc"
 AS197946,Amnpardaz Soft Corporation
 AS197997,RegisterBG Ltd
-AS198025,Yucheng Zhu
 AS198147,Telecommunication Tokelau Corporation Teletok
 AS198301,Workday Limited
 AS198412,RAGE4 NETWORKS POLSKA SPOLKA Z OGRANICZONA ODPOWIEDZI...
@@ -631,7 +633,6 @@ AS199816,Luna.nl B.V.
 AS199918,Wilton Arthur Poth
 AS199993,Associacao DNS.PT
 AS200070,"""CZ.NIC", z.s.p.o."
-AS200201,Tomasz Kepczynski
 AS200242,Ember Ana
 AS200315,NetConnect Innovations LLC
 AS200325,Bunny.net
@@ -662,6 +663,7 @@ AS203314,HATS NETWORK INC.
 AS203391,Cloud DNS Ltd
 AS203504,Tomas Freitas Fernandes
 AS203755,ITGLOBAL.COM NL B.V.
+AS203758,EUGAMEHOST LTD
 AS203961,CentralNic Ltd
 AS203969,YMC AG
 AS204055,CentralNic Ltd
@@ -678,6 +680,7 @@ AS205282,Tilda Publishing Ltd.
 AS205369,LI YIRAN
 AS205383,Rhys Perry
 AS205398,Tyler OBrien
+AS205563,Marc Gomez
 AS205585,Arvan Cloud CDN
 AS205634,Prime Formation GmbH
 AS205675,Hybrid Adtech GmbH
@@ -779,7 +782,6 @@ AS214757,Jakub Krsa
 AS214781,Rapid Solutions ApS
 AS214955,Weikang Zeng
 AS214987,VibeGAMES B.V.
-AS215265,Lie Hu
 AS215467,Skhron OU
 AS215527,Xero Networks LTD
 AS215540,GLOBAL CONNECTIVITY SOLUTIONS LLP
@@ -803,7 +805,9 @@ AS264363,Unimed de Bauru - Cooperativa de Trabalho Medico
 AS264693,INSTITUCION UNIVERSITARIA VISION DE LAS AMERICAS
 AS264798,Secretaria Legal y Tecnica
 AS264851,IFOTONCORP S.A.
+AS265193,CMPC CELULOSE RIOGRANDENSE LTDA
 AS265756,BANCO PRODEM SA
+AS265941,DUAS RODAS INDUSTRIAL SA
 AS266444,GoCache / 3L CLOUD
 AS267630,UNIVERSIDADE ESTADUAL DO MARANHÃO
 AS267798,GENERACION WI-FI SA
