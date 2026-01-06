@@ -7,6 +7,7 @@ AS209,Lumen (ex. Qwest)
 AS237,Merit Network Inc.
 AS260,"""GTT Americas", LLC"
 AS714,Apple Inc.
+AS906,DMIT Cloud Services
 AS955,LSHIY LLC
 AS965,Webhosting Holdings LLC
 AS1002,Bytefilter LLC
@@ -16,7 +17,9 @@ AS1149,SURF B.V.
 AS1248,HERE Global BV
 AS1273,Vodafone Group PLC
 AS1508,U.S. Army Research Lab - H-root
+AS1613,E SHELLS INC
 AS1647,Interop Technologies
+AS1827,Manatee County Government
 AS1921,ipcom GmbH
 AS1958,NCR Voyix Corporation
 AS1975,PROQUEST LLC
@@ -39,6 +42,7 @@ AS4181,TDS TELECOM
 AS4455,IX Reach Ltd
 AS4466,"""AT&T Enterprises", LLC"
 AS4515,PCCW IMS Ltd (PCCW Business Internet Access)
+AS4538,China Education and Research Network Center
 AS4739,Internode Pty Ltd
 AS4749,WiseTechGlobal Pty Ltd
 AS4755,TATA Communications (formerly VSNL)
@@ -158,6 +162,7 @@ AS16276,OVH SAS
 AS16509,"""Amazon.com", Inc."
 AS16552,Tiggee LLC
 AS16591,Google Fiber Inc.
+AS16645,"""EPIQ Systems", Inc"
 AS16686,"""easyDNS Technologies", Inc."
 AS16740,DOXX.NET CORPORATION
 AS16839,"""SERVICENOW", INC."
@@ -171,6 +176,7 @@ AS17561,LARUS Limited
 AS17817,Concentrix Daksh Services India Private Limited
 AS17984,PCCW Global (HK) Ltd.
 AS18002,World Phone Internet Services Pvt. Ltd
+AS18186,Nebula Global LLC
 AS18229,CtrlS
 AS18366,APNIC ANYCAST ASN
 AS18367,Asia Pacific Network Information Centre
@@ -239,9 +245,7 @@ AS24400,"""Shanghai Mobile Communications Co.",Ltd."
 AS24406,China Internet Network Infomation Center
 AS24409,China Internet Network Infomation Center
 AS24429,Alibaba Cloud
-AS24444,Shandong Mobile Communication Company Limited
 AS24482,SG.GS
-AS24547,Hebei Mobile Communication Company Limited
 AS25098,Netcalibre Ltd
 AS25111,Coloplast A/S
 AS25152,RIPE NCC - K-root
@@ -364,6 +368,7 @@ AS40647,Verisign Anycast NL 0C
 AS40663,IncogNet LLC
 AS40676,Psychz Networks
 AS40680,Protocol Labs
+AS40776,TaoNet
 AS40806,GrapheneOS Foundation
 AS40929,MoeDove
 AS40934,Fortinet Inc.
@@ -416,6 +421,7 @@ AS47581,NSFOCUS Technologies UK Limited
 AS47583,Hostinger International Limited
 AS47689,"""Pudu", LLC"
 AS48053,Foundation of Research and Technology Hellas
+AS48173,Orange Business Digital Germany GmbH
 AS48231,"""CRE Network", LLC"
 AS48254,20i Limited
 AS48283,Stichting Internet Domeinregistratie Nederland
@@ -438,7 +444,6 @@ AS50385,HaloCloud Network Limited
 AS50611,Knipp Medien und Kommunikation GmbH
 AS50756,Mikrofinansovaya organizaciya Robocash.kz LLP
 AS50827,SpaceDump IT AB
-AS50922,SHI Li Li
 AS51044,Kazuki Yamaguchi
 AS51115,HLL LLC
 AS51185,MainStreaming SpA
@@ -486,10 +491,10 @@ AS55532,Squiz Pty Ltd
 AS55542,Roads and Maritime Services
 AS55967,"""Beijing Baidu Netcom Science and Technology Co.", Ltd."
 AS56041,China Mobile Group Zhejiang Company
-AS56044,China Mobile Group Liaoning Company
 AS56045,China Mobile communications corporation
 AS56046,China Mobile Jiangsu Province Network
 AS56147,Creative Communication Vietnam Joint Stock Company
+AS56508,Amateur Radio Digital Communications
 AS56908,Netnod AB
 AS57138,Mullvad DNS (LOCIX LIMITED)
 AS57352,Federal State Unitary Enterprise Rossiya Segodnya Int...
@@ -726,6 +731,7 @@ AS209299,Ambientia Group Oy
 AS209306,Jin Shaohai
 AS209403,Net Stack Ltd
 AS209453,Gandi LiveDNS Anycast
+AS209503,Zentyx Limited
 AS209510,NAMESHIELD SAS
 AS209622,uPress Inc
 AS209626,Enflow B.V.
@@ -759,7 +765,6 @@ AS213119,ALZ Software Ltd
 AS213120,Akamai International B.V.
 AS213231,CELKO LIMITED
 AS213430,HSIANG-LI CHAN
-AS213449,Jann-Ole Wagenaar
 AS213550,Jon Radel
 AS213605,Liu HaoRan
 AS213606,Jose Luis Monserrat Alburquenque
@@ -767,8 +772,8 @@ AS213617,KANG ZHENG OO
 AS213625,Xuluo Chen
 AS213768,Thomas Neumann
 AS213798,Jude Gabriel Powell
+AS214030,Kai-Wen Zheng
 AS214040,RUNNAN WEN
-AS214079,LendNodes LTD
 AS214080,Transparent Edge Services S.L.
 AS214405,Eyeo GmbH
 AS214503,QuxLabs AB
@@ -796,19 +801,20 @@ AS216206,Aphrodite Group Ltd
 AS216324,Hyper Group Network Ltd.
 AS216393,Synapt ApS
 AS262349,Instituto Curitiba de Informática
-AS262589,SAMM
+AS262589,SAMM (Internexa)
 AS263118,Celulose Nipo-Brasileira S.A - CENIBRA
 AS263320,Sansara Telecom
 AS263546,TURBONETT TELECOMUNICACOES LTDA. - ME
 AS263639,AMAZONAS TRIBUNAL DE JUSTICA
 AS264363,Unimed de Bauru - Cooperativa de Trabalho Medico
 AS264693,INSTITUCION UNIVERSITARIA VISION DE LAS AMERICAS
-AS264798,Secretaria Legal y Tecnica
+AS264798,NIC ARGENTINA
 AS264851,IFOTONCORP S.A.
 AS265193,CMPC CELULOSE RIOGRANDENSE LTDA
 AS265756,BANCO PRODEM SA
 AS265941,DUAS RODAS INDUSTRIAL SA
 AS266444,GoCache / 3L CLOUD
+AS266728,INTER&INTER S.A.
 AS267630,UNIVERSIDADE ESTADUAL DO MARANHÃO
 AS267798,GENERACION WI-FI SA
 AS268976,Weclix Telecom S/A
@@ -817,7 +823,6 @@ AS269607,SERGIPE MINISTERIO PUBLICO
 AS270034,AKY TELECOM SPA
 AS270328,Justiça Federal de 1º instância em Pernambuco
 AS270807,Bella Janela Ind. de Cortinas Ltda.
-AS271406,Ultranet / I. L. DE SOUSA
 AS271467,RIO GRANDE DO SUL DEFENSORIA PUBLICA DO EST. DO RS
 AS272739,Lider Fibra
 AS272809,"""THUNDERNET", C.A."
@@ -849,6 +854,7 @@ AS395747,"""Cloudflare", Inc."
 AS395831,Meraki LLC
 AS396002,TeleVoIPs
 AS396163,"""My Digital Shield", Inc."
+AS396356,Latitude.sh
 AS396367,"""Canadian Tire Corporation", LTD"
 AS396417,"""Salesforce", Inc."
 AS396486,Conseil scolaire de district catholique du Centre-Est...
