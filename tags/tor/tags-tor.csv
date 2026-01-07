@@ -12,6 +12,7 @@ AS701,Verizon Business
 AS719,Elisa Oyj
 AS786,Jisc Services Limited
 AS803,Saskatchewan Telecommunications
+AS823,University of Western Ontario
 AS852,TELUS Communications Inc.
 AS855,Bell Canada
 AS924,Cloudie Networks LLC
@@ -52,6 +53,7 @@ AS2860,"""NOS COMUNICACOES", S.A."
 AS2900,Arizona Tri University Network
 AS3061,ProvDotNet LLC
 AS3164,Astimp IT Solution SRL
+AS3170,VeloxServ Communications Ltd
 AS3209,Vodafone GmbH
 AS3214,xTom GmbH
 AS3215,Orange S.A.
@@ -210,7 +212,6 @@ AS12093,University of Waterloo
 AS12129,"""123.Net", Inc."
 AS12161,"""dao Consulting", LLC"
 AS12271,Charter Communications Inc
-AS12302,Vodafone Romania S.A.
 AS12312,ecotel communication ag
 AS12322,Free SAS
 AS12337,noris network AG
@@ -219,7 +220,6 @@ AS12353,Vodafone Portugal - Communicacoes Pessoais S.A.
 AS12355,HeLi NET Telekommunikation GmbH & Co.
 AS12364,"""University of Macedonia", Economic and Social Sciences"
 AS12400,Partner Communications Ltd.
-AS12430,VODAFONE ESPANA S.A.U.
 AS12479,Orange Espagne SA
 AS12508,Rainside s.r.o.
 AS12552,GlobalConnect (IP-Only)
@@ -262,6 +262,7 @@ AS15557,SFR SA
 AS15600,Quickline AG
 AS15614,Dragon Internet a.s.
 AS15626,GREEN FLOID LLC
+AS15704,XTRA TELECOM S.A.
 AS15943,wilhelm.tel GmbH
 AS16019,Vodafone Czech Republic a.s.
 AS16075,TAZ Verlags- und Vertriebsgesellschaft mit beschraenk...
@@ -337,6 +338,7 @@ AS24971,MasterDC s.r.o.
 AS25198,INTERKVM HOST (ZetServers)
 AS25274,Naracom Kft.
 AS25353,BAR Informatik AG
+AS25400,Telia Norge AS
 AS25512,CD-Telematika a.s.
 AS25795,"""ARP NETWORKS", INC."
 AS25853,Ellijay Telephone Company
@@ -500,7 +502,6 @@ AS42532,SIA VEESP
 AS42541,Fiberby ApS
 AS42652,inexio Informationstechnologie und Telekommunikation Gmbh
 AS42675,Obehosting AB
-AS42689,Glide Student & Residential Limited
 AS42708,Glesys AB
 AS42730,EVANZO e-commerce GmbH
 AS42831,UK Dedicated Servers Limited
@@ -593,7 +594,6 @@ AS49981,WorldStream B.V.
 AS50066,Serious Tubes Networks
 AS50266,Odido Netherlands B.V.
 AS50304,Blix Solutions AS
-AS50340,Selectel - Moscow
 AS50360,Tamatiya EOOD
 AS50436,Tele Columbus AG
 AS50606,Horyzont Technologie Internetowe sp.z.o.o.
@@ -618,6 +618,7 @@ AS52092,"""Alf servis", s.r.o."
 AS52173,Sia Nano IT
 AS52284,Panamaserver.com
 AS52423,Data Miners S.A. ( Racknation.cr )
+AS53006,ALGAR TELECOM S/A
 AS53340,FiberHub (VegasNAP)
 AS53667,FranTech Solutions
 AS53850,"""GorillaServers", Inc."
@@ -630,7 +631,6 @@ AS55286,B2 Net Solutions Inc.
 AS55293,"""A2 Hosting", Inc."
 AS55592,"""Korea Data Telecommunication Co.", Ltd."
 AS55720,Gigabit Hosting Sdn Bhd
-AS55900,GLBB Japan KK
 AS56030,Voyager Internet Ltd.
 AS56153,Digital Storage Company Limited
 AS56322,ServerAstra Kft.
@@ -669,6 +669,7 @@ AS60117,Host Sailor Ltd
 AS60131,High5! B.V.
 AS60352,S E L C O M SHPK
 AS60404,The Infrastructure Group B.V.
+AS60656,BOL BG IZTOK LTD
 AS60729,Stiftung Erneuerbare Freiheit
 AS60781,LeaseWeb Netherlands B.V.
 AS60800,Netwise Hosting Ltd
@@ -864,7 +865,6 @@ AS210100,Adam Chodkowski
 AS210152,Jon Arve Vanvik
 AS210226,Windcloud 4.0 GmbH
 AS210403,Groupe LWS SARL
-AS210457,Kyonix Networks Limited
 AS210558,1337 Services GmbH
 AS210579,Rackhost Zrt.
 AS210731,Forening for DotSrc
@@ -879,7 +879,6 @@ AS211673,Mynymbox LLC
 AS211720,"""Datashield", Inc."
 AS211882,AQUILENET
 AS212057,Pascal Stattmann trading as Nodescrape
-AS212219,HOSTING DUNYAM BILISIM TEKNOLOJILERI TICARET LIMITED ...
 AS212238,Datacamp Limited
 AS212271,Cinzia Tocci trading as Lumanex Srl
 AS212317,Hetzner Cloud - Hillsboro
@@ -896,9 +895,7 @@ AS213281,Greenfiber Internet & Dienste GmbH
 AS213354,INTERNATIONAL HOSTING SOLUTIONS LLP
 AS213373,IP Connect Inc
 AS213438,ColocaTel Inc.
-AS213449,Jann-Ole Wagenaar
 AS213468,HD-decor Oy
-AS213520,Senko Digital Ltd
 AS213725,03AI LTD
 AS213873,MOJI SAS
 AS213887,WAIcore Ltd
@@ -930,7 +927,6 @@ AS215125,Church of Cyberology
 AS215248,Bastiaan Mathijs Brink
 AS215288,Michele Branchini
 AS215296,Raoul Brouns
-AS215311,Regxa Company for Information Technology Ltd
 AS215381,ROCKHOSTER PRIVATE LIMITED
 AS215467,Skhron OU
 AS215523,Yayzi Broadband Limited
