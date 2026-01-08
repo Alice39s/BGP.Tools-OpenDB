@@ -1,14 +1,14 @@
 {
-  "timestamp": 1767750059,
+  "timestamp": 1767836428,
   "version": "1.0",
   "tag_name": "a10k",
-  "tag_count": 1326,
-  "actual_entries": 1326,
+  "tag_count": 1328,
+  "actual_entries": 1328,
   "stats": {
-    "generated_at": "2026-01-07T01:40:59.619Z"
+    "generated_at": "2026-01-08T01:40:28.290Z"
   },
   "hash_list": {
-    "index-meta.json": "120188030753f5c87a63ce7f7eb0a7bb6a827408b401d7b94495fa1a406f1bd5",
-    "tags-a10k.csv": "e0cd90ff04680fd465468272057c0d7fc2a15cababf37861f3fc2434f3cee0f9"
+    "index-meta.json": "56f403bd1a3157aa444e052a92fa7ea881cb69c3db7322385a179d5f71802976",
+    "tags-a10k.csv": "1fa880d996eea9180e3df83edb54563098dd2c56a473c49b39958e5f763ec550"
   }
 }
