@@ -1,14 +1,14 @@
 {
-  "timestamp": 1767836428,
+  "timestamp": 1767922856,
   "version": "1.0",
   "tag_name": "tor",
-  "tag_count": 1018,
-  "actual_entries": 1018,
+  "tag_count": 1019,
+  "actual_entries": 1019,
   "stats": {
-    "generated_at": "2026-01-08T01:40:28.297Z"
+    "generated_at": "2026-01-09T01:40:56.031Z"
   },
   "hash_list": {
-    "index-meta.json": "68d0de180c7078ec358d89b21f7d76ad9bdd512ce4bc667997e436276b2b32c0",
-    "tags-tor.csv": "b24f2e26ffc5b483d5d78a54cacebff8332218509843319f53211af6256aa763"
+    "index-meta.json": "9a16efb01ef42893260fd2fcd4b7291ff1ceb1fa0870e0ba2dce63e91e280758",
+    "tags-tor.csv": "a44efe3750814180b62fbcd9e30522e2df01489c6c3b0224ee14512d47e140e8"
   }
 }
