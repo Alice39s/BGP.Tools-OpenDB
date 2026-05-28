@@ -25,6 +25,7 @@ env:
   GO_VERSION: "1.25"
   TABLE_SCHEDULE: "0 */2 * * *"
   ARCHIVE_SCHEDULE: "0 1 * * *"
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 concurrency:
   group: auto-update-${{ github.ref }}

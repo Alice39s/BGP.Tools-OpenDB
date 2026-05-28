@@ -21,9 +21,10 @@ on:
     - cron: "30 0 * * *"
 
 env:
-  NODE_VERSION: "20"
+  NODE_VERSION: "22"
   PNPM_VERSION: "10.11.0"
   GO_VERSION: "1.25"
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 concurrency:
   group: release-${{ github.ref }}

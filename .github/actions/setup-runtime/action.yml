@@ -49,9 +49,10 @@ runs:
 
     - name: Setup Go
       if: inputs.setup-go == 'true'
-      uses: actions/setup-go@v4
+      uses: actions/setup-go@v5
       with:
         go-version: ${{ inputs.go-version }}
+        cache-dependency-path: lib/mmdbwriter/go.sum
 
     - name: Compile mmdbwriter binary
       if: inputs.build-mmdbwriter == 'true'
