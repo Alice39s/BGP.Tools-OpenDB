@@ -30,9 +30,6 @@ function setupAutoUpdateBranch() {
     runCommand("git branch --show-current", { quiet: true }) || "(detached)";
   console.log(`[+] Current branch: ${currentBranch}`);
 
-  // pull latest code
-  runCommand("git fetch --all --prune", { inherit: true });
-
   const branchExists = checkBranchExists("auto-update");
 
   if (!branchExists) {

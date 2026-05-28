@@ -105,10 +105,15 @@ Data is sourced from [bgp.tools](https://bgp.tools) HTTP API, processed and pack
 
 ### Auto-Update Branch
 
+The `auto-update` branch is a moving snapshot of the latest generated data. Its
+history is intentionally rewritten on each sync so repeated large data updates do
+not grow the Git repository. Historical daily archives are published as GitHub
+Release assets instead.
+
 #### Routing Table Data
 
 - **Update Frequency**: Every 2 hours
-- **Version Retention**: Maximum 24 versions
+- **Version Retention**: Latest snapshot only
 - **Metadata Fields**:
 
   ```json
@@ -125,13 +130,13 @@ Data is sourced from [bgp.tools](https://bgp.tools) HTTP API, processed and pack
 #### ASN Mapping Data
 
 - **Update Frequency**: Daily
-- **Version Retention**: Maximum 3 versions
+- **Version Retention**: Latest snapshot only
 - **Metadata Fields**: Similar structure as routing table data
 
 #### ASN Tags Data
 
 - **Update Frequency**: Daily
-- **Version Retention**: Maximum 3 versions
+- **Version Retention**: Latest snapshot only
 - **Metadata Fields**: Similar structure as above, with individual metadata for each tag category
 
 ---

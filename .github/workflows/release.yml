@@ -39,7 +39,7 @@ jobs:
       - name: Checkout main branch for workflows
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: main
 
@@ -53,7 +53,7 @@ jobs:
         if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.source_branch != '' && github.event.inputs.source_branch != 'main' }}
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: ${{ github.event.inputs.source_branch }}
           path: source-data
@@ -71,7 +71,7 @@ jobs:
         if: ${{ github.event_name == 'schedule' }}
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: auto-update
           path: source-data

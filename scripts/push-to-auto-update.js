@@ -69,6 +69,8 @@ function needsUpdate(path) {
 function pushToAutoUpdate() {
   console.log("[+] Checking for new data to sync to auto-update branch...");
 
+  fetchAutoUpdateBranch();
+
   const dirsToSync = ["table", "asns", "tags"].filter((dir) =>
     needsUpdate(dir),
   );
@@ -90,11 +92,6 @@ function pushToAutoUpdate() {
     );
   }
 
-  runCommand("git fetch origin auto-update:auto-update", {
-    inherit: true,
-    allowFailure: true,
-  });
-
   return withWorktree(
     "auto-update",
     (worktreePath) => {
@@ -114,13 +111,24 @@ function pushToAutoUpdate() {
 
       const timestamp =
         new Date().toISOString().replace("T", " ").slice(0, 16) + " UTC";
+      const snapshotBranch = `auto-update-snapshot-${Date.now()}`;
+
+      runCommand(`git checkout --orphan ${snapshotBranch}`, {
+        cwd: worktreePath,
+        inherit: true,
+      });
+
+      runCommand("git add -A", {
+        cwd: worktreePath,
+        inherit: true,
+      });
 
       runCommand(`git commit -m "🔄 [Auto-Update] Data sync ${timestamp}"`, {
         cwd: worktreePath,
         inherit: true,
       });
 
-      runCommand("git push origin auto-update", {
+      runCommand(`git push --force origin ${snapshotBranch}:auto-update`, {
         cwd: worktreePath,
         inherit: true,
       });
@@ -130,6 +138,13 @@ function pushToAutoUpdate() {
     },
     { label: "auto-update-sync", force: true },
   );
+}
+
+function fetchAutoUpdateBranch() {
+  runCommand("git fetch --depth=1 origin +auto-update:auto-update", {
+    inherit: true,
+    allowFailure: true,
+  });
 }
 
 function branchNeedsCleanup() {
