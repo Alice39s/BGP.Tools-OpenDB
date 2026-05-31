@@ -1,0 +1,14 @@
+{
+  "timestamp": 1780191665,
+  "version": "1.0",
+  "tag_name": "event",
+  "tag_count": 22,
+  "actual_entries": 22,
+  "stats": {
+    "generated_at": "2026-05-31T01:41:05.639Z"
+  },
+  "hash_list": {
+    "index-meta.json": "c26704307df091d348b022334bb41470e74378eaf81a2218065dd2c1682942fe",
+    "tags-event.csv": "cdb142ea745e75ce6d087c5ba8870b6f98926a9b277aa8fafd109844e9cd2c54"
+  }
+}

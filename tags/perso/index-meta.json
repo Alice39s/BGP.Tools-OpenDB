@@ -1,0 +1,14 @@
+{
+  "timestamp": 1780191665,
+  "version": "1.0",
+  "tag_name": "perso",
+  "tag_count": 1453,
+  "actual_entries": 1453,
+  "stats": {
+    "generated_at": "2026-05-31T01:41:05.587Z"
+  },
+  "hash_list": {
+    "index-meta.json": "07bb7ce26f03edc8e2939eb324b9cbc7e9c1d370cc559fe0d76013799b351cc1",
+    "tags-perso.csv": "7f72d1ffd3f30257b7c60a092da43342e1cb4ff945e5f77da5c8cb5967f076b6"
+  }
+}

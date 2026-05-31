@@ -1,0 +1,14 @@
+{
+  "timestamp": 1780191665,
+  "version": "1.0",
+  "tag_name": "satnet",
+  "tag_count": 44,
+  "actual_entries": 44,
+  "stats": {
+    "generated_at": "2026-05-31T01:41:05.655Z"
+  },
+  "hash_list": {
+    "index-meta.json": "4575ed8a41d9ebcaa4a43a3be3c0b0fe0857dd7e0b2d7fa0a8490ccaebf70ab5",
+    "tags-satnet.csv": "be5c5b93eeb7dc852fcf9564d5cf3c64e565ca4e21c4a05cb85e9d478a6cf674"
+  }
+}
