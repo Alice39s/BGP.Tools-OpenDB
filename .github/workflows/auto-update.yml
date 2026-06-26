@@ -25,7 +25,6 @@ env:
   GO_VERSION: "1.25"
   TABLE_SCHEDULE: "0 */2 * * *"
   ARCHIVE_SCHEDULE: "0 1 * * *"
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 concurrency:
   group: auto-update-${{ github.ref }}
@@ -39,7 +38,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 1
           token: ${{ secrets.GITHUB_TOKEN }}
