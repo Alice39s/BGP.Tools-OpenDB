@@ -13,30 +13,46 @@ const ALLOWED_ROOT_ENTRIES = new Set([
 ]);
 
 function getLocalTimestamp(path) {
-  try {
-    const metaContent = readFileSync(`${path}/index-meta.json`, "utf8");
-    const meta = JSON.parse(metaContent);
-    return meta.timestamp;
-  } catch {
+  const metadataPath = `${path}/index-meta.json`;
+  if (!existsSync(metadataPath)) {
     return null;
   }
+
+  return parseTimestamp(readFileSync(metadataPath, "utf8"), metadataPath);
 }
 
 function getBranchTimestamp(path, branch) {
-  try {
-    const metaContent = runCommand(
-      `git show ${branch}:${path}/index-meta.json`,
-      {
-        quiet: true,
-        allowFailure: true,
-      },
-    );
-    if (!metaContent) return null;
-    const meta = JSON.parse(metaContent);
-    return meta.timestamp;
-  } catch {
+  const metadataPath = `${path}/index-meta.json`;
+  const metadataExists = runCommand(
+    `git ls-tree -r --name-only ${branch} -- ${metadataPath}`,
+    { quiet: true },
+  );
+
+  if (!metadataExists) {
     return null;
   }
+
+  const metadata = runCommand(`git show ${branch}:${metadataPath}`, {
+    quiet: true,
+  });
+  return parseTimestamp(metadata, `${branch}:${metadataPath}`);
+}
+
+function parseTimestamp(metadataContent, source) {
+  let metadata;
+  try {
+    metadata = JSON.parse(metadataContent);
+  } catch (error) {
+    throw new Error(`Invalid metadata JSON in ${source}: ${error.message}`, {
+      cause: error,
+    });
+  }
+
+  if (!Number.isInteger(metadata.timestamp) || metadata.timestamp <= 0) {
+    throw new Error(`Invalid metadata timestamp in ${source}`);
+  }
+
+  return metadata.timestamp;
 }
 
 function needsUpdate(path) {
@@ -69,7 +85,7 @@ function needsUpdate(path) {
 function pushToAutoUpdate() {
   console.log("[+] Checking for new data to sync to auto-update branch...");
 
-  fetchAutoUpdateBranch();
+  const fetchedAutoUpdateSha = fetchAutoUpdateBranch();
 
   const dirsToSync = ["table", "asns", "tags"].filter((dir) =>
     needsUpdate(dir),
@@ -128,10 +144,13 @@ function pushToAutoUpdate() {
         inherit: true,
       });
 
-      runCommand(`git push --force origin ${snapshotBranch}:auto-update`, {
-        cwd: worktreePath,
-        inherit: true,
-      });
+      runCommand(
+        `git push --force-with-lease=refs/heads/auto-update:${fetchedAutoUpdateSha} origin ${snapshotBranch}:auto-update`,
+        {
+          cwd: worktreePath,
+          inherit: true,
+        },
+      );
 
       console.log("✅ Successfully pushed data to auto-update branch");
       return true;
@@ -141,29 +160,25 @@ function pushToAutoUpdate() {
 }
 
 function fetchAutoUpdateBranch() {
-  runCommand("git fetch --depth=1 origin +auto-update:auto-update", {
-    inherit: true,
-    allowFailure: true,
-  });
+  runCommand(
+    "git fetch --depth=1 origin +refs/heads/auto-update:refs/heads/auto-update",
+    { inherit: true },
+  );
+
+  return runCommand("git rev-parse auto-update", { quiet: true });
 }
 
 function branchNeedsCleanup() {
-  try {
-    const treeOutput = runCommand("git ls-tree --name-only auto-update", {
-      quiet: true,
-      allowFailure: true,
-    });
+  const treeOutput = runCommand("git ls-tree --name-only auto-update", {
+    quiet: true,
+  });
 
-    if (!treeOutput) return false;
+  if (!treeOutput) return false;
 
-    return treeOutput
-      .split("\n")
-      .filter(Boolean)
-      .some((entry) => !ALLOWED_ROOT_ENTRIES.has(entry.split("/")[0]));
-  } catch (error) {
-    console.warn("[!] Failed to inspect auto-update branch:", error.message);
-    return false;
-  }
+  return treeOutput
+    .split("\n")
+    .filter(Boolean)
+    .some((entry) => !ALLOWED_ROOT_ENTRIES.has(entry.split("/")[0]));
 }
 
 function cleanupWorktree(worktreePath) {
@@ -179,11 +194,6 @@ function cleanupWorktree(worktreePath) {
       `[-] Removing unexpected entry from auto-update branch: ${entry.name}`,
     );
     rmSync(targetPath, { recursive: true, force: true });
-    runCommand(`git rm -rf --ignore-unmatch ${entry.name}`, {
-      cwd: worktreePath,
-      quiet: true,
-      allowFailure: true,
-    });
     cleaned = true;
   }
 
@@ -197,8 +207,7 @@ function syncDirectory(dir, worktreePath) {
   const targetDir = join(worktreePath, dir);
 
   if (!existsSync(sourceDir)) {
-    console.warn(`[-] Source directory not found: ${sourceDir}`);
-    return;
+    throw new Error(`Source directory not found: ${sourceDir}`);
   }
 
   console.log(`[+] Copying ${dir}/ into worktree...`);
