@@ -7,7 +7,6 @@ import { runCommand, withWorktree } from "./utils.js";
 function checkBranchExists(branchName) {
   const refs = runCommand(`git ls-remote --heads origin ${branchName}`, {
     quiet: true,
-    allowFailure: true,
   });
   return Boolean(refs);
 }

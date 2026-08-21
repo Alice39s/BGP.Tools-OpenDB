@@ -15,7 +15,7 @@
     "fetch:asns": "node src/index.js fetch-asns",
     "fetch:tags": "node src/index.js fetch-tags",
     "dev": "node --watch src/index.js",
-    "test": "node src/utils/test.js",
+    "test": "node src/utils/test.js && node --test test/http.test.js",
     "test:watch": "node --watch src/utils/test.js",
     "lint": "eslint",
     "format": "prettier --write ."
