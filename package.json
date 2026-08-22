@@ -41,7 +41,7 @@
   "homepage": "https://github.com/Alice39s/BGP.Tools-OpenDB#readme",
   "packageManager": "pnpm@10.11.0",
   "engines": {
-    "node": ">=20",
+    "node": ">=24",
     "pnpm": ">=10"
   },
   "dependencies": {

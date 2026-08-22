@@ -12,7 +12,7 @@ permissions:
   contents: read
 
 env:
-  NODE_VERSION: "22"
+  NODE_VERSION: "24"
   PNPM_VERSION: "10.11.0"
   GO_VERSION: "1.25"
 
@@ -49,4 +49,4 @@ jobs:
         run: pnpm test
 
       - name: Check formatting
-        run: pnpm exec prettier --check .github/actions .github/workflows scripts src package.json
+        run: pnpm exec prettier --check .github/actions .github/workflows scripts src package.json test
