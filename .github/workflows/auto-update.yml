@@ -20,14 +20,14 @@ on:
           - tags
 
 env:
-  NODE_VERSION: "22"
+  NODE_VERSION: "24"
   PNPM_VERSION: "10.11.0"
   GO_VERSION: "1.25"
   TABLE_SCHEDULE: "0 */2 * * *"
   ARCHIVE_SCHEDULE: "0 1 * * *"
 
 concurrency:
-  group: auto-update-${{ github.ref }}
+  group: auto-update
   cancel-in-progress: false
 
 jobs:

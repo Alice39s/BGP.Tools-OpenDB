@@ -21,12 +21,12 @@ on:
     - cron: "30 0 * * *"
 
 env:
-  NODE_VERSION: "22"
+  NODE_VERSION: "24"
   PNPM_VERSION: "10.11.0"
   GO_VERSION: "1.25"
 
 concurrency:
-  group: release-${{ github.ref }}
+  group: release
   cancel-in-progress: false
 
 jobs:
@@ -50,51 +50,44 @@ jobs:
           clean-tools-cache: "false"
           clean-docker: "false"
 
-      - name: Checkout source branch for data
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.source_branch != '' && inputs.source_branch != 'main' }}
+      - name: Resolve release data source
+        id: source
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          INPUT_SOURCE_BRANCH: ${{ inputs.source_branch }}
+        run: |
+          set -euo pipefail
+
+          if [[ "$EVENT_NAME" == "schedule" ]]; then
+            source_branch="auto-update"
+          else
+            source_branch="${INPUT_SOURCE_BRANCH:-auto-update}"
+          fi
+
+          if ! git check-ref-format --branch "$source_branch" >/dev/null; then
+            echo "Invalid source branch: $source_branch"
+            exit 1
+          fi
+
+          echo "branch=$source_branch" >> "$GITHUB_OUTPUT"
+
+      - name: Checkout release data source
         uses: actions/checkout@v7
         with:
           fetch-depth: 1
           token: ${{ secrets.GITHUB_TOKEN }}
-          ref: ${{ inputs.source_branch }}
+          ref: ${{ steps.source.outputs.branch }}
           path: source-data
 
-      - name: Copy data from source branch
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.source_branch != '' && inputs.source_branch != 'main' }}
+      - name: Copy release data source
         env:
-          SOURCE_BRANCH: ${{ inputs.source_branch }}
+          SOURCE_BRANCH: ${{ steps.source.outputs.branch }}
         run: |
           set -euo pipefail
 
           for data_dir in table asns tags; do
             if [[ ! -d "source-data/$data_dir" ]]; then
               echo "Missing $data_dir/ in source branch $SOURCE_BRANCH"
-              exit 1
-            fi
-
-            rm -rf "$data_dir"
-            cp -a "source-data/$data_dir" "$data_dir"
-          done
-
-          rm -rf source-data
-
-      - name: Checkout auto-update branch for data (scheduled)
-        if: ${{ github.event_name == 'schedule' }}
-        uses: actions/checkout@v7
-        with:
-          fetch-depth: 1
-          token: ${{ secrets.GITHUB_TOKEN }}
-          ref: auto-update
-          path: source-data
-
-      - name: Copy data from auto-update branch (scheduled)
-        if: ${{ github.event_name == 'schedule' }}
-        run: |
-          set -euo pipefail
-
-          for data_dir in table asns tags; do
-            if [[ ! -d "source-data/$data_dir" ]]; then
-              echo "Missing $data_dir/ in auto-update branch"
               exit 1
             fi
 
@@ -245,6 +238,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Wait before retrying GitHub Release (attempt 2)
+        if: ${{ steps.release_attempt_1.outcome == 'failure' }}
+        run: sleep 5
+
       - name: Create GitHub Release (attempt 2)
         id: release_attempt_2
         if: ${{ steps.release_attempt_1.outcome == 'failure' }}
@@ -259,6 +256,10 @@ jobs:
           target_commitish: ${{ github.event.repository.default_branch }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Wait before retrying GitHub Release (attempt 3)
+        if: ${{ steps.release_attempt_1.outcome == 'failure' && steps.release_attempt_2.outcome == 'failure' }}
+        run: sleep 10
 
       - name: Create GitHub Release (attempt 3)
         id: release_attempt_3
