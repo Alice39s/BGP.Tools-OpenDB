@@ -1,0 +1,14 @@
+{
+  "timestamp": 1790385480,
+  "version": "1.0",
+  "tag_name": "icrit",
+  "tag_count": 412,
+  "actual_entries": 412,
+  "stats": {
+    "generated_at": "2026-09-26T01:18:00.633Z"
+  },
+  "hash_list": {
+    "index-meta.json": "466fedaa4315fa6009e84d7d36475f48115f3e55baeec580d957b7e236d221dc",
+    "tags-icrit.csv": "44fe00438d4157a30e68b375f959a0f78b78c3aa866fcca96fae05e06e09be94"
+  }
+}
