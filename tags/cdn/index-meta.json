@@ -1,0 +1,14 @@
+{
+  "timestamp": 1792199848,
+  "version": "1.0",
+  "tag_name": "cdn",
+  "tag_count": 111,
+  "actual_entries": 111,
+  "stats": {
+    "generated_at": "2026-10-17T01:17:28.788Z"
+  },
+  "hash_list": {
+    "index-meta.json": "82b389c91b754aeba5c96291d28108984d7beedcba0a0edba97308c9c34520dc",
+    "tags-cdn.csv": "e49b200e36f2db23b84804c29df86aa37ff5f0e85fa19eb59ec1923023797b63"
+  }
+}

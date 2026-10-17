@@ -1,0 +1,14 @@
+{
+  "timestamp": 1792199848,
+  "version": "1.0",
+  "tag_name": "anycast",
+  "tag_count": 985,
+  "actual_entries": 985,
+  "stats": {
+    "generated_at": "2026-10-17T01:17:28.856Z"
+  },
+  "hash_list": {
+    "index-meta.json": "d3e2e86954e365d328924eed67b9e640d40e8b890ea7b2cce119363039f9e5d5",
+    "tags-anycast.csv": "8a7d1f7d44e5b11bfccec6ca5860a819800160dae074442e90e23edf68432395"
+  }
+}
