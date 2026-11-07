@@ -1,0 +1,14 @@
+{
+  "timestamp": 1794013521,
+  "version": "1.0",
+  "tag_name": "mobile",
+  "tag_count": 382,
+  "actual_entries": 382,
+  "stats": {
+    "generated_at": "2026-11-07T01:05:21.404Z"
+  },
+  "hash_list": {
+    "index-meta.json": "297a74c5782ab739261dc928b64d2db17165fd3aee841d8ab9f824205596a1b2",
+    "tags-mobile.csv": "27aa733a7a98a25b78ded799ab48b6c6a1981ef374ffde5ca5911bc91c0d2e98"
+  }
+}
