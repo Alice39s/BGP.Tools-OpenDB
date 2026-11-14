@@ -1,0 +1,15 @@
+{
+  "timestamp": 1794694263,
+  "version": "1.0",
+  "stats": {
+    "generated_at": "2026-11-14T22:11:23.078Z"
+  },
+  "hash_list": {
+    "index-meta.json": "339f4dc492c47325c3078f9176f5508ebc6d6151f585a0f804d9991006004985",
+    "table-original.jsonl": "b33691f69fc7852512c06cb1ed583fa54e213a8722df323e949dded277b54441",
+    "ipv4.jsonl": "569d999fb9f8e85e52216d4543bceff0b410de2f4c62a2d37eb81868eb9c9121",
+    "ipv6.jsonl": "02402c64cca2858be666dbc910550b9cb796aab833dcff1d73761c9ff61888d2",
+    "table-original.jsonl.gz": "5d583da9936638b1d7e0ad896c42f1873b28e0d9fc8273980aae91e7025ae5e8",
+    "table.mmdb": "6497b6fbc735ddfaf7845f1586c33ffeeaac9e10fa76ae2a8e6d910c7d641c40"
+  }
+}

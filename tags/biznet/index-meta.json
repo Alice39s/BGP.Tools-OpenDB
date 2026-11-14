@@ -1,0 +1,14 @@
+{
+  "timestamp": 1794618396,
+  "version": "1.0",
+  "tag_name": "biznet",
+  "tag_count": 1706,
+  "actual_entries": 1706,
+  "stats": {
+    "generated_at": "2026-11-14T01:06:36.500Z"
+  },
+  "hash_list": {
+    "index-meta.json": "b3e529ea6ff8c71c718348238926982662b04c0d346d8dd69d29783bb6ce8141",
+    "tags-biznet.csv": "d76b9f5c21d5c2e53a6cbfdd8e83bf8b58fb95a1b250f2ad2ad07d673f2e9cff"
+  }
+}

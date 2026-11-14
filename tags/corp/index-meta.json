@@ -1,0 +1,14 @@
+{
+  "timestamp": 1794618396,
+  "version": "1.0",
+  "tag_name": "corp",
+  "tag_count": 599,
+  "actual_entries": 599,
+  "stats": {
+    "generated_at": "2026-11-14T01:06:36.506Z"
+  },
+  "hash_list": {
+    "index-meta.json": "15d45327959845eec4c1d159b9f34773af5eea84a1a1095f8d61b4cdc5c149b4",
+    "tags-corp.csv": "f82dd50340b31ea4772820442515866e1c9e46bcd6d2c2674b1bc33ab5cedfd7"
+  }
+}
