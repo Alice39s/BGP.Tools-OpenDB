@@ -1,0 +1,14 @@
+{
+  "timestamp": 1795223024,
+  "version": "1.0",
+  "tag_name": "dsl",
+  "tag_count": 3717,
+  "actual_entries": 3717,
+  "stats": {
+    "generated_at": "2026-11-21T01:03:44.041Z"
+  },
+  "hash_list": {
+    "index-meta.json": "b15b8ac30e5c4aa06f8bcea1a1b5f85d8be3873ebd8dd3850c755550dd4ebfa8",
+    "tags-dsl.csv": "9c77343cf16d4a6b39c474b0cf944a9feaba6e25858f57a9355ce7d6e0259f33"
+  }
+}
