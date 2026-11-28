@@ -1,0 +1,12 @@
+{
+  "timestamp": 1795827790,
+  "version": "1.0",
+  "stats": {
+    "generated_at": "2026-11-28T01:03:11.165Z"
+  },
+  "hash_list": {
+    "index-meta.json": "e81f0fff0b5abe1a487c986d2295f167fd59aa459a80418b0f3fe79fa3c0b6ed",
+    "asns.csv": "661013a7b75b3c2190a0c7c9ab9ec58271f0834c7ae1f72e17a0d32dda8518a0",
+    "asns.csv.gz": "55ad1b8de6f5c11d6b27a073c2159931c495b2ea1d950af6fef3d70f01e59ef9"
+  }
+}
